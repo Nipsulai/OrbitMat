@@ -1,0 +1,3 @@
+[submodule "cp2k"]
+	path = cp2k
+	url = https://github.com/cp2k/cp2k.git
