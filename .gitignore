@@ -1,2 +1,5 @@
 # Setup
 setup/*.log
+*.MOLog
+*.kp
+*.out

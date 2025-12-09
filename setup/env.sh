@@ -93,7 +93,7 @@ else
 fi
 
 conda activate "$ENV_NAME"
-pip install numpy pandas scipy matplotlib pymatgen 2>&1 | tee -a "$LOGFILE"
+pip install numpy pandas scipy matplotlib pymatgen ipykernel ase 2>&1 | tee -a "$LOGFILE"
 
 log "${GREEN}\n=== Installation Complete ===${NC}"
 log "Executables: $CP2K_DIR/exe/local_cuda/"
