@@ -10,4 +10,4 @@ export OMP_NUM_THREADS=8
 INPUT="setup/tests/cp2k/large.inp"
 
 # Run CP2K
-./cp2k/exe/local/cp2k.ssmp -i "$INPUT" -o out.out
+./cp2k/exe/local/cp2k.ssmp -i "$INPUT" -o cpu.out
