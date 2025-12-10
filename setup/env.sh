@@ -4,7 +4,7 @@ set -e
 # GPU architecture
 # Allowed values are:
 # 20X, K40, K80, P100, V100, A100, H100, A4
-GPU_VER="V100"
+GPU_VER="A100"
 
 # Colors
 RED='\033[0;31m'
