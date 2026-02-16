@@ -1,0 +1,120 @@
+&GLOBAL
+  PROJECT xtb
+  RUN_TYPE ENERGY
+  PRINT_LEVEL MEDIUM
+&END GLOBAL
+
+&FORCE_EVAL
+  METHOD QS
+  &DFT
+
+    &QS
+      METHOD XTB
+      &XTB
+        CHECK_ATOMIC_CHARGES T    ! Keyword to check if Mulliken charges are physically reasonable
+        DO_EWALD  T               ! Ewald summation is required for periodic structures
+        USE_HALOGEN_CORRECTION T  ! Element-specific correction for halogen interactions (Cl, Br) with (O, N)
+      &END XTB
+    &END QS
+
+    &KPOINTS
+      SCHEME MONKHORST-PACK {KX} {KY} {KZ}
+      FULL_GRID T
+      SYMMETRY T
+      PARALLEL_GROUP_SIZE  1
+    &END KPOINTS
+
+    &SCF
+      SCF_GUESS ATOMIC
+      EPS_SCF 1.0E-6
+      MAX_SCF 500
+
+      &DIAGONALIZATION
+        ALGORITHM STANDARD
+      &END DIAGONALIZATION
+
+      &MIXING
+        METHOD BROYDEN_MIXING
+        ALPHA 0.05
+        NBROYDEN 8
+      &END MIXING
+
+      &SMEAR
+        ELECTRONIC_TEMPERATURE  500
+        METHOD FERMI_DIRAC
+      &END SMEAR
+      ADDED_MOS -1
+    &END SCF
+
+    &PRINT
+      &MO
+        EIGENVALUES T
+        OCCNUMS T
+        FILENAME {FOLDER}/eigenvalues
+        ADD_LAST NUMERIC
+        &EACH
+          QS_SCF 0
+        &END EACH
+      &END MO
+
+      &KS_CSR_WRITE
+        REAL_SPACE T
+        BINARY T
+        FILENAME {FOLDER}/
+        THRESHOLD 1E-12
+        &EACH
+          QS_SCF -1
+        &END EACH
+      &END KS_CSR_WRITE
+
+      &S_CSR_WRITE
+        REAL_SPACE T
+        BINARY T
+        FILENAME {FOLDER}/
+        THRESHOLD 1E-12
+        &EACH
+          QS_SCF -1
+        &END EACH
+      &END S_CSR_WRITE
+
+      &P_CSR_WRITE
+        REAL_SPACE T
+        BINARY T
+        FILENAME {FOLDER}/
+        THRESHOLD 1E-12
+        &EACH
+          QS_SCF -1
+        &END EACH
+      &END P_CSR_WRITE
+
+      &HCORE_CSR_WRITE
+        REAL_SPACE T
+        BINARY T
+        FILENAME {FOLDER}/
+        THRESHOLD 1E-12
+        &EACH
+          QS_SCF -1
+        &END EACH
+      &END HCORE_CSR_WRITE
+    &END PRINT
+
+  &END DFT
+
+  &SUBSYS
+
+    &CELL
+      PERIODIC {PERIODIC}
+      CELL_FILE_FORMAT CIF
+      CELL_FILE_NAME {CIF_PATH}
+    &END CELL
+
+    &TOPOLOGY
+      COORD_FILE_FORMAT CIF
+      COORD_FILE_NAME {CIF_PATH}
+      &GENERATE
+        REORDER T
+      &END GENERATE
+    &END TOPOLOGY
+
+  &END SUBSYS
+&END FORCE_EVAL

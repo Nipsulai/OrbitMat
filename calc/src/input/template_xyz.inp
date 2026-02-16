@@ -1,0 +1,106 @@
+&GLOBAL
+  PROJECT xyz
+  RUN_TYPE ENERGY
+  PRINT_LEVEL MEDIUM
+&END GLOBAL
+
+&FORCE_EVAL
+  METHOD QS
+  &DFT
+    &QS
+      METHOD XTB
+      EPS_DEFAULT 1.0E-12
+      EPS_PGF_ORB 1.0E-12
+      &XTB
+        CHECK_ATOMIC_CHARGES T    ! Keyword to check if Mulliken charges are physically reasonable
+        DO_EWALD  F               ! Ewald summation is required for periodic structures
+        USE_HALOGEN_CORRECTION T  ! Element-specific correction for halogen interactions (Cl, Br) with (O, N)
+      &END XTB
+    &END QS
+
+    &SCF
+      SCF_GUESS ATOMIC
+      EPS_SCF 1.0E-9
+      MAX_SCF 300
+
+      &DIAGONALIZATION
+        ALGORITHM STANDARD
+      &END DIAGONALIZATION
+
+      &OUTER_SCF
+        MAX_SCF 300
+        EPS_SCF 1.0E-9
+      &END OUTER_SCF
+
+      &MIXING
+        METHOD BROYDEN_MIXING
+        ALPHA 0.05
+        NBROYDEN 8
+      &END MIXING
+
+      &SMEAR ON
+        METHOD FERMI_DIRAC
+        ELECTRONIC_TEMPERATURE [K] 300
+      &END SMEAR
+
+      ADDED_MOS -1
+
+    &END SCF
+
+    &PRINT
+      &KS_CSR_WRITE
+        REAL_SPACE T
+        BINARY T
+        FILENAME {FOLDER}/
+        &EACH
+          QS_SCF -1
+        &END EACH
+      &END KS_CSR_WRITE
+
+      &S_CSR_WRITE
+        REAL_SPACE T
+        BINARY T
+        FILENAME {FOLDER}/
+        &EACH
+          QS_SCF -1
+        &END EACH
+      &END S_CSR_WRITE
+
+      &P_CSR_WRITE
+        REAL_SPACE T
+        BINARY T
+        FILENAME {FOLDER}/
+        &EACH
+          QS_SCF -1
+        &END EACH
+      &END P_CSR_WRITE
+
+      &HCORE_CSR_WRITE
+        REAL_SPACE T
+        BINARY T
+        FILENAME {FOLDER}/
+        &EACH
+          QS_SCF -1
+        &END EACH
+      &END HCORE_CSR_WRITE
+
+    &END PRINT
+
+  &END DFT
+
+  &SUBSYS
+    &CELL
+      ABC {AX} {AY} {AZ}
+      PERIODIC NONE
+    &END CELL
+
+    &TOPOLOGY
+      COORD_FILE_FORMAT XYZ
+      COORD_FILE_NAME {XYZ_PATH}
+      &GENERATE
+        REORDER T
+      &END GENERATE
+    &END TOPOLOGY
+
+  &END SUBSYS
+&END FORCE_EVAL
