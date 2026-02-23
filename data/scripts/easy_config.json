@@ -1,0 +1,9 @@
+{
+    "magnetic_ordering": ["NM"],
+    "exclude_lattice_types": ["hexagonal", "rhombohedral"],
+    "exclude_centering_types": ["face"],
+    "bandgap_min": 1.0,
+    "bandgap_max": "inf",
+    "bandgap_method": "pbe",
+    "keep_k": -1
+  }

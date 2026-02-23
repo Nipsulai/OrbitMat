@@ -1,0 +1,9 @@
+{
+    "magnetic_ordering": ["FM", "AFM"],
+    "exclude_lattice_types": [],
+    "exclude_centering_types": [],
+    "bandgap_min": 0,
+    "bandgap_max": "inf",
+    "bandgap_method": "pbe",
+    "keep_k": -1
+  }
