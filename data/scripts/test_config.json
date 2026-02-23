@@ -5,5 +5,5 @@
     "bandgap_min": 1.0,
     "bandgap_max": "inf",
     "bandgap_method": "pbe",
-    "keep_k": -1
+    "keep_k": 30
   }
