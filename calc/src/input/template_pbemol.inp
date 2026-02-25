@@ -1,5 +1,5 @@
 &GLOBAL
-  PROJECT pbe
+  PROJECT pbemol
   RUN_TYPE ENERGY
   PRINT_LEVEL MEDIUM
 &END GLOBAL
@@ -26,16 +26,10 @@
       &END XC_FUNCTIONAL
     &END XC
 
-    &KPOINTS
-      SCHEME MONKHORST-PACK {KX} {KY} {KZ}
-      FULL_GRID T
-      SYMMETRY T
-    &END KPOINTS
-
     &SCF
       SCF_GUESS ATOMIC
-      EPS_SCF 1e-8
-      MAX_SCF 500
+      EPS_SCF 1.0E-6
+      MAX_SCF 100
 
       &DIAGONALIZATION
         ALGORITHM STANDARD
@@ -43,79 +37,71 @@
 
       &MIXING
         METHOD BROYDEN_MIXING
-        ALPHA 0.05
+        ALPHA 0.4
         NBROYDEN 8
       &END MIXING
 
-      &SMEAR
-        ELECTRONIC_TEMPERATURE  1000
+      ADDED_MOS 10
+
+      &SMEAR ON
         METHOD FERMI_DIRAC
+        ELECTRONIC_TEMPERATURE [K] 300
       &END SMEAR
 
-      ADDED_MOS -1
     &END SCF
 
     &PRINT
-      &MO
-        EIGENVALUES T
-        OCCNUMS T
-        FILENAME {FOLDER}/eigenvalues
-        ADD_LAST NUMERIC
-        &EACH
-          QS_SCF -1
-        &END EACH
-      &END MO
-
       &KS_CSR_WRITE
-        REAL_SPACE {REAL_SPACE}
+        REAL_SPACE T
         BINARY T
+        FILENAME {FOLDER}/
         &EACH
           QS_SCF -1
         &END EACH
-        FILENAME {FOLDER}/
       &END KS_CSR_WRITE
 
       &S_CSR_WRITE
-        REAL_SPACE {REAL_SPACE}
+        REAL_SPACE T
         BINARY T
+        FILENAME {FOLDER}/
         &EACH
           QS_SCF -1
         &END EACH
-        FILENAME {FOLDER}/
       &END S_CSR_WRITE
 
       &P_CSR_WRITE
-        REAL_SPACE {REAL_SPACE}
+        REAL_SPACE T
         BINARY T
+        FILENAME {FOLDER}/
         &EACH
           QS_SCF -1
         &END EACH
-        FILENAME {FOLDER}/
       &END P_CSR_WRITE
 
       &HCORE_CSR_WRITE
-        REAL_SPACE {REAL_SPACE}
+        REAL_SPACE T
         BINARY T
+        FILENAME {FOLDER}/
         &EACH
           QS_SCF -1
         &END EACH
-        FILENAME {FOLDER}/
       &END HCORE_CSR_WRITE
+
     &END PRINT
 
   &END DFT
 
   &SUBSYS
-
     &CELL
-      PERIODIC XYZ
-      CELL_FILE_FORMAT CIF
-      CELL_FILE_NAME {CIF_PATH}
+      ABC {AX} {AY} {AZ}
+      PERIODIC NONE
     &END CELL
 
     &TOPOLOGY
-      COORD_FILE_FORMAT CIF
-      COORD_FILE_NAME {CIF_PATH}
+      COORD_FILE_FORMAT XYZ
+      COORD_FILE_NAME {XYZ_PATH}
+      &CENTER_COORDINATES  # Crucial for MT solver and padding!
+      &END CENTER_COORDINATES
       &GENERATE
         REORDER T
       &END GENERATE

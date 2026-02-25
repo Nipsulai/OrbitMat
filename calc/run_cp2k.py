@@ -1,13 +1,9 @@
 #!/usr/bin/env python3
 """
-CP2K high-throughput workflow runner.
+Runs CP2K calculations.
 
 Usage:
-    python run_cp2k.py --input structures.json --method pbe
-    python run_cp2k.py --input structures.json --method xtb
-    python run_cp2k.py --input molecules.json --method xyz
-    python run_cp2k.py --input structures.json --method pbe --parallel 4 --threads 8
-    python run_cp2k.py --input structures.json --method pbe --include-unk
+    python run_cp2k.py --input structures.json --method pbe --parallel 8 --threads 4
     python run_cp2k.py --restart calc/out/pbe/ --input data.json --method pbe
 """
 
@@ -23,7 +19,6 @@ import numpy as np
 from src.workflow import CP2KWorkflow
 from src.execute import CP2KExecutor
 from src.config import VALID_METHODS
-
 
 def collect_restart_jobs(restart_dir: Path, input_json: str, method: str) -> list:
     """Scan restart_dir for subfolders that need to be run.
@@ -96,13 +91,15 @@ def main():
     parser.add_argument("--parallel", type=int, default=8, help="Parallel jobs")
     parser.add_argument("--threads", type=int, default=4, help="Threads per job")
     parser.add_argument("--include-unk", action="store_true", help="Include UKS (PBE only)")
+    parser.add_argument("--kspace", action="store_true", help="Output K-space matrices (default: R-space)")
     parser.add_argument("--log-level", choices=["DEBUG", "INFO", "WARNING"], default="INFO")
 
     args = parser.parse_args()
+    args.rspace = not args.kspace
 
-    if args.method in {"xyz", "xtb"}:
-        args.parallel = 32
-        args.threads = 1
+    #if args.method in {"xyz", "xtb"}:
+    #    args.parallel = 32
+    #    args.threads = 1
 
     total_threads = args.parallel * args.threads
     if total_threads > 32:
@@ -113,7 +110,7 @@ def main():
         print(f"Error: Input list not found: {args.input}")
         sys.exit(1)
 
-    # Whether continue previoous calculation
+    # Whether continue previoous run
     if args.restart is not None:
         restart_dir = Path(args.restart)
         jobs = collect_restart_jobs(restart_dir, args.input, args.method)
@@ -144,6 +141,7 @@ def main():
             n_parallel=args.parallel,
             threads_per_job=args.threads,
             sym=args.sym,
+            rspace=args.rspace,
         )
 
         results = executor.execute_batch(jobs)
@@ -163,7 +161,8 @@ def main():
             print(f"Error: Template not found: {args.template}")
             sys.exit(1)
 
-    input_type = "XYZ" if args.method == "xyz" else "CIF"
+    input_type = "XYZ" if args.method in {"xyz", "pbemol"} else "CIF"
+    space_type = "R-space" if args.rspace else "K-space"
     uks_line = f"║  Include UKS:     {str(args.include_unk):<19}║\n" if args.method == "pbe" else ""
 
     print(f"""
@@ -171,6 +170,7 @@ def main():
             ║       CP2K Calculator                   ║
             ╠═════════════════════════════════════════╣
             ║  Method:          {args.method.upper():<19}║
+            ║  Matrices:        {space_type:<19}║
             ║  Input type:      {input_type:<19}║
             ║  Input list:      {Path(args.input).name:<19}║
             ║  Template:        {args.template:<19}║
@@ -198,7 +198,8 @@ def main():
         template_file=args.template,
         executor=executor,
         method=args.method,
-        sym = args.sym,
+        sym=args.sym,
+        rspace=args.rspace,
         skip_if_unk=not args.include_unk if args.method == "pbe" else False,
         log_level=args.log_level,
     )

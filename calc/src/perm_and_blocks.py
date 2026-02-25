@@ -44,20 +44,6 @@ def get_block(matrix, src, ngb, atom_ranges):
 
 
 def compute_block_norm_squared_sparse(matrix_csr, src, ngb, atom_ranges):
-    """
-    Compute squared Frobenius norm of a block from sparse matrix efficiently.
-
-    This avoids materializing the dense block, computing directly from nonzeros.
-
-    Args:
-        matrix_csr: Sparse matrix in CSR format
-        src: Source atom index (1-indexed)
-        ngb: Neighbor atom index (1-indexed)
-        atom_ranges: List of (start, end) tuples for each atom's orbital range
-
-    Returns:
-        Squared Frobenius norm of the block
-    """
     src_start, src_end = atom_ranges[src - 1]
     ngb_start, ngb_end = atom_ranges[ngb - 1]
 

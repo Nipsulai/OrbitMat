@@ -19,7 +19,8 @@ class CP2KWorkflow:
         template_file: str,
         executor: CP2KExecutor,
         method: str,
-        sym: str, 
+        sym: str,
+        rspace: bool = True,
         skip_if_unk: bool = True,
         log_level: str = "INFO",
     ):
@@ -46,6 +47,10 @@ class CP2KWorkflow:
             entry["cif_path"]: entry.get("bandgap_info")
             for entry in input_data
         }
+        self.energy_dft_ha = {
+            entry["cif_path"]: entry.get("energy_dft_Ha")
+            for entry in input_data
+        }
         self.bravais = {
             entry["cif_path"]: entry.get("bravais")
             for entry in input_data
@@ -54,9 +59,11 @@ class CP2KWorkflow:
         file_type = "XYZ" if self.method == "xyz" else "CIF"
         self.logger.info(f"Loaded {len(self.input_paths)} {file_type} files")
 
+        self.rspace = rspace
         self.input_generator = CP2KInputGenerator(
             method=method,
             sym=sym,
+            rspace=rspace,
             template_file=template_file,
             logger=self.logger,
         )
@@ -121,7 +128,9 @@ class CP2KWorkflow:
                 "input_file": str(input_file),
                 "work_dir": str(struct_dir),
                 "method": self.method,
+                "rspace": self.rspace,
                 "bandgap_info": self.bandgap_info.get(input_path),
+                "energy_dft_ha": self.energy_dft_ha.get(input_path),
             })
 
         self.logger.info(f"Generated {len(jobs)} inputs, skipped {skipped_count}")

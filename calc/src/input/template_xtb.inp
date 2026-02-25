@@ -58,7 +58,7 @@
       &END MO
 
       &KS_CSR_WRITE
-        REAL_SPACE T
+        REAL_SPACE {REAL_SPACE}
         BINARY T
         FILENAME {FOLDER}/
         THRESHOLD 1E-12
@@ -68,7 +68,7 @@
       &END KS_CSR_WRITE
 
       &S_CSR_WRITE
-        REAL_SPACE T
+        REAL_SPACE {REAL_SPACE}
         BINARY T
         FILENAME {FOLDER}/
         THRESHOLD 1E-12
@@ -78,7 +78,7 @@
       &END S_CSR_WRITE
 
       &P_CSR_WRITE
-        REAL_SPACE T
+        REAL_SPACE {REAL_SPACE}
         BINARY T
         FILENAME {FOLDER}/
         THRESHOLD 1E-12
@@ -88,7 +88,7 @@
       &END P_CSR_WRITE
 
       &HCORE_CSR_WRITE
-        REAL_SPACE T
+        REAL_SPACE {REAL_SPACE}
         BINARY T
         FILENAME {FOLDER}/
         THRESHOLD 1E-12

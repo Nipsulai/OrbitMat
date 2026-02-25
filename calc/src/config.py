@@ -12,7 +12,7 @@ GTH_FAMILY = "GTH-PBE-q"
 TIMEOUT = 1000
 KPOINTS_ACC = 1000 # accuracy for kgrid generation
 KPOINTS_DENSITY = 6.0 # k-points density for 2D materials kgrids, per 1/Å
-VACUUM_PADDING = 30.0  # Ang, padding around molecule for box
+VACUUM_PADDING = 3 # Ang, padding molecule for box, per side
 
 # File paths
 BASIS_PATH = Path("calc/input/BASIS_MOLOPT_DZ").absolute()
@@ -23,4 +23,4 @@ XTB_PATH = Path("calc/src/input/xtb_basis.json").absolute()
 PBE_PATH = Path("calc/src/input/basis_molopt_dz.json").absolute()
 
 # Valid methods
-VALID_METHODS = ["pbe", "xtb", "xyz"]
+VALID_METHODS = ["pbe", "xtb", "xyz", "pbemol"]

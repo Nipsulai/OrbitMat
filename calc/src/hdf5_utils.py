@@ -14,12 +14,16 @@ import h5py
 import pickle
 
 from scipy.sparse import issparse
-from .perm_and_blocks import _permute_block, _permute_block_pbe
+from .perm_and_blocks import _permute_block, _permute_block_pbe, get_perm_map, apply_perm_map
 from collections import defaultdict
 
 ### General methods ###
 
 from scipy.sparse.linalg import norm as sp_norm
+
+DIAG_BLOCKS = "/home/nikolai/OrbitMat/calc/src/input/elem_diag_mats.npy"
+
+diag_blocks = np.load(DIAG_BLOCKS, allow_pickle=True).item()
 
 def mat_norm(m):
     return sp_norm(m) if issparse(m) else np.linalg.norm(m)
@@ -223,9 +227,23 @@ def convert_matrices_to_blocks(data: Dict, norb_by_z: Dict[int, int], method: st
             ngb = self_block['ngb']
             z_src = int(elem_numbers[src - 1])
             z_ngb = int(elem_numbers[ngb - 1])
+            assert z_src == z_ngb
 
-            Hb = permute_block(get_block(mats['H'], src, ngb), z_src, z_ngb)
-            Fb = permute_block(get_block(mats['F'], src, ngb), z_src, z_ngb)
+            H_blc = get_block(mats['H'], src, ngb)
+            F_blc = get_block(mats['F'], src, ngb)
+            S_blc = get_block(mats['S'], src, ngb)
+            P_blc = get_block(mats['P'], src, ngb)
+
+            diag_data = diag_blocks[z_src]
+
+            if method == "pbe":
+                H_blc = H_blc - diag_data["H"]
+                F_blc = F_blc - diag_data["F"]
+                P_blc = P_blc - diag_data["P"]
+                print(f"[ATTENTION] The diagonal blocks are reduced!!!")
+
+            Hb = permute_block(H_blc, z_src, z_ngb)
+            Fb = permute_block(F_blc, z_src, z_ngb)
 
             blocks.append({
                 "is_self": True,
@@ -235,9 +253,9 @@ def convert_matrices_to_blocks(data: Dict, norb_by_z: Dict[int, int], method: st
                 "cell": self_block['cell'],
                 "matrix": {
                     'H': Hb,
-                    'S': permute_block(get_block(mats['S'], src, ngb), z_src, z_ngb),
+                    'S': permute_block(S_blc, z_src, z_ngb),
                     'F': Fb,
-                    'P': permute_block(get_block(mats['P'], src, ngb), z_src, z_ngb),
+                    'P': permute_block(P_blc, z_src, z_ngb),
                     'F_H': Fb-Hb,
                     'score': self_block['score'],
                 },
@@ -287,78 +305,167 @@ def convert_matrices_to_blocks(data: Dict, norb_by_z: Dict[int, int], method: st
     return blocks
 
 
+def convert_kspace_blocks(data: Dict, norb_by_z: Dict[int, int], method: str = "pbe") -> list:
+    """
+    Convert k-space matrices to atom-pair blocks, mirroring R-space block extraction.
+
+    For every k-point and every (src, ngb) atom pair, one block is produced:
+      - src == ngb  →  self block
+      - src != ngb  →  pair block
+    All blocks are included (no score-based top-k cutoff).
+    The 'cell' field holds the k-point coordinate (kx, ky, kz) [2π/Bohr]
+    instead of a lattice translation vector.
+
+    Args:
+        data: pickle dict with 'matrices', 'kpoints_2pi_bohr', 'atomic_numbers', 'nao'
+        norb_by_z: atomic-number → number of orbitals mapping
+        method: 'pbe' or 'xtb' (controls which permutation is applied)
+
+    Returns:
+        List of block dicts with the same schema as convert_matrices_to_blocks.
+    """
+    permute_block = _permute_block_pbe if method == "pbe" else _permute_block
+
+    K_matrices = data["matrices"]
+    kpoints = data["kpoints_2pi_bohr"]  # (nK, 3)
+    elem_numbers = data["atomic_numbers"]
+    coords_bohr = data["geometry_bohr"]
+    n_atoms = len(elem_numbers)
+
+    atom_ranges = []
+    offset = 0
+    for z in elem_numbers:
+        norb = norb_by_z[int(z)]
+        atom_ranges.append((offset, offset + norb))
+        offset += norb
+
+    def get_block(mat, src, ngb):
+        r_start, r_end = atom_ranges[src - 1]
+        c_start, c_end = atom_ranges[ngb - 1]
+        if issparse(mat):
+            return mat[r_start:r_end, c_start:c_end].toarray()
+        return mat[r_start:r_end, c_start:c_end]
+
+    blocks = []
+    self_ctr, pair_ctr = 0, 0
+
+    for K_vec in kpoints:
+        key = tuple(K_vec)
+        mats = K_matrices[key]
+        F_K, P_K, S_K, H_K = mats["F"], mats["P"], mats["S"], mats["H"]
+
+        for src in range(1, n_atoms + 1):
+            for ngb in range(1, n_atoms + 1):
+                is_self = (src == ngb)
+                z_src = int(elem_numbers[src - 1])
+                z_ngb = int(elem_numbers[ngb - 1])
+
+                Hb = permute_block(get_block(H_K, src, ngb), z_src, z_ngb)
+                Fb = permute_block(get_block(F_K, src, ngb), z_src, z_ngb)
+                Sb = permute_block(get_block(S_K, src, ngb), z_src, z_ngb)
+                Pb = permute_block(get_block(P_K, src, ngb), z_src, z_ngb)
+
+                entry = {
+                    "is_self": is_self,
+                    "ctr": self_ctr if is_self else pair_ctr,
+                    "source": src,
+                    "neighbor": ngb,
+                    "cell": key,  # (kx, ky, kz) [2pi/Bohr]
+                    "matrix": {"H": Hb, "S": Sb, "F": Fb, "P": Pb, "F_H": Fb - Hb},
+                }
+                if not is_self:
+                    r_i = coords_bohr[src - 1]
+                    r_j = coords_bohr[ngb - 1]
+                    entry["dist"] = float(np.linalg.norm(r_j - r_i))
+                blocks.append(entry)
+
+                if is_self:
+                    self_ctr += 1
+                else:
+                    pair_ctr += 1
+
+    return blocks
+
+
 def load_npz_pbc(npz_path: Path, npz, norb_by_z: Dict[int, int] = None, method: str = "xtb", topk: int = 32) -> Dict[str, object]:
-    """Load NPZ or pickle file for periodic (PBC) materials with block-based matrices.
+    """Load NPZ or pickle file for periodic (PBC) materials.
+
+    For R-space pickles (rspace=True): converts T-matrices to atom-pair blocks (top-k).
+    For K-space pickles (rspace=False): stacks full matrices over k-points, no block extraction.
+    Mode is auto-detected from the 'rspace' key in the pickle (defaults to True for
+    backwards compatibility with pickles that predate the rspace flag).
     """
     if npz:
         with np.load(npz_path, allow_pickle=True) as z:
-            element_numbers = z["atomic_numbers"]
-            coords_bohr = z["geometry_bohr"]
-            net_spin = int(z["net_spin"]) if "net_spin" in z.files else 0
-            charge = int(z["charge"])
-            cell_bohr = z["cell_bohr"]
-            pbc = z["pbc"]
-            energy_xtb = float(z["energy_xtb_Ha"]) if "energy_xtb_Ha" in z.files else None
+            return {
+                "rspace": True,
+                "atomic_numbers": z["atomic_numbers"],
+                "geometry_bohr": z["geometry_bohr"],
+                "net_spin": int(z["net_spin"]) if "net_spin" in z.files else 0,
+                "charge": int(z["charge"]),
+                "cell_bohr": z["cell_bohr"],
+                "pbc": z["pbc"],
+                "energy_xtb_Ha": float(z["energy_xtb_Ha"]) if "energy_xtb_Ha" in z.files else None,
+                "blocks": z["blocks"],
+                "bandgap_pbe": float(z["bandgap_pbe"]) if "bandgap_pbe" in z.files else None,
+                "bandgap_hse": float(z["bandgap_hse"]) if "bandgap_hse" in z.files else None,
+                "bandgap_cp2k": float(z["bandgap_cp2k"]) if "bandgap_cp2k" in z.files else None,
+                "gap_type_pbe": str(z["gap_type_pbe"]) if "gap_type_pbe" in z.files else None,
+                "gap_type_hse": str(z["gap_type_hse"]) if "gap_type_hse" in z.files else None,
+                "m_charges": None,
+                "h_charges": None,
+            }
 
-            blocks = z["blocks"]
+    # --- Pickle path ---
+    with open(npz_path, "rb") as f:
+        data = pickle.load(f)
 
-            # Optional bandgap info
-            bandgap_pbe = float(z["bandgap_pbe"]) if "bandgap_pbe" in z.files else None
-            bandgap_hse = float(z["bandgap_hse"]) if "bandgap_hse" in z.files else None
-            bandgap_cp2k = float(z["bandgap_cp2k"]) if "bandgap_cp2k" in z.files else None
-            gap_type_pbe = str(z["gap_type_pbe"]) if "gap_type_pbe" in z.files else None
-            gap_type_hse = str(z["gap_type_hse"]) if "gap_type_hse" in z.files else None
-    else:
-        # Load pickle file from postproc_matrices
-        with open(npz_path, "rb") as f:
-            data = pickle.load(f)
+    rspace = True#data["rspace"]
+    #print(f"[ATTENTION] The model is hardfixed to rspace!!!")
 
-        element_numbers = data["atomic_numbers"]
-        coords_bohr = data["geometry_bohr"]
-        net_spin = int(data.get("net_spin", 0))
-        charge = int(data.get("charge", 0))
-        cell_bohr = data["cell_bohr"]
-        pbc = data["pbc"]
-        energy_xtb = float(data["energy_cp2k_Ha"]) if "energy_cp2k_Ha" in data else None
+    element_numbers = data["atomic_numbers"]
+    coords_bohr = data["geometry_bohr"]
+    net_spin = int(data["net_spin"])
+    charge = int(data["charge"])
+    cell_bohr = data["cell_bohr"]
+    pbc = data["pbc"]
+    energy = float(data["energy_cp2k_Ha"]) if "energy_cp2k_Ha" in data else None
+    bandgap_pbe = float(data["bandgap_pbe"]) if "bandgap_pbe" in data else None
+    bandgap_hse = float(data["bandgap_hse"]) if "bandgap_hse" in data else None
+    bandgap_cp2k = float(data["bandgap_cp2k"]) if "bandgap_cp2k" in data else None
+    #gap_type_pbe = str(data["gap_type_pbe"]) if "gap_type_pbe" in data else None
+    #gap_type_hse = str(data["gap_type_hse"]) if "gap_type_hse" in data else None
 
-        # Convert T-matrices to blocks format
-        if norb_by_z is None:
-            raise ValueError("norb_by_z is required when loading pickle files")
+    if rspace:
         blocks = convert_matrices_to_blocks(data, norb_by_z, method=method, topk=topk)
+    else:
+        # no top-k cutoff
+        blocks = convert_kspace_blocks(data, norb_by_z, method=method)
 
-        # Optional bandgap info
-        bandgap_pbe = float(data["bandgap_pbe"]) if "bandgap_pbe" in data else None
-        bandgap_hse = float(data["bandgap_hse"]) if "bandgap_hse" in data else None
-        bandgap_cp2k = float(data.get("bandgap_cp2k")) if "bandgap_cp2k" in data else None
-        gap_type_pbe = str(data["gap_type_pbe"]) if "gap_type_pbe" in data else None
-        gap_type_hse = str(data["gap_type_hse"]) if "gap_type_hse" in data else None
+    out_cp2k_path = npz_path.parent / "out.cp2k"
+    m_charges, h_charges = parse_cp2k_charges(out_cp2k_path)
 
-        out_cp2k_path = npz_path.parent / "out.cp2k"
-        m_charges, h_charges = parse_cp2k_charges(out_cp2k_path)
-
-        n_atoms = len(element_numbers)
-        if m_charges is not None and len(m_charges) != n_atoms:
-            print(f"[WARN] Mulliken charge count mismatch in {out_cp2k_path}")
-            m_charges = None
-        if h_charges is not None and len(h_charges) != n_atoms:
-            print(f"[WARN] Hirshfeld charge count mismatch in {out_cp2k_path}")
-            h_charges = None
-
+    n_atoms = len(element_numbers)
+    if m_charges is not None and len(m_charges) != n_atoms:
+        print(f"[WARN] Mulliken charge count mismatch in {out_cp2k_path}")
+        m_charges = None
+    if h_charges is not None and len(h_charges) != n_atoms:
+        print(f"[WARN] Hirshfeld charge count mismatch in {out_cp2k_path}")
+        h_charges = None
 
     return {
+        "rspace": rspace,
         "atomic_numbers": element_numbers,
         "geometry_bohr": coords_bohr,
         "charge": charge,
         "net_spin": net_spin,
-        "energy_xtb_Ha": energy_xtb,
+        "energy_cp2k_Ha": energy,
         "cell_bohr": cell_bohr,
         "pbc": pbc,
         "blocks": blocks,
         "bandgap_pbe": bandgap_pbe,
         "bandgap_hse": bandgap_hse,
         "bandgap_cp2k": bandgap_cp2k,
-        "gap_type_pbe": gap_type_pbe,
-        "gap_type_hse": gap_type_hse,
         "m_charges": m_charges,
         "h_charges": h_charges,
     }
@@ -381,11 +488,9 @@ def write_pbc_material(
                 net_spin
                 cell_bohr
                 pbc
-                energy_xtb_Ha (optional)
-                bandgap_pbe_eV (optional)
-                bandgap_hse_eV (optional)
-                gap_type_pbe (optional)
-                gap_type_hse (optional)
+                energy_xtb_Ha
+                bandgap_pbe_eV
+                bandgap_hse_eV
                 self_idx    - index array for self blocks
                 pair_idx    - index array for pair blocks
                 self_{i}/2body/H,S,F,P
@@ -404,8 +509,8 @@ def write_pbc_material(
     geom0.create_dataset("cell_bohr", data=payload["cell_bohr"], dtype="f8")
     geom0.create_dataset("pbc", data=payload["pbc"], dtype="i8")
 
-    if payload["energy_xtb_Ha"] is not None:
-        geom0.create_dataset("energy_xtb_Ha", data=payload["energy_xtb_Ha"], dtype="f8")
+    if payload["energy_cp2k_Ha"] is not None:
+        geom0.create_dataset("energy_cp2k_Ha", data=payload["energy_cp2k_Ha"], dtype="f8")
 
     if payload["bandgap_pbe"] is not None:
         geom0.create_dataset("bandgap_pbe_eV", data=payload["bandgap_pbe"], dtype="f8")
@@ -413,17 +518,15 @@ def write_pbc_material(
         geom0.create_dataset("bandgap_hse_eV", data=payload["bandgap_hse"], dtype="f8")
     if payload["bandgap_cp2k"] is not None:
         geom0.create_dataset("bandgap_cp2k_eV", data=payload["bandgap_cp2k"], dtype="f8")
-    if payload["gap_type_pbe"] is not None:
-        geom0.attrs["gap_type_pbe"] = payload["gap_type_pbe"]
-    if payload["gap_type_hse"] is not None:
-        geom0.attrs["gap_type_hse"] = payload["gap_type_hse"]
+    #if payload["gap_type_pbe"] is not None:
+    #    geom0.attrs["gap_type_pbe"] = payload["gap_type_pbe"]
+    #if payload["gap_type_hse"] is not None:
+    #    geom0.attrs["gap_type_hse"] = payload["gap_type_hse"]
 
     # Process blocks
     blocks = payload["blocks"]
-    zs = payload["atomic_numbers"]
-    coords = payload["geometry_bohr"]
-    cell = payload["cell_bohr"]
-    a1, a2, a3 = cell[0], cell[1], cell[2]
+
+    el_numbers = payload["atomic_numbers"]
 
     self_rows = []
     pair_rows = []
@@ -441,17 +544,24 @@ def write_pbc_material(
             self_rows.append([ctr, src_idx, nbr_idx, int(ic1), int(ic2), int(ic3)])
         else:
             name = f"pair_{int(ctr)}"
-            dist = block.get("dist", 0.0)
-            score = mat.get("score", 0.0)
+            dist = block["dist"]
+            score = mat["score"]
             pair_rows.append([ctr, src_idx, nbr_idx, int(ic1), int(ic2), int(ic3), score, dist])
 
         p = geom0.create_group(name)
         p0 = p.create_group("2body")
-        p0.create_dataset("H", data=mat["H"], dtype="f8")
-        p0.create_dataset("S", data=mat["S"], dtype="f8")
-        p0.create_dataset("F", data=mat["F"], dtype="f8")
-        p0.create_dataset("P", data=mat["P"], dtype="f8")
-        p0.create_dataset("F_H", data=mat["F_H"], dtype="f8")
+
+        H = mat["H"]
+        S = mat["S"]
+        F = mat["F"]
+        P = mat["P"]
+        F_H = F - H
+
+        p0.create_dataset("H", data=H, dtype="f8")
+        p0.create_dataset("S", data=S, dtype="f8")
+        p0.create_dataset("F", data=F, dtype="f8")
+        p0.create_dataset("P", data=P, dtype="f8")
+        p0.create_dataset("F_H", data=F_H, dtype="f8")
         #REMEMBER TO CHECK ONE-BODY AND SYMMETRICITY
 
     # Write index arrays
@@ -460,6 +570,87 @@ def write_pbc_material(
     if pair_rows:
         pair_arr = np.array([tuple(row) for row in pair_rows], dtype="f8")
         geom0.create_dataset("pair_idx", data=pair_arr)
+
+
+def write_kspace_material(
+    h5_group: h5py.Group,
+    material_id: str,
+    payload: Dict[str, object],
+) -> None:
+    """
+    Write a single k-indexed material to an HDF5 group. 
+    #NOTE: This is a naive implementation
+
+    Mirrors write_pbc_material exactly, except:
+      - kpoints_2pi_bohr is stored instead of translation-vector metadata
+      - self_idx / pair_idx rows are [ctr, src, ngb, kx, ky, kz] (float, k-coords in 2π/Bohr)
+      - Complex matrices
+      - All atom-pair blocks at all k-points are present (no top-k selection)
+
+    Structure:
+        {material_id}/
+            geom0/
+                atomic_numbers, geometry_bohr, charge, net_spin, cell_bohr, pbc
+                energy_cp2k_Ha  (optional)
+                kpoints_2pi_bohr  (nK, 3)
+                bandgap_*_eV  (optional)
+                self_idx   (n_self, 6) float64: [ctr, src, ngb, kx, ky, kz]
+                pair_idx   (n_pair, 7) float64: [ctr, src, ngb, kx, ky, kz, dist]
+                self_{i}/2body/H, S, F, P, F_H   complex64
+                pair_{i}/2body/H, S, F, P, F_H   complex64
+    """
+    grp_mat = h5_group.create_group(material_id)
+    geom0 = grp_mat.create_group("geom0")
+
+    geom0.create_dataset("atomic_numbers", data=payload["atomic_numbers"], dtype="i8")
+    geom0.create_dataset("geometry_bohr", data=payload["geometry_bohr"], dtype="f8")
+    geom0.create_dataset("charge", data=payload["charge"], dtype="f8")
+    geom0.create_dataset("net_spin", data=payload["net_spin"], dtype="f8")
+    geom0.create_dataset("cell_bohr", data=payload["cell_bohr"], dtype="f8")
+    geom0.create_dataset("pbc", data=payload["pbc"], dtype="i8")
+    geom0.create_dataset("kpoints_2pi_bohr", data=payload["kpoints_2pi_bohr"], dtype="f8")
+
+    if payload["energy_cp2k_Ha"] is not None:
+        geom0.create_dataset("energy_cp2k_Ha", data=payload["energy_cp2k_Ha"], dtype="f8")
+    if payload["bandgap_pbe"] is not None:
+        geom0.create_dataset("bandgap_pbe_eV", data=payload["bandgap_pbe"], dtype="f8")
+    if payload["bandgap_hse"] is not None:
+        geom0.create_dataset("bandgap_hse_eV", data=payload["bandgap_hse"], dtype="f8")
+    if payload["bandgap_cp2k"] is not None:
+        geom0.create_dataset("bandgap_cp2k_eV", data=payload["bandgap_cp2k"], dtype="f8")
+
+    blocks = payload["blocks"]
+    self_rows = []
+    pair_rows = []
+
+    for block in blocks:
+        is_self = block["is_self"]
+        ctr = block["ctr"]
+        src_idx = int(block["source"]) - 1
+        nbr_idx = int(block["neighbor"]) - 1
+        kx, ky, kz = block["cell"]
+        mat = block["matrix"]
+
+        if is_self:
+            name = f"self_{int(ctr)}"
+            self_rows.append([ctr, src_idx, nbr_idx, kx, ky, kz])
+        else:
+            name = f"pair_{int(ctr)}"
+            dist = block["dist"]
+            pair_rows.append([ctr, src_idx, nbr_idx, kx, ky, kz, dist])
+
+        p = geom0.create_group(name)
+        p0 = p.create_group("2body")
+        p0.create_dataset("H", data=mat["H"])
+        p0.create_dataset("S", data=mat["S"])
+        p0.create_dataset("F", data=mat["F"])
+        p0.create_dataset("P", data=mat["P"])
+        p0.create_dataset("F_H", data=mat["F_H"])
+
+    if self_rows:
+        geom0.create_dataset("self_idx", data=np.array(self_rows, dtype="f8"))
+    if pair_rows:
+        geom0.create_dataset("pair_idx", data=np.array(pair_rows, dtype="f8"))
 
 
 def _load_material_worker(args: Tuple) -> Tuple[str, Optional[Dict]]:
@@ -497,6 +688,12 @@ def write_pbc_split(
     # Filter to valid material IDs
     valid_ids = [mid for mid in material_ids if mid in id_to_npz]
 
+    def _write(mat_id, payload):
+        if payload["rspace"]:
+            write_pbc_material(split_grp, mat_id, payload)
+        else:
+            write_kspace_material(split_grp, mat_id, payload)
+
     if n_workers > 1:
         # Parallel loading with sequential writes
         args_list = [
@@ -508,17 +705,14 @@ def write_pbc_split(
             results = pool.imap(_load_material_worker, args_list)
             for mat_id, payload in tqdm(results, total=len(args_list), desc=f"[{split_name}]"):
                 if payload is not None:
-                    write_pbc_material(split_grp, mat_id, payload)
+                    _write(mat_id, payload)
                     count += 1
     else:
-        # Sequential loading and writing (original behavior)
+        # Sequential loading and writing
         for mat_id in tqdm(valid_ids, desc=f"[{split_name}]"):
-            npz_path = id_to_npz.get(mat_id)
-            if npz_path is None:
-                continue
-
+            npz_path = id_to_npz[mat_id]
             payload = load_npz_pbc(npz_path, npz, norb_by_z=norb_by_z, method=method, topk=topk)
-            write_pbc_material(split_grp, mat_id, payload)
+            _write(mat_id, payload)
             count += 1
 
     return count
@@ -691,3 +885,424 @@ def write_split_pair(
             dft_energy_Ha=dft_energy_Ha,
             dft_label=dft_label,
         )
+
+
+### METHODS for CP2K molecules (non-periodic, method=xyz) ###
+
+def load_pickle_xyz_payload(pkl_path: Path) -> Dict[str, object]:
+    """Load molecule data from a pickle file produced by postproc_matrices(method='xyz')."""
+    with open(pkl_path, "rb") as f:
+        data = pickle.load(f)
+
+    atomic_numbers = data["atomic_numbers"]
+    perm_map = get_perm_map(atomic_numbers)
+    F = apply_perm_map(data["F"], perm_map)
+    P = apply_perm_map(data["P"], perm_map)
+    S = apply_perm_map(data["S"], perm_map)
+    H = apply_perm_map(data["H"], perm_map)
+    return {
+        "atomic_numbers":atomic_numbers,
+        "geometry_bohr": data["geometry_bohr"],
+        "charge": int(data["charge"]),
+        # energy_cp2k_Ha is the xTB energy computed by CP2K for the xyz template
+        "energy_xtb_Ha": float(data["energy_cp2k_Ha"]) if "energy_cp2k_Ha" in data else None,
+        "energy_dft_Ha": float(data["energy_dft_Ha"]) if "energy_dft_Ha" in data else None,
+        "F": F,
+        "P": P,
+        "S": S,
+        "H": H,
+    }
+
+
+def write_one_xyz_molecule(
+    split_grp: h5py.Group,
+    mol_name: str,
+    payload: Dict[str, object],
+    net_spin: int = 0,
+) -> None:
+    """Write a single non-periodic CP2K molecule to an HDF5 split group."""
+    grp = split_grp.create_group(mol_name)
+    geo = grp.create_group("0")
+
+    geo.create_dataset("atomic_numbers", data=payload["atomic_numbers"])
+    geo.create_dataset("geometry_bohr", data=payload["geometry_bohr"], dtype="f8")
+    geo.create_dataset("charge", data=int(payload["charge"]))
+    geo.create_dataset("net_spin", data=net_spin)
+
+    if payload.get("energy_xtb_Ha") is not None:
+        geo.create_dataset("energy_xtb_Ha", data=float(payload["energy_xtb_Ha"]), dtype="f8")
+    if payload.get("energy_dft_Ha") is not None:
+        geo.create_dataset("energy_dft_Ha", data=float(payload["energy_dft_Ha"]), dtype="f8")
+
+    two_body = geo.create_group("2body")
+    two_body.create_dataset("F", data=payload["F"], dtype="f8")
+    two_body.create_dataset("P", data=payload["P"], dtype="f8")
+    two_body.create_dataset("S", data=payload["S"], dtype="f8")
+    two_body.create_dataset("H", data=payload["H"], dtype="f8")
+    two_body.create_dataset("F_H", data=payload["F"] - payload["H"], dtype="f8")
+
+
+def write_xyz_split(
+    h5_file: h5py.File,
+    split_name: str,
+    material_ids: Iterable[str],
+    id_to_pkl: Dict[str, Path],
+    net_spin: int = 0,
+) -> int:
+    """Write a train/val/test split for non-periodic (xyz) molecules from CP2K pickles."""
+    split_grp = h5_file.create_group(split_name)
+    count = 0
+    valid_ids = [mid for mid in material_ids if mid in id_to_pkl]
+
+    for mol_id in tqdm(valid_ids, desc=f"[{split_name}]"):
+        pkl_path = id_to_pkl[mol_id]
+        payload = load_pickle_xyz_payload(pkl_path)
+        write_one_xyz_molecule(split_grp, mol_id, payload, net_spin=net_spin)
+        count += 1
+
+    return count
+
+
+### METHODS for pbemol: CP2K non-periodic molecules with PBE basis ###
+
+def load_pickle_pbemol_payload(pkl_path: Path) -> Dict[str, object]:
+    """Load pbemol molecule data from a pickle and apply PBE permutations block-wise."""
+    from .postproc import norb_by_z as _norb_by_z
+
+    with open(pkl_path, "rb") as f:
+        data = pickle.load(f)
+
+    elem_numbers = data["atomic_numbers"]
+    norb_z = _norb_by_z("pbe")
+
+    atom_ranges = []
+    offset = 0
+    for z in elem_numbers:
+        norb = norb_z[int(z)]
+        atom_ranges.append((offset, offset + norb))
+        offset += norb
+
+    def permute_full(mat):
+        dense = np.array(mat, dtype=np.float64)
+        out = np.empty_like(dense)
+        for i, (rs, re) in enumerate(atom_ranges):
+            for j, (cs, ce) in enumerate(atom_ranges):
+                out[rs:re, cs:ce] = _permute_block_pbe(dense[rs:re, cs:ce], elem_numbers[i], elem_numbers[j])
+        return out
+
+    F = permute_full(data["F"])
+    P = permute_full(data["P"])
+    S = permute_full(data["S"])
+    H = permute_full(data["H"])
+
+    return {
+        "atomic_numbers": elem_numbers,
+        "geometry_bohr": data["geometry_bohr"],
+        "charge": int(data["charge"]),
+        "energy_xtb_Ha": float(data["energy_cp2k_Ha"]) if "energy_cp2k_Ha" in data else None,
+        "energy_dft_Ha": float(data["energy_dft_Ha"]) if "energy_dft_Ha" in data else None,
+        "F": F,
+        "P": P,
+        "S": S,
+        "H": H,
+    }
+
+
+def write_pbemol_split(
+    h5_file: h5py.File,
+    split_name: str,
+    material_ids: Iterable[str],
+    id_to_pkl: Dict[str, Path],
+    net_spin: int = 0,
+) -> int:
+    """Write a train/val/test split for pbemol molecules from CP2K pickles."""
+    split_grp = h5_file.create_group(split_name)
+    count = 0
+    errors = 0
+    valid_ids = [mid for mid in material_ids if mid in id_to_pkl]
+
+    for mol_id in tqdm(valid_ids, desc=f"[{split_name}]"):
+        pkl_path = id_to_pkl[mol_id]
+        try:
+            payload = load_pickle_pbemol_payload(pkl_path)
+        except Exception as e:
+            print(f"[WARN] Skipping {mol_id}: {e}")
+            errors += 1
+            continue
+        write_one_xyz_molecule(split_grp, mol_id, payload, net_spin=net_spin)
+        count += 1
+
+    if errors:
+        print(f"[{split_name}] {errors} entries skipped due to errors.")
+    return count
+
+
+### METHODS for xtb_mol: periodic xtb pickle -> molecular format via T=(0,0,0) ###
+
+def load_pickle_xtb_mol_payload(pkl_path: Path) -> Dict[str, object]:
+    """
+    Extract the T=(0,0,0) block from a periodic xtb R-space pickle and package it
+    as a molecular (xyz-format) payload for testing the molecular model on crystal features.
+    Applies _permute_block per atom-pair block — identical to the periodic xtb pipeline.
+    """
+    from .postproc import norb_by_z as _norb_by_z
+
+    with open(pkl_path, "rb") as f:
+        data = pickle.load(f)
+
+    t0_key = (0, 0, 0)
+    mats = data["matrices"].get(t0_key)
+    if mats is None:
+        raise KeyError(f"T=(0,0,0) not found in matrices of {pkl_path}")
+
+    elem_numbers = data["atomic_numbers"]
+    norb_z = _norb_by_z("xtb")
+
+    # Build orbital ranges per atom
+    atom_ranges = []
+    offset = 0
+    for z in elem_numbers:
+        norb = norb_z[int(z)]
+        atom_ranges.append((offset, offset + norb))
+        offset += norb
+
+    def permute_full(mat):
+        """Densify and apply _permute_block to every atom-pair block."""
+        dense = mat.toarray().astype(np.float64) if issparse(mat) else np.array(mat, dtype=np.float64)
+        out = np.empty_like(dense)
+        for i, (rs, re) in enumerate(atom_ranges):
+            for j, (cs, ce) in enumerate(atom_ranges):
+                out[rs:re, cs:ce] = _permute_block(dense[rs:re, cs:ce], elem_numbers[i], elem_numbers[j])
+        return out
+
+    F = permute_full(mats["F"])
+    P = permute_full(mats["P"])
+    S = permute_full(mats["S"])
+    H = permute_full(mats["H"])
+
+    return {
+        "atomic_numbers": elem_numbers,
+        "geometry_bohr": data["geometry_bohr"],
+        "charge": int(data["charge"]),
+        "net_spin": int(data.get("net_spin", 0)),
+        "energy_cp2k_Ha": float(data["energy_cp2k_Ha"]) if "energy_cp2k_Ha" in data else None,
+        "bandgap_pbe": float(data["bandgap_pbe"]) if data.get("bandgap_pbe") is not None else None,
+        "bandgap_hse": float(data["bandgap_hse"]) if data.get("bandgap_hse") is not None else None,
+        "bandgap_cp2k": float(data["bandgap_cp2k"]) if data.get("bandgap_cp2k") is not None else None,
+        "F": F,
+        "P": P,
+        "S": S,
+        "H": H,
+    }
+
+
+def write_one_xtb_mol(
+    split_grp: h5py.Group,
+    mol_name: str,
+    payload: Dict[str, object],
+) -> None:
+    """
+    Write a single xtb_mol entry (crystal packed as a molecule) to an HDF5 split group.
+    Format mirrors write_one_xyz_molecule but also stores bandgap labels when available.
+    """
+    grp = split_grp.create_group(mol_name)
+    geo = grp.create_group("0")
+
+    geo.create_dataset("atomic_numbers", data=payload["atomic_numbers"])
+    geo.create_dataset("geometry_bohr", data=payload["geometry_bohr"], dtype="f8")
+    geo.create_dataset("charge", data=int(payload["charge"]))
+    geo.create_dataset("net_spin", data=int(payload["net_spin"]))
+
+    if payload.get("energy_cp2k_Ha") is not None:
+        geo.create_dataset("energy_cp2k_Ha", data=float(payload["energy_cp2k_Ha"]), dtype="f8")
+    if payload.get("bandgap_pbe") is not None:
+        geo.create_dataset("bandgap_pbe_eV", data=float(payload["bandgap_pbe"]), dtype="f8")
+    if payload.get("bandgap_hse") is not None:
+        geo.create_dataset("bandgap_hse_eV", data=float(payload["bandgap_hse"]), dtype="f8")
+    if payload.get("bandgap_cp2k") is not None:
+        geo.create_dataset("bandgap_cp2k_eV", data=float(payload["bandgap_cp2k"]), dtype="f8")
+
+    two_body = geo.create_group("2body")
+    two_body.create_dataset("F", data=payload["F"], dtype="f8")
+    two_body.create_dataset("P", data=payload["P"], dtype="f8")
+    two_body.create_dataset("S", data=payload["S"], dtype="f8")
+    two_body.create_dataset("H", data=payload["H"], dtype="f8")
+    two_body.create_dataset("F_H", data=payload["F"] - payload["H"], dtype="f8")
+
+
+def write_xtb_mol_split(
+    h5_file: h5py.File,
+    split_name: str,
+    material_ids: Iterable[str],
+    id_to_pkl: Dict[str, Path],
+) -> int:
+    """Write a train/val/test split for xtb_mol entries (periodic xtb -> molecular format)."""
+    split_grp = h5_file.create_group(split_name)
+    count = 0
+    errors = 0
+    valid_ids = [mid for mid in material_ids if mid in id_to_pkl]
+
+    for mat_id in tqdm(valid_ids, desc=f"[{split_name}]"):
+        pkl_path = id_to_pkl[mat_id]
+        try:
+            payload = load_pickle_xtb_mol_payload(pkl_path)
+        except Exception as e:
+            print(f"[WARN] Skipping {mat_id}: {e}")
+            errors += 1
+            continue
+        write_one_xtb_mol(split_grp, mat_id, payload)
+        count += 1
+
+    if errors:
+        print(f"[{split_name}] {errors} entries skipped due to errors.")
+    return count
+
+
+### METHODS for xtb_super: build supercell molecular representation from R-space matrices ###
+
+def load_pickle_xtb_super_payload(pkl_path: Path, super_size=(2, 2, 2)) -> Dict[str, object]:
+    """
+    Build an (L1 x L2 x L3) supercell Hamiltonian from a periodic xtb R-space pickle,
+    then package it as a molecular payload (same format as xtb_mol).
+
+    The block between atom i in unit cell (a1,b1,c1) and atom j in unit cell (a2,b2,c2)
+    is taken directly from the R-space matrix at T = (a2-a1, b2-b2, c2-c1). T-vectors
+    not present in the pickle contribute zero (interactions decayed beyond that range).
+
+    Efficiency: each unit-cell matrix at each needed T is permuted once (O(n_atoms_uc^2)
+    block ops per T), then tiled into the supercell, avoiding an O(n_atoms_super^2) loop.
+    """
+    from .postproc import norb_by_z as _norb_by_z
+
+    with open(pkl_path, "rb") as f:
+        data = pickle.load(f)
+
+    matrices = data["matrices"]
+    elem_numbers_uc = data["atomic_numbers"]
+    coords_bohr_uc = data["geometry_bohr"]
+    cell_bohr = data["cell_bohr"]
+
+    norb_z = _norb_by_z("xtb")
+    nao_uc = sum(norb_z[int(z)] for z in elem_numbers_uc)
+
+    L1, L2, L3 = super_size
+    n_cells = L1 * L2 * L3
+
+    # Orbital ranges within one unit cell
+    atom_ranges_uc = []
+    offset = 0
+    for z in elem_numbers_uc:
+        norb = norb_z[int(z)]
+        atom_ranges_uc.append((offset, offset + norb))
+        offset += norb
+
+    def permute_uc_matrix(mat):
+        """Apply _permute_block to every atom-pair block of a unit-cell matrix."""
+        dense = mat.toarray().astype(np.float64) if issparse(mat) else np.array(mat, dtype=np.float64)
+        out = np.empty_like(dense)
+        for i, (rs, re) in enumerate(atom_ranges_uc):
+            for j, (cs, ce) in enumerate(atom_ranges_uc):
+                out[rs:re, cs:ce] = _permute_block(dense[rs:re, cs:ce], elem_numbers_uc[i], elem_numbers_uc[j])
+        return out
+
+    # All unit cells in the supercell
+    cells = [(a, b, c) for a in range(L1) for b in range(L2) for c in range(L3)]
+
+    # Pre-permute only the T-vectors we actually need
+    needed_Ts = {
+        (cell_J[0] - cell_I[0], cell_J[1] - cell_I[1], cell_J[2] - cell_I[2])
+        for cell_I in cells
+        for cell_J in cells
+    }
+
+    permuted = {}
+    # Load and permute only T-vectors with all non-negative components
+    for T in needed_Ts:
+        if any(t < 0 for t in T):
+            continue
+        mats = matrices.get(T)
+        if mats is None:
+            continue
+        permuted[T] = {key: permute_uc_matrix(mats[key]) for key in ("F", "P", "S", "H")}
+
+    # Derive negative T-vectors via transpose: H[-R] = H[R]^T
+    for T in needed_Ts:
+        if T in permuted:
+            continue
+        neg_T = (-T[0], -T[1], -T[2])
+        pm_pos = permuted.get(neg_T)
+        if pm_pos is None:
+            continue
+        permuted[T] = {key: pm_pos[key].T for key in ("F", "P", "S", "H")}
+
+    # Assemble supercell matrices
+    nao_super = nao_uc * n_cells
+    F_s = np.zeros((nao_super, nao_super), dtype=np.float64)
+    P_s = np.zeros_like(F_s)
+    S_s = np.zeros_like(F_s)
+    H_s = np.zeros_like(F_s)
+
+    for idx_I, cell_I in enumerate(cells):
+        row_off = idx_I * nao_uc
+        for idx_J, cell_J in enumerate(cells):
+            T = (cell_J[0] - cell_I[0], cell_J[1] - cell_I[1], cell_J[2] - cell_I[2])
+            pm = permuted.get(T)
+            if pm is None:
+                continue
+            col_off = idx_J * nao_uc
+            F_s[row_off:row_off + nao_uc, col_off:col_off + nao_uc] = pm["F"]
+            P_s[row_off:row_off + nao_uc, col_off:col_off + nao_uc] = pm["P"]
+            S_s[row_off:row_off + nao_uc, col_off:col_off + nao_uc] = pm["S"]
+            H_s[row_off:row_off + nao_uc, col_off:col_off + nao_uc] = pm["H"]
+
+    # Supercell geometry: tile unit cell atoms with lattice shifts
+    a1, a2, a3 = cell_bohr[0], cell_bohr[1], cell_bohr[2]
+    coords_super = np.vstack([
+        coords_bohr_uc + ia * a1 + ib * a2 + ic * a3
+        for (ia, ib, ic) in cells
+    ])
+    elem_numbers_super = np.tile(elem_numbers_uc, n_cells)
+
+    return {
+        "atomic_numbers": elem_numbers_super,
+        "geometry_bohr": coords_super,
+        "charge": int(data["charge"]) * n_cells,
+        "net_spin": int(data.get("net_spin", 0)) * n_cells,
+        "energy_cp2k_Ha": float(data["energy_cp2k_Ha"]) * n_cells if "energy_cp2k_Ha" in data else None,
+        "bandgap_pbe": float(data["bandgap_pbe"]) if data.get("bandgap_pbe") is not None else None,
+        "bandgap_hse": float(data["bandgap_hse"]) if data.get("bandgap_hse") is not None else None,
+        "bandgap_cp2k": float(data["bandgap_cp2k"]) if data.get("bandgap_cp2k") is not None else None,
+        "F": F_s,
+        "P": P_s,
+        "S": S_s,
+        "H": H_s,
+    }
+
+
+def write_xtb_super_split(
+    h5_file: h5py.File,
+    split_name: str,
+    material_ids: Iterable[str],
+    id_to_pkl: Dict[str, Path],
+    super_size: Tuple[int, int, int] = (2, 2, 2),
+) -> int:
+    """Write a train/val/test split of supercell xtb entries in molecular HDF5 format."""
+    split_grp = h5_file.create_group(split_name)
+    count = 0
+    errors = 0
+    valid_ids = [mid for mid in material_ids if mid in id_to_pkl]
+
+    for mat_id in tqdm(valid_ids, desc=f"[{split_name}]"):
+        pkl_path = id_to_pkl[mat_id]
+        try:
+            payload = load_pickle_xtb_super_payload(pkl_path, super_size=super_size)
+        except Exception as e:
+            print(f"[WARN] Skipping {mat_id}: {e}")
+            errors += 1
+            continue
+        write_one_xtb_mol(split_grp, mat_id, payload)  # same HDF5 format as xtb_mol
+        count += 1
+
+    if errors:
+        print(f"[{split_name}] {errors} entries skipped due to errors.")
+    return count

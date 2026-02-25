@@ -20,7 +20,9 @@ def run_single_calculation(
     threads: int,
     method: str,
     sym,
-    bandgap_info: Dict = None
+    rspace: bool = True,
+    bandgap_info: Dict = None,
+    energy_dft_ha: float = None,
 ) -> Dict:
     work_dir = Path(work_dir)
     result = {
@@ -58,6 +60,8 @@ def run_single_calculation(
         # Clean up .kp restart files
         for kp_file in glob.glob(str(work_dir / "*.kp*")):
             Path(kp_file).unlink(missing_ok=True)
+        for wf_file in glob.glob(str(work_dir / "*.wfn*")):
+            Path(wf_file).unlink(missing_ok=True)
 
         output_log = Path(work_dir) / OUTPUT
         if output_log.exists():
@@ -66,7 +70,7 @@ def run_single_calculation(
             if "SCF run converged" in output_text:
                 result["scf_converged"] = True
                 result["success"] = True
-                _ = postproc_matrices(work_dir, method, sym, bandgap_info=bandgap_info)
+                _ = postproc_matrices(work_dir, method, sym, rspace=rspace, bandgap_info=bandgap_info, energy_dft_ha=energy_dft_ha)
 
             # When using xtb some structures may lead to unphysical charges
             elif "Switch-off CHECK_ATOMIC_CHARGES keyword" in output_text:
@@ -89,7 +93,6 @@ def run_single_calculation(
                 print(f"Error: {work_dir}")
         else:
             result["error"] = "No output file generated"
-
     except subprocess.TimeoutExpired:
         result["error"] = f"Timeout (>{TIMEOUT}s)"
         print(f"Timeout (>{TIMEOUT}s): {work_dir}")
@@ -104,10 +107,11 @@ def run_single_calculation(
 
 
 class CP2KExecutor:
-    def __init__(self, n_parallel: int, threads_per_job: int, sym):
+    def __init__(self, n_parallel: int, threads_per_job: int, sym, rspace: bool = True):
         self.n_parallel = n_parallel
         self.threads_per_job = threads_per_job
         self.sym = sym
+        self.rspace = rspace
 
     def execute_batch(self, jobs: List[Dict]) -> List[Dict]:
         results = []
@@ -124,7 +128,9 @@ class CP2KExecutor:
                     self.threads_per_job,
                     job["method"],
                     self.sym,
-                    job.get("bandgap_info")
+                    job.get("rspace", self.rspace),
+                    job.get("bandgap_info"),
+                    job.get("energy_dft_ha"),
                 ): job
                 for job in jobs
             }

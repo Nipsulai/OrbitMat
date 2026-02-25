@@ -54,6 +54,7 @@ def parse_cp2k_output(workdir):
     in_coords = False
     energy_Ha = None
     T_vectors = None
+    K_vectors = None
     lattice_vecs_bohr = None
 
     # Load element mapping
@@ -112,6 +113,29 @@ def parse_cp2k_output(workdir):
                     )
                 T_vectors = np.array(T_list, dtype=np.int32)
 
+        if 'BRILLOUIN| List of Kpoints' in line:
+            nK = int(line.split()[-1])
+            # Skip next line (header: "BRILLOUIN| Number  Weight  X  Y  Z")
+            K_list = []
+            for j in range(1, nK + 1):
+                if i + j + 1 >= len(lines):
+                    break
+                data_line = lines[i + j + 1]
+                if 'BRILLOUIN|' not in data_line:
+                    break
+                parts = data_line.strip().split()
+                # Format: ['BRILLOUIN|', idx, weight, X, Y, Z]
+                if len(parts) >= 6:
+                    K_list.append([float(parts[3]), float(parts[4]), float(parts[5])])
+
+            if len(K_list) != nK:
+                import warnings
+                warnings.warn(
+                    f"Expected {nK} K-points but parsed {len(K_list)}. "
+                    "File may be truncated or malformed."
+                )
+            K_vectors = np.array(K_list, dtype=np.float64)
+
         if "MODULE QUICKSTEP: ATOMIC COORDINATES" in line:
             in_coords = True
             continue
@@ -165,50 +189,66 @@ def parse_cp2k_output(workdir):
     # Convert to numpy array in Bohr
     coords_bohr = np.array(coords_bohr)
 
-    return nao, atoms, coords_bohr, energy_Ha, T_vectors, lattice_vecs_bohr
+    return nao, atoms, coords_bohr, energy_Ha, T_vectors, K_vectors, lattice_vecs_bohr
 
-def parse_matrix(work_dir, method, matrix_type, nao, binary=True, T_idx=None, keep_sparse=True):
+def parse_matrix(work_dir, method, matrix_type, nao, binary=True, TK_idx=None, keep_sparse=True, rspace=False):
     """
     Parse matrix from file.
 
     Args:
         keep_sparse: If True, return scipy.sparse.csr_matrix. If False, return dense numpy array.
                      Defaults to True for better performance.
+        rspace: If True, parse r-space (complex) matrices. Each record is 32 bytes
+                (complex128 value) instead of 24 bytes (float64 value) for R-space.
     """
-    if T_idx is not None:
-        # R-space matrix files are in "matrices" subdirectory
-        # File naming: method-matrix_type_SPIN_1_R_T_idx-1_0.csr
-        filepath = f"{work_dir}/{TEMP_SAVE_DIR}/{method}-{matrix_type}_SPIN_1_R_{T_idx+1}-1_0.csr"
+    if TK_idx is not None:
+        space = "R" if rspace else "K"
+        filepath = f"{work_dir}/{TEMP_SAVE_DIR}/{method}-{matrix_type}_SPIN_1_{space}_{TK_idx+1}-1_0.csr"
     else:
         filepath = f"{work_dir}/{TEMP_SAVE_DIR}/{method}-{matrix_type}_SPIN_1-1_0.csr"
     if binary:
         with open(filepath, "rb") as f:
             raw_data = np.fromfile(f, dtype=np.uint8)
 
-        # Each record is 24 bytes
-        n_records = len(raw_data) // 24
+        if rspace:
+            # R-space records: int32 marker, int32 row, int32 col, float64 value, int32 marker
+            # Total: 4 + 4 + 4 + 8 + 4 = 24 bytes
+            record_size = 24
+            dtype = np.dtype([
+                ('marker1', np.int32),
+                ('row', np.int32),
+                ('col', np.int32),
+                ('value', np.float64),
+                ('marker2', np.int32)
+            ])
+            empty_mat = csr_matrix((nao, nao))
+        else:
+            # K-space records: int32 marker, int32 row, int32 col, complex128 value, int32 marker
+            # Total: 4 + 4 + 4 + 16 + 4 = 32 bytes
+            record_size = 32
+            dtype = np.dtype([
+                ('marker1', np.int32),
+                ('row', np.int32),
+                ('col', np.int32),
+                ('value', np.complex128),
+                ('marker2', np.int32)
+            ])
+            empty_mat = csr_matrix((nao, nao), dtype=np.complex64)
 
-        # Empty file
+        n_records = len(raw_data) // record_size
+
         if n_records == 0:
-            return csr_matrix((nao, nao)) if keep_sparse else np.zeros((nao, nao))
-
-        # Use structured dtype to parse without intermediate copies
-        # Structure: int32 marker, int32 row, int32 col, float64 value, int32 marker (24 bytes)
-        dtype = np.dtype([
-            ('marker1', np.int32),
-            ('row', np.int32),
-            ('col', np.int32),
-            ('value', np.float64),
-            ('marker2', np.int32)
-        ])
+            return empty_mat if keep_sparse else empty_mat.toarray()
 
         # View raw bytes as structured array (zero-copy)
-        records = np.frombuffer(raw_data[:n_records * 24], dtype=dtype)
+        records = np.frombuffer(raw_data[:n_records * record_size], dtype=dtype)
 
-        # Extract fields directly (creates views, minimal copying)
         rows = records['row'].astype(np.int32) - 1  # Convert to 0-indexed
         cols = records['col'].astype(np.int32) - 1  # Convert to 0-indexed
-        data = records['value'].astype(np.float32)  # Convert to float32 for memory efficiency
+        if rspace:
+            data = records['value'].astype(np.float32)
+        else:
+            data = records['value'].astype(np.complex64)
 
         mat = csr_matrix((data, (rows, cols)), shape=(nao, nao))
         return mat if keep_sparse else mat.toarray()
@@ -354,19 +394,22 @@ def parse_molog(workdir, occ_threshold: float = 0.5) -> BandgapResult:
     )
 
 
-def postproc_matrices(workdir, method, sym, get_energy=True, cutoff=1e-32, out_name="matrices", compress=True, topk=32, bandgap_info=None):
+def postproc_matrices(workdir, method, sym, rspace=True, get_energy=True, cutoff=1e-32, out_name="matrices", compress=True, topk=32, bandgap_info=None, energy_dft_ha=None):
     workdir = Path(workdir)
-    nao, atoms, coords_bohr, energy_Ha, T_vectors, lattice_vecs_bohr = parse_cp2k_output(workdir)
+    nao, atoms, coords_bohr, energy_Ha, T_vectors, K_vectors, lattice_vecs_bohr = parse_cp2k_output(workdir)
 
-    if T_vectors is None and method != "xyz":
-        raise ValueError("Could not find T_vectors in output file")
+    if method not in {"xyz", "pbemol"}:
+        if rspace and T_vectors is None:
+            raise ValueError("Could not find T_vectors in output file")
+        if not rspace and K_vectors is None:
+            raise ValueError("Could not find K_vectors in output file")
 
     elem_numbers = np.array([a["atomnum"] for a in atoms])
 
-    if method == "xyz":
-        perm_map = get_perm_map(elem_numbers)
+    if method in {"xyz", "pbemol"}:
+        # xyz template hardcodes REAL_SPACE T, so matrices are real (rspace=True)
         F, S, H, P = (
-            parse_matrix(workdir, method, mat, nao, binary=True, keep_sparse=False)
+            parse_matrix(workdir, method, mat, nao, binary=True, keep_sparse=False, rspace=True)
         for mat in ("KS", "S", "HCORE", "P")
         )
         res_dict = {
@@ -379,28 +422,24 @@ def postproc_matrices(workdir, method, sym, get_energy=True, cutoff=1e-32, out_n
         for m in ("F", "P", "S", "H"):
             if cutoff is not None:
                 res_dict[m] = np.where(np.abs(res_dict[m]) <= cutoff, 0, res_dict[m])
-            res_dict[m] = apply_perm_map(res_dict[m], perm_map)
     else:
-        #norb_z = norb_by_z(method)
-        #topk_blocks = get_topk_blocks(
-        #    workdir, method, nao, atoms, T_vectors, norb_z, lattice_vecs_bohr, topk=topk, cutoff=cutoff
-        #)
-        T_matrices = {}
-        for T_idx, T_vec in enumerate(T_vectors):
-            F_T, P_T, S_T, H_T = (
-                parse_matrix(workdir, method, key, nao, binary=True, T_idx=T_idx, keep_sparse=True)
-                for key in ("KS", "P", "S", "HCORE")
-            )
-            T_matrices[tuple(T_vec)] = {"F": F_T, "P": P_T, "S": S_T, "H": H_T}
-        
         if sym == "XYZ":
             pbc = [True, True, True]
         elif sym == "XY":
             pbc = [True, True, False]
-        
+
+        matrices = {}
+        for TK_idx, TK_vec in enumerate(K_vectors):
+            F_TK, P_TK, S_TK, H_TK = (
+                parse_matrix(workdir, method, key, nao, binary=True, TK_idx=TK_idx, keep_sparse=True, rspace=rspace)
+                for key in ("KS", "P", "S", "HCORE")
+            )
+            matrices[tuple(TK_vec)] = {"F": F_TK, "P": P_TK, "S": S_TK, "H": H_TK}
         res_dict = {
             "nao": nao,
-            "matrices": T_matrices,
+            "matrices": matrices,
+            "rspace": rspace,
+            "kpoints_2pi_bohr": K_vectors,
             "charge": 0,
             "net_spin": 0,
             "pbc": pbc,
@@ -411,6 +450,9 @@ def postproc_matrices(workdir, method, sym, get_energy=True, cutoff=1e-32, out_n
 
     if get_energy:
         res_dict["energy_cp2k_Ha"] = energy_Ha
+
+    if energy_dft_ha is not None:
+        res_dict["energy_dft_Ha"] = float(energy_dft_ha)
 
     if bandgap_info is not None:
         bg_res = parse_molog(workdir)

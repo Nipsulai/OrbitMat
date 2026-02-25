@@ -5,6 +5,7 @@ import logging
 import numpy as np
 from pathlib import Path
 from typing import Dict, List, Tuple
+import math
 
 from pymatgen.core import Structure, Molecule
 from pymatgen.io.vasp.inputs import Kpoints
@@ -25,18 +26,20 @@ class CP2KInputGenerator:
         self,
         method: str,
         sym: str,
+        rspace: bool = True,
         template_file: str = None,
         logger: logging.Logger = None,
     ):
         self.method = method.lower()
         self.sym = sym
+        self.rspace = rspace
         if self.method not in VALID_METHODS:
             raise ValueError(f"Unknown method: {method}. Must be one of {VALID_METHODS}")
 
         self.logger = logger or logging.getLogger(__name__)
         self.elem_data = None
 
-        if self.method == "pbe":
+        if self.method in {"pbe", "pbemol"}:
             with open(ELEM_DATA, "r") as f:
                 self.elem_data = json.load(f)
 
@@ -64,24 +67,35 @@ class CP2KInputGenerator:
         return mol, unique, counts
 
     def compute_box_size(
-        self, mol: Molecule, padding: float = VACUUM_PADDING
+        self, mol, padding: float = 5.0
     ) -> Tuple[int, int, int]:
         """
-        Compute a CUBIC simulation box size for a molecule.
-        Finds the largest dimension and applies it to all sides.
+        Compute an ORTHORHOMBIC simulation box size for a molecule.
+        Calculates independent lengths for X, Y, and Z.
         """
         coords = mol.cart_coords
+        # Calculate the span (max - min) for each axis independently
         spans = coords.max(axis=0) - coords.min(axis=0)
         
-        max_span = np.max(spans)
-        side_length = max_span + 2 * padding
+        # Apply padding to both sides of each axis
+        # Resulting lengths: [L_x, L_y, L_z]
+        side_lengths = spans + (2 * padding)
         
-        min_box_val = 2 * padding
-        side_length = max(side_length, min_box_val)
+        # Optimization: CP2K's FFT solvers prefer even integers or 
+        # numbers with small prime factors (2, 3, 5).
+        # Here we round up to the nearest even integer.
+        box_dims = []
+        for length in side_lengths:
+            ceil_val = int(math.ceil(length))
+            if ceil_val % 2 != 0:
+                ceil_val += 1
+            box_dims.append(ceil_val)
         
-        cubic_side = int(np.ceil(side_length))
+        # Ensure a minimum box size (e.g., 8A) to avoid MT solver errors
+        # if the molecule is extremely small (like a single atom/ion).
+        final_dims = tuple(max(dim, 8) for dim in box_dims)
         
-        return cubic_side, cubic_side, cubic_side
+        return final_dims
 
     def compute_electronic_config(
         self, unique_elements: List[str], counts: Dict[str, int]
@@ -144,6 +158,42 @@ class CP2KInputGenerator:
             CIF_PATH=cif_path,
             KINDS=kinds_str,
             FOLDER=folder,
+            REAL_SPACE="T" if self.rspace else "F",
+        )
+        with open(output_path, "w") as f:
+            f.write(output_content)
+
+    def write_input_pbemol(
+        self,
+        output_path: str,
+        xyz_path: str,
+        max_cutoff: float,
+        elem_q: Dict[str, int],
+        unique_elements: List[str],
+        unk_spins: bool,
+        folder: str,
+        ax, ay, az
+    ) -> None:
+        kinds_str = ""
+        for elem in unique_elements:
+            q = elem_q[elem]
+            kinds_str += f"""
+    &KIND {elem}
+      BASIS_SET {BASIS_FAMILY}{q}
+      POTENTIAL {GTH_FAMILY}{q}
+    &END KIND
+"""
+        output_content = self.template.format(
+            BASIS_SET_FILE_NAME=BASIS_PATH,
+            POTENTIAL_FILE_NAME=POTENTIAL_PATH,
+            UKS="TRUE" if unk_spins else "FALSE",
+            CUTOFF=int(max_cutoff),
+            XYZ_PATH=xyz_path,
+            AX=f"{ax:.6f}",
+            AY=f"{ay:.6f}",
+            AZ=f"{az:.6f}",
+            KINDS=kinds_str,
+            FOLDER=folder,
         )
         with open(output_path, "w") as f:
             f.write(output_content)
@@ -156,7 +206,7 @@ class CP2KInputGenerator:
         folder: str,
         periodic: str
     ) -> None:
-        output_content = self.template.format(KX=kx, KY=ky, KZ=kz, CIF_PATH=cif_path, FOLDER=folder, PERIODIC=periodic)
+        output_content = self.template.format(KX=kx, KY=ky, KZ=kz, CIF_PATH=cif_path, FOLDER=folder, PERIODIC=periodic, REAL_SPACE="T" if self.rspace else "F")
         with open(output_path, "w") as f:
             f.write(output_content)
 
@@ -189,19 +239,44 @@ class CP2KInputGenerator:
         folder_abs.mkdir(exist_ok=True)
         folder_rel = "matrices"
 
-        if self.method == "xyz":
+        if self.method in {"xyz", "pbemol"}:
             mol, unique, counts = self.load_molecule(input_path)
 
             # xtb does not use box size so this is purely cosmetic
-            ax, ay, az = self.compute_box_size(mol)
+            ax, ay, az = self.compute_box_size(mol, padding=VACUUM_PADDING)
 
             metadata["elements"] = counts
             metadata["n_atoms"] = len(mol)
             metadata["box_size"] = {"x": ax, "y": ay, "z": az}
 
-            self.write_input_xyz(output_path, input_path, ax, ay, az, folder_rel)
-            return metadata
+            if self.method == "xyz":
+                self.write_input_xyz(output_path, input_path, ax, ay, az, folder_rel)
+            else:
+                total_e, unk_spins, missing = self.compute_electronic_config(unique, counts)
 
+                if missing:
+                    metadata["skipped"] = True
+                    metadata["skip_reason"] = f"Missing elems: {', '.join(sorted(missing))}"
+                    return metadata
+                
+                metadata["total_valence_electrons"] = total_e
+                metadata["unrestricted"] = unk_spins
+
+                if skip_if_unk and unk_spins:
+                    metadata["skipped"] = True
+                    metadata["skip_reason"] = "UKS required"
+                    return metadata
+
+                max_cutoff = self.get_max_cutoff(unique)
+                elem_q = self.get_element_charges(unique)
+                metadata["cutoff"] = max_cutoff
+                metadata["element_charges"] = elem_q
+
+                self.write_input_pbemol(
+                    output_path, input_path, max_cutoff, elem_q, unique, unk_spins, folder_rel, ax, ay, az
+                )
+            return metadata
+        
         struct, unique, counts = self.load_structure(input_path)
         
         kx, ky, kz = self.compute_kpoints(struct, self.sym, bravais) 
