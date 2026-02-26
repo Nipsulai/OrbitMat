@@ -224,47 +224,59 @@ def convert_matrices_to_blocks(data: Dict, norb_by_z: Dict[int, int], method: st
         if self_block is not None:
             mats = self_block['mats']
             #norms = T_norms[self_block['T_vec']]
-            ngb = self_block['ngb']
+            # Self-block: neighbor is always src itself.
+            assert self_block['ngb'] == src
             z_src = int(elem_numbers[src - 1])
-            z_ngb = int(elem_numbers[ngb - 1])
-            assert z_src == z_ngb
 
-            H_blc = get_block(mats['H'], src, ngb)
-            F_blc = get_block(mats['F'], src, ngb)
-            S_blc = get_block(mats['S'], src, ngb)
-            P_blc = get_block(mats['P'], src, ngb)
+            H_blc = get_block(mats['H'], src, src)
+            F_blc = get_block(mats['F'], src, src)
+            S_blc = get_block(mats['S'], src, src)
+            P_blc = get_block(mats['P'], src, src)
 
-            diag_data = diag_blocks[z_src]
+            Hb = permute_block(H_blc, z_src, z_src)
+            Fb = permute_block(F_blc, z_src, z_src)
+            Sb = permute_block(S_blc, z_src, z_src)
+            Pb = permute_block(P_blc, z_src, z_src)
+
+            mat_dict = {
+                'H': Hb,
+                'S': Sb,
+                'F': Fb,
+                'P': Pb,
+                'F_H': Fb - Hb,
+                'score': self_block['score'],
+            }
 
             if method == "pbe":
-                H_blc = H_blc - diag_data["H"]
-                F_blc = F_blc - diag_data["F"]
-                P_blc = P_blc - diag_data["P"]
-                print(f"[ATTENTION] The diagonal blocks are reduced!!!")
-
-            Hb = permute_block(H_blc, z_src, z_ngb)
-            Fb = permute_block(F_blc, z_src, z_ngb)
+                diag_data = diag_blocks[z_src]
+                H_red = permute_block(H_blc - diag_data["H"], z_src, z_src)
+                F_red = permute_block(F_blc - diag_data["F"], z_src, z_src)
+                P_red = permute_block(P_blc - diag_data["P"], z_src, z_src)
+                mat_dict['H_red'] = H_red
+                mat_dict['F_red'] = F_red
+                mat_dict['P_red'] = P_red
+                mat_dict['F_H_red'] = F_red - H_red
 
             blocks.append({
                 "is_self": True,
                 "ctr": self_ctr,
                 "source": src,
-                "neighbor": ngb,
+                "neighbor": src,
                 "cell": self_block['cell'],
-                "matrix": {
-                    'H': Hb,
-                    'S': permute_block(S_blc, z_src, z_ngb),
-                    'F': Fb,
-                    'P': permute_block(P_blc, z_src, z_ngb),
-                    'F_H': Fb-Hb,
-                    'score': self_block['score'],
-                },
+                "matrix": mat_dict,
             })
             self_ctr += 1
 
         # Top-k neighbor blocks
         neighbor_blocks.sort(key=lambda b: b['score'], reverse=True)
-        selected = neighbor_blocks[:topk]
+        if method == "xtb" and len(neighbor_blocks) > topk:
+            # Score-based selection with tiebreaking (ALIGNN-style):
+            # take the top-k by score, then include every block whose score
+            # ties with the k-th neighbor (handles symmetry-equivalent pairs).
+            score_k = neighbor_blocks[topk - 1]['score']
+            selected = [b for b in neighbor_blocks if b['score'] >= score_k * (1 - 1e-6)]
+        else:
+            selected = neighbor_blocks[:topk]
 
         for block in selected:
             ngb = block['ngb']
@@ -562,6 +574,11 @@ def write_pbc_material(
         p0.create_dataset("F", data=F, dtype="f8")
         p0.create_dataset("P", data=P, dtype="f8")
         p0.create_dataset("F_H", data=F_H, dtype="f8")
+        if "H_red" in mat:
+            p0.create_dataset("H_red", data=mat["H_red"], dtype="f8")
+            p0.create_dataset("F_red", data=mat["F_red"], dtype="f8")
+            p0.create_dataset("P_red", data=mat["P_red"], dtype="f8")
+            p0.create_dataset("F_H_red", data=mat["F_H_red"], dtype="f8")
         #REMEMBER TO CHECK ONE-BODY AND SYMMETRICITY
 
     # Write index arrays
@@ -940,6 +957,11 @@ def write_one_xyz_molecule(
     two_body.create_dataset("S", data=payload["S"], dtype="f8")
     two_body.create_dataset("H", data=payload["H"], dtype="f8")
     two_body.create_dataset("F_H", data=payload["F"] - payload["H"], dtype="f8")
+    if "H_red" in payload:
+        two_body.create_dataset("H_red", data=payload["H_red"], dtype="f8")
+        two_body.create_dataset("F_red", data=payload["F_red"], dtype="f8")
+        two_body.create_dataset("P_red", data=payload["P_red"], dtype="f8")
+        two_body.create_dataset("F_H_red", data=payload["F_red"] - payload["H_red"], dtype="f8")
 
 
 def write_xyz_split(
@@ -990,10 +1012,28 @@ def load_pickle_pbemol_payload(pkl_path: Path) -> Dict[str, object]:
                 out[rs:re, cs:ce] = _permute_block_pbe(dense[rs:re, cs:ce], elem_numbers[i], elem_numbers[j])
         return out
 
-    F = permute_full(data["F"])
-    P = permute_full(data["P"])
-    S = permute_full(data["S"])
-    H = permute_full(data["H"])
+    raw_F = np.array(data["F"], dtype=np.float64)
+    raw_P = np.array(data["P"], dtype=np.float64)
+    raw_S = np.array(data["S"], dtype=np.float64)
+    raw_H = np.array(data["H"], dtype=np.float64)
+
+    # Compute reduced versions by subtracting atomic diagonal blocks (in raw space)
+    raw_H_red = raw_H.copy()
+    raw_F_red = raw_F.copy()
+    raw_P_red = raw_P.copy()
+    for i, (rs, re) in enumerate(atom_ranges):
+        z = int(elem_numbers[i])
+        raw_H_red[rs:re, rs:re] -= diag_blocks[z]["H"]
+        raw_F_red[rs:re, rs:re] -= diag_blocks[z]["F"]
+        raw_P_red[rs:re, rs:re] -= diag_blocks[z]["P"]
+
+    F = permute_full(raw_F)
+    P = permute_full(raw_P)
+    S = permute_full(raw_S)
+    H = permute_full(raw_H)
+    F_red = permute_full(raw_F_red)
+    P_red = permute_full(raw_P_red)
+    H_red = permute_full(raw_H_red)
 
     return {
         "atomic_numbers": elem_numbers,
@@ -1005,6 +1045,9 @@ def load_pickle_pbemol_payload(pkl_path: Path) -> Dict[str, object]:
         "P": P,
         "S": S,
         "H": H,
+        "F_red": F_red,
+        "P_red": P_red,
+        "H_red": H_red,
     }
 
 

@@ -3,3 +3,9 @@ setup/*.log
 *.MOLog
 *.kp
 *.out
+*.hdf5
+*.csv
+*__pycache__
+data/cifs/
+data/xyz/
+calc/out/
