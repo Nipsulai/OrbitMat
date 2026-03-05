@@ -1,11 +1,6 @@
 #!/bin/bash
 set -e
 
-# GPU architecture
-# Allowed values are:
-# 20X, K40, K80, P100, V100, A100, H100, A4
-GPU_VER="A100"
-
 # Colors
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -48,6 +43,7 @@ log "${CYAN}\n Running CP2K toolchain...${NC}"
     --with-libint=install \
     --with-libxsmm=install \
     --with-openblas=install \
+    --with-openmpi=no \
     --with-hdf5=no \
     --with-sirius=no \
     --with-libvori=no \
@@ -83,7 +79,7 @@ else
 fi
 
 conda activate "$ENV_NAME"
-pip install numpy pandas scipy matplotlib pymatgen ipykernel ase 2>&1 | tee -a "$LOGFILE"
+pip install numpy pandas scipy matplotlib pymatgen ipykernel ase h5py 2>&1 | tee -a "$LOGFILE"
 
 log "${GREEN}\n=== Installation Complete ===${NC}"
 log "Executables: $CP2K_DIR/exe/local"

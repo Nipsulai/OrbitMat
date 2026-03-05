@@ -1,5 +1,5 @@
 &GLOBAL
-  PROJECT pbe
+  PROJECT scan
   RUN_TYPE ENERGY
   PRINT_LEVEL MEDIUM
 &END GLOBAL
@@ -8,22 +8,35 @@
   METHOD Quickstep
 
   &DFT
-    BASIS_SET_FILE_NAME /home/nikolai/OrbitMat/calc/src/input/BASIS_MOLOPT_DZ
-    POTENTIAL_FILE_NAME /home/nikolai/OrbitMat/calc/src/input/POTENTIAL_DZ
+    BASIS_SET_FILE_NAME /home/nikolai/OrbitMat/calc/src/input/BASIS_MOLOPT_SCAN_DZ
+    POTENTIAL_FILE_NAME /home/nikolai/OrbitMat/calc/src/input/POTENTIAL_DZ_SCAN
     UKS {UKS}
 
     &MGRID
-      CUTOFF 600
-      REL_CUTOFF 60
+      CUTOFF 800
+      REL_CUTOFF 70
     &END MGRID
 
     &QS
-      EPS_DEFAULT 1.0E-10
+      EPS_DEFAULT 1.0E-12
     &END QS
 
+    &POISSON
+      PERIODIC XYZ
+      PSOLVER PERIODIC
+    &END POISSON
+
     &XC
-      &XC_FUNCTIONAL PBE
+      &XC_FUNCTIONAL
+        &MGGA_X_R2SCAN
+        &END MGGA_X_R2SCAN
+        &MGGA_C_R2SCAN
+        &END MGGA_C_R2SCAN
       &END XC_FUNCTIONAL
+      &XC_GRID
+        XC_DERIV SPLINE3
+        XC_SMOOTH_RHO SPLINE3
+      &END XC_GRID
     &END XC
 
     &KPOINTS
@@ -35,7 +48,7 @@
     &SCF
       SCF_GUESS ATOMIC
       EPS_SCF 1e-6
-      MAX_SCF 150
+      MAX_SCF 200
 
       &DIAGONALIZATION
         ALGORITHM STANDARD
@@ -44,11 +57,12 @@
       &MIXING
         METHOD BROYDEN_MIXING
         ALPHA 0.2
-        NBROYDEN 8
+        BETA 0.8
+        NBROYDEN 10
       &END MIXING
 
       &SMEAR
-        ELECTRONIC_TEMPERATURE  300
+        ELECTRONIC_TEMPERATURE  500
         METHOD FERMI_DIRAC
       &END SMEAR
 

@@ -13,6 +13,9 @@ Usage:
 
     # Option 2: Reuse splits from an existing HDF5 file
     python calc/create_hdf5.py {path_to_folder} --from_hdf5 previous_data.hdf5 --method pbe
+
+    # Option 3: Combine two folders
+    python calc/create_hdf5.py {folder1} {folder2} --train 800 --val 100 --test 100 --method pbe
 """
 from __future__ import annotations
 
@@ -39,7 +42,7 @@ from src.postproc import norb_by_z
 
 
 def create_pbc_hdf5(
-    cp2k_folder: Path,
+    cp2k_folder: Path | list[Path],
     output_path: Path,
     method: str,
     train_size: int = 0,
@@ -50,22 +53,31 @@ def create_pbc_hdf5(
     n_workers: int = 1,
     from_hdf5: Path | None = None,
     super_size: int = 2,
+    use_dist: bool = False,
 ):
-    cp2k_folder = Path(cp2k_folder).absolute()
+    folders = [cp2k_folder] if isinstance(cp2k_folder, (str, Path)) else cp2k_folder
+    folders = [Path(f).absolute() for f in folders]
     output_path = Path(output_path).absolute()
-    
+
     if from_hdf5 is None:
         output_path = output_path.with_stem(f"{output_path.stem}_s{seed}")
-    
+
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    id_to_npz = get_npz_paths(cp2k_folder, npz=False)
+    id_to_npz: dict = {}
+    for folder in folders:
+        folder_map = get_npz_paths(folder, npz=False)
+        overlap = set(folder_map) & set(id_to_npz)
+        if overlap:
+            print(f"[WARN] {len(overlap)} duplicate IDs from {folder} will overwrite previous entries.")
+        id_to_npz.update(folder_map)
+        print(f"Found {len(folder_map)} successful calculations in {folder}.")
 
     if not id_to_npz:
-        print(f"No successful calculations found in {cp2k_folder}")
+        print("No successful calculations found in any folder.")
         sys.exit(1)
 
-    print(f"Found {len(id_to_npz)} successful calculations in folder.")
+    print(f"Total: {len(id_to_npz)} calculations across {len(folders)} folder(s).")
 
     splits_dict = {}
     
@@ -99,7 +111,7 @@ def create_pbc_hdf5(
         print(f"       - val:   {len(splits.val)}")
         print(f"       - test:  {len(splits.test)}")
 
-    if method in ("pbe", "xtb"):
+    if method in ("pbe", "scan", "tzvp", "xtb"):
         orb_map = norb_by_z(method)
         if orb_map is None:
             raise ValueError("norb_by_z is not found.")
@@ -156,6 +168,7 @@ def create_pbc_hdf5(
                     method=method,
                     topk=topk,
                     n_workers=n_workers,
+                    use_dist=use_dist,
                 )
             
     print(f"Done. HDF5 saved to {output_path}")
@@ -169,7 +182,8 @@ def main():
     parser.add_argument(
         "folder",
         type=str,
-        help="Path to the CP2K output folder",
+        nargs="+",
+        help="Path(s) to CP2K output folder(s). Provide two to merge datasets.",
     )
     parser.add_argument(
         "--out", "-o",
@@ -209,7 +223,7 @@ def main():
     parser.add_argument(
         "--method", "-m",
         type=str,
-        choices=["pbe", "xtb", "xyz", "pbemol", "xtb_mol", "xtb_super"],
+        choices=["pbe", "scan", "tzvp", "xtb", "xyz", "pbemol", "xtb_mol", "xtb_super"],
         required=True,
         help="DFT method: pbe/xtb (periodic), xyz (non-periodic molecules, xTB basis), "
              "pbemol (non-periodic molecules, PBE basis), "
@@ -228,6 +242,13 @@ def main():
         help="Supercell size N for xtb_super (builds NxNxN supercell, default 2)",
     )
     parser.add_argument(
+        "--distance",
+        action="store_true",
+        default=False,
+        help="Use distance-based neighbor selection: take the topk nearest neighbors by "
+             "physical distance and include all blocks within that radius (symmetric cutoff).",
+    )
+    parser.add_argument(
         "--workers", "-w",
         type=int,
         default=1,
@@ -241,10 +262,11 @@ def main():
              parser.error("You must specify at least one of --train, --val, or --test.")
 
     if args.out is None:
-        args.out = "calc/" + Path(args.folder).name + ".hdf5"
+        name = "_".join(Path(f).name for f in args.folder)
+        args.out = "calc/" + name + ".hdf5"
 
     create_pbc_hdf5(
-        cp2k_folder=args.folder,
+        cp2k_folder=args.folder if len(args.folder) > 1 else args.folder[0],
         output_path=args.out,
         train_size=args.train,
         val_size=args.val,
@@ -255,6 +277,7 @@ def main():
         n_workers=args.workers,
         from_hdf5=args.from_hdf5,
         super_size=args.super_size,
+        use_dist=args.distance,
     )
 
 

@@ -14,10 +14,12 @@ import h5py
 import pickle
 
 from scipy.sparse import issparse
-from .perm_and_blocks import _permute_block, _permute_block_pbe, get_perm_map, apply_perm_map
+from .perm_and_blocks import _permute_block, _permute_block_pbe, _permute_block_scan, _permute_block_tzvp, get_perm_map, apply_perm_map
 from collections import defaultdict
 
 ### General methods ###
+
+#python calc/create_hdf5.py calc/out/nmpbe calc/out/magnetic  --topk 32 --method pbe --train 6879 --val 850 --test 850 --out calc/pbe_fulldata_32.hdf5 --workers 30 
 
 from scipy.sparse.linalg import norm as sp_norm
 
@@ -130,7 +132,7 @@ def parse_cp2k_charges(out_file: Path) -> Tuple[Optional[np.ndarray], Optional[n
     h_arr = np.array(hirshfeld) if hirshfeld else None
     return m_arr, h_arr
 
-def convert_matrices_to_blocks(data: Dict, norb_by_z: Dict[int, int], method: str = "xtb", topk: int = 32, cutoff: float = 1e-32) -> list:
+def convert_matrices_to_blocks(data: Dict, norb_by_z: Dict[int, int], method: str = "xtb", topk: int = 32, cutoff: float = 1e-7, use_dist: bool = False) -> list:
     """
     Convert matrices (per translation T) to blocks.
 
@@ -146,6 +148,10 @@ def convert_matrices_to_blocks(data: Dict, norb_by_z: Dict[int, int], method: st
     """
     if method == "pbe":
         permute_block = _permute_block_pbe
+    elif method == "scan":
+        permute_block = _permute_block_scan
+    elif method == "tzvp":
+        permute_block = _permute_block_tzvp
     else:
         permute_block = _permute_block
 
@@ -171,42 +177,71 @@ def convert_matrices_to_blocks(data: Dict, norb_by_z: Dict[int, int], method: st
             return mat[r_start:r_end, c_start:c_end].toarray()
         return mat[r_start:r_end, c_start:c_end]
 
-    def compute_block_norm(mat, src, ngb):
-        block = get_block(mat, src, ngb)
-        return float(np.sum(block ** 2))
+    # Precompute orbital-to-atom mapping for vectorized block norm computation
+    total_orbs = atom_ranges[-1][1]
+    starts = np.array([rs for rs, re in atom_ranges], dtype=np.intp)
+    orb_to_atom = np.empty(total_orbs, dtype=np.intp)
+    for i, (rs, re) in enumerate(atom_ranges):
+        orb_to_atom[rs:re] = i
+
+    def _block_norms(mat):
+        """Return (n_atoms, n_atoms) matrix of squared Frobenius block norms."""
+        if issparse(mat):
+            coo = mat.tocoo()
+            norms = np.zeros((n_atoms, n_atoms))
+            if coo.nnz:
+                np.add.at(norms, (orb_to_atom[coo.row], orb_to_atom[coo.col]), coo.data ** 2)
+        else:
+            sq = np.asarray(mat) ** 2
+            row_sums = np.add.reduceat(sq, starts, axis=0)
+            norms = np.add.reduceat(row_sums, starts, axis=1)
+        return norms
 
     blocks_by_source = defaultdict(list)
+    a1, a2, a3 = cell_bohr[0], cell_bohr[1], cell_bohr[2]
 
-    # Precompute norms per T-vector
-    #T_norms = {}
-    #for T_vec, mats in T_matrices.items():
-    #    T_norms[T_vec] = {k: mat_norm(mats[k]) for k in ('H', 'S', 'F', 'P')}
-
-    for T_vec, mats in T_matrices.items():
-        F_T, P_T, S_T, H_T = mats["F"], mats["P"], mats["S"], mats["H"]
-
-        for src in range(1, n_atoms + 1):
-            for ngb in range(1, n_atoms + 1):
-                nF = compute_block_norm(F_T, src, ngb)
-                nS = compute_block_norm(S_T, src, ngb)
-                nH = compute_block_norm(H_T, src, ngb)
-                score = nF * nS * nH
-
-                if score < cutoff:
-                    continue
-
-                blocks_by_source[src].append({
-                    'ngb': ngb,
+    if use_dist:
+        buffer_size = topk * 5
+        for T_vec, mats in T_matrices.items():
+            ic1, ic2, ic3 = T_vec
+            shift = ic1 * a1 + ic2 * a2 + ic3 * a3
+            # dists_T[src0, ngb0] = |r_ngb - r_src + shift|
+            diffs = coords_bohr[np.newaxis, :, :] - coords_bohr[:, np.newaxis, :] + shift
+            dists_T = np.linalg.norm(diffs, axis=2)
+            for src0 in range(n_atoms):
+                row = dists_T[src0].tolist()
+                blocks_by_source[src0 + 1].extend([
+                    {'ngb': ngb0 + 1, 'cell': T_vec, 'T_vec': T_vec,
+                     '_dist': row[ngb0], 'mats': mats, 'score': 0.0}
+                    for ngb0 in range(n_atoms)
+                ])
+            # Prune each source buffer to buffer_size after each T_vec
+            for src_key in range(1, n_atoms + 1):
+                lst = blocks_by_source[src_key]
+                if len(lst) > buffer_size:
+                    lst.sort(key=lambda b: b['_dist'])
+                    blocks_by_source[src_key] = lst[:buffer_size]
+    else:
+        ctr = 0
+        for T_vec, mats in T_matrices.items():
+            scores = _block_norms(mats["F"])# * _block_norms(mats["P"]) # if you change this change cutoff
+            src_arr, ngb_arr = np.where(scores >= cutoff)
+            ctr += 1
+            if ctr >= 120:
+                break
+            for src0, ngb0 in zip(src_arr.tolist(), ngb_arr.tolist()):
+                blocks_by_source[src0 + 1].append({
+                    'ngb': ngb0 + 1,
                     'cell': T_vec,
                     'T_vec': T_vec,
-                    'score': score,
+                    'score': float(scores[src0, ngb0]),
                     'mats': mats,
                 })
 
     # Select top-k
     blocks = []
     self_ctr, pair_ctr = 0, 0
-    a1, a2, a3 = cell_bohr[0], cell_bohr[1], cell_bohr[2]
+    max_nbr_selected = 0
 
     for src in range(1, n_atoms + 1):
         atom_blocks = blocks_by_source.get(src, [])
@@ -267,31 +302,41 @@ def convert_matrices_to_blocks(data: Dict, norb_by_z: Dict[int, int], method: st
             })
             self_ctr += 1
 
-        # Top-k neighbor blocks
-        neighbor_blocks.sort(key=lambda b: b['score'], reverse=True)
-        if method == "xtb" and len(neighbor_blocks) > topk:
-            # Score-based selection with tiebreaking (ALIGNN-style):
-            # take the top-k by score, then include every block whose score
-            # ties with the k-th neighbor (handles symmetry-equivalent pairs).
-            score_k = neighbor_blocks[topk - 1]['score']
-            selected = [b for b in neighbor_blocks if b['score'] >= score_k * (1 - 1e-6)]
+        # Select neighbor blocks: distance-based or score-based
+        if use_dist:
+            # Distances already computed during accumulation
+            neighbor_blocks.sort(key=lambda b: b['_dist'])
+            if len(neighbor_blocks) > topk:
+                radius = neighbor_blocks[topk - 1]['_dist']
+                selected = [b for b in neighbor_blocks if b['_dist'] <= radius * (1 + 1e-10)]
+            else:
+                selected = neighbor_blocks
         else:
-            selected = neighbor_blocks[:topk]
+            neighbor_blocks.sort(key=lambda b: b['score'], reverse=True)
+            if len(neighbor_blocks) > topk:
+                topk_score = neighbor_blocks[topk - 1]['score']
+                selected = neighbor_blocks[:topk]
+                #[b for b in neighbor_blocks if b['score'] >= topk_score * (1 - 1e-6)]
+            else:
+                selected = neighbor_blocks
+            #max_nbr_selected = max(max_nbr_selected, len(selected))
 
         for block in selected:
             ngb = block['ngb']
             mats = block['mats']
-            #norms = T_norms[block['T_vec']]
 
             ic1, ic2, ic3 = block['cell']
             z_src = int(elem_numbers[src - 1])
             z_ngb = int(elem_numbers[ngb - 1])
 
-            # Calculate distance
-            r_i = coords_bohr[src - 1]
-            r_j = coords_bohr[ngb - 1]
-            shift = ic1 * a1 + ic2 * a2 + ic3 * a3
-            dist = float(np.linalg.norm(r_j - r_i + shift))
+            # Use precomputed distance if available, else compute now
+            if '_dist' in block:
+                dist = block['_dist']
+            else:
+                r_i = coords_bohr[src - 1]
+                r_j = coords_bohr[ngb - 1]
+                shift = ic1 * a1 + ic2 * a2 + ic3 * a3
+                dist = float(np.linalg.norm(r_j - r_i + shift))
 
             Hb = permute_block(get_block(mats['H'], src, ngb), z_src, z_ngb)
             Fb = permute_block(get_block(mats['F'], src, ngb), z_src, z_ngb)
@@ -313,6 +358,9 @@ def convert_matrices_to_blocks(data: Dict, norb_by_z: Dict[int, int], method: st
                 "dist": dist,
             })
             pair_ctr += 1
+
+    #if not use_dist:
+        #print(f"[score selection] max neighbor blocks chosen: {max_nbr_selected} (topk={topk})")
 
     return blocks
 
@@ -336,7 +384,14 @@ def convert_kspace_blocks(data: Dict, norb_by_z: Dict[int, int], method: str = "
     Returns:
         List of block dicts with the same schema as convert_matrices_to_blocks.
     """
-    permute_block = _permute_block_pbe if method == "pbe" else _permute_block
+    if method == "pbe":
+        permute_block = _permute_block_pbe
+    elif method == "scan":
+        permute_block = _permute_block_scan
+    elif method == "tzvp":
+        permute_block = _permute_block_tzvp
+    else:
+        permute_block = _permute_block
 
     K_matrices = data["matrices"]
     kpoints = data["kpoints_2pi_bohr"]  # (nK, 3)
@@ -399,7 +454,7 @@ def convert_kspace_blocks(data: Dict, norb_by_z: Dict[int, int], method: str = "
     return blocks
 
 
-def load_npz_pbc(npz_path: Path, npz, norb_by_z: Dict[int, int] = None, method: str = "xtb", topk: int = 32) -> Dict[str, object]:
+def load_npz_pbc(npz_path: Path, npz, norb_by_z: Dict[int, int] = None, method: str = "xtb", topk: int = 32, use_dist: bool = False) -> Dict[str, object]:
     """Load NPZ or pickle file for periodic (PBC) materials.
 
     For R-space pickles (rspace=True): converts T-matrices to atom-pair blocks (top-k).
@@ -449,7 +504,7 @@ def load_npz_pbc(npz_path: Path, npz, norb_by_z: Dict[int, int] = None, method: 
     #gap_type_hse = str(data["gap_type_hse"]) if "gap_type_hse" in data else None
 
     if rspace:
-        blocks = convert_matrices_to_blocks(data, norb_by_z, method=method, topk=topk)
+        blocks = convert_matrices_to_blocks(data, norb_by_z, method=method, topk=topk, use_dist=use_dist)
     else:
         # no top-k cutoff
         blocks = convert_kspace_blocks(data, norb_by_z, method=method)
@@ -515,8 +570,10 @@ def write_pbc_material(
     geom0.create_dataset("atomic_numbers", data=payload["atomic_numbers"], dtype="i8")
     geom0.create_dataset("geometry_bohr", data=payload["geometry_bohr"], dtype="f8")
     geom0.create_dataset("charge", data=payload["charge"], dtype="f8")
-    geom0.create_dataset("m_charges", data=payload["m_charges"], dtype="f8")
-    geom0.create_dataset("h_charges", data=payload["h_charges"], dtype="f8")
+    if payload["m_charges"] is not None:
+        geom0.create_dataset("m_charges", data=payload["m_charges"], dtype="f8")
+    if payload["h_charges"] is not None:
+        geom0.create_dataset("h_charges", data=payload["h_charges"], dtype="f8")
     geom0.create_dataset("net_spin", data=payload["net_spin"], dtype="f8")
     geom0.create_dataset("cell_bohr", data=payload["cell_bohr"], dtype="f8")
     geom0.create_dataset("pbc", data=payload["pbc"], dtype="i8")
@@ -563,17 +620,11 @@ def write_pbc_material(
         p = geom0.create_group(name)
         p0 = p.create_group("2body")
 
-        H = mat["H"]
-        S = mat["S"]
-        F = mat["F"]
-        P = mat["P"]
-        F_H = F - H
-
-        p0.create_dataset("H", data=H, dtype="f8")
-        p0.create_dataset("S", data=S, dtype="f8")
-        p0.create_dataset("F", data=F, dtype="f8")
-        p0.create_dataset("P", data=P, dtype="f8")
-        p0.create_dataset("F_H", data=F_H, dtype="f8")
+        p0.create_dataset("H", data=mat["H"], dtype="f8")
+        p0.create_dataset("S", data=mat["S"], dtype="f8")
+        p0.create_dataset("F", data=mat["F"], dtype="f8")
+        p0.create_dataset("P", data=mat["P"], dtype="f8")
+        p0.create_dataset("F_H", data=mat["F_H"], dtype="f8")
         if "H_red" in mat:
             p0.create_dataset("H_red", data=mat["H_red"], dtype="f8")
             p0.create_dataset("F_red", data=mat["F_red"], dtype="f8")
@@ -680,8 +731,8 @@ def _load_material_worker(args: Tuple) -> Tuple[str, Optional[Dict]]:
     Returns:
         Tuple of (mat_id, payload) or (mat_id, None) if loading fails
     """
-    mat_id, npz_path, npz, norb_by_z, method, topk = args
-    payload = load_npz_pbc(npz_path, npz, norb_by_z=norb_by_z, method=method, topk=topk)
+    mat_id, npz_path, npz, norb_by_z, method, topk, use_dist = args
+    payload = load_npz_pbc(npz_path, npz, norb_by_z=norb_by_z, method=method, topk=topk, use_dist=use_dist)
     return (mat_id, payload)
 
 
@@ -695,6 +746,7 @@ def write_pbc_split(
     method: str = "xtb",
     topk: int = 32,
     n_workers: int = 1,
+    use_dist: bool = False,
 ) -> int:
     """
     Write a train/val/test split for PBC materials.
@@ -714,7 +766,7 @@ def write_pbc_split(
     if n_workers > 1:
         # Parallel loading with sequential writes
         args_list = [
-            (mat_id, id_to_npz[mat_id], npz, norb_by_z, method, topk)
+            (mat_id, id_to_npz[mat_id], npz, norb_by_z, method, topk, use_dist)
             for mat_id in valid_ids
         ]
 
@@ -728,7 +780,7 @@ def write_pbc_split(
         # Sequential loading and writing
         for mat_id in tqdm(valid_ids, desc=f"[{split_name}]"):
             npz_path = id_to_npz[mat_id]
-            payload = load_npz_pbc(npz_path, npz, norb_by_z=norb_by_z, method=method, topk=topk)
+            payload = load_npz_pbc(npz_path, npz, norb_by_z=norb_by_z, method=method, topk=topk, use_dist=use_dist)
             _write(mat_id, payload)
             count += 1
 

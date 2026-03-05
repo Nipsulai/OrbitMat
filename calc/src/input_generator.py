@@ -18,7 +18,11 @@ from io import StringIO
 
 from .config import (
     ELEM_DATA, BASIS_FAMILY, GTH_FAMILY, KPOINTS_ACC, KPOINTS_DENSITY,
-    BASIS_PATH, POTENTIAL_PATH, VACUUM_PADDING, VALID_METHODS
+    BASIS_PATH, POTENTIAL_PATH, VACUUM_PADDING, VALID_METHODS,
+    ELEM_DATA_SCAN, BASIS_FAMILY_SCAN, GTH_FAMILY_SCAN,
+    BASIS_PATH_SCAN, POTENTIAL_PATH_SCAN,
+    ELEM_DATA_TZVP, BASIS_FAMILY_TZVP, GTH_FAMILY_TZVP,
+    BASIS_PATH_TZVP, POTENTIAL_PATH_TZVP,
 )
 
 class CP2KInputGenerator:
@@ -41,6 +45,12 @@ class CP2KInputGenerator:
 
         if self.method in {"pbe", "pbemol"}:
             with open(ELEM_DATA, "r") as f:
+                self.elem_data = json.load(f)
+        elif self.method == "scan":
+            with open(ELEM_DATA_SCAN, "r") as f:
+                self.elem_data = json.load(f)
+        elif self.method == "tzvp":
+            with open(ELEM_DATA_TZVP, "r") as f:
                 self.elem_data = json.load(f)
 
         with open(template_file, "r") as f:
@@ -100,7 +110,7 @@ class CP2KInputGenerator:
     def compute_electronic_config(
         self, unique_elements: List[str], counts: Dict[str, int]
     ) -> Tuple[int, bool]:
-        if self.method != "pbe":
+        if self.method not in {"pbe", "pbemol", "scan", "tzvp"}:
             return 0, False, None
         missing = {e for e in unique_elements if e not in self.elem_data}
         if missing:
@@ -153,7 +163,69 @@ class CP2KInputGenerator:
             BASIS_SET_FILE_NAME=BASIS_PATH,
             POTENTIAL_FILE_NAME=POTENTIAL_PATH,
             UKS="TRUE" if unk_spins else "FALSE",
-            CUTOFF=int(max_cutoff),
+            CUTOFF=600,
+            KX=kx, KY=ky, KZ=kz,
+            CIF_PATH=cif_path,
+            KINDS=kinds_str,
+            FOLDER=folder,
+            REAL_SPACE="T" if self.rspace else "F",
+        )
+        with open(output_path, "w") as f:
+            f.write(output_content)
+
+    def write_input_scan(
+        self,
+        output_path: str,
+        cif_path: str,
+        max_cutoff: float,
+        kx: int, ky: int, kz: int,
+        elem_q: Dict[str, int],
+        unique_elements: List[str],
+        unk_spins: bool,
+        folder: str,
+    ) -> None:
+        kinds_str = ""
+        for elem in unique_elements:
+            q = elem_q[elem]
+            kinds_str += f"""
+    &KIND {elem}
+      BASIS_SET {BASIS_FAMILY_SCAN}{q}
+      POTENTIAL {GTH_FAMILY_SCAN}{q}
+    &END KIND
+"""
+        output_content = self.template.format(
+            UKS="TRUE" if unk_spins else "FALSE",
+            #CUTOFF=int(max_cutoff),
+            KX=kx, KY=ky, KZ=kz,
+            CIF_PATH=cif_path,
+            KINDS=kinds_str,
+            FOLDER=folder,
+            REAL_SPACE="T" if self.rspace else "F",
+        )
+        with open(output_path, "w") as f:
+            f.write(output_content)
+
+    def write_input_tzvp(
+        self,
+        output_path: str,
+        cif_path: str,
+        kx: int, ky: int, kz: int,
+        elem_q: Dict[str, int],
+        unique_elements: List[str],
+        unk_spins: bool,
+        folder: str,
+    ) -> None:
+        kinds_str = ""
+        for elem in unique_elements:
+            q = elem_q[elem]
+            kinds_str += f"""
+    &KIND {elem}
+      BASIS_SET {BASIS_FAMILY_TZVP}{q}
+      POTENTIAL {GTH_FAMILY_TZVP}{q}
+    &END KIND
+"""
+        output_content = self.template.format(
+            UKS="TRUE" if unk_spins else "FALSE",
             KX=kx, KY=ky, KZ=kz,
             CIF_PATH=cif_path,
             KINDS=kinds_str,
@@ -306,6 +378,56 @@ class CP2KInputGenerator:
 
             self.write_input_pbe(
                 output_path, input_path, max_cutoff,
+                kx, ky, kz, elem_q, unique, unk_spins, folder_rel
+            )
+        elif self.method == "scan":
+            total_e, unk_spins, missing = self.compute_electronic_config(unique, counts)
+
+            if missing:
+                metadata["skipped"] = True
+                metadata["skip_reason"] = f"Missing elems: {', '.join(sorted(missing))}"
+                return metadata
+
+            metadata["total_valence_electrons"] = total_e
+            metadata["unrestricted"] = unk_spins
+
+            if skip_if_unk and unk_spins:
+                metadata["skipped"] = True
+                metadata["skip_reason"] = "UKS required"
+                return metadata
+
+            max_cutoff = self.get_max_cutoff(unique)
+            elem_q = self.get_element_charges(unique)
+            metadata["cutoff"] = max_cutoff
+            metadata["element_charges"] = elem_q
+
+            self.write_input_scan(
+                output_path, input_path, max_cutoff,
+                kx, ky, kz, elem_q, unique, unk_spins, folder_rel
+            )
+        elif self.method == "tzvp":
+            total_e, unk_spins, missing = self.compute_electronic_config(unique, counts)
+
+            if missing:
+                metadata["skipped"] = True
+                metadata["skip_reason"] = f"Missing elems: {', '.join(sorted(missing))}"
+                return metadata
+
+            metadata["total_valence_electrons"] = total_e
+            metadata["unrestricted"] = unk_spins
+
+            if skip_if_unk and unk_spins:
+                metadata["skipped"] = True
+                metadata["skip_reason"] = "UKS required"
+                return metadata
+
+            max_cutoff = self.get_max_cutoff(unique)
+            elem_q = self.get_element_charges(unique)
+            metadata["cutoff"] = max_cutoff
+            metadata["element_charges"] = elem_q
+
+            self.write_input_tzvp(
+                output_path, input_path,
                 kx, ky, kz, elem_q, unique, unk_spins, folder_rel
             )
         else:  # xtb

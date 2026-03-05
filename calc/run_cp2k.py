@@ -12,9 +12,6 @@ import json
 import sys
 from datetime import datetime
 from pathlib import Path
-import h5py
-import pandas as pd
-import numpy as np
 
 from src.workflow import CP2KWorkflow
 from src.execute import CP2KExecutor
@@ -84,7 +81,8 @@ def main():
 
     parser.add_argument("--input", required=True, help="JSON file with input paths (CIF or XYZ)")
     parser.add_argument("--restart", default=None, help="Output folder of a previous run to restart incomplete jobs")
-    parser.add_argument("--method", required=True, choices=VALID_METHODS)
+    parser.add_argument("--method", required=True, choices=VALID_METHODS,
+                        help="charge_xtb: two-step xTB that retries with CHECK_ATOMIC_CHARGES F then T")
     parser.add_argument("--sym", default="XYZ", choices=["XYZ", "XY"], help="Symmetry of crystals")
     parser.add_argument("--template", default=None, help="CP2K input template")
     parser.add_argument("--output", default=None, help="Output directory")
@@ -156,14 +154,16 @@ def main():
         args.output = f"calc/out/{args.method}_{timestamp}"
 
     if args.template is None:
-        args.template = f"calc/src/input/template_{args.method}.inp"
+        # charge_xtb reuses the xtb template; the two-step logic is in execute.py
+        template_method = "xtb" if args.method == "charge_xtb" else args.method
+        args.template = f"calc/src/input/template_{template_method}.inp"
         if not Path(args.template).exists():
             print(f"Error: Template not found: {args.template}")
             sys.exit(1)
 
-    input_type = "XYZ" if args.method in {"xyz", "pbemol"} else "CIF"
+    input_type = "XYZ" if args.method in {"xyz", "pbemol"} else "CIF"  # charge_xtb → CIF
     space_type = "R-space" if args.rspace else "K-space"
-    uks_line = f"║  Include UKS:     {str(args.include_unk):<19}║\n" if args.method == "pbe" else ""
+    uks_line = f"║  Include UKS:     {str(args.include_unk):<19}║\n" if args.method in {"pbe", "scan", "tzvp"} else ""
 
     print(f"""
             ╔═════════════════════════════════════════╗
@@ -200,7 +200,7 @@ def main():
         method=args.method,
         sym=args.sym,
         rspace=args.rspace,
-        skip_if_unk=not args.include_unk if args.method == "pbe" else False,
+        skip_if_unk=not args.include_unk if args.method in {"pbe", "scan", "tzvp"} else False,
         log_level=args.log_level,
     )
 

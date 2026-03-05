@@ -1,5 +1,5 @@
 &GLOBAL
-  PROJECT pbe
+  PROJECT tzvp
   RUN_TYPE ENERGY
   PRINT_LEVEL MEDIUM
 &END GLOBAL
@@ -8,8 +8,8 @@
   METHOD Quickstep
 
   &DFT
-    BASIS_SET_FILE_NAME /home/nikolai/OrbitMat/calc/src/input/BASIS_MOLOPT_DZ
-    POTENTIAL_FILE_NAME /home/nikolai/OrbitMat/calc/src/input/POTENTIAL_DZ
+    BASIS_SET_FILE_NAME /home/nikolai/OrbitMat/calc/src/input/BASIS_MOLOPT_TZVP
+    POTENTIAL_FILE_NAME /home/nikolai/OrbitMat/calc/src/input/POTENTIAL_TZVP
     UKS {UKS}
 
     &MGRID
@@ -18,7 +18,7 @@
     &END MGRID
 
     &QS
-      EPS_DEFAULT 1.0E-10
+      EPS_DEFAULT 1.0E-12
     &END QS
 
     &XC
@@ -35,7 +35,7 @@
     &SCF
       SCF_GUESS ATOMIC
       EPS_SCF 1e-6
-      MAX_SCF 150
+      MAX_SCF 250
 
       &DIAGONALIZATION
         ALGORITHM STANDARD
@@ -48,7 +48,7 @@
       &END MIXING
 
       &SMEAR
-        ELECTRONIC_TEMPERATURE  300
+        ELECTRONIC_TEMPERATURE  500
         METHOD FERMI_DIRAC
       &END SMEAR
 

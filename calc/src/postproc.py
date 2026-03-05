@@ -9,8 +9,8 @@ import json
 import re
 import pickle
 
-from .config import OUTPUT, ELEM_PATH, XTB_PATH, PBE_PATH
-from .perm_and_blocks import _permute_block, _permute_block_pbe, apply_perm_map, get_perm_map, build_atom_ranges, get_block, compute_block_norm_squared_sparse
+from .config import OUTPUT, ELEM_PATH, XTB_PATH, PBE_PATH, SCAN_PATH, TZVP_PATH
+from .perm_and_blocks import _permute_block, _permute_block_pbe, _permute_block_scan, _permute_block_tzvp, apply_perm_map, get_perm_map, build_atom_ranges, get_block, compute_block_norm_squared_sparse
 
 ANG_TO_BOHR = 1.8897259886
 TEMP_SAVE_DIR = "matrices"
@@ -42,7 +42,15 @@ def norb_by_z(method):
         with open(json_path) as f:
             return {int(z): norb for z, norb in json.load(f).items()}
     elif method == "pbe":
-        json_path= PBE_PATH
+        json_path = PBE_PATH
+        with open(json_path) as f:
+            return {int(z): norb["total"] for z, norb in json.load(f).items()}
+    elif method == "scan":
+        json_path = SCAN_PATH
+        with open(json_path) as f:
+            return {int(z): norb["total"] for z, norb in json.load(f).items()}
+    elif method == "tzvp":
+        json_path = TZVP_PATH
         with open(json_path) as f:
             return {int(z): norb["total"] for z, norb in json.load(f).items()}
     
@@ -484,7 +492,14 @@ def get_topk_blocks(workdir, method, nao, atoms, T_vectors, norb_z, lattice_vecs
     """
     Extract top-k interaction blocks for each atom from periodic DFT matrices.
     """
-    permute_block = _permute_block_pbe if method == "pbe" else _permute_block
+    if method == "pbe":
+        permute_block = _permute_block_pbe
+    elif method == "scan":
+        permute_block = _permute_block_scan
+    elif method == "tzvp":
+        permute_block = _permute_block_tzvp
+    else:
+        permute_block = _permute_block
 
     n_atoms = len(atoms)
 

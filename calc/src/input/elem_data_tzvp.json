@@ -1,0 +1,286 @@
+{
+  "H": {
+    "Zval": 1,
+    "cutoff": 600
+  },
+  "He": {
+    "Zval": 2,
+    "cutoff": 600
+  },
+  "Li": {
+    "Zval": 3,
+    "cutoff": 600
+  },
+  "Be": {
+    "Zval": 4,
+    "cutoff": 600
+  },
+  "B": {
+    "Zval": 3,
+    "cutoff": 600
+  },
+  "C": {
+    "Zval": 4,
+    "cutoff": 600
+  },
+  "N": {
+    "Zval": 5,
+    "cutoff": 600
+  },
+  "O": {
+    "Zval": 6,
+    "cutoff": 600
+  },
+  "F": {
+    "Zval": 7,
+    "cutoff": 600
+  },
+  "Ne": {
+    "Zval": 8,
+    "cutoff": 600
+  },
+  "Na": {
+    "Zval": 9,
+    "cutoff": 600
+  },
+  "Mg": {
+    "Zval": 10,
+    "cutoff": 600
+  },
+  "Al": {
+    "Zval": 3,
+    "cutoff": 600
+  },
+  "Si": {
+    "Zval": 4,
+    "cutoff": 600
+  },
+  "P": {
+    "Zval": 5,
+    "cutoff": 600
+  },
+  "S": {
+    "Zval": 6,
+    "cutoff": 600
+  },
+  "Cl": {
+    "Zval": 7,
+    "cutoff": 600
+  },
+  "Ar": {
+    "Zval": 8,
+    "cutoff": 600
+  },
+  "K": {
+    "Zval": 9,
+    "cutoff": 600
+  },
+  "Ca": {
+    "Zval": 10,
+    "cutoff": 600
+  },
+  "Sc": {
+    "Zval": 11,
+    "cutoff": 600
+  },
+  "Ti": {
+    "Zval": 12,
+    "cutoff": 600
+  },
+  "V": {
+    "Zval": 13,
+    "cutoff": 600
+  },
+  "Cr": {
+    "Zval": 14,
+    "cutoff": 600
+  },
+  "Mn": {
+    "Zval": 15,
+    "cutoff": 600
+  },
+  "Fe": {
+    "Zval": 16,
+    "cutoff": 600
+  },
+  "Co": {
+    "Zval": 17,
+    "cutoff": 600
+  },
+  "Ni": {
+    "Zval": 18,
+    "cutoff": 600
+  },
+  "Cu": {
+    "Zval": 11,
+    "cutoff": 600
+  },
+  "Zn": {
+    "Zval": 12,
+    "cutoff": 600
+  },
+  "Ga": {
+    "Zval": 13,
+    "cutoff": 600
+  },
+  "Ge": {
+    "Zval": 4,
+    "cutoff": 600
+  },
+  "As": {
+    "Zval": 5,
+    "cutoff": 600
+  },
+  "Se": {
+    "Zval": 6,
+    "cutoff": 600
+  },
+  "Br": {
+    "Zval": 7,
+    "cutoff": 600
+  },
+  "Kr": {
+    "Zval": 8,
+    "cutoff": 600
+  },
+  "Rb": {
+    "Zval": 9,
+    "cutoff": 600
+  },
+  "Sr": {
+    "Zval": 10,
+    "cutoff": 600
+  },
+  "Y": {
+    "Zval": 11,
+    "cutoff": 600
+  },
+  "Zr": {
+    "Zval": 12,
+    "cutoff": 600
+  },
+  "Nb": {
+    "Zval": 13,
+    "cutoff": 600
+  },
+  "Mo": {
+    "Zval": 14,
+    "cutoff": 600
+  },
+  "Tc": {
+    "Zval": 15,
+    "cutoff": 600
+  },
+  "Ru": {
+    "Zval": 16,
+    "cutoff": 600
+  },
+  "Rh": {
+    "Zval": 17,
+    "cutoff": 600
+  },
+  "Pd": {
+    "Zval": 18,
+    "cutoff": 600
+  },
+  "Ag": {
+    "Zval": 11,
+    "cutoff": 600
+  },
+  "Cd": {
+    "Zval": 12,
+    "cutoff": 600
+  },
+  "In": {
+    "Zval": 13,
+    "cutoff": 600
+  },
+  "Sn": {
+    "Zval": 14,
+    "cutoff": 600
+  },
+  "Sb": {
+    "Zval": 5,
+    "cutoff": 600
+  },
+  "Te": {
+    "Zval": 6,
+    "cutoff": 600
+  },
+  "I": {
+    "Zval": 7,
+    "cutoff": 600
+  },
+  "Xe": {
+    "Zval": 8,
+    "cutoff": 600
+  },
+  "Cs": {
+    "Zval": 9,
+    "cutoff": 600
+  },
+  "Ba": {
+    "Zval": 10,
+    "cutoff": 600
+  },
+  "Hf": {
+    "Zval": 12,
+    "cutoff": 600
+  },
+  "Ta": {
+    "Zval": 13,
+    "cutoff": 600
+  },
+  "W": {
+    "Zval": 14,
+    "cutoff": 600
+  },
+  "Re": {
+    "Zval": 15,
+    "cutoff": 600
+  },
+  "Os": {
+    "Zval": 16,
+    "cutoff": 600
+  },
+  "Ir": {
+    "Zval": 17,
+    "cutoff": 600
+  },
+  "Pt": {
+    "Zval": 18,
+    "cutoff": 600
+  },
+  "Au": {
+    "Zval": 19,
+    "cutoff": 600
+  },
+  "Hg": {
+    "Zval": 12,
+    "cutoff": 600
+  },
+  "Tl": {
+    "Zval": 13,
+    "cutoff": 600
+  },
+  "Pb": {
+    "Zval": 4,
+    "cutoff": 600
+  },
+  "Bi": {
+    "Zval": 5,
+    "cutoff": 600
+  },
+  "Po": {
+    "Zval": 6,
+    "cutoff": 600
+  },
+  "At": {
+    "Zval": 7,
+    "cutoff": 600
+  },
+  "Rn": {
+    "Zval": 8,
+    "cutoff": 600
+  }
+}
