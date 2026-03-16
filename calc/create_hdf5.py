@@ -52,6 +52,7 @@ def create_pbc_hdf5(
     topk: int = 32,
     n_workers: int = 1,
     from_hdf5: Path | None = None,
+    continue_hdf5: Path | None = None,
     super_size: int = 2,
     use_dist: bool = False,
 ):

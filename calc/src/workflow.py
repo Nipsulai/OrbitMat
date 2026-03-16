@@ -21,6 +21,7 @@ class CP2KWorkflow:
         method: str,
         sym: str,
         rspace: bool = True,
+        tzvp_P: bool = False,
         skip_if_unk: bool = True,
         log_level: str = "INFO",
     ):
@@ -60,6 +61,7 @@ class CP2KWorkflow:
         self.logger.info(f"Loaded {len(self.input_paths)} {file_type} files")
 
         self.rspace = rspace
+        self.tzvp_P = tzvp_P
         self.input_generator = CP2KInputGenerator(
             method=method,
             sym=sym,
@@ -129,6 +131,7 @@ class CP2KWorkflow:
                 "work_dir": str(struct_dir),
                 "method": self.method,
                 "rspace": self.rspace,
+                "tzvp_P": self.tzvp_P,
                 "bandgap_info": self.bandgap_info.get(input_path),
                 "energy_dft_ha": self.energy_dft_ha.get(input_path),
             })

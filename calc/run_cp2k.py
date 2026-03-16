@@ -90,10 +90,13 @@ def main():
     parser.add_argument("--threads", type=int, default=4, help="Threads per job")
     parser.add_argument("--include-unk", action="store_true", help="Include UKS (PBE only)")
     parser.add_argument("--kspace", action="store_true", help="Output K-space matrices (default: R-space)")
+    parser.add_argument("--tzvp_P", action="store_true", help="TZVP only: output P in K-space, all other matrices in R-space")
     parser.add_argument("--log-level", choices=["DEBUG", "INFO", "WARNING"], default="INFO")
 
     args = parser.parse_args()
     args.rspace = not args.kspace
+    if args.tzvp_P:
+        args.rspace = True
 
     #if args.method in {"xyz", "xtb"}:
     #    args.parallel = 32
@@ -162,7 +165,7 @@ def main():
             sys.exit(1)
 
     input_type = "XYZ" if args.method in {"xyz", "pbemol"} else "CIF"  # charge_xtb → CIF
-    space_type = "R-space" if args.rspace else "K-space"
+    space_type = "R-space+P(K)" if args.tzvp_P else ("R-space" if args.rspace else "K-space")
     uks_line = f"║  Include UKS:     {str(args.include_unk):<19}║\n" if args.method in {"pbe", "scan", "tzvp"} else ""
 
     print(f"""
@@ -189,7 +192,7 @@ def main():
     executor = CP2KExecutor(
         n_parallel=args.parallel,
         threads_per_job=args.threads,
-        sym = args.sym
+        sym=args.sym,
     )
 
     workflow = CP2KWorkflow(
@@ -200,6 +203,7 @@ def main():
         method=args.method,
         sym=args.sym,
         rspace=args.rspace,
+        tzvp_P=args.tzvp_P,
         skip_if_unk=not args.include_unk if args.method in {"pbe", "scan", "tzvp"} else False,
         log_level=args.log_level,
     )

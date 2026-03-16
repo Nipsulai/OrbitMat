@@ -34,7 +34,7 @@
 
     &SCF
       SCF_GUESS ATOMIC
-      EPS_SCF 1e-6
+      EPS_SCF 1e-7
       MAX_SCF 250
 
       &DIAGONALIZATION
@@ -48,18 +48,19 @@
       &END MIXING
 
       &SMEAR
-        ELECTRONIC_TEMPERATURE  500
+        ELECTRONIC_TEMPERATURE  300
         METHOD FERMI_DIRAC
       &END SMEAR
 
-      ADDED_MOS 10
+      ADDED_MOS -1
     &END SCF
 
     &PRINT
       &MO
+        EIGENVECTORS T
         EIGENVALUES T
         OCCNUMS T
-        FILENAME {FOLDER}/eigenvalues
+        FILENAME eigenvalues
         ADD_LAST NUMERIC
         &EACH
           QS_SCF -1

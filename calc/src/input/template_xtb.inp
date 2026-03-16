@@ -11,7 +11,7 @@
     &QS
       METHOD XTB
       &XTB
-        CHECK_ATOMIC_CHARGES T    ! Keyword to check if Mulliken charges are physically reasonable
+        CHECK_ATOMIC_CHARGES F    ! Keyword to check if Mulliken charges are physically reasonable
         DO_EWALD  T               ! Ewald summation is required for periodic structures
         USE_HALOGEN_CORRECTION T  ! Element-specific correction for halogen interactions (Cl, Br) with (O, N)
       &END XTB

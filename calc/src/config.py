@@ -15,7 +15,7 @@ BASIS_FAMILY_TZVP = "TZVP-MOLOPT-PBE-GTH-q"
 GTH_FAMILY_TZVP = "GTH-PBE-q"
 
 # Calculation parameters
-TIMEOUT = 1000
+TIMEOUT = 1400
 KPOINTS_ACC = 1500
 # accuracy for kgrid generation
 KPOINTS_DENSITY = 6.0 # k-points density for 2D materials kgrids, per 1/Å

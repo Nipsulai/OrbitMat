@@ -132,7 +132,7 @@ def parse_cp2k_charges(out_file: Path) -> Tuple[Optional[np.ndarray], Optional[n
     h_arr = np.array(hirshfeld) if hirshfeld else None
     return m_arr, h_arr
 
-def convert_matrices_to_blocks(data: Dict, norb_by_z: Dict[int, int], method: str = "xtb", topk: int = 32, cutoff: float = 1e-7, use_dist: bool = False) -> list:
+def convert_matrices_to_blocks(data: Dict, norb_by_z: Dict[int, int], method: str = "xtb", topk: int = 32, cutoff: float = 1e-12, use_dist: bool = False) -> list:
     """
     Convert matrices (per translation T) to blocks.
 
@@ -224,11 +224,12 @@ def convert_matrices_to_blocks(data: Dict, norb_by_z: Dict[int, int], method: st
     else:
         ctr = 0
         for T_vec, mats in T_matrices.items():
-            scores = _block_norms(mats["F"])# * _block_norms(mats["P"]) # if you change this change cutoff
-            src_arr, ngb_arr = np.where(scores >= cutoff)
-            ctr += 1
-            if ctr >= 120:
+            if ctr >= 150:
                 break
+            scores = _block_norms(mats["P"])*_block_norms(mats["S"])*_block_norms(mats["F"])
+            src_arr, ngb_arr = np.where(scores >= cutoff)
+            #print(f"score: {scores.max():.3e}, blocks above cutoff: {len(src_arr)} for T={T_vec}")
+            ctr += 1
             for src0, ngb0 in zip(src_arr.tolist(), ngb_arr.tolist()):
                 blocks_by_source[src0 + 1].append({
                     'ngb': ngb0 + 1,
@@ -319,6 +320,7 @@ def convert_matrices_to_blocks(data: Dict, norb_by_z: Dict[int, int], method: st
                 #[b for b in neighbor_blocks if b['score'] >= topk_score * (1 - 1e-6)]
             else:
                 selected = neighbor_blocks
+                print(f"Topk {topk} not reached for atom {src} (only {len(neighbor_blocks)} neighbors above cutoff)")
             #max_nbr_selected = max(max_nbr_selected, len(selected))
 
         for block in selected:

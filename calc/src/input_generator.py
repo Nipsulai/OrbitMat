@@ -121,6 +121,41 @@ class CP2KInputGenerator:
     def _to_odd(self, n: int) -> int:
         return n + 1 - (n % 2)
 
+    def _make_odd_min_5(self, n):
+        """Ensures a k-point dimension is odd and at least 5."""
+        n = int(round(n))
+        # Ensure minimum of 5
+        if n < 5:
+            return 5
+        # Ensure odd
+        if n % 2 == 0:
+            return n + 1
+        return n
+
+    def compute_kpoints2(self, struct, sym, bravais):
+        if sym == "XYZ":
+            # Generate density-based k-points
+            kpts_obj = Kpoints.automatic_density(struct, kppa=KPOINTS_ACC)
+            kx, ky, kz = kpts_obj.kpts[0]
+            
+            # Apply constraints to all dimensions in 3D
+            kx = self._make_odd_min_5(kx)
+            ky = self._make_odd_min_5(ky)
+            kz = self._make_odd_min_5(kz)
+
+        elif sym == "XY":
+            atoms = AseAtomsAdaptor.get_atoms(struct)
+            # ASE returns a list of 3 integers
+            kpts = kptdensity2monkhorstpack(atoms, kptdensity=KPOINTS_DENSITY)
+            
+            # Apply constraints to X and Y
+            kx = self._make_odd_min_5(kpts[0])
+            ky = self._make_odd_min_5(kpts[1])
+            # Z remains 1 for 2D/Slab calculations to avoid periodicity errors
+            kz = 1
+            
+        return kx, ky, kz
+
     def compute_kpoints(self, struct: Structure, sym, bravais):
         if sym == "XYZ":
             kpts = Kpoints.automatic_density(struct, kppa=KPOINTS_ACC)
