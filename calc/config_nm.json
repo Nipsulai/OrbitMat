@@ -1,0 +1,14 @@
+{
+  "method":      "tzvp",
+  "input":       "data/bandgap2025/filtered/run_0324_1359/data.json",
+  "output":      null,
+  "parallel":    16,
+  "threads":     2,
+  "dim":         "3D",
+  "template":    null,
+  "include_unk": false,
+  "kspace":      false,
+  "band":        true,
+  "use_uks":     false,
+  "log_level":   "INFO"
+}
