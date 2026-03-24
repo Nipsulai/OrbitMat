@@ -9,7 +9,7 @@ from typing import Dict, List
 
 from .input_generator import CP2KInputGenerator
 from .execute import CP2KExecutor
-from .config import VALID_METHODS
+from .config import VALID_METHODS, METHODS
 
 class CP2KWorkflow:
     def __init__(
@@ -21,8 +21,9 @@ class CP2KWorkflow:
         method: str,
         sym: str,
         rspace: bool = True,
-        tzvp_P: bool = False,
         skip_if_unk: bool = True,
+        band: bool = False,
+        use_uks: bool = False,
         log_level: str = "INFO",
     ):
         self.base_output_dir = Path(base_output_dir)
@@ -52,16 +53,12 @@ class CP2KWorkflow:
             entry["cif_path"]: entry.get("energy_dft_Ha")
             for entry in input_data
         }
-        self.bravais = {
-            entry["cif_path"]: entry.get("bravais")
-            for entry in input_data
-        }
-
-        file_type = "XYZ" if self.method == "xyz" else "CIF"
+        file_type = "XYZ" if not METHODS[self.method].periodic else "CIF"
         self.logger.info(f"Loaded {len(self.input_paths)} {file_type} files")
 
         self.rspace = rspace
-        self.tzvp_P = tzvp_P
+        self.band = band
+        self.use_uks = use_uks
         self.input_generator = CP2KInputGenerator(
             method=method,
             sym=sym,
@@ -71,7 +68,7 @@ class CP2KWorkflow:
         )
 
         self.executor = executor
-        self.skip_if_unk = skip_if_unk if method == "pbe" else False
+        self.skip_if_unk = skip_if_unk if METHODS[method].has_dft else False
         self.metadata_db = {}
 
     def _setup_logger(self, level: str) -> logging.Logger:
@@ -105,7 +102,19 @@ class CP2KWorkflow:
         jobs = []
         skipped_count = 0
 
-        for input_path in self.input_paths:
+        for entry in self.input_entries:
+            input_path = entry["cif_path"]
+            struct_uks = entry.get("uks", False)
+
+            # UKS filtering: skip UKS structures when use_uks=False
+            if not self.use_uks and struct_uks:
+                self.metadata_db[input_path] = {
+                    "skipped": True,
+                    "skip_reason": "UKS structure skipped (use_uks=False)",
+                }
+                skipped_count += 1
+                continue
+
             struct_id = self._get_structure_id(input_path)
             struct_dir = self.base_output_dir / struct_id
             struct_dir.mkdir(parents=True, exist_ok=True)
@@ -114,13 +123,20 @@ class CP2KWorkflow:
             metadata = self.input_generator.generate_input(
                 input_path=input_path,
                 output_path=str(input_file),
-                bravais= self.bravais.get(input_path),
-                skip_if_unk=self.skip_if_unk,
+                band=self.band,
+                uks=self.use_uks and struct_uks,
             )
 
             self.metadata_db[input_path] = metadata
 
             if metadata.get("skipped"):
+                skipped_count += 1
+                continue
+
+            # Skip structures that need UKS but we're running RKS-only
+            if self.skip_if_unk and metadata.get("unrestricted") and not (self.use_uks and struct_uks):
+                metadata["skipped"] = True
+                metadata["skip_reason"] = "UKS required"
                 skipped_count += 1
                 continue
 
@@ -131,7 +147,7 @@ class CP2KWorkflow:
                 "work_dir": str(struct_dir),
                 "method": self.method,
                 "rspace": self.rspace,
-                "tzvp_P": self.tzvp_P,
+                "band": self.band,
                 "bandgap_info": self.bandgap_info.get(input_path),
                 "energy_dft_ha": self.energy_dft_ha.get(input_path),
             })
@@ -140,6 +156,22 @@ class CP2KWorkflow:
         if not jobs:
             raise ValueError("No input files created")
         return jobs
+
+    def _save_result(self, result: Dict) -> None:
+        """Merge one job result into metadata_db and write metadata.json immediately."""
+        result = dict(result)  # don't mutate the original
+        work_dir = result.pop("_work_dir")
+        struct_id = Path(work_dir).name
+        for path in self.input_paths:
+            if self._get_structure_id(path) == struct_id:
+                if path in self.metadata_db:
+                    self.metadata_db[path].update(result)
+                else:
+                    self.metadata_db[path] = dict(result)
+                meta_out = {k: v for k, v in self.metadata_db[path].items()}
+                with open(Path(work_dir) / "metadata.json", "w") as f:
+                    json.dump(meta_out, f, indent=2)
+                break
 
     def merge_metadata(self, results: List[Dict]) -> None:
         for result in results:
@@ -188,6 +220,5 @@ class CP2KWorkflow:
     def run(self) -> None:
         self.logger.info(f"Starting workflow (method={self.method})")
         jobs = self.generate_inputs()
-        results = self.executor.execute_batch(jobs)
-        self.merge_metadata(results)
+        results = self.executor.execute_batch(jobs, result_callback=self._save_result)
         self.save_metadata()

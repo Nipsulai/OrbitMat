@@ -3,72 +3,130 @@
 Runs CP2K calculations.
 
 Usage:
-    python run_cp2k.py --input structures.json --method pbe --parallel 8 --threads 4
-    python run_cp2k.py --restart calc/out/pbe/ --input data.json --method pbe
+    python run_cp2k.py config.json
+    python run_cp2k.py config.json --restart calc/out/dz_0401_1200/
 """
 
 import argparse
 import json
 import sys
+from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
+from typing import Optional
 
 from src.workflow import CP2KWorkflow
 from src.execute import CP2KExecutor
-from src.config import VALID_METHODS
+from src.config import METHODS
+
+
+# ── Run configuration ─────────────────────────────────────────────────────────
+
+@dataclass
+class RunConfig:
+    method: str
+    input: str
+    output: Optional[str]   = None
+    parallel: int           = 8
+    threads: int            = 4
+    dim: str                = "3D"
+    template: Optional[str] = None
+    include_unk: bool       = False
+    kspace: bool            = False
+    band: bool              = False
+    use_uks: bool           = False
+    log_level: str          = "INFO"
+
+    @classmethod
+    def from_json(cls, path: Path) -> "RunConfig":
+        with open(path) as f:
+            data = json.load(f)
+        cfg = cls(**data)
+        cfg.validate()
+        return cfg
+
+    @property
+    def rspace(self) -> bool:
+        return not self.kspace
+
+    def validate(self) -> None:
+        if self.method not in METHODS:
+            raise ValueError(f"Unknown method: '{self.method}'. Valid: {list(METHODS)}")
+        mcfg = METHODS[self.method]
+        if self.band and not mcfg.supports_band:
+            raise ValueError(f"band=true not supported for method '{self.method}'")
+        if self.dim not in ("3D", "2D"):
+            raise ValueError(f"dim must be '3D' or '2D', got '{self.dim}'")
+        if self.log_level not in ("DEBUG", "INFO", "WARNING"):
+            raise ValueError(f"log_level must be DEBUG/INFO/WARNING, got '{self.log_level}'")
+        if self.parallel * self.threads > 32:
+            raise ValueError(
+                f"parallel ({self.parallel}) * threads ({self.threads}) = "
+                f"{self.parallel * self.threads} exceeds 32"
+            )
+        if not Path(self.input).exists():
+            raise FileNotFoundError(f"Input file not found: {self.input}")
+
+    def resolve_template(self) -> str:
+        if self.template is not None:
+            if not Path(self.template).exists():
+                raise FileNotFoundError(f"Template not found: {self.template}")
+            return self.template
+        stem = METHODS[self.method].template
+        path = f"calc/src/input/template/{stem}.inp"
+        if not Path(path).exists():
+            raise FileNotFoundError(f"Template not found: {path}")
+        return path
+
+    def resolve_output(self) -> str:
+        if self.output is not None:
+            return self.output
+        timestamp = datetime.now().strftime("%m%d_%H%M")
+        return f"calc/out/{self.method}_{timestamp}"
+
+
+# ── Restart helper ────────────────────────────────────────────────────────────
 
 def collect_restart_jobs(restart_dir: Path, input_json: str, method: str) -> list:
-    """Scan restart_dir for subfolders that need to be run.
+    """Scan restart_dir for subfolders that still need to be run.
 
-    Skips subfolders that contain:
-      - matrices.pkl  (successful run)
-      - out.cp2k      (attempted but did not converge)
-    #TODO: Restart the unconverged structures from .kp files
-    Runs subfolders that have input.inp but neither of the above.
+    Skips:   matrices.pkl  (success)  |  out.cp2k  (attempted, did not converge)
+    Runs:    has input.inp but neither of the above
     """
     restart_dir = Path(restart_dir)
     if not restart_dir.is_dir():
         print(f"Error: Restart directory not found: {restart_dir}")
         sys.exit(1)
 
-    # Load JSON to get bandgap_info
-    with open(input_json, "r") as f:
+    with open(input_json) as f:
         input_data = json.load(f)
     if isinstance(input_data, dict):
         input_data = list(input_data.values())
 
-    entry_by_id = {}
-    for entry in input_data:
-        struct_id = Path(entry["cif_path"]).stem
-        entry_by_id[struct_id] = entry
+    entry_by_id = {Path(e["cif_path"]).stem: e for e in input_data}
 
     jobs = []
-    skipped_done = 0
-    skipped_failed = 0
+    skipped_done = skipped_failed = 0
 
     for sub in sorted(restart_dir.iterdir()):
         if not sub.is_dir():
             continue
-
-        input_file = sub / "input.inp"
-        if not input_file.exists():
+        if not (sub / "input.inp").exists():
             continue
-
         if (sub / "matrices.pkl").exists():
             skipped_done += 1
             continue
-
         if (sub / "out.cp2k").exists():
             skipped_failed += 1
             continue
 
         entry = entry_by_id.get(sub.name)
         jobs.append({
-            "job_id": sub.name,
-            "input_path": entry["cif_path"] if entry else None,
-            "input_file": str(input_file.resolve()),
-            "work_dir": str(sub.resolve()),
-            "method": method,
+            "job_id":      sub.name,
+            "input_path":  entry["cif_path"] if entry else None,
+            "input_file":  str((sub / "input.inp").resolve()),
+            "work_dir":    str(sub.resolve()),
+            "method":      method,
             "bandgap_info": entry.get("bandgap_info") if entry else None,
         })
 
@@ -76,141 +134,125 @@ def collect_restart_jobs(restart_dir: Path, input_json: str, method: str) -> lis
     return jobs
 
 
+# ── Main ──────────────────────────────────────────────────────────────────────
+
+# ── Banner ────────────────────────────────────────────────────────────────────
+_RAINBOW = ["\033[91m", "\033[93m", "\033[92m", "\033[96m", "\033[94m", "\033[95m"]
+_RESET   = "\033[0m"
+_W, _VW  = 41, 19   # interior width, value column width
+
+
+def _banner(title: str, rows: list) -> None:
+    lw = _W - _VW  # label column width = 22
+    lines = [
+        f"╔{'═' * _W}╗",
+        f"║{title:^{_W}}║",
+        f"╠{'═' * _W}╣",
+        *(f"║  {lbl:<{lw - 2}}{str(val):<{_VW}}║" for lbl, val in rows),
+        f"╚{'═' * _W}╝",
+    ]
+    print()
+    for i, line in enumerate(lines):
+        print(f"            {_RAINBOW[i % len(_RAINBOW)]}{line}{_RESET}")
+    print()
+
+
 def main():
     parser = argparse.ArgumentParser(description="CP2K Calculator")
-
-    parser.add_argument("--input", required=True, help="JSON file with input paths (CIF or XYZ)")
-    parser.add_argument("--restart", default=None, help="Output folder of a previous run to restart incomplete jobs")
-    parser.add_argument("--method", required=True, choices=VALID_METHODS,
-                        help="charge_xtb: two-step xTB that retries with CHECK_ATOMIC_CHARGES F then T")
-    parser.add_argument("--sym", default="XYZ", choices=["XYZ", "XY"], help="Symmetry of crystals")
-    parser.add_argument("--template", default=None, help="CP2K input template")
-    parser.add_argument("--output", default=None, help="Output directory")
-    parser.add_argument("--parallel", type=int, default=8, help="Parallel jobs")
-    parser.add_argument("--threads", type=int, default=4, help="Threads per job")
-    parser.add_argument("--include-unk", action="store_true", help="Include UKS (PBE only)")
-    parser.add_argument("--kspace", action="store_true", help="Output K-space matrices (default: R-space)")
-    parser.add_argument("--tzvp_P", action="store_true", help="TZVP only: output P in K-space, all other matrices in R-space")
-    parser.add_argument("--log-level", choices=["DEBUG", "INFO", "WARNING"], default="INFO")
-
+    parser.add_argument("config", help="JSON config file")
+    parser.add_argument("--restart", default=None,
+                        help="Output folder of a previous run to restart incomplete jobs")
     args = parser.parse_args()
-    args.rspace = not args.kspace
-    if args.tzvp_P:
-        args.rspace = True
 
-    #if args.method in {"xyz", "xtb"}:
-    #    args.parallel = 32
-    #    args.threads = 1
-
-    total_threads = args.parallel * args.threads
-    if total_threads > 32:
-        print(f"Warning: Total threads ({total_threads}) exceeds 32")
+    try:
+        cfg = RunConfig.from_json(Path(args.config))
+    except (ValueError, FileNotFoundError) as e:
+        print(f"Config error: {e}")
         sys.exit(1)
 
-    if not Path(args.input).exists():
-        print(f"Error: Input list not found: {args.input}")
-        sys.exit(1)
+    template  = cfg.resolve_template()
+    output    = cfg.resolve_output()
+    total_threads = cfg.parallel * cfg.threads
+    mcfg      = METHODS[cfg.method]
 
-    # Whether continue previoous run
+    # ── Restart path ─────────────────────────────────────────────────────────
     if args.restart is not None:
-        restart_dir = Path(args.restart)
-        jobs = collect_restart_jobs(restart_dir, args.input, args.method)
-
+        jobs = collect_restart_jobs(Path(args.restart), cfg.input, cfg.method)
         if not jobs:
             print("Nothing to run.")
             sys.exit(0)
 
-        print(f"""
-            ╔═════════════════════════════════════════╗
-            ║       CP2K Restart Calculation          ║
-            ╠═════════════════════════════════════════╣
-            ║  Method:          {args.method.upper():<19}║
-            ║  Restart dir:     {restart_dir.name:<19}║
-            ║  Jobs to run:     {len(jobs):<19}║
-            ║  Parallel:        {args.parallel:<19}║
-            ║  Threads/job:     {args.threads:<19}║
-            ║  Total threads:   {total_threads:<19}║
-            ╚═════════════════════════════════════════╝
-            """)
+        _banner("CP2K Restart Calculation", [
+            ("Method:",       cfg.method.upper()),
+            ("Restart dir:",  Path(args.restart).name),
+            ("Jobs to run:",  len(jobs)),
+            ("Parallel:",     cfg.parallel),
+            ("Threads/job:",  cfg.threads),
+            ("Total threads:", total_threads),
+        ])
 
-        response = input("Proceed? (y/n): ")
-        if response.lower() != "y":
+        if input("Proceed? (y/n): ").lower() != "y":
             print("Cancelled")
             sys.exit(0)
 
         executor = CP2KExecutor(
-            n_parallel=args.parallel,
-            threads_per_job=args.threads,
-            sym=args.sym,
-            rspace=args.rspace,
+            n_parallel=cfg.parallel,
+            threads_per_job=cfg.threads,
+            sym=cfg.dim,
+            rspace=cfg.rspace,
         )
-
         results = executor.execute_batch(jobs)
-
-        n_success = sum(1 for r in results if r["success"])
-        n_failed = len(results) - n_success
-        print(f"\n Restart complete. {n_success} succeeded, {n_failed} failed.")
+        n_ok = sum(1 for r in results if r["success"])
+        print(f"\nRestart complete. {n_ok} succeeded, {len(results)-n_ok} failed.")
         sys.exit(0)
 
-    if args.output is None:
-        timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-        args.output = f"calc/out/{args.method}_{timestamp}"
+    # ── Normal run ────────────────────────────────────────────────────────────
+    input_type = "XYZ" if not mcfg.periodic else "CIF"
+    space_type = "R-space" if cfg.rspace else "K-space"
+    rows = [
+        ("Method:",        cfg.method.upper()),
+        ("Matrices:",      space_type),
+        ("Input type:",    input_type),
+        ("Input list:",    Path(cfg.input).name),
+        ("Template:",      Path(template).name),
+        ("Output:",        Path(output).name),
+        ("Parallel:",      cfg.parallel),
+        ("Threads/job:",   cfg.threads),
+        ("Total threads:", total_threads),
+    ]
+    if mcfg.has_dft:
+        rows.append(("Include UKS:", cfg.include_unk))
+    if cfg.band:
+        rows.append(("Band structure:", cfg.band))
+    _banner("CP2K Calculator", rows)
 
-    if args.template is None:
-        # charge_xtb reuses the xtb template; the two-step logic is in execute.py
-        template_method = "xtb" if args.method == "charge_xtb" else args.method
-        args.template = f"calc/src/input/template_{template_method}.inp"
-        if not Path(args.template).exists():
-            print(f"Error: Template not found: {args.template}")
-            sys.exit(1)
-
-    input_type = "XYZ" if args.method in {"xyz", "pbemol"} else "CIF"  # charge_xtb → CIF
-    space_type = "R-space+P(K)" if args.tzvp_P else ("R-space" if args.rspace else "K-space")
-    uks_line = f"║  Include UKS:     {str(args.include_unk):<19}║\n" if args.method in {"pbe", "scan", "tzvp"} else ""
-
-    print(f"""
-            ╔═════════════════════════════════════════╗
-            ║       CP2K Calculator                   ║
-            ╠═════════════════════════════════════════╣
-            ║  Method:          {args.method.upper():<19}║
-            ║  Matrices:        {space_type:<19}║
-            ║  Input type:      {input_type:<19}║
-            ║  Input list:      {Path(args.input).name:<19}║
-            ║  Template:        {args.template:<19}║
-            ║  Output:          {Path(args.output).name:<19}║
-            ║  Parallel:        {args.parallel:<19}║
-            ║  Threads/job:     {args.threads:<19}║
-            ║  Total threads:   {total_threads:<19}║
-            {uks_line}╚═════════════════════════════════════════╝
-            """)
-
-    response = input("Proceed? (y/n): ")
-    if response.lower() != "y":
+    if input("Proceed? (y/n): ").lower() != "y":
         print("Cancelled")
         sys.exit(0)
 
     executor = CP2KExecutor(
-        n_parallel=args.parallel,
-        threads_per_job=args.threads,
-        sym=args.sym,
+        n_parallel=cfg.parallel,
+        threads_per_job=cfg.threads,
+        sym=cfg.dim,
+        rspace=cfg.rspace,
     )
 
     workflow = CP2KWorkflow(
-        input_list_json=args.input,
-        base_output_dir=args.output,
-        template_file=args.template,
+        input_list_json=cfg.input,
+        base_output_dir=output,
+        template_file=template,
         executor=executor,
-        method=args.method,
-        sym=args.sym,
-        rspace=args.rspace,
-        tzvp_P=args.tzvp_P,
-        skip_if_unk=not args.include_unk if args.method in {"pbe", "scan", "tzvp"} else False,
-        log_level=args.log_level,
+        method=cfg.method,
+        sym=cfg.dim,
+        rspace=cfg.rspace,
+        band=cfg.band,
+        skip_if_unk=not cfg.include_unk if mcfg.has_dft else False,
+        use_uks=cfg.use_uks,
+        log_level=cfg.log_level,
     )
 
     workflow.run()
-
-    print(f"\n Complete. Results: {args.output}")
+    print(f"\nComplete. Results: {output}")
 
 
 if __name__ == "__main__":

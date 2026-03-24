@@ -1,717 +1,111 @@
-from scipy.sparse import csr_matrix
 import numpy as np
 import shutil
 from pathlib import Path
-from collections import defaultdict
 from typing import Dict, List, Any
-from dataclasses import dataclass
 import json
-import re
-import pickle
 
-from .config import OUTPUT, ELEM_PATH, XTB_PATH, PBE_PATH, SCAN_PATH, TZVP_PATH
+from .config import XTB_PATH, PBE_PATH, SCAN_PATH, TZVP_PATH, METHODS
+from .npz_io import write_periodic, write_molecular
+from .parse_cp2k import (
+    Atom, BandgapResult, TEMP_SAVE_DIR,
+    get_elem_symb_atomnumber_dict,
+    parse_cp2k_output, _detect_uks, parse_matrix, parse_molog,
+)
 from .perm_and_blocks import _permute_block, _permute_block_pbe, _permute_block_scan, _permute_block_tzvp, apply_perm_map, get_perm_map, build_atom_ranges, get_block, compute_block_norm_squared_sparse
 
-ANG_TO_BOHR = 1.8897259886
-TEMP_SAVE_DIR = "matrices"
-
-@dataclass
-class Atom:
-    idx: int
-    element: str
-    atomnum: int
-    coord_bohr: np.ndarray
-
-    def __getitem__(self, key):
-        return getattr(self, key)
-
-_elem_symb_atomnumber_dict = None
-
-def get_elem_symb_atomnumber_dict():
-    """Lazily load element symbol to atomic number mapping."""
-    global _elem_symb_atomnumber_dict
-    if _elem_symb_atomnumber_dict is None:
-        _elem_symb_atomnumber_dict = dict(
-            zip(np.loadtxt(f"{ELEM_PATH}", dtype=str), np.arange(118) + 1)
-        )
-    return _elem_symb_atomnumber_dict
-
 def norb_by_z(method):
-    if method == "xtb":
-        json_path = XTB_PATH
-        with open(json_path) as f:
-            return {int(z): norb for z, norb in json.load(f).items()}
-    elif method == "pbe":
-        json_path = PBE_PATH
-        with open(json_path) as f:
-            return {int(z): norb["total"] for z, norb in json.load(f).items()}
-    elif method == "scan":
-        json_path = SCAN_PATH
-        with open(json_path) as f:
-            return {int(z): norb["total"] for z, norb in json.load(f).items()}
-    elif method == "tzvp":
-        json_path = TZVP_PATH
-        with open(json_path) as f:
-            return {int(z): norb["total"] for z, norb in json.load(f).items()}
-    
-
-def parse_cp2k_output(workdir):
-    nao = 0
-    atoms = []
-    coords_bohr= []
-    in_coords = False
-    energy_Ha = None
-    T_vectors = None
-    K_vectors = None
-    K_weights = None
-    lattice_vecs_bohr = None
-
-    # Load element mapping
-    elem_symb_atomnumber_dict = get_elem_symb_atomnumber_dict()
-
-    with open(f"{workdir}/{OUTPUT}", "r") as f:
-        lines = f.readlines()
-
-    for i, line in enumerate(lines):
-        if 'Number of orbital functions:' in line:
-            nao = int(line.split()[-1])
-
-        if 'CELL| Vector a [angstrom]:' in line:
-            # Parse lattice vectors a, b, c
-            # Format: "CELL| Vector a [angstrom]:       4.587     0.000     0.000   |a| =     4.586627"
-            parts_a = line.split()
-            vec_a = [float(parts_a[4]), float(parts_a[5]), float(parts_a[6])]
-
-            # Next two lines should be vectors b and c
-            if i + 1 < len(lines) and 'CELL| Vector b [angstrom]:' in lines[i + 1]:
-                parts_b = lines[i + 1].split()
-                vec_b = [float(parts_b[4]), float(parts_b[5]), float(parts_b[6])]
-
-            if i + 2 < len(lines) and 'CELL| Vector c [angstrom]:' in lines[i + 2]:
-                parts_c = lines[i + 2].split()
-                vec_c = [float(parts_c[4]), float(parts_c[5]), float(parts_c[6])]
-
-            lattice_vecs_bohr = np.array([vec_a, vec_b, vec_c], dtype=np.float32)*ANG_TO_BOHR
-
-        if 'CSR writ' in line and 'periodic images' in line:
-            # Format can be:
-            # "KS CSR write|2037 periodic images"
-            # or malformed (e.g. missing 'e|')
-            # "HCORE CSR writ2037 periodic images"
-            # Extract the number robustly using regex
-            match = re.search(r'(\d+)\s+periodic images', line)
-            if match:
-                nT = int(match.group(1))
-                # Skip the header line "Number    X      Y      Z"
-                T_list = []
-                for j in range(1, nT + 1):
-                    if i + j + 1 >= len(lines):
-                        break
-                    data_line = lines[i + j + 1]
-                    parts = data_line.strip().split()
-                    if len(parts) >= 4:
-                        # Index is parts[0], X Y Z are parts[1:4]
-                        T_list.append([int(parts[1]), int(parts[2]), int(parts[3])])
-
-                # Validate that we parsed the expected number of T-vectors
-                if len(T_list) != nT:
-                    import warnings
-                    warnings.warn(
-                        f"Expected {nT} T-vectors but parsed {len(T_list)}. "
-                        "File may be truncated or malformed."
-                    )
-                T_vectors = np.array(T_list, dtype=np.int32)
-
-        if 'BRILLOUIN| List of Kpoints' in line:
-            nK = int(line.split()[-1])
-            # Skip next line (header: "BRILLOUIN| Number  Weight  X  Y  Z")
-            K_list = []
-            W_list = []
-            for j in range(1, nK + 1):
-                if i + j + 1 >= len(lines):
-                    break
-                data_line = lines[i + j + 1]
-                if 'BRILLOUIN|' not in data_line:
-                    break
-                parts = data_line.strip().split()
-                # Format: ['BRILLOUIN|', idx, weight, X, Y, Z]
-                if len(parts) >= 6:
-                    W_list.append(float(parts[2]))
-                    K_list.append([float(parts[3]), float(parts[4]), float(parts[5])])
-
-            if len(K_list) != nK:
-                import warnings
-                warnings.warn(
-                    f"Expected {nK} K-points but parsed {len(K_list)}. "
-                    "File may be truncated or malformed."
-                )
-            K_vectors  = np.array(K_list, dtype=np.float64)
-            K_weights  = np.array(W_list, dtype=np.float64)
-
-        if "MODULE QUICKSTEP: ATOMIC COORDINATES" in line:
-            in_coords = True
-            continue
-    
-        if "ENERGY| Total FORCE_EVAL" in line:
-            energy_Ha = float(line.split()[-1])
-        
-        if in_coords:
-            # Skip header lines
-            if "Atom Kind Element" in line:
-                continue
-
-            # End coordinate parsing on blank line or separator
-            if not line.strip() or line.strip().startswith('---'):
-                if atoms:  # Only end if we've found atoms
-                    in_coords = False
-                continue
-
-            parts = line.split()
-            # Atom line starts with atom_index and has enough fields
-            if len(parts) >= 7 and parts[0].isdigit():
-                try:
-                    X = float(parts[4]) * ANG_TO_BOHR
-                    Y = float(parts[5]) * ANG_TO_BOHR
-                    Z = float(parts[6]) * ANG_TO_BOHR
-
-                    atoms.append(Atom(
-                        idx=int(parts[0]),
-                        element=parts[2],
-                        atomnum=elem_symb_atomnumber_dict[parts[2]],
-                        coord_bohr=np.array([X, Y, Z])
-                    ))
-
-                    coords_bohr.append([X, Y, Z])
-                except (ValueError, KeyError):
-                    # Skip malformed lines but continue parsing
-                    pass
-            elif atoms:
-                # If we have atoms and hit a non-atom line, stop parsing
-                in_coords = False
-
-    if nao == 0:
-        raise ValueError("Could not find 'Number of orbital functions'")
-    if energy_Ha is None:
-        raise ValueError("Could not parse energy")
-    if len(atoms) == 0:
-        raise ValueError("Could not parse atoms")
-    if len(coords_bohr) != len(atoms):
-        raise ValueError("Mismatch between atoms and coordinates")
-    
-    # Convert to numpy array in Bohr
-    coords_bohr = np.array(coords_bohr)
-
-    return nao, atoms, coords_bohr, energy_Ha, T_vectors, K_vectors, K_weights, lattice_vecs_bohr
-
-def parse_matrix(work_dir, method, matrix_type, nao, binary=True, TK_idx=None, keep_sparse=True, rspace=False):
-    """
-    Parse matrix from file.
-
-    Args:
-        keep_sparse: If True, return scipy.sparse.csr_matrix. If False, return dense numpy array.
-                     Defaults to True for better performance.
-        rspace: If True, parse r-space (complex) matrices. Each record is 32 bytes
-                (complex128 value) instead of 24 bytes (float64 value) for R-space.
-    """
-    if TK_idx is not None:
-        space = "R" if rspace else "K"
-        filepath = f"{work_dir}/{TEMP_SAVE_DIR}/{method}-{matrix_type}_SPIN_1_{space}_{TK_idx+1}-1_0.csr"
+    """Return {atomic_number: n_orbitals} for the given method's basis set."""
+    cfg = METHODS[method]
+    if cfg.norb_json_path is None:
+        raise ValueError(f"No norb_json_path configured for method '{method}'")
+    with open(cfg.norb_json_path) as f:
+        data = json.load(f)
+    if cfg.has_dft:
+        return {int(z): norb["total"] for z, norb in data.items()}
     else:
-        filepath = f"{work_dir}/{TEMP_SAVE_DIR}/{method}-{matrix_type}_SPIN_1-1_0.csr"
-    if binary:
-        with open(filepath, "rb") as f:
-            raw_data = np.fromfile(f, dtype=np.uint8)
+        return {int(z): norb for z, norb in data.items()}
 
-        if rspace:
-            # R-space records: int32 marker, int32 row, int32 col, float64 value, int32 marker
-            # Total: 4 + 4 + 4 + 8 + 4 = 24 bytes
-            record_size = 24
-            dtype = np.dtype([
-                ('marker1', np.int32),
-                ('row', np.int32),
-                ('col', np.int32),
-                ('value', np.float64),
-                ('marker2', np.int32)
-            ])
-            empty_mat = csr_matrix((nao, nao))
-        else:
-            # K-space records: int32 marker, int32 row, int32 col, complex128 value, int32 marker
-            # Total: 4 + 4 + 4 + 16 + 4 = 32 bytes
-            record_size = 32
-            dtype = np.dtype([
-                ('marker1', np.int32),
-                ('row', np.int32),
-                ('col', np.int32),
-                ('value', np.complex128),
-                ('marker2', np.int32)
-            ])
-            empty_mat = csr_matrix((nao, nao), dtype=np.complex64)
 
-        n_records = len(raw_data) // record_size
-
-        if n_records == 0:
-            return empty_mat if keep_sparse else empty_mat.toarray()
-
-        # View raw bytes as structured array (zero-copy)
-        records = np.frombuffer(raw_data[:n_records * record_size], dtype=dtype)
-
-        rows = records['row'].astype(np.int32) - 1  # Convert to 0-indexed
-        cols = records['col'].astype(np.int32) - 1  # Convert to 0-indexed
-        if rspace:
-            data = records['value'].astype(np.float32)
-        else:
-            data = records['value'].astype(np.complex64)
-
-        mat = csr_matrix((data, (rows, cols)), shape=(nao, nao))
-        return mat if keep_sparse else mat.toarray()
-    else:
-        r, c, data = np.loadtxt(
-            filepath,
-            unpack=True,
-        )
-        mat = csr_matrix(
-            (data, (np.int32(r - 1), np.int32(c - 1))),
-            shape=(nao, nao)
-        )
-        return mat if keep_sparse else mat.toarray()
-
-from dataclasses import dataclass
-from typing import Optional
-
-
-@dataclass
-class BandgapResult:
-    """Results from bandgap calculation."""
-    bandgap_eV: float
-    vbm_eV: float
-    cbm_eV: float
-    is_direct: bool
-    vbm_kpoint: int
-    cbm_kpoint: int
-    is_metal: bool = False
-
-
-def parse_molog(workdir, occ_threshold: float = 0.5) -> BandgapResult:
-    filepath = f"{workdir}/{TEMP_SAVE_DIR}/eigenvalues-1_0.MOLog"
-    with open(filepath, 'r') as f:
-        content = f.read()
-
-    # Pattern to match k-point blocks
-    kpoint_pattern = r'MO\| EIGENVALUES AND OCCUPATION NUMBERS FOR K POINT (\d+)'
-    # Pattern to match eigenvalue lines
-    eigenvalue_pattern = r'MO\|\s+(\d+)\s+([-\d.]+)\s+([-\d.]+)\s+([-\d.]+)'
-
-    # Find all k-point sections
-    kpoint_matches = list(re.finditer(kpoint_pattern, content))
-
-    if not kpoint_matches:
-        raise ValueError("No k-point data found in file")
-
-    # Store VBM and CBM
-    kpoint_data = {}  # kpoint_idx: {'vbm': value, 'cbm': value}
-
-    for i, kpoint_match in enumerate(kpoint_matches):
-        kpoint_idx = int(kpoint_match.group(1))
-
-        # Find the end of this k-point section
-        start_pos = kpoint_match.end()
-        if i + 1 < len(kpoint_matches):
-            end_pos = kpoint_matches[i + 1].start()
-        else:
-            end_pos = len(content)
-
-        section = content[start_pos:end_pos]
-
-        # Parse all eigenvalues in this section
-        eigenvalues = []
-        for match in re.finditer(eigenvalue_pattern, section):
-            idx = int(match.group(1))
-            eigval_au = float(match.group(2))
-            eigval_eV = float(match.group(3))
-            occupation = float(match.group(4))
-            eigenvalues.append({
-                'index': idx,
-                'eigval_eV': eigval_eV,
-                'occupation': occupation
-            })
-
-        if not eigenvalues:
-            continue
-
-        # Find VBM and CBM
-        occupied = [e for e in eigenvalues if e['occupation'] >= occ_threshold]
-        unoccupied = [e for e in eigenvalues if e['occupation'] < occ_threshold]
-
-        if occupied and unoccupied:
-            vbm = max(occupied, key=lambda x: x['eigval_eV'])['eigval_eV']
-            cbm = min(unoccupied, key=lambda x: x['eigval_eV'])['eigval_eV']
-            kpoint_data[kpoint_idx] = {'vbm': vbm, 'cbm': cbm}
-        elif occupied and not unoccupied:
-            # All states occupied, might be metallic or file doesn't include unoccupied states
-            vbm = max(occupied, key=lambda x: x['eigval_eV'])['eigval_eV']
-            kpoint_data[kpoint_idx] = {'vbm': vbm, 'cbm': None}
-
-    if not kpoint_data:
-        raise ValueError("Could not extract eigenvalue data from file")
-
-    # Check if we have CBM data
-    has_cbm = any(data['cbm'] is not None for data in kpoint_data.values())
-
-    if not has_cbm:
-        # All states are occupied,likely metallic or need more unoccupied states in calculation
-        global_vbm = max(data['vbm'] for data in kpoint_data.values())
-        vbm_kpoint = max(kpoint_data.keys(), key=lambda k: kpoint_data[k]['vbm'])
-        return BandgapResult(
-            bandgap_eV=0.0,
-            vbm_eV=global_vbm,
-            cbm_eV=global_vbm,  # No gap
-            is_direct=True,
-            vbm_kpoint=vbm_kpoint,
-            cbm_kpoint=vbm_kpoint,
-            is_metal=True
-        )
-
-    # Find global VBM
-    vbm_kpoint = None
-    global_vbm = float('-inf')
-    for kpoint_idx, data in kpoint_data.items():
-        if data['vbm'] > global_vbm:
-            global_vbm = data['vbm']
-            vbm_kpoint = kpoint_idx
-
-    # Find global CBM
-    cbm_kpoint = None
-    global_cbm = float('inf')
-    for kpoint_idx, data in kpoint_data.items():
-        if data['cbm'] is not None and data['cbm'] < global_cbm:
-            global_cbm = data['cbm']
-            cbm_kpoint = kpoint_idx
-
-    # Calculate bandgap
-    bandgap = global_cbm - global_vbm
-
-    # Check if direct
-    is_direct = (vbm_kpoint == cbm_kpoint)
-
-    is_metal = bandgap <= 0
-
-    return BandgapResult(
-        bandgap_eV=max(0.0, bandgap),
-        vbm_eV=global_vbm,
-        cbm_eV=global_cbm,
-        is_direct=is_direct,
-        vbm_kpoint=vbm_kpoint,
-        cbm_kpoint=cbm_kpoint,
-        is_metal=is_metal
-    )
-
-
-_BETAS = (4, 16, 64, 256)
-
-
-def parse_molog_full(workdir):
-    """Parse CP2K MOLog file including eigenvectors.
-
-    Returns dict: {kpt_idx (1-based): {
-        'eigenvalues_au': ndarray[nmo],
-        'occupations':    ndarray[nmo],
-        'coefficients':   ndarray[nao, nmo],  # real, float32
-    }}
-    Only the irreducible k-points are present (as printed by CP2K).
-    """
-    filepath = Path(workdir) / TEMP_SAVE_DIR / "eigenvalues-1_0.MOLog"
-
-    with open(filepath) as fh:
-        raw = fh.readlines()
-
-    lines = [l.strip() for l in raw]
-
-    def _is_int(x):
-        try:
-            int(x)
-            return True
-        except ValueError:
-            return False
-
-    # Find k-point section starts
-    kpt_starts = []
-    for i, s in enumerate(lines):
-        m = re.match(r'MO\|\s+EIGENVALUES.*K POINT\s+(\d+)', s)
-        if m:
-            kpt_starts.append((i, int(m.group(1))))
-
-    result = {}
-
-    for sec_num, (start, kpt_idx) in enumerate(kpt_starts):
-        end = kpt_starts[sec_num + 1][0] if sec_num + 1 < len(kpt_starts) else len(lines)
-        sec = lines[start:end]
-
-        eigenvalues = []
-        occupations = []
-        coeff_dict = {}  # mo_idx (0-based) -> {ao_idx (0-based): float}
-
-        i = 1  # skip k-point header
-        while i < len(sec):
-            s = sec[i]
-            if not s or s == 'MO|' or not s.startswith('MO|'):
-                i += 1
-                continue
-
-            content = s[3:].strip()
-            if not content:
-                i += 1
-                continue
-
-            parts = content.split()
-
-            # MO indices block: all tokens are integers (no decimal point)
-            if all(_is_int(p) for p in parts):
-                mo_indices = [int(p) for p in parts]
-                i += 1
-
-                # Next non-empty MO| line → eigenvalues
-                while i < len(sec) and (not sec[i].startswith('MO|') or not sec[i][3:].strip()):
-                    i += 1
-                if i >= len(sec):
-                    break
-                eigenvalues.extend(float(v) for v in sec[i][3:].strip().split())
-                i += 1
-
-                # Skip blank MO| lines → occupation numbers
-                while i < len(sec) and (not sec[i].startswith('MO|') or not sec[i][3:].strip()):
-                    i += 1
-                if i >= len(sec):
-                    break
-                occupations.extend(float(v) for v in sec[i][3:].strip().split())
-                i += 1
-
-                # Skip blank MO| lines → first coefficient row
-                while i < len(sec) and (not sec[i].startswith('MO|') or not sec[i][3:].strip()):
-                    i += 1
-
-                # Coefficient rows: "ao_idx  atom_idx  elem  orbital  c1  c2  ..."
-                while i < len(sec):
-                    row = sec[i]
-                    if not row.startswith('MO|'):
-                        i += 1
-                        break
-                    rc = row[3:].strip()
-                    if not rc:
-                        i += 1
-                        continue  # blank line between atom groups — keep reading
-                    rp = rc.split()
-                    if len(rp) < 5 or not _is_int(rp[0]) or not _is_int(rp[1]):
-                        break
-                    ao_idx = int(rp[0]) - 1
-                    try:
-                        coeffs = [float(v) for v in rp[4: 4 + len(mo_indices)]]
-                    except ValueError:
-                        i += 1
-                        continue
-                    for offset, coeff in enumerate(coeffs):
-                        mo_idx = mo_indices[offset] - 1
-                        coeff_dict.setdefault(mo_idx, {})[ao_idx] = coeff
-                    i += 1
-            else:
-                i += 1
-
-        if eigenvalues and coeff_dict:
-            nmo = len(eigenvalues)
-            nao = max(max(d.keys()) for d in coeff_dict.values()) + 1
-            C = np.zeros((nao, nmo), dtype=np.float32)
-            for mo_idx, ao_dict in coeff_dict.items():
-                for ao_idx, coeff in ao_dict.items():
-                    if mo_idx < nmo and ao_idx < nao:
-                        C[ao_idx, mo_idx] = coeff
-            result[kpt_idx] = {
-                'eigenvalues_au': np.array(eigenvalues, dtype=np.float64),
-                'occupations':    np.array(occupations, dtype=np.float64),
-                'coefficients':   C,
-            }
-
-    return result
-
-
-def compute_energy_weighted_dm(kpt_data, K_vectors, T_vectors=None, betas=_BETAS):
-    """Compute R-space energy-weighted density matrices via Fourier transform.
-
-    D(R) = (1/N_total) Σ_{k ∈ full BZ} D(k) exp(i·2π k·R)
-
-    Only irreducible k-points are available; time-reversal gives D(-k) = D(k) for
-    real MO coefficients (as printed in the MOLog). Each irreducible k contributes:
-      - non-self-conjugate (k ≠ -k mod G): factor 2, two terms → 2·D(k)·cos(2π k·R)
-      - self-conjugate (2k ∈ Z³, e.g. Γ):  factor 1, one term →   D(k)·cos(2π k·R)
-
-    The result is purely real by construction (no imaginary part to discard).
-
-    kpt_data keys are 1-based and map to K_vectors[key-1].
-    K_vectors: fractional reciprocal lattice coordinates (dimensionless).
-    T_vectors: integer lattice translation vectors. Defaults to [(0,0,0)].
-
-    Returns: {beta: {'Dh': {T_tuple: ndarray[nao,nao]},
-                     'Dp': {T_tuple: ndarray[nao,nao]}}} (float32)
-    """
-    if not kpt_data:
-        return {}
-
-    first = next(iter(kpt_data.values()))
-    nao   = first['coefficients'].shape[0]
-
-    if T_vectors is None:
-        T_vectors = np.zeros((1, 3), dtype=int)
-    T_vectors = np.asarray(T_vectors)
-
-    # ── Step 1: compute D_h(k) and D_p(k) for each irreducible k-point ──────
-    k_Dh = {}
-    k_Dp = {}
-
-    for kpt_idx, kdata in kpt_data.items():
-        eps = kdata['eigenvalues_au']
-        occ = kdata['occupations']
-        C   = kdata['coefficients'].astype(np.float64)
-
-        max_occ = occ.max()
-        n = occ / max_occ if max_occ > 0 else occ.copy()
-
-        occ_mask = n > 0.5
-        if not np.any(occ_mask):
-            continue
-        eps_homo    = eps[occ_mask].max()
-        unocc_mask  = ~occ_mask
-        eps_lumo    = eps[unocc_mask].min() if np.any(unocc_mask) else eps_homo
-
-        k_Dh[kpt_idx] = {}
-        k_Dp[kpt_idx] = {}
-        for beta in betas:
-            h_arg = np.where(n > 0, np.clip(-beta * (eps_homo - eps), -700.0, 0.0), -700.0)
-            p_arg = np.where(n < 1, np.clip( beta * (eps_lumo - eps), -700.0, 0.0), -700.0)
-            k_Dh[kpt_idx][beta] = (C * np.exp(h_arg) * n        ) @ C.T
-            k_Dp[kpt_idx][beta] = (C * np.exp(p_arg) * (1.0 - n)) @ C.T
-
-    if not k_Dh:
-        return {}
-
-    # ── Step 2: classify k-points as self-conjugate (2k ∈ Z³) or not ────────
-    # Self-conjugate k-points (e.g. Γ, zone-boundary) appear once in the full BZ;
-    # all others appear as a k / -k pair.
-    factors = {}
-    for kpt_idx in k_Dh:
-        two_k = 2.0 * K_vectors[kpt_idx - 1]
-        is_self = np.allclose(two_k - np.round(two_k), 0.0, atol=1e-6)
-        factors[kpt_idx] = 1 if is_self else 2
-
-    n_self  = sum(1 for v in factors.values() if v == 1)
-    N_total = 2 * len(k_Dh) - n_self  # total k-points in full BZ
-
-    # ── Step 3: Fourier transform for every T-vector ─────────────────────────
-    result = {b: {'Dh': {}, 'Dp': {}} for b in betas}
-
-    for T_vec in T_vectors:
-        T = tuple(int(x) for x in T_vec)
-
-        Dh_R = {b: np.zeros((nao, nao)) for b in betas}
-        Dp_R = {b: np.zeros((nao, nao)) for b in betas}
-
-        for kpt_idx in k_Dh:
-            k_vec  = K_vectors[kpt_idx - 1]
-            # factor · cos(2π k·R)  combines the +k and -k contributions
-            weight = factors[kpt_idx] * np.cos(2.0 * np.pi * float(np.dot(k_vec, T_vec)))
-
-            for beta in betas:
-                Dh_R[beta] += weight * k_Dh[kpt_idx][beta]
-                Dp_R[beta] += weight * k_Dp[kpt_idx][beta]
-
-        for beta in betas:
-            result[beta]['Dh'][T] = (Dh_R[beta] / N_total).astype(np.float32)
-            result[beta]['Dp'][T] = (Dp_R[beta] / N_total).astype(np.float32)
-
-    return result
-
-
-def postproc_matrices(workdir, method, sym, rspace=True, tzvp_P=False, get_energy=True, cutoff=1e-32, out_name="matrices", compress=True, topk=32, bandgap_info=None, energy_dft_ha=None):
+def postproc_matrices(workdir, method, sym, rspace=True, get_energy=True, cutoff=1e-32, out_name="matrices", compress=True, topk=32, bandgap_info=None, energy_dft_ha=None):
     workdir = Path(workdir)
-    nao, atoms, coords_bohr, energy_Ha, T_vectors, K_vectors, K_weights, lattice_vecs_bohr = parse_cp2k_output(workdir)
-
-    if method not in {"xyz", "pbemol"}:
-        if rspace and T_vectors is None:
-            raise ValueError("Could not find T_vectors in output file")
-        if not rspace and K_vectors is None:
-            raise ValueError("Could not find K_vectors in output file")
-        if tzvp_P and K_vectors is None:
-            raise ValueError("Could not find K_vectors in output file for tzvp_P mode")
+    nao, atoms, coords_bohr, energy_Ha, T_vectors, K_vectors, K_weights, lattice_vecs_bohr = parse_cp2k_output(workdir, method, rspace)
 
     elem_numbers = np.array([a["atomnum"] for a in atoms])
 
-    if method in {"xyz", "pbemol"}:
-        # xyz template hardcodes REAL_SPACE T, so matrices are real (rspace=True)
-        F, S, H, P = (
-            parse_matrix(workdir, method, mat, nao, binary=True, keep_sparse=False, rspace=True)
-        for mat in ("KS", "S", "HCORE", "P")
+    mcfg = METHODS[method]
+    uks = _detect_uks(workdir, mcfg.project_name, mcfg.periodic, rspace)
+
+    if not mcfg.periodic:
+        # Molecular case
+        _pm = lambda mat, sp=1: parse_matrix(
+            workdir, method, mat, nao, binary=True, keep_sparse=False, rspace=True, spin=sp
         )
+        S = _pm("S")
+        H = _pm("HCORE")
+        if uks:
+            F_a, F_b = _pm("KS", 1), _pm("KS", 2)
+            P_a, P_b = _pm("P", 1),  _pm("P", 2)
+            spin_mats = {"F_a": F_a, "F_b": F_b, "P_a": P_a, "P_b": P_b, "S": S, "H": H}
+        else:
+            spin_mats = {"F": _pm("KS"), "P": _pm("P"), "S": S, "H": H}
+
         res_dict = {
-            "F": F, "P": P, "S": S, "H": H,
+            **spin_mats,
+            "unrestricted": uks,
             "charge": 0,
             "atomic_numbers": elem_numbers,
-            "geometry_bohr": coords_bohr
+            "geometry_bohr": coords_bohr,
         }
 
-        for m in ("F", "P", "S", "H"):
-            if cutoff is not None:
-                res_dict[m] = np.where(np.abs(res_dict[m]) <= cutoff, 0, res_dict[m])
+        if cutoff is not None:
+            for key in res_dict:
+                if isinstance(res_dict[key], np.ndarray):
+                    res_dict[key] = np.where(np.abs(res_dict[key]) <= cutoff, 0, res_dict[key])
     else:
-        if sym == "XYZ":
+        if sym == "3D":
             pbc = [True, True, True]
-        elif sym == "XY":
+        elif sym == "2D":
             pbc = [True, True, False]
 
-        if tzvp_P:
-            # R-space for KS/S/HCORE (from step 1), K-space for P (from step 2)
-            matrices = {}
-            for T_idx, T_vec in enumerate(T_vectors):
-                F_T, S_T, H_T = (
-                    parse_matrix(workdir, method, key, nao, binary=True, TK_idx=T_idx, keep_sparse=True, rspace=True)
-                    for key in ("KS", "S", "HCORE")
-                )
-                matrices[tuple(T_vec)] = {"F": F_T, "S": S_T, "H": H_T}
-            P_kspace = {}
-            for K_idx, K_vec in enumerate(K_vectors):
-                P_kspace[tuple(K_vec)] = parse_matrix(
-                    workdir, method, "P", nao, binary=True, TK_idx=K_idx, keep_sparse=True, rspace=False
-                )
-            res_dict = {
-                "nao": nao,
-                "matrices": matrices,
-                "P_kspace": P_kspace,
-                "rspace": True,
-                "kpoints_2pi_bohr": K_vectors,
-                "charge": 0,
-                "net_spin": 0,
-                "pbc": pbc,
-                "atomic_numbers": elem_numbers,
-                "geometry_bohr": coords_bohr,
-                "cell_bohr": lattice_vecs_bohr,
-            }
-        else:
-            matrices = {}
-            TK_vectors = T_vectors if rspace else K_vectors
-            for TK_idx, TK_vec in enumerate(TK_vectors[:200]):
-                F_TK, P_TK, S_TK, H_TK = (
-                    parse_matrix(workdir, method, key, nao, binary=True, TK_idx=TK_idx, keep_sparse=True, rspace=rspace)
-                    for key in ("KS", "P", "S", "HCORE")
-                )
-                matrices[tuple(TK_vec)] = {"F": F_TK, "P": P_TK, "S": S_TK, "H": H_TK}
-            res_dict = {
-                "nao": nao,
-                "matrices": matrices,
-                "rspace": rspace,
-                "kpoints_2pi_bohr": K_vectors,
-                "charge": 0,
-                "net_spin": 0,
-                "pbc": pbc,
-                "atomic_numbers": elem_numbers,
-                "geometry_bohr": coords_bohr,
-                "cell_bohr": lattice_vecs_bohr,
-            }
+        def _pm_per(mat_type, TK_idx, sp=1):
+            return parse_matrix(
+                workdir, method, mat_type, nao,
+                binary=True, TK_idx=TK_idx, keep_sparse=True, rspace=rspace, spin=sp,
+            )
+
+        matrices = {}
+        TK_vectors = T_vectors if rspace else K_vectors
+        for TK_idx, TK_vec in enumerate(TK_vectors[:200]):
+            S_TK = _pm_per("S",     TK_idx)
+            H_TK = _pm_per("HCORE", TK_idx)
+            if uks:
+                matrices[tuple(TK_vec)] = {
+                    "F_a": _pm_per("KS", TK_idx, 1),
+                    "F_b": _pm_per("KS", TK_idx, 2),
+                    "P_a": _pm_per("P",  TK_idx, 1),
+                    "P_b": _pm_per("P",  TK_idx, 2),
+                    "S": S_TK, "H": H_TK,
+                }
+            else:
+                matrices[tuple(TK_vec)] = {
+                    "F": _pm_per("KS", TK_idx),
+                    "P": _pm_per("P",  TK_idx),
+                    "S": S_TK, "H": H_TK,
+                }
+
+        res_dict = {
+            "nao": nao,
+            "matrices": matrices,
+            "rspace": rspace,
+            "kpoints_2pi_bohr": K_vectors,
+            "unrestricted": uks,
+            "charge": 0,
+            "net_spin": 1 if uks else 0,
+            "pbc": pbc,
+            "atomic_numbers": elem_numbers,
+            "geometry_bohr": coords_bohr,
+            "cell_bohr": lattice_vecs_bohr,
+        }
 
     if get_energy:
         res_dict["energy_cp2k_Ha"] = energy_Ha
@@ -720,40 +114,28 @@ def postproc_matrices(workdir, method, sym, rspace=True, tzvp_P=False, get_energ
         res_dict["energy_dft_Ha"] = float(energy_dft_ha)
 
     if bandgap_info is not None:
-        molog_bg_path = workdir / TEMP_SAVE_DIR / "eigenvalues-1_0.MOLog"
+        eigen_path = workdir / f"{METHODS[method].project_name}-eigenvalues-1_0.MOLog"
         res_dict["bandgap_pbe"] = bandgap_info.get("bandgap_pbe")
         res_dict["bandgap_hse"] = bandgap_info.get("bandgap_hse")
-        if molog_bg_path.exists():
-            bg_res = parse_molog(workdir)
-            res_dict["bandgap_cp2k"] = bg_res.bandgap_eV
+        if eigen_path is not None:
+            bg_res = parse_molog(eigen_path)
+            res_dict["bandgap_grid"] = bg_res.bandgap_eV
+            res_dict["vbm_grid"]     = bg_res.vbm_eV
+            res_dict["cbm_grid"]     = bg_res.cbm_eV
         else:
-            print(f"Warning: MOLog not found, skipping bandgap_cp2k for {workdir.name}")
-            res_dict["bandgap_cp2k"] = None
+            raise ValueError(f"Warning: MOLog not found, skipping bandgap_grid for {workdir.name}")
         #res_dict["bandgap_gw"] = bandgap_info.get("bandgap_gw")
         #res_dict["gap_type_pbe"] = bandgap_info.get("gap_type_hse")
-
-    # Parse eigenvectors + compute energy-weighted density matrices
-    molog_path = workdir / TEMP_SAVE_DIR / "eigenvalues-1_0.MOLog"
-    if molog_path.exists() and K_vectors is not None and T_vectors is not None:
-        try:
-            kpt_data = parse_molog_full(workdir)
-            if kpt_data and len(kpt_data) == len(K_vectors):
-                res_dict["kpt_data"] = kpt_data
-                res_dict["energy_weighted_dm"] = compute_energy_weighted_dm(
-                    kpt_data, K_vectors, T_vectors
-                )
-        except Exception as e:
-            import warnings
-            warnings.warn(f"Could not parse MOLog eigenvectors: {e}")
-
     # Save
-    out_path = workdir / f"{out_name}.pkl"
-    tmp_path = out_path.with_suffix(".tmp.pkl")
+    out_path = workdir / f"{out_name}.npz"
+    tmp_path = workdir / f"{out_name}.tmp.npz"
 
-    with open(tmp_path, 'wb') as f:
-        pickle.dump(res_dict, f)
+    if mcfg.periodic:
+        write_periodic(tmp_path, res_dict)
+    else:
+        write_molecular(tmp_path, res_dict)
 
-    tmp_path.replace(out_path)
+    tmp_path.rename(out_path)
 
     # Clean up temporary matrices directory
     temp_dir = workdir / TEMP_SAVE_DIR
@@ -762,174 +144,6 @@ def postproc_matrices(workdir, method, sym, rspace=True, tzvp_P=False, get_energ
 
     return str(out_path)
 
-def get_topk_blocks(workdir, method, nao, atoms, T_vectors, norb_z, lattice_vecs,
-    topk=32, cutoff=1e-32):
-    """
-    Extract top-k interaction blocks for each atom from periodic DFT matrices.
-    """
-    if method == "pbe":
-        permute_block = _permute_block_pbe
-    elif method == "scan":
-        permute_block = _permute_block_scan
-    elif method == "tzvp":
-        permute_block = _permute_block_tzvp
-    else:
-        permute_block = _permute_block
 
-    n_atoms = len(atoms)
-
-    blocks_by_source = defaultdict(list)
-    atom_ranges = build_atom_ranges(norb_z, atoms)
-
-    atom_coords = np.array([a['coord_bohr'] for a in atoms], dtype=np.float64)
-    atom_numbers = np.array([a['atomnum'] for a in atoms], dtype=np.int32)
-
-    a1, a2, a3 = lattice_vecs
-
-    # Store
-    T_matrix_cache = {}
-
-    # Step 1: Score all blocks and cache matrices
-    for T_idx, T_vec in enumerate(T_vectors):
-        #T_norm = np.linalg.norm(T_vec)
-
-        # Get matrices for the translation
-        F_T, P_T, S_T, H_T = (
-            parse_matrix(workdir, method, key, nao, binary=True, T_idx=T_idx, keep_sparse=True)
-            for key in ("KS", "P", "S", "HCORE")
-        )
-
-        # Store matrices
-        T_matrix_cache[T_idx] = {'KS': F_T, 'P': P_T, 'S': S_T, 'HCORE': H_T}
-
-        # Extract atom-atom blocks
-        for src in range(1, n_atoms + 1):
-            for ngb in range(1, n_atoms + 1):
-                cell = tuple(T_vec)
-
-                # Compute norms
-                nF = compute_block_norm_squared_sparse(F_T, src, ngb, atom_ranges)
-                nP = compute_block_norm_squared_sparse(P_T, src, ngb, atom_ranges)
-                nS = compute_block_norm_squared_sparse(S_T, src, ngb, atom_ranges)
-                nH = compute_block_norm_squared_sparse(H_T, src, ngb, atom_ranges)
-                score = float(nF * nS * nH)
-
-                if score < cutoff:
-                    continue
-
-                # Store block metadata
-                blocks_by_source[src].append({
-                    'ngb': ngb,
-                    'cell': cell,
-                    'T_idx': T_idx,
-                    'score': score,
-                    'Fscr': nF, 'Pscr': nP, 'Sscr': nS, 'Hscr': nH
-                })
-
-    # Phase 2: Top-k selection and permutation
-    topk_blocks: List[Dict[str, Any]] = []
-    self_ctr, pair_ctr = 0, 0
-
-    # Process each source atom
-    for src in range(1, n_atoms + 1):
-        atom_blocks = blocks_by_source.get(src, [])
-
-        # Separate self-blocks from neighbor blocks
-        self_block = None
-        neighbor_blocks = []
-
-        for block in atom_blocks:
-            if block['ngb'] == src and block['cell'] == (0, 0, 0):
-                self_block = block
-            else:
-                neighbor_blocks.append(block)
-
-        # Add self-block if it exists
-        if self_block is not None:
-            T_idx = self_block['T_idx']
-            ngb = self_block['ngb']
-            z_src = atom_numbers[src - 1]
-            z_ngb = atom_numbers[ngb - 1]
-            F_block = get_block(T_matrix_cache[T_idx]["KS"], src, ngb, atom_ranges)
-            P_block = get_block(T_matrix_cache[T_idx]["P"], src, ngb, atom_ranges)
-            S_block = get_block(T_matrix_cache[T_idx]["S"], src, ngb, atom_ranges)
-            H_block = get_block(T_matrix_cache[T_idx]["HCORE"], src, ngb, atom_ranges)
-
-            topk_blocks.append({
-                "is_self": True,
-                "ctr": self_ctr,
-                "source": src,
-                "neighbor": ngb,
-                "cell": self_block['cell'],
-                "matrix": {
-                    'F': permute_block(F_block, z_src, z_ngb), 'P': permute_block(P_block, z_src, z_ngb), 'S': permute_block(S_block, z_src, z_ngb), 'H': permute_block(H_block, z_src, z_ngb),
-                    'score': self_block['score'],
-                    'Fscr': self_block['Fscr'],
-                    'Pscr': self_block['Pscr'],
-                    'Sscr': self_block['Sscr'],
-                    'Hscr': self_block['Hscr']
-                },
-            })
-            self_ctr += 1
-
-        # Sort neighbor blocks by score
-        neighbor_blocks.sort(key=lambda b: b['score'], reverse=True)
-
-        # Apply top-k with tie-breaking
-        if len(neighbor_blocks) <= topk:
-            selected_blocks = neighbor_blocks
-        else:
-            #kth_score = neighbor_blocks[topk - 1]['score']
-            selected_blocks = sorted(neighbor_blocks, key=lambda b: b['score'], reverse=True)[:topk]
-            #rtol = 1e-12
-            #selected_blocks = [
-            #    b for b in neighbor_blocks
-            #   if b['score'] > kth_score or abs(b['score'] - kth_score) <= rtol * max(1.0, abs(kth_score))
-            #]
-
-        # Add selected blocks to output
-        for block in selected_blocks:
-            ngb = block['ngb']
-            Rvec = block['cell']
-            T_idx = block['T_idx']
-
-            F_block = get_block(T_matrix_cache[T_idx]["KS"], src, ngb, atom_ranges)
-            P_block = get_block(T_matrix_cache[T_idx]["P"], src, ngb, atom_ranges)
-            S_block = get_block(T_matrix_cache[T_idx]["S"], src, ngb, atom_ranges)
-            H_block = get_block(T_matrix_cache[T_idx]["HCORE"], src, ngb, atom_ranges)
-
-            z_src = atom_numbers[src - 1]
-            z_ngb = atom_numbers[ngb - 1]
-
-            perm_mat = {
-                'H': permute_block(H_block, z_src, z_ngb),
-                'S': permute_block(S_block, z_src, z_ngb),
-                'F': permute_block(F_block, z_src, z_ngb),
-                'P': permute_block(P_block, z_src, z_ngb),
-                'score': block['score'],
-                'Fscr': block['Fscr'],
-                'Pscr': block['Pscr'],
-                'Sscr': block['Sscr'],
-                'Hscr': block['Hscr']
-            }
-
-            # Calculate distance
-            ic1, ic2, ic3 = Rvec
-            r_i = atom_coords[src - 1]
-            r_j = atom_coords[ngb - 1]
-            shift = ic1 * a1 + ic2 * a2 + ic3 * a3
-            dvec = r_j - r_i + shift
-            dist = float(np.linalg.norm(dvec))
-
-            topk_blocks.append({
-                "is_self": False,
-                "ctr": pair_ctr,
-                "source": src,
-                "neighbor": ngb,
-                "cell": Rvec,
-                "matrix": perm_mat,
-                "dist": dist,
-            })
-            pair_ctr += 1
-
-    return topk_blocks
+def mcfg_for(method: str):
+    return METHODS[method]

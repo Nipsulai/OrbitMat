@@ -103,194 +103,61 @@ def _permute_block(M, z_src, z_nbr):
 # Reorders orbitals within each shell from m=-l,...,l to m=l,...,-l
 # ============================================================
 
-_pbe_basis_cache = None
-_pbe_perm_cache: Dict[int, np.ndarray] = {}
-
-def _load_pbe_basis() -> Dict:
-    """Load and cache PBE basis info from JSON."""
-    global _pbe_basis_cache
-    if _pbe_basis_cache is None:
-        with open(PBE_PATH) as f:
-            _pbe_basis_cache = json.load(f)
-    return _pbe_basis_cache
-
-
 # Shell sizes: s=1, p=3, d=5, f=7
 _SHELL_SIZES = {"s": 1, "p": 3, "d": 5, "f": 7}
 _SHELL_ORDER = ["s", "p", "d", "f"]
 
 
-def _atom_perm_pbe(z: int) -> np.ndarray:
+def _make_basis_perm_fn(basis_path):
     """
-    Build permutation array for a given atomic number using PBE basis.
+    Factory: returns a permute_block(M, z_src, z_nbr) function for a given basis JSON.
 
-    Reverses orbital order within each shell (m=-l,...,l → m=l,...,-l).
-    Shell order (s, p, d, f) is preserved.
+    The permutation reverses orbital order within each shell (m=-l,...,l → m=l,...,-l)
+    while preserving shell order (s, p, d, f). Results are cached per atomic number.
     """
-    if z in _pbe_perm_cache:
-        return _pbe_perm_cache[z]
+    _basis_data = None
+    _perm_cache: Dict[int, np.ndarray] = {}
 
-    basis = _load_pbe_basis()
-    z_str = str(z)
+    def _load():
+        nonlocal _basis_data
+        if _basis_data is None:
+            with open(basis_path) as f:
+                _basis_data = json.load(f)
+        return _basis_data
 
-    if z_str not in basis:
-        raise KeyError(f"Atomic number {z} not found in PBE basis")
+    def _atom_perm(z: int) -> np.ndarray:
+        if z in _perm_cache:
+            return _perm_cache[z]
+        basis = _load()
+        z_str = str(z)
+        if z_str not in basis:
+            raise KeyError(f"Atomic number {z} not found in basis {basis_path}")
+        shells = basis[z_str].get("shells", {})
+        total = basis[z_str]["total"]
+        perm, offset = [], 0
+        for shell_name in _SHELL_ORDER:
+            if shell_name not in shells:
+                continue
+            n_orb = shells[shell_name]
+            size = _SHELL_SIZES[shell_name]
+            for _ in range(n_orb // size):
+                perm.extend(range(offset + size - 1, offset - 1, -1))
+                offset += size
+        if len(perm) != total:
+            raise ValueError(f"Perm length {len(perm)} != total {total} for Z={z}")
+        result = np.array(perm, dtype=int)
+        _perm_cache[z] = result
+        return result
 
-    shells = basis[z_str].get("shells", {})
-    total = basis[z_str]["total"]
+    def permute_block(M, z_src, z_nbr):
+        return M[np.ix_(_atom_perm(int(z_src)), _atom_perm(int(z_nbr)))]
 
-    perm = []
-    offset = 0
-
-    for shell_name in _SHELL_ORDER:
-        if shell_name not in shells:
-            continue
-
-        n_orb_in_shell = shells[shell_name]
-        shell_size = _SHELL_SIZES[shell_name]
-
-        # Number of contracted functions for this shell type
-        n_contracted = n_orb_in_shell // shell_size
-
-        for _ in range(n_contracted):
-            # Reverse the order within this shell block
-            shell_indices = list(range(offset + shell_size - 1, offset - 1, -1))
-            perm.extend(shell_indices)
-            offset += shell_size
-
-    if len(perm) != total:
-        raise ValueError(f"Permutation length {len(perm)} doesn't match total orbitals {total} for Z={z}")
-
-    result = np.array(perm, dtype=int)
-    _pbe_perm_cache[z] = result
-    return result
-
-
-def _permute_block_pbe(M, z_src, z_nbr):
-    """Apply PBE orbital permutation to a pair block (rows: src, cols: nbr)."""
-    Pi = _atom_perm_pbe(int(z_src))
-    Pj = _atom_perm_pbe(int(z_nbr))
-    return M[np.ix_(Pi, Pj)]
+    return permute_block
 
 
-_scan_basis_cache = None
-_scan_perm_cache: Dict[int, np.ndarray] = {}
-
-def _load_scan_basis() -> Dict:
-    global _scan_basis_cache
-    if _scan_basis_cache is None:
-        with open(SCAN_PATH) as f:
-            _scan_basis_cache = json.load(f)
-    return _scan_basis_cache
-
-
-def _atom_perm_scan(z: int) -> np.ndarray:
-    """
-    Build permutation array for a given atomic number using SCAN basis.
-
-    Reverses orbital order within each shell (m=-l,...,l → m=l,...,-l).
-    """
-    if z in _scan_perm_cache:
-        return _scan_perm_cache[z]
-
-    basis = _load_scan_basis()
-    z_str = str(z)
-
-    if z_str not in basis:
-        raise KeyError(f"Atomic number {z} not found in SCAN basis")
-
-    shells = basis[z_str].get("shells", {})
-    total = basis[z_str]["total"]
-
-    perm = []
-    offset = 0
-
-    for shell_name in _SHELL_ORDER:
-        if shell_name not in shells:
-            continue
-
-        n_orb_in_shell = shells[shell_name]
-        shell_size = _SHELL_SIZES[shell_name]
-        n_contracted = n_orb_in_shell // shell_size
-
-        for _ in range(n_contracted):
-            shell_indices = list(range(offset + shell_size - 1, offset - 1, -1))
-            perm.extend(shell_indices)
-            offset += shell_size
-
-    if len(perm) != total:
-        raise ValueError(f"Permutation length {len(perm)} doesn't match total orbitals {total} for Z={z}")
-
-    result = np.array(perm, dtype=int)
-    _scan_perm_cache[z] = result
-    return result
-
-
-def _permute_block_scan(M, z_src, z_nbr):
-    """Apply SCAN orbital permutation to a pair block (rows: src, cols: nbr)."""
-    Pi = _atom_perm_scan(int(z_src))
-    Pj = _atom_perm_scan(int(z_nbr))
-    return M[np.ix_(Pi, Pj)]
-
-
-_tzvp_basis_cache = None
-_tzvp_perm_cache: Dict[int, np.ndarray] = {}
-
-def _load_tzvp_basis() -> Dict:
-    global _tzvp_basis_cache
-    if _tzvp_basis_cache is None:
-        with open(TZVP_PATH) as f:
-            _tzvp_basis_cache = json.load(f)
-    return _tzvp_basis_cache
-
-
-def _atom_perm_tzvp(z: int) -> np.ndarray:
-    """
-    Build permutation array for a given atomic number using TZVP basis.
-
-    Reverses orbital order within each shell (m=-l,...,l → m=l,...,-l).
-    """
-    if z in _tzvp_perm_cache:
-        return _tzvp_perm_cache[z]
-
-    basis = _load_tzvp_basis()
-    z_str = str(z)
-
-    if z_str not in basis:
-        raise KeyError(f"Atomic number {z} not found in TZVP basis")
-
-    shells = basis[z_str].get("shells", {})
-    total = basis[z_str]["total"]
-
-    perm = []
-    offset = 0
-
-    for shell_name in _SHELL_ORDER:
-        if shell_name not in shells:
-            continue
-
-        n_orb_in_shell = shells[shell_name]
-        shell_size = _SHELL_SIZES[shell_name]
-        n_contracted = n_orb_in_shell // shell_size
-
-        for _ in range(n_contracted):
-            shell_indices = list(range(offset + shell_size - 1, offset - 1, -1))
-            perm.extend(shell_indices)
-            offset += shell_size
-
-    if len(perm) != total:
-        raise ValueError(f"Permutation length {len(perm)} doesn't match total orbitals {total} for Z={z}")
-
-    result = np.array(perm, dtype=int)
-    _tzvp_perm_cache[z] = result
-    return result
-
-
-def _permute_block_tzvp(M, z_src, z_nbr):
-    """Apply TZVP orbital permutation to a pair block (rows: src, cols: nbr)."""
-    Pi = _atom_perm_tzvp(int(z_src))
-    Pj = _atom_perm_tzvp(int(z_nbr))
-    return M[np.ix_(Pi, Pj)]
+_permute_block_pbe  = _make_basis_perm_fn(PBE_PATH)
+_permute_block_scan = _make_basis_perm_fn(SCAN_PATH)
+_permute_block_tzvp = _make_basis_perm_fn(TZVP_PATH)
 
 
 ## For QM9 molecules ##

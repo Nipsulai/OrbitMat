@@ -1,0 +1,7 @@
+{
+  "bandgap_method": "pbesol",
+  "bandgap_min": 1e-5,
+  "keep_k": 30,
+  "insulators_only": true,
+  "exclude_magnetic": true
+}

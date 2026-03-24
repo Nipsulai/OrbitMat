@@ -1,21 +1,18 @@
 #!/usr/bin/env python3
 """
-This script:
-1. Scans all folders in the specified output directory
-2. Loads pickle files from successful calculations
-3. Writes everything to a single HDF5 file
-
-#Note: the current format is a quick fix
+Create an HDF5 dataset from CP2K output directories.
 
 Usage:
-    # Option 1: Create new random splits
-    python calc/create_hdf5.py {path_to_folder} --train 800 --val 100 --test 100 --method pbe
+    # New splits
+    python calc/create_hdf5.py calc/out/tzvp_run --train 6000 --val 800 --test 800 \
+        --method tzvp --out calc/tzvp.hdf5
 
-    # Option 2: Reuse splits from an existing HDF5 file
-    python calc/create_hdf5.py {path_to_folder} --from_hdf5 previous_data.hdf5 --method pbe
+    # Reuse splits from existing HDF5
+    python calc/create_hdf5.py calc/out/tzvp_run --from_hdf5 prev.hdf5 --method tzvp
 
-    # Option 3: Combine two folders
-    python calc/create_hdf5.py {folder1} {folder2} --train 800 --val 100 --test 100 --method pbe
+    # Merge two folders
+    python calc/create_hdf5.py calc/out/run1 calc/out/run2 --train 6000 \
+        --method tzvp --out calc/combined.hdf5
 """
 from __future__ import annotations
 
@@ -26,23 +23,15 @@ from pathlib import Path
 import h5py
 import numpy as np
 
-# Ensure src is in path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from src.hdf5_utils import (
-    get_npz_paths,
-    make_splits,
-    write_pbc_split,
-    write_xyz_split,
-    write_pbemol_split,
-    write_xtb_mol_split,
-    write_xtb_super_split,
-)
+from src.config import METHODS
+from src.hdf5_utils import get_npz_paths, make_splits, write_split
 from src.postproc import norb_by_z
 
 
-def create_pbc_hdf5(
-    cp2k_folder: Path | list[Path],
+def create_hdf5(
+    cp2k_folders: list[Path],
     output_path: Path,
     method: str,
     train_size: int = 0,
@@ -52,232 +41,123 @@ def create_pbc_hdf5(
     topk: int = 32,
     n_workers: int = 1,
     from_hdf5: Path | None = None,
-    continue_hdf5: Path | None = None,
-    super_size: int = 2,
     use_dist: bool = False,
-):
-    folders = [cp2k_folder] if isinstance(cp2k_folder, (str, Path)) else cp2k_folder
-    folders = [Path(f).absolute() for f in folders]
+) -> None:
     output_path = Path(output_path).absolute()
-
     if from_hdf5 is None:
         output_path = output_path.with_stem(f"{output_path.stem}_s{seed}")
-
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
+    # Collect available NPZ files across all folders
     id_to_npz: dict = {}
-    for folder in folders:
-        folder_map = get_npz_paths(folder, npz=False)
+    for folder in cp2k_folders:
+        folder = Path(folder).absolute()
+        folder_map = get_npz_paths(folder)
         overlap = set(folder_map) & set(id_to_npz)
         if overlap:
-            print(f"[WARN] {len(overlap)} duplicate IDs from {folder} will overwrite previous entries.")
+            print(f"[WARN] {len(overlap)} duplicate IDs from {folder.name} will overwrite previous entries.")
         id_to_npz.update(folder_map)
-        print(f"Found {len(folder_map)} successful calculations in {folder}.")
+        print(f"  {folder.name}: {len(folder_map)} calculations found.")
 
     if not id_to_npz:
-        print("No successful calculations found in any folder.")
+        print("No successful calculations found.")
         sys.exit(1)
+    print(f"Total: {len(id_to_npz)} across {len(cp2k_folders)} folder(s).")
 
-    print(f"Total: {len(id_to_npz)} calculations across {len(folders)} folder(s).")
-
-    splits_dict = {}
-    
+    # Build or load splits
     if from_hdf5 is not None:
         from_hdf5 = Path(from_hdf5)
         if not from_hdf5.exists():
-            print(f"Source HDF5 file not found: {from_hdf5}")
+            print(f"Source HDF5 not found: {from_hdf5}")
             sys.exit(1)
-            
-        print(f"Reading splits from {from_hdf5}...")
-        with h5py.File(from_hdf5, "r") as f_src:
-            for split_name in ["train", "val", "test"]:
-                if split_name in f_src:
-                    ids = list(f_src[split_name].keys())
-                    splits_dict[split_name] = np.array(ids)
-                    print(f"       - {split_name}: {len(ids)} IDs loaded")
+        print(f"Reading splits from {from_hdf5.name}...")
+        splits_dict: dict = {}
+        with h5py.File(from_hdf5, "r") as src:
+            for split in ("train", "val", "test"):
+                if split in src:
+                    ids = list(src[split].keys())
+                    splits_dict[split] = np.array(ids)
+                    print(f"  {split}: {len(ids)}")
                 else:
-                    splits_dict[split_name] = np.array([])
+                    splits_dict[split] = np.array([])
     else:
-        print(f"Splits (Seed: {seed})...")
-        available_ids = np.array(list(id_to_npz.keys()))
+        print(f"Creating splits (seed={seed})...")
         splits = make_splits(
-            available_ids,
+            np.array(list(id_to_npz.keys())),
             train_size=train_size,
             val_size=val_size,
             test_size=test_size,
             seed=seed,
         )
         splits_dict = splits.as_dict()
-        print(f"       - train: {len(splits.train)}")
-        print(f"       - val:   {len(splits.val)}")
-        print(f"       - test:  {len(splits.test)}")
+        print(f"  train: {len(splits.train)}, val: {len(splits.val)}, test: {len(splits.test)}")
 
-    if method in ("pbe", "scan", "tzvp", "xtb"):
-        orb_map = norb_by_z(method)
-        if orb_map is None:
-            raise ValueError("norb_by_z is not found.")
-    else:
-        orb_map = None
+    mcfg = METHODS[method]
+    norb_z = norb_by_z(method) if mcfg.norb_json_path is not None else None
 
     with h5py.File(output_path, "w") as h5:
         for split_name, split_ids in splits_dict.items():
             if len(split_ids) == 0:
                 continue
+            present = [mid for mid in split_ids if mid in id_to_npz]
+            missing = len(split_ids) - len(present)
+            if missing:
+                print(f"[WARN] {split_name}: {missing} IDs not found in folders.")
+            write_split(
+                h5_file=h5,
+                split_name=split_name,
+                material_ids=split_ids,
+                id_to_npz=id_to_npz,
+                method=method,
+                norb_z=norb_z,
+                topk=topk,
+                n_workers=n_workers,
+                use_dist=use_dist,
+            )
 
-            # Calculate how many IDs from the split are in our folders
-            present_ids = [mid for mid in split_ids if mid in id_to_npz]
-            if len(present_ids) < len(split_ids):
-                print(f"[WARN] Split '{split_name}': {len(split_ids)} IDs in source, but only {len(present_ids)} found in folder.")
-
-            if method == "xyz":
-                write_xyz_split(
-                    h5_file=h5,
-                    split_name=split_name,
-                    material_ids=split_ids,
-                    id_to_pkl=id_to_npz,
-                )
-            elif method == "pbemol":
-                write_pbemol_split(
-                    h5_file=h5,
-                    split_name=split_name,
-                    material_ids=split_ids,
-                    id_to_pkl=id_to_npz,
-                )
-            elif method == "xtb_mol":
-                write_xtb_mol_split(
-                    h5_file=h5,
-                    split_name=split_name,
-                    material_ids=split_ids,
-                    id_to_pkl=id_to_npz,
-                )
-            elif method == "xtb_super":
-                write_xtb_super_split(
-                    h5_file=h5,
-                    split_name=split_name,
-                    material_ids=split_ids,
-                    id_to_pkl=id_to_npz,
-                    super_size=(super_size, super_size, super_size),
-                )
-            else:
-                write_pbc_split(
-                    h5_file=h5,
-                    split_name=split_name,
-                    material_ids=split_ids,
-                    id_to_npz=id_to_npz,
-                    npz=False,
-                    norb_by_z=orb_map,
-                    method=method,
-                    topk=topk,
-                    n_workers=n_workers,
-                    use_dist=use_dist,
-                )
-            
     print(f"Done. HDF5 saved to {output_path}")
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Create HDF5 dataset from computed NPZ/pickle files",
+        description="Create HDF5 dataset from CP2K output directories.",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
-    parser.add_argument(
-        "folder",
-        type=str,
-        nargs="+",
-        help="Path(s) to CP2K output folder(s). Provide two to merge datasets.",
-    )
-    parser.add_argument(
-        "--out", "-o",
-        type=str,
-        help="Output HDF5 file path",
-    )
-    parser.add_argument(
-        "--from_hdf5",
-        type=str,
-        default=None,
-        help="Path to an existing HDF5 file to get splits from. If provided, overrides --train/--val/--test.",
-    )
-    parser.add_argument(
-        "--train",
-        type=int,
-        default=0,
-        help="Number of samples for training",
-    )
-    parser.add_argument(
-        "--val",
-        type=int,
-        default=0,
-        help="Number of samples for validation",
-    )
-    parser.add_argument(
-        "--test",
-        type=int,
-        default=0,
-        help="Number of samples for testing",
-    )
-    parser.add_argument(
-        "--seed",
-        type=int,
-        default=42,
-        help="Random seed for reproducible splits",
-    )
-    parser.add_argument(
-        "--method", "-m",
-        type=str,
-        choices=["pbe", "scan", "tzvp", "xtb", "xyz", "pbemol", "xtb_mol", "xtb_super"],
-        required=True,
-        help="DFT method: pbe/xtb (periodic), xyz (non-periodic molecules, xTB basis), "
-             "pbemol (non-periodic molecules, PBE basis), "
-             "xtb_mol (T=(0,0,0) as molecule), xtb_super (NxNxN supercell as molecule)",
-    )
-    parser.add_argument(
-        "--topk",
-        type=int,
-        default=32,
-        help="Max neighbor blocks per atom",
-    )
-    parser.add_argument(
-        "--super_size",
-        type=int,
-        default=2,
-        help="Supercell size N for xtb_super (builds NxNxN supercell, default 2)",
-    )
-    parser.add_argument(
-        "--distance",
-        action="store_true",
-        default=False,
-        help="Use distance-based neighbor selection: take the topk nearest neighbors by "
-             "physical distance and include all blocks within that radius (symmetric cutoff).",
-    )
-    parser.add_argument(
-        "--workers", "-w",
-        type=int,
-        default=1,
-        help="Number of parallel workers for loading data",
-    )
-
+    parser.add_argument("folder", nargs="+", help="CP2K output folder(s).")
+    parser.add_argument("--out", "-o", default=None, help="Output HDF5 file path.")
+    parser.add_argument("--method", "-m", required=True, choices=list(METHODS),
+                        help="DFT method.")
+    parser.add_argument("--train",  type=int, default=0)
+    parser.add_argument("--val",    type=int, default=0)
+    parser.add_argument("--test",   type=int, default=0)
+    parser.add_argument("--seed",   type=int, default=42)
+    parser.add_argument("--topk",   type=int, default=32,
+                        help="Max neighbor blocks per atom (periodic only).")
+    parser.add_argument("--distance", action="store_true",
+                        help="Select neighbors by distance instead of matrix-norm score.")
+    parser.add_argument("--workers", "-w", type=int, default=1)
+    parser.add_argument("--from_hdf5", default=None,
+                        help="Existing HDF5 to read splits from (overrides --train/val/test).")
     args = parser.parse_args()
 
-    if args.from_hdf5 is None:
-        if args.train == 0 and args.val == 0 and args.test == 0:
-             parser.error("You must specify at least one of --train, --val, or --test.")
+    if args.from_hdf5 is None and args.train == 0 and args.val == 0 and args.test == 0:
+        parser.error("Specify at least one of --train, --val, --test.")
 
     if args.out is None:
         name = "_".join(Path(f).name for f in args.folder)
-        args.out = "calc/" + name + ".hdf5"
+        args.out = f"calc/{name}.hdf5"
 
-    create_pbc_hdf5(
-        cp2k_folder=args.folder if len(args.folder) > 1 else args.folder[0],
+    create_hdf5(
+        cp2k_folders=args.folder,
         output_path=args.out,
+        method=args.method,
         train_size=args.train,
         val_size=args.val,
         test_size=args.test,
-        method=args.method,
         seed=args.seed,
         topk=args.topk,
         n_workers=args.workers,
         from_hdf5=args.from_hdf5,
-        super_size=args.super_size,
         use_dist=args.distance,
     )
 

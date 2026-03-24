@@ -1,29 +1,18 @@
-"""CP2K input file generator for PBE, xTB (periodic), and xyz (molecular) methods."""
+"""CP2K input file generator for all supported methods."""
 
 import json
 import logging
-import numpy as np
+import math
 from pathlib import Path
 from typing import Dict, List, Tuple
-import math
 
 from pymatgen.core import Structure, Molecule
 from pymatgen.io.vasp.inputs import Kpoints
 from pymatgen.io.ase import AseAtomsAdaptor
-
-
 from ase.calculators.calculator import kptdensity2monkhorstpack
-from ase.io import read
-from io import StringIO
 
-from .config import (
-    ELEM_DATA, BASIS_FAMILY, GTH_FAMILY, KPOINTS_ACC, KPOINTS_DENSITY,
-    BASIS_PATH, POTENTIAL_PATH, VACUUM_PADDING, VALID_METHODS,
-    ELEM_DATA_SCAN, BASIS_FAMILY_SCAN, GTH_FAMILY_SCAN,
-    BASIS_PATH_SCAN, POTENTIAL_PATH_SCAN,
-    ELEM_DATA_TZVP, BASIS_FAMILY_TZVP, GTH_FAMILY_TZVP,
-    BASIS_PATH_TZVP, POTENTIAL_PATH_TZVP,
-)
+from .config import KPOINTS_ACC, KPOINTS_DENSITY, VACUUM_PADDING, METHODS
+
 
 class CP2KInputGenerator:
     def __init__(
@@ -37,29 +26,26 @@ class CP2KInputGenerator:
         self.method = method.lower()
         self.sym = sym
         self.rspace = rspace
-        if self.method not in VALID_METHODS:
-            raise ValueError(f"Unknown method: {method}. Must be one of {VALID_METHODS}")
 
+        if self.method not in METHODS:
+            raise ValueError(f"Unknown method: {method}. Must be one of {list(METHODS)}")
+
+        self.cfg = METHODS[self.method]
         self.logger = logger or logging.getLogger(__name__)
         self.elem_data = None
 
-        if self.method in {"pbe", "pbemol"}:
-            with open(ELEM_DATA, "r") as f:
-                self.elem_data = json.load(f)
-        elif self.method == "scan":
-            with open(ELEM_DATA_SCAN, "r") as f:
-                self.elem_data = json.load(f)
-        elif self.method == "tzvp":
-            with open(ELEM_DATA_TZVP, "r") as f:
+        if self.cfg.elem_data_path is not None:
+            with open(self.cfg.elem_data_path) as f:
                 self.elem_data = json.load(f)
 
-        with open(template_file, "r") as f:
+        with open(template_file) as f:
             self.template = f.read()
+
+    # ── Structure / molecule loaders ─────────────────────────────────────────
 
     def load_structure(self, cif_path: str) -> Tuple[Structure, List[str], Dict[str, int]]:
         if not Path(cif_path).exists():
             raise FileNotFoundError(f"CIF file not found: {cif_path}")
-
         struct = Structure.from_file(cif_path)
         elements = [str(site.specie) for site in struct.sites]
         unique = sorted(set(elements))
@@ -69,104 +55,56 @@ class CP2KInputGenerator:
     def load_molecule(self, xyz_path: str) -> Tuple[Molecule, List[str], Dict[str, int]]:
         if not Path(xyz_path).exists():
             raise FileNotFoundError(f"XYZ file not found: {xyz_path}")
-
         mol = Molecule.from_file(xyz_path)
         elements = [str(site.specie) for site in mol.sites]
         unique = sorted(set(elements))
         counts = {elem: elements.count(elem) for elem in unique}
         return mol, unique, counts
 
-    def compute_box_size(
-        self, mol, padding: float = 5.0
-    ) -> Tuple[int, int, int]:
-        """
-        Compute an ORTHORHOMBIC simulation box size for a molecule.
-        Calculates independent lengths for X, Y, and Z.
-        """
+    # ── Box / k-point helpers ────────────────────────────────────────────────
+
+    def compute_box_size(self, mol, padding: float = VACUUM_PADDING) -> Tuple[int, int, int]:
+        """Orthorhombic box for a molecule; dims rounded up to nearest even int, min 8 Å."""
         coords = mol.cart_coords
-        # Calculate the span (max - min) for each axis independently
         spans = coords.max(axis=0) - coords.min(axis=0)
-        
-        # Apply padding to both sides of each axis
-        # Resulting lengths: [L_x, L_y, L_z]
-        side_lengths = spans + (2 * padding)
-        
-        # Optimization: CP2K's FFT solvers prefer even integers or 
-        # numbers with small prime factors (2, 3, 5).
-        # Here we round up to the nearest even integer.
+        side_lengths = spans + 2 * padding
         box_dims = []
         for length in side_lengths:
             ceil_val = int(math.ceil(length))
             if ceil_val % 2 != 0:
                 ceil_val += 1
             box_dims.append(ceil_val)
-        
-        # Ensure a minimum box size (e.g., 8A) to avoid MT solver errors
-        # if the molecule is extremely small (like a single atom/ion).
-        final_dims = tuple(max(dim, 8) for dim in box_dims)
-        
-        return final_dims
+        return tuple(max(dim, 8) for dim in box_dims)
+
+    def _to_odd(self, n: int) -> int:
+        return n + 1 - (n % 2)
+
+    def _make_odd_min_5(self, n: int) -> int:
+        n = int(round(n))
+        if n < 5:
+            return 5
+        return n if n % 2 != 0 else n + 1
+
+    def compute_kpoints(self, struct: Structure, sym: str) -> Tuple[int, int, int]:
+        atoms = AseAtomsAdaptor.get_atoms(struct)
+        kpts = kptdensity2monkhorstpack(atoms, kptdensity=KPOINTS_DENSITY)
+        kx, ky, kz = int(kpts[0]), int(kpts[1]), int(kpts[2])
+        if sym == "3D":
+            return self._to_odd(kx), self._to_odd(ky), self._to_odd(kz)
+        else:  # 2D
+            return self._to_odd(kx), self._to_odd(ky), 1
+
+    # ── Electronic configuration ─────────────────────────────────────────────
 
     def compute_electronic_config(
         self, unique_elements: List[str], counts: Dict[str, int]
-    ) -> Tuple[int, bool]:
-        if self.method not in {"pbe", "pbemol", "scan", "tzvp"}:
-            return 0, False, None
+    ) -> Tuple[int, bool, set]:
+        """Returns (total_valence_e, is_odd_electron, missing_elements)."""
         missing = {e for e in unique_elements if e not in self.elem_data}
         if missing:
             return 0, False, missing
         total_e = sum(self.elem_data[e]["Zval"] * counts[e] for e in unique_elements)
         return total_e, (total_e % 2 == 1), None
-
-    def _to_odd(self, n: int) -> int:
-        return n + 1 - (n % 2)
-
-    def _make_odd_min_5(self, n):
-        """Ensures a k-point dimension is odd and at least 5."""
-        n = int(round(n))
-        # Ensure minimum of 5
-        if n < 5:
-            return 5
-        # Ensure odd
-        if n % 2 == 0:
-            return n + 1
-        return n
-
-    def compute_kpoints2(self, struct, sym, bravais):
-        if sym == "XYZ":
-            # Generate density-based k-points
-            kpts_obj = Kpoints.automatic_density(struct, kppa=KPOINTS_ACC)
-            kx, ky, kz = kpts_obj.kpts[0]
-            
-            # Apply constraints to all dimensions in 3D
-            kx = self._make_odd_min_5(kx)
-            ky = self._make_odd_min_5(ky)
-            kz = self._make_odd_min_5(kz)
-
-        elif sym == "XY":
-            atoms = AseAtomsAdaptor.get_atoms(struct)
-            # ASE returns a list of 3 integers
-            kpts = kptdensity2monkhorstpack(atoms, kptdensity=KPOINTS_DENSITY)
-            
-            # Apply constraints to X and Y
-            kx = self._make_odd_min_5(kpts[0])
-            ky = self._make_odd_min_5(kpts[1])
-            # Z remains 1 for 2D/Slab calculations to avoid periodicity errors
-            kz = 1
-            
-        return kx, ky, kz
-
-    def compute_kpoints(self, struct: Structure, sym, bravais):
-        if sym == "XYZ":
-            kpts = Kpoints.automatic_density(struct, kppa=KPOINTS_ACC)
-            kx, ky, kz = kpts.kpts[0]
-            if bravais["center"] == "face" or bravais["lattice"] in ["rhombohedral", "hexagonal"]:
-                kx, ky, kz = self._to_odd(int(kx)), self._to_odd(int(ky)), self._to_odd(int(kz)) 
-        elif sym == "XY":
-            atoms = AseAtomsAdaptor.get_atoms(struct)
-            kpts = kptdensity2monkhorstpack(atoms, kptdensity=KPOINTS_DENSITY)
-            kx, ky, kz = self._to_odd(int(kpts[0])), self._to_odd(int(kpts[1])), 1
-        return kx, ky, kz
 
     def get_max_cutoff(self, unique_elements: List[str]) -> float:
         return max(self.elem_data[e]["cutoff"] for e in unique_elements)
@@ -174,29 +112,29 @@ class CP2KInputGenerator:
     def get_element_charges(self, unique_elements: List[str]) -> Dict[str, int]:
         return {e: self.elem_data[e]["Zval"] for e in unique_elements}
 
-    def write_input_pbe(
+    # ── Template writers ─────────────────────────────────────────────────────
+
+    def _write_input_periodic_dft(
         self,
         output_path: str,
         cif_path: str,
-        max_cutoff: float,
         kx: int, ky: int, kz: int,
         elem_q: Dict[str, int],
         unique_elements: List[str],
         unk_spins: bool,
         folder: str,
     ) -> None:
-        kinds_str = ""
-        for elem in unique_elements:
-            q = elem_q[elem]
-            kinds_str += f"""
-    &KIND {elem}
-      BASIS_SET {BASIS_FAMILY}{q}
-      POTENTIAL {GTH_FAMILY}{q}
-    &END KIND
-"""
-        output_content = self.template.format(
-            BASIS_SET_FILE_NAME=BASIS_PATH,
-            POTENTIAL_FILE_NAME=POTENTIAL_PATH,
+        """Unified writer for dz / scan / tzvp periodic DFT methods."""
+        cfg = self.cfg
+        kinds_str = "".join(
+            f"\n  &KIND {e}\n    BASIS_SET {cfg.basis_family}{elem_q[e]}\n"
+            f"    POTENTIAL {cfg.gth_family}{elem_q[e]}\n  &END KIND\n"
+            for e in unique_elements
+        )
+        # Pass all possible kwargs; template.format() silently ignores extras.
+        content = self.template.format(
+            BASIS_SET_FILE_NAME=cfg.basis_path,
+            POTENTIAL_FILE_NAME=cfg.potential_path,
             UKS="TRUE" if unk_spins else "FALSE",
             CUTOFF=600,
             KX=kx, KY=ky, KZ=kz,
@@ -205,72 +143,9 @@ class CP2KInputGenerator:
             FOLDER=folder,
             REAL_SPACE="T" if self.rspace else "F",
         )
-        with open(output_path, "w") as f:
-            f.write(output_content)
+        Path(output_path).write_text(content)
 
-    def write_input_scan(
-        self,
-        output_path: str,
-        cif_path: str,
-        max_cutoff: float,
-        kx: int, ky: int, kz: int,
-        elem_q: Dict[str, int],
-        unique_elements: List[str],
-        unk_spins: bool,
-        folder: str,
-    ) -> None:
-        kinds_str = ""
-        for elem in unique_elements:
-            q = elem_q[elem]
-            kinds_str += f"""
-    &KIND {elem}
-      BASIS_SET {BASIS_FAMILY_SCAN}{q}
-      POTENTIAL {GTH_FAMILY_SCAN}{q}
-    &END KIND
-"""
-        output_content = self.template.format(
-            UKS="TRUE" if unk_spins else "FALSE",
-            #CUTOFF=int(max_cutoff),
-            KX=kx, KY=ky, KZ=kz,
-            CIF_PATH=cif_path,
-            KINDS=kinds_str,
-            FOLDER=folder,
-            REAL_SPACE="T" if self.rspace else "F",
-        )
-        with open(output_path, "w") as f:
-            f.write(output_content)
-
-    def write_input_tzvp(
-        self,
-        output_path: str,
-        cif_path: str,
-        kx: int, ky: int, kz: int,
-        elem_q: Dict[str, int],
-        unique_elements: List[str],
-        unk_spins: bool,
-        folder: str,
-    ) -> None:
-        kinds_str = ""
-        for elem in unique_elements:
-            q = elem_q[elem]
-            kinds_str += f"""
-    &KIND {elem}
-      BASIS_SET {BASIS_FAMILY_TZVP}{q}
-      POTENTIAL {GTH_FAMILY_TZVP}{q}
-    &END KIND
-"""
-        output_content = self.template.format(
-            UKS="TRUE" if unk_spins else "FALSE",
-            KX=kx, KY=ky, KZ=kz,
-            CIF_PATH=cif_path,
-            KINDS=kinds_str,
-            FOLDER=folder,
-            REAL_SPACE="T" if self.rspace else "F",
-        )
-        with open(output_path, "w") as f:
-            f.write(output_content)
-
-    def write_input_pbemol(
+    def _write_input_mol_dft(
         self,
         output_path: str,
         xyz_path: str,
@@ -279,192 +154,148 @@ class CP2KInputGenerator:
         unique_elements: List[str],
         unk_spins: bool,
         folder: str,
-        ax, ay, az
+        ax: float, ay: float, az: float,
     ) -> None:
-        kinds_str = ""
-        for elem in unique_elements:
-            q = elem_q[elem]
-            kinds_str += f"""
-    &KIND {elem}
-      BASIS_SET {BASIS_FAMILY}{q}
-      POTENTIAL {GTH_FAMILY}{q}
-    &END KIND
-"""
-        output_content = self.template.format(
-            BASIS_SET_FILE_NAME=BASIS_PATH,
-            POTENTIAL_FILE_NAME=POTENTIAL_PATH,
+        """Writer for dz_mol (molecular DFT)."""
+        cfg = self.cfg
+        kinds_str = "".join(
+            f"\n  &KIND {e}\n    BASIS_SET {cfg.basis_family}{elem_q[e]}\n"
+            f"    POTENTIAL {cfg.gth_family}{elem_q[e]}\n  &END KIND\n"
+            for e in unique_elements
+        )
+        content = self.template.format(
+            BASIS_SET_FILE_NAME=cfg.basis_path,
+            POTENTIAL_FILE_NAME=cfg.potential_path,
             UKS="TRUE" if unk_spins else "FALSE",
             CUTOFF=int(max_cutoff),
             XYZ_PATH=xyz_path,
-            AX=f"{ax:.6f}",
-            AY=f"{ay:.6f}",
-            AZ=f"{az:.6f}",
+            AX=f"{ax:.6f}", AY=f"{ay:.6f}", AZ=f"{az:.6f}",
             KINDS=kinds_str,
             FOLDER=folder,
         )
-        with open(output_path, "w") as f:
-            f.write(output_content)
+        Path(output_path).write_text(content)
 
-    def write_input_xtb(
+    _DIM_TO_CP2K = {"3D": "XYZ", "2D": "XY"}
+
+    def _write_input_xtb(
         self,
         output_path: str,
         cif_path: str,
         kx: int, ky: int, kz: int,
         folder: str,
-        periodic: str
+        periodic: str,
     ) -> None:
-        output_content = self.template.format(KX=kx, KY=ky, KZ=kz, CIF_PATH=cif_path, FOLDER=folder, PERIODIC=periodic, REAL_SPACE="T" if self.rspace else "F")
-        with open(output_path, "w") as f:
-            f.write(output_content)
+        """Writer for xtb (periodic xTB)."""
+        content = self.template.format(
+            KX=kx, KY=ky, KZ=kz,
+            CIF_PATH=cif_path,
+            FOLDER=folder,
+            PERIODIC=self._DIM_TO_CP2K.get(periodic, periodic),
+            REAL_SPACE="T" if self.rspace else "F",
+        )
+        Path(output_path).write_text(content)
 
-    def write_input_xyz(
+    def _write_input_xtb_mol(
         self,
         output_path: str,
         xyz_path: str,
         ax: float, ay: float, az: float,
-        folder: str
+        folder: str,
     ) -> None:
-        output_content = self.template.format(
+        """Writer for xtb_mol (molecular xTB)."""
+        content = self.template.format(
             XYZ_PATH=xyz_path,
-            AX=f"{ax:.6f}",
-            AY=f"{ay:.6f}",
-            AZ=f"{az:.6f}",
-            FOLDER=folder
+            AX=f"{ax:.6f}", AY=f"{ay:.6f}", AZ=f"{az:.6f}",
+            FOLDER=folder,
         )
-        with open(output_path, "w") as f:
-            f.write(output_content)
+        Path(output_path).write_text(content)
+
+    # ── Main entry point ─────────────────────────────────────────────────────
 
     def generate_input(
-        self, input_path: str, output_path: str, bravais, skip_if_unk: bool = False
+        self,
+        input_path: str,
+        output_path: str,
+        band: bool = False,
+        uks: bool = False,
     ) -> Dict:
-        """Generate CP2K input file from structure/molecule."""
-        metadata = {
-            "skipped": False,
-        }
-        # Use relative path to avoid CP2K path length limits
-        folder_abs = Path(output_path).resolve().parent / "matrices"
-        folder_abs.mkdir(exist_ok=True)
+        """Generate a CP2K input file. Returns a metadata dict."""
+        cfg = self.cfg
+        metadata: Dict = {"skipped": False}
         folder_rel = "matrices"
+        (Path(output_path).parent / folder_rel).mkdir(exist_ok=True)
 
-        if self.method in {"xyz", "pbemol"}:
+        # ── Molecular branch ─────────────────────────────────────────────────
+        if not cfg.periodic:
             mol, unique, counts = self.load_molecule(input_path)
+            ax, ay, az = self.compute_box_size(mol)
+            metadata.update({
+                "elements": counts,
+                "n_atoms": len(mol),
+                "box_size": {"x": ax, "y": ay, "z": az},
+            })
 
-            # xtb does not use box size so this is purely cosmetic
-            ax, ay, az = self.compute_box_size(mol, padding=VACUUM_PADDING)
-
-            metadata["elements"] = counts
-            metadata["n_atoms"] = len(mol)
-            metadata["box_size"] = {"x": ax, "y": ay, "z": az}
-
-            if self.method == "xyz":
-                self.write_input_xyz(output_path, input_path, ax, ay, az, folder_rel)
-            else:
+            if cfg.has_dft:
                 total_e, unk_spins, missing = self.compute_electronic_config(unique, counts)
-
                 if missing:
                     metadata["skipped"] = True
                     metadata["skip_reason"] = f"Missing elems: {', '.join(sorted(missing))}"
                     return metadata
-                
-                metadata["total_valence_electrons"] = total_e
-                metadata["unrestricted"] = unk_spins
-
-                if skip_if_unk and unk_spins:
-                    metadata["skipped"] = True
-                    metadata["skip_reason"] = "UKS required"
-                    return metadata
-
+                unk_spins = uks or unk_spins
+                metadata.update({"total_valence_electrons": total_e, "unrestricted": unk_spins})
                 max_cutoff = self.get_max_cutoff(unique)
                 elem_q = self.get_element_charges(unique)
-                metadata["cutoff"] = max_cutoff
-                metadata["element_charges"] = elem_q
-
-                self.write_input_pbemol(
-                    output_path, input_path, max_cutoff, elem_q, unique, unk_spins, folder_rel, ax, ay, az
+                metadata.update({"cutoff": max_cutoff, "element_charges": elem_q})
+                self._write_input_mol_dft(
+                    output_path, input_path, max_cutoff, elem_q, unique,
+                    unk_spins, folder_rel, ax, ay, az,
                 )
+            else:
+                self._write_input_xtb_mol(output_path, input_path, ax, ay, az, folder_rel)
             return metadata
-        
+
+        # ── Periodic branch ──────────────────────────────────────────────────
         struct, unique, counts = self.load_structure(input_path)
-        
-        kx, ky, kz = self.compute_kpoints(struct, self.sym, bravais) 
-        metadata["kpoints"] = {"x": kx, "y": ky, "z": kz}
-        metadata["elements"] = counts
+        kx, ky, kz = self.compute_kpoints(struct, self.sym)
+        metadata.update({"kpoints": {"x": kx, "y": ky, "z": kz}, "elements": counts})
 
-        if self.method == "pbe":
+        if cfg.has_dft:
             total_e, unk_spins, missing = self.compute_electronic_config(unique, counts)
-
             if missing:
                 metadata["skipped"] = True
                 metadata["skip_reason"] = f"Missing elems: {', '.join(sorted(missing))}"
                 return metadata
-
-            metadata["total_valence_electrons"] = total_e
-            metadata["unrestricted"] = unk_spins
-
-            if skip_if_unk and unk_spins:
-                metadata["skipped"] = True
-                metadata["skip_reason"] = "UKS required"
-                return metadata
-
+            unk_spins = uks or unk_spins
+            metadata.update({"total_valence_electrons": total_e, "unrestricted": unk_spins})
             max_cutoff = self.get_max_cutoff(unique)
             elem_q = self.get_element_charges(unique)
-            metadata["cutoff"] = max_cutoff
-            metadata["element_charges"] = elem_q
 
-            self.write_input_pbe(
-                output_path, input_path, max_cutoff,
-                kx, ky, kz, elem_q, unique, unk_spins, folder_rel
+            # Band setup: recompute k-path and elem config for the band structure cell.
+            # NOTE: the input CIF should already be a standardised primitive cell.
+            if band and cfg.supports_band:
+                from .bands import setup_band_calculation, build_band_block, insert_band_block_into_inp
+                struct_band, segments = setup_band_calculation(input_path)
+                elements_band = [str(site.specie) for site in struct_band.sites]
+                unique = sorted(set(elements_band))
+                counts = {e: elements_band.count(e) for e in unique}
+                total_e, unk_spins, _ = self.compute_electronic_config(unique, counts)
+                elem_q = self.get_element_charges(unique)
+                max_cutoff = self.get_max_cutoff(unique)
+                kx, ky, kz = self.compute_kpoints(struct_band, self.sym)
+                metadata["band"] = True
+
+            metadata.update({"cutoff": max_cutoff, "element_charges": elem_q})
+            self._write_input_periodic_dft(
+                output_path, input_path, kx, ky, kz, elem_q, unique, unk_spins, folder_rel,
             )
-        elif self.method == "scan":
-            total_e, unk_spins, missing = self.compute_electronic_config(unique, counts)
 
-            if missing:
-                metadata["skipped"] = True
-                metadata["skip_reason"] = f"Missing elems: {', '.join(sorted(missing))}"
-                return metadata
+            if band and cfg.supports_band:
+                inp_text = Path(output_path).read_text()
+                # ADDED_MOS -1 triggers CP2K bug (qs_environment.F:1695) with UKS; use 20
+                Path(output_path).write_text(
+                    insert_band_block_into_inp(inp_text, build_band_block(segments, added_mos=20))
+                )
+        else:
+            self._write_input_xtb(output_path, input_path, kx, ky, kz, folder_rel, self.sym)
 
-            metadata["total_valence_electrons"] = total_e
-            metadata["unrestricted"] = unk_spins
-
-            if skip_if_unk and unk_spins:
-                metadata["skipped"] = True
-                metadata["skip_reason"] = "UKS required"
-                return metadata
-
-            max_cutoff = self.get_max_cutoff(unique)
-            elem_q = self.get_element_charges(unique)
-            metadata["cutoff"] = max_cutoff
-            metadata["element_charges"] = elem_q
-
-            self.write_input_scan(
-                output_path, input_path, max_cutoff,
-                kx, ky, kz, elem_q, unique, unk_spins, folder_rel
-            )
-        elif self.method == "tzvp":
-            total_e, unk_spins, missing = self.compute_electronic_config(unique, counts)
-
-            if missing:
-                metadata["skipped"] = True
-                metadata["skip_reason"] = f"Missing elems: {', '.join(sorted(missing))}"
-                return metadata
-
-            metadata["total_valence_electrons"] = total_e
-            metadata["unrestricted"] = unk_spins
-
-            if skip_if_unk and unk_spins:
-                metadata["skipped"] = True
-                metadata["skip_reason"] = "UKS required"
-                return metadata
-
-            max_cutoff = self.get_max_cutoff(unique)
-            elem_q = self.get_element_charges(unique)
-            metadata["cutoff"] = max_cutoff
-            metadata["element_charges"] = elem_q
-
-            self.write_input_tzvp(
-                output_path, input_path,
-                kx, ky, kz, elem_q, unique, unk_spins, folder_rel
-            )
-        else:  # xtb
-            self.write_input_xtb(output_path, input_path, kx, ky, kz, folder_rel, periodic=self.sym)
         return metadata
