@@ -8,8 +8,8 @@
   METHOD Quickstep
 
   &DFT
-    BASIS_SET_FILE_NAME /home/nikolai/OrbitMat/calc/src/input/basis/BASIS_MOLOPT_SCAN_DZ
-    POTENTIAL_FILE_NAME /home/nikolai/OrbitMat/calc/src/input/potential/POTENTIAL_DZ_SCAN
+    BASIS_SET_FILE_NAME {BASIS_SET_FILE_NAME}
+    POTENTIAL_FILE_NAME {POTENTIAL_FILE_NAME}
     UKS {UKS}
 
     &MGRID
