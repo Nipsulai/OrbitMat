@@ -1,17 +1,17 @@
 #!/bin/bash
 # ── SLURM settings ────────────────────────────────────────────────────────────
-#SBATCH --job-name=cp2k_orbitmat
-#SBATCH --output=/groups/tensorlab/argatoff/OrbitMat/calc/hpc/logs/slurm_%A_%a.out
-#SBATCH --error=/groups/tensorlab/argatoff/OrbitMat/calc/hpc/logs/slurm_%A_%a.err
+#SBATCH --job-name=cp2k_c2db
+#SBATCH --output=/groups/tensorlab/argatoff/OrbitMat/calc/hpc/logs/c2db_%A_%a.out
+#SBATCH --error=/groups/tensorlab/argatoff/OrbitMat/calc/hpc/logs/c2db_%A_%a.err
 #SBATCH --nodes=1
-#SBATCH --ntasks=32               # parallel jobs per node  (= config "parallel")
+#SBATCH --ntasks=2               # parallel jobs per node  (= config "parallel")
 #SBATCH --cpus-per-task=2        # threads per job         (= config "threads")
-#SBATCH --time=24:00:00
-#SBATCH --array=0-9              # number of array tasks; set to ceil(N / CHUNK_SIZE) - 1
+#SBATCH --time=00:10:00
+#SBATCH --array=0-1              # number of array tasks; set to ceil(N / CHUNK_SIZE) - 1
 
 # ── Edit these ────────────────────────────────────────────────────────────────
 REPO_DIR="/groups/tensorlab/argatoff/OrbitMat"
-CONFIG="$REPO_DIR/calc/config_nm_tzvp.json"
+CONFIG="$REPO_DIR/calc/config_nm_tzvp_c2db.json"
 SCRATCH="/resnick/scratch/nargatoff"
 CHUNK_SIZE=347    # entries per array task; set to ceil(total / num_array_tasks)
 
@@ -33,7 +33,7 @@ export CP2K_BIN="/home/mnouman/cp2k/build/bin/cp2k.psmp"
 # ── Chunk math ────────────────────────────────────────────────────────────────
 START_IDX=$(( SLURM_ARRAY_TASK_ID * CHUNK_SIZE ))
 END_IDX=$(( START_IDX + CHUNK_SIZE ))
-OUT_DIR="$SCRATCH/cp2k_out/fhiaims/tzvp_${SLURM_ARRAY_TASK_ID}"
+OUT_DIR="$SCRATCH/cp2k_out/c2db/tzvp_${SLURM_ARRAY_TASK_ID}"
 
 echo "Task ${SLURM_ARRAY_TASK_ID}: entries [${START_IDX}, ${END_IDX}) → ${OUT_DIR}"
 

@@ -9,21 +9,6 @@ from pathlib import Path
 from typing import Dict, List
 import glob
 
-
-def _folder_size_human(path: Path) -> str:
-    total = 0
-    for dirpath, _, filenames in os.walk(path):
-        for f in filenames:
-            try:
-                total += os.path.getsize(os.path.join(dirpath, f))
-            except OSError:
-                pass
-    for unit in ("B", "KB", "MB", "GB", "TB"):
-        if total < 1024:
-            return f"{total:.0f} {unit}"
-        total /= 1024
-    return f"{total:.1f} PB"
-
 from tqdm import tqdm
 
 from .config import OUTPUT, SSMP, SOURCE, TIMEOUT, METHODS
@@ -36,18 +21,20 @@ def _cleanup_restart_files(work_dir: Path) -> None:
             Path(f).unlink(missing_ok=True)
 
 def _run_cp2k_subprocess(cmd: str, work_dir: Path, env: dict, timeout: int) -> float:
-    """Run a CP2K subprocess. Returns elapsed seconds. Raises TimeoutExpired on timeout."""
     start = time.time()
-    subprocess.run(
-        cmd,
-        shell=True,
-        executable="/bin/bash",
-        cwd=work_dir,
-        capture_output=True,
-        timeout=timeout,
-        env=env,
-    )
+    with open(Path(work_dir) / "stderr.log", "w") as err_f:
+        subprocess.run(
+            cmd,
+            shell=True,
+            executable="/bin/bash",
+            cwd=work_dir,
+            stdout=subprocess.DEVNULL,
+            stderr=err_f,
+            timeout=timeout,
+            env=env,
+        )
     return time.time() - start
+
 
 def _worker_init():
     signal.signal(signal.SIGINT, signal.SIG_IGN)
@@ -97,15 +84,27 @@ def run_single_calculation(
     env["OMP_NUM_THREADS"] = str(threads)
     env["OPENBLAS_NUM_THREADS"] = "1"
 
+    input_file_abs = str(Path(input_file).absolute())
+
+    #_mpi = "mpirun -np 1 --bind-to none "
+    #cmd = f"{_mpi}{SSMP} -i {input_file_abs} -o {OUTPUT}"
+    cmd = f"source {SOURCE} && {SSMP} -i '{input_file_abs}' -o {OUTPUT}"
+
     try:
-        input_file_abs = str(Path(input_file).absolute())
-        cmd = f"source {SOURCE} && {SSMP} -i {input_file_abs} -o {OUTPUT}"
-
         result["runtime_seconds"] = _run_cp2k_subprocess(cmd, work_dir, env, TIMEOUT)
+        print(f"Timeout (>{TIMEOUT}s): {work_dir}")
+    except subprocess.TimeoutExpired:
+        result["error"] = f"Timeout (>{TIMEOUT}s)"
+        return result
+    except Exception as e:
+        result["error"] = str(e)
+        return result
 
-        # Clean up restart files
-        _cleanup_restart_files(work_dir)
 
+    # Clean up restart files
+    #_cleanup_restart_files(work_dir)
+
+    try:
         output_log = Path(work_dir) / OUTPUT
         if output_log.exists():
             output_text = output_log.read_text()
@@ -202,10 +201,6 @@ class CP2KExecutor:
                             n_failed += 1
                         pbar.set_postfix_str(f"{n_success} ✗{n_failed}")
                         pbar.update(1)
-                        if output_dir:
-                            dbar.set_description_str(
-                                f"  📁 {output_dir.name}  {_folder_size_human(output_dir)}"
-                            )
             pool.close()
             pool.join()
         except KeyboardInterrupt:

@@ -1,10 +1,10 @@
 {
   "method":      "tzvp",
-  "input":       "data/bandgap2025/filtered/run_0324_1359/data.json",
+  "input":       "/groups/tensorlab/argatoff/OrbitMat/data/c2db/filtered/run_0325_1124/data.json",
   "output":      null,
-  "parallel":    16,
+  "parallel":    2,
   "threads":     2,
-  "dim":         "3D",
+  "dim":         "2D",
   "template":    null,
   "include_unk": false,
   "kspace":      false,

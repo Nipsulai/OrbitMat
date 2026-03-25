@@ -7,12 +7,12 @@ from typing import Optional
 # Local defaults; override via env vars for cluster use:
 #   CP2K_SETUP  path to toolchain setup script
 #   CP2K_BIN    path to cp2k binary
-SOURCE = Path(os.getenv("CP2K_SETUP", "cp2k/tools/toolchain/install/setup")).absolute()
-SSMP   = Path(os.getenv("CP2K_BIN",   "cp2k/exe/local/cp2k.ssmp")).absolute()
+SOURCE = Path("/home/mnouman/cp2k/tools/toolchain/install/setup").absolute()
+SSMP   = Path("/home/mnouman/cp2k/build/bin/cp2k.psmp").absolute()
 OUTPUT = "out.cp2k"
 
 # ── Calculation parameters ────────────────────────────────────────────────────
-TIMEOUT          = 1600
+TIMEOUT          = 3600
 KPOINTS_ACC      = 1500   # accuracy for k-grid generation
 KPOINTS_DENSITY  = 5.0    # k-points density for 3D grids, per 1/Å
 VACUUM_PADDING   = 3      # Å, padding per side for molecular boxes

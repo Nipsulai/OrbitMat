@@ -87,12 +87,12 @@ class CP2KInputGenerator:
 
     def compute_kpoints(self, struct: Structure, sym: str) -> Tuple[int, int, int]:
         atoms = AseAtomsAdaptor.get_atoms(struct)
-        kpts = kptdensity2monkhorstpack(atoms, kptdensity=KPOINTS_DENSITY)
+        kpts = kptdensity2monkhorstpack(atoms, kptdensity=kpt_density)
         kx, ky, kz = int(kpts[0]), int(kpts[1]), int(kpts[2])
         if sym == "3D":
             return self._to_odd(kx), self._to_odd(ky), self._to_odd(kz)
         else:  # 2D
-            return self._to_odd(kx), self._to_odd(ky), 1
+            return 20, 20, 1
 
     # ── Electronic configuration ─────────────────────────────────────────────
 
@@ -293,7 +293,7 @@ class CP2KInputGenerator:
                 inp_text = Path(output_path).read_text()
                 # ADDED_MOS -1 triggers CP2K bug (qs_environment.F:1695) with UKS; use 20
                 Path(output_path).write_text(
-                    insert_band_block_into_inp(inp_text, build_band_block(segments, added_mos=20))
+                    insert_band_block_into_inp(inp_text, build_band_block(segments, added_mos=30))
                 )
         else:
             self._write_input_xtb(output_path, input_path, kx, ky, kz, folder_rel, self.sym)
