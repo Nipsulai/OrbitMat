@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SrCClO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.23600761
+_cell_length_b   4.05784766
+_cell_length_c   39.29205120
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCClO3
+_chemical_formula_sum   'Sr2 C2 Cl2 O6'
+_cell_volume   834.83511672
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.00000000  0.00000000  0.45418901  1
+  Sr  Sr1  1  0.50000000  0.50000000  0.54581099  1
+  C  C2  1  0.50000000  0.50000000  0.41300112  1
+  C  C3  1  -0.00000000  -0.00000000  0.58699888  1
+  O  O4  1  0.50000000  0.50000000  0.38079931  1
+  O  O5  1  -0.00000000  -0.00000000  0.61920069  1
+  O  O6  1  0.78368835  0.00000000  0.57131070  1
+  O  O7  1  0.71631165  0.50000000  0.42868930  1
+  O  O8  1  0.21631165  -0.00000000  0.57131070  1
+  O  O9  1  0.28368835  0.50000000  0.42868930  1
+  Cl  Cl10  1  0.50000000  -0.00000000  0.49072500  1
+  Cl  Cl11  1  0.00000000  0.50000000  0.50927500  1

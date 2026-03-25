@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Ag3I5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.82532312
+_cell_length_b   7.77698711
+_cell_length_c   19.45741175
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.20581302
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ag3I5
+_chemical_formula_sum   'Ag3 I5'
+_cell_volume   1023.35173796
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.62065903  -0.00000000  0.61381321  1
+  I  I1  1  0.96095060  0.67340873  0.50094179  1
+  I  I2  1  0.28754168  0.32663881  0.50093292  1
+  I  I3  1  0.52317004  0.79461932  0.38813059  1
+  I  I4  1  0.72855072  0.20538068  0.38813060  1
+  Ag  Ag5  1  0.32754003  0.70329464  0.53200451  1
+  Ag  Ag6  1  0.62424539  0.29670536  0.53200451  1
+  Ag  Ag7  1  0.92744796  -0.00000000  0.54402590  1

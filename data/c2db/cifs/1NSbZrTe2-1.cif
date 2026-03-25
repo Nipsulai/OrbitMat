@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_ZrSbTe2N
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.27854354
+_cell_length_b   4.06336612
+_cell_length_c   21.56328118
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.17887664
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrSbTe2N
+_chemical_formula_sum   'Zr1 Sb1 Te2 N1'
+_cell_volume   287.23486704
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  0.49527211  0.25582656  0.54717703  1
+  N  N1  1  0.39636613  0.67776123  0.48038137  1
+  Zr  Zr2  1  0.90021070  0.68084998  0.42383797  1
+  Te  Te3  1  0.39120896  0.17759127  0.34894622  1
+  Te  Te4  1  0.63357633  0.70826946  0.65052987  1

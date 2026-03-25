@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_MnGe(PS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.22479155
+_cell_length_b   6.22458712
+_cell_length_c   18.29234825
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01472637
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnGe(PS3)2
+_chemical_formula_sum   'Mn1 Ge1 P2 S6'
+_cell_volume   613.72100842
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.16998176  0.16403292  0.50016488  1
+  S  S1  1  0.17447152  0.80868467  0.41002514  1
+  P  P2  1  0.50339905  0.83089367  0.43938034  1
+  P  P3  1  0.50320019  0.83076328  0.56065491  1
+  S  S4  1  0.81032863  0.15981484  0.41000750  1
+  Mn  Mn5  1  0.83665199  0.49748405  0.49979668  1
+  S  S6  1  0.80947378  0.80778463  0.58999250  1
+  S  S7  1  0.52542856  0.52401687  0.41004449  1
+  S  S8  1  0.17382957  0.52439542  0.58998962  1
+  S  S9  1  0.52629378  0.16010906  0.58996560  1

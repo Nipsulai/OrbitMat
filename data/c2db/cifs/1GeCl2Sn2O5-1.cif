@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Sn2GeCl2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.34376619
+_cell_length_b   5.53017877
+_cell_length_c   20.35489294
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   111.01838721
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sn2GeCl2O5
+_chemical_formula_sum   'Sn2 Ge1 Cl2 O5'
+_cell_volume   561.50503256
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.78438544  0.22694356  0.55637593  1
+  Sn  Sn1  1  0.07688428  0.78739763  0.54099364  1
+  Cl  Cl2  1  0.77684166  0.90639922  0.63153604  1
+  O  O3  1  0.33812783  0.70930899  0.48187571  1
+  O  O4  1  0.01977566  0.48505033  0.60330922  1
+  O  O5  1  0.76960874  0.48498691  0.49343601  1
+  O  O6  1  0.41578422  0.13586451  0.55579419  1
+  Sn  Sn7  1  0.36530178  0.36997380  0.47411723  1
+  O  O8  1  0.97120165  0.08845605  0.49873028  1
+  Cl  Cl9  1  0.35745442  0.21395259  0.36843846  1

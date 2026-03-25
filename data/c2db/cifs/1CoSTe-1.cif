@@ -1,0 +1,29 @@
+# generated using pymatgen
+data_CoTeS
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.31085491
+_cell_length_b   3.31093488
+_cell_length_c   17.98787435
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.05407537
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CoTeS
+_chemical_formula_sum   'Co1 Te1 S1'
+_cell_volume   170.67281867
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.16768241  0.83015700  0.58305246  1
+  Co  Co1  1  0.83441154  0.16344865  0.52060430  1
+  Te  Te2  1  0.16725820  0.83063523  0.41694754  1

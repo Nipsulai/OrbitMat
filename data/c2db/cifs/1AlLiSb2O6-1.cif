@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiAl(SbO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.90320009
+_cell_length_b   5.90320009
+_cell_length_c   32.96233225
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   99.31949067
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiAl(SbO3)2
+_chemical_formula_sum   'Li1 Al1 Sb2 O6'
+_cell_volume   1133.50224172
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.27566320  0.00831714  0.47034239  1
+  Al  Al1  1  -0.00610459  0.00610459  0.50000000  1
+  Sb  Sb2  1  0.51407203  0.84854779  0.48710645  1
+  Sb  Sb3  1  0.15145221  0.48592797  0.51289355  1
+  Li  Li4  1  0.67107014  0.32892986  0.50000000  1
+  O  O5  1  0.78576325  0.83426165  0.45768165  1
+  O  O6  1  0.16573835  0.21423675  0.54231835  1
+  O  O7  1  0.69209057  1.04134185  0.52560074  1
+  O  O8  1  -0.04134185  0.30790943  0.47439926  1
+  O  O9  1  0.99168286  0.72433680  0.52965761  1

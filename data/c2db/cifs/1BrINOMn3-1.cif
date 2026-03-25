@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Mn3IBrNO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.76073377
+_cell_length_b   3.85619403
+_cell_length_c   21.75365176
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99986362
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn3IBrNO
+_chemical_formula_sum   'Mn3 I1 Br1 N1 O1'
+_cell_volume   315.47404868
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.51102463  0.14741308  0.43428496  1
+  Mn  Mn1  1  0.01109802  0.64785289  0.51012040  1
+  O  O2  1  0.51084078  0.64755887  0.47654025  1
+  Mn  Mn3  1  0.51107380  0.14784032  0.57937714  1
+  N  N4  1  1.01090024  0.14780978  0.53416832  1
+  Br  Br5  1  0.50990166  0.64756966  0.65523030  1
+  I  I6  1  0.01046789  1.14907445  0.34476970  1

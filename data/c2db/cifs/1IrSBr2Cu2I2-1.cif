@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Cu2IrS(IBr)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.74214430
+_cell_length_b   6.75362195
+_cell_length_c   19.26873871
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.16232028
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu2IrS(IBr)2
+_chemical_formula_sum   'Cu2 Ir1 S1 I2 Br2'
+_cell_volume   676.33832016
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.05740926  0.37144180  0.61076850  1
+  S  S1  1  0.51076778  0.15774414  0.50035369  1
+  I  I2  1  0.17065328  0.52204906  0.42544624  1
+  Cu  Cu3  1  0.42419830  0.43113490  0.53223373  1
+  Cu  Cu4  1  0.15170596  0.88466338  0.46783380  1
+  I  I5  1  0.80661558  0.79389544  0.57447802  1
+  Ir  Ir6  1  0.90333485  0.15798834  0.49995577  1
+  Br  Br7  1  0.84498401  0.94430155  0.38923150  1

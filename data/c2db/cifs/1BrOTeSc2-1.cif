@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Sc2TeBrO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.28973780
+_cell_length_b   4.28846828
+_cell_length_c   18.88758020
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99374953
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc2TeBrO
+_chemical_formula_sum   'Sc2 Te1 Br1 O1'
+_cell_volume   347.46356265
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.24770745  0.25414174  0.50046982  1
+  O  O1  1  0.24767816  0.75418981  0.51212032  1
+  Sc  Sc2  1  0.74769573  0.75414772  0.50045401  1
+  Te  Te3  1  0.74771113  0.25417873  0.39702176  1
+  Br  Br4  1  0.74769295  0.25411882  0.60288312  1

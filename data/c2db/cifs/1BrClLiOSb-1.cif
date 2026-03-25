@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_LiSbBrClO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.86464272
+_cell_length_b   3.91332278
+_cell_length_c   18.21698158
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   91.62390014
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiSbBrClO
+_chemical_formula_sum   'Li1 Sb1 Br1 Cl1 O1'
+_cell_volume   417.91618724
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  0.42453137  0.28502448  0.47407307  1
+  Li  Li1  1  -0.09613808  0.68849424  0.52692649  1
+  O  O2  1  0.58836156  0.67081332  0.51226513  1
+  Cl  Cl3  1  1.10295670  0.61857030  0.41170377  1
+  Br  Br4  1  0.13365073  0.19305364  0.58829623  1

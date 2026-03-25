@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GaSn3Br2(ClO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.83130286
+_cell_length_b   5.40452230
+_cell_length_c   20.95344152
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   81.43592159
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaSn3Br2(ClO2)2
+_chemical_formula_sum   'Ga1 Sn3 Br2 Cl2 O4'
+_cell_volume   652.99321082
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.20193780  0.65777708  0.52465054  1
+  Ga  Ga1  1  0.87545774  0.37995074  0.42995256  1
+  O  O2  1  0.03560564  0.11830348  0.48158906  1
+  Sn  Sn3  1  0.37514270  0.87859894  0.45828225  1
+  Sn  Sn4  1  0.87511365  0.87906550  0.53891117  1
+  Cl  Cl5  1  0.10360950  0.56665242  0.36595054  1
+  Br  Br6  1  0.70254019  0.66956247  0.64206357  1
+  O  O7  1  0.54715671  0.09872179  0.52536398  1
+  Sn  Sn8  1  0.36662350  0.37492142  0.58842819  1
+  Cl  Cl9  1  0.04231133  0.07716430  0.63395731  1
+  Br  Br10  1  0.64367904  0.18235554  0.35793643  1
+  O  O11  1  0.71316931  0.64031057  0.48164105  1

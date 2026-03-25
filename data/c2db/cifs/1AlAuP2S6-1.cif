@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_AlP2AuS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.07875353
+_cell_length_b   6.07836219
+_cell_length_c   33.52445200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00216369
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlP2AuS6
+_chemical_formula_sum   'Al1 P2 Au1 S6'
+_cell_volume   1072.71402772
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.02775432  -0.01046002  0.45121180  1
+  S  S1  1  0.37614568  0.72739732  0.45120933  1
+  S  S2  1  0.63829765  0.33792934  0.45121195  1
+  S  S3  1  0.63828557  -0.01046010  0.54878821  1
+  S  S4  1  0.37613167  0.33792934  0.54878803  1
+  S  S5  1  0.02775164  0.72739727  0.54879068  1
+  Au  Au6  1  0.01408736  0.35167538  0.50000000  1
+  Al  Al7  1  0.34739392  0.01828786  0.50000000  1
+  P  P8  1  0.68073438  0.68495187  0.46682469  1
+  P  P9  1  0.68071747  0.68495179  0.53317531  1

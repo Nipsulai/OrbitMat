@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_InAg(AsSe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.67302439
+_cell_length_b   6.67262844
+_cell_length_c   33.52445200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00194556
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InAg(AsSe3)2
+_chemical_formula_sum   'In1 Ag1 As2 Se6'
+_cell_volume   1292.71699664
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.03110269  0.01698259  0.44531560  1
+  Se  Se1  1  0.34870365  0.70330709  0.44531450  1
+  Se  Se2  1  0.66238641  0.33458275  0.44531557  1
+  Se  Se3  1  0.66237973  0.01698248  0.55468441  1
+  Se  Se4  1  0.34869622  0.33458274  0.55468441  1
+  Se  Se5  1  0.03110336  0.70330703  0.55468550  1
+  Ag  Ag6  1  0.01407495  0.35165133  0.50000000  1
+  In  In7  1  0.34739577  0.01829169  0.50000000  1
+  As  As8  1  0.68073032  0.68495621  0.46263022  1
+  As  As9  1  0.68072578  0.68495614  0.53736978  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiSb2PdSe6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.67197134
+_cell_length_b   6.66897069
+_cell_length_c   33.22614168
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01417473
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiSb2PdSe6
+_chemical_formula_sum   'Li1 Sb2 Pd1 Se6'
+_cell_volume   1280.15181296
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.67751422  0.99860290  0.50000117  1
+  Se  Se1  1  0.70740495  0.73426354  0.55259636  1
+  Li  Li2  1  0.01044851  0.66451152  0.50000044  1
+  Se  Se3  1  -0.05768244  0.29179217  0.55270378  1
+  Sb  Sb4  1  0.34456588  0.33181117  0.54211192  1
+  Se  Se5  1  0.38455523  0.96949829  0.55273253  1
+  Se  Se6  1  0.38329924  0.73430875  0.44740429  1
+  Se  Se7  1  0.70594357  0.29183732  0.44730338  1
+  Sb  Sb8  1  0.34368174  0.33183954  0.45787998  1
+  Se  Se9  1  -0.05863086  -0.03046890  0.44726580  1

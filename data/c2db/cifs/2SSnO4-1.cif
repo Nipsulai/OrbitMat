@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SnSO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.45788687
+_cell_length_b   7.93538256
+_cell_length_c   35.73694800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.01381862
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SnSO4
+_chemical_formula_sum   'Sn2 S2 O8'
+_cell_volume   1547.78219455
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  -0.00619760  0.01918023  0.46791135  1
+  O  O1  1  0.04943762  0.51920221  0.53209810  1
+  O  O2  1  0.49380240  0.51918023  0.53208865  1
+  O  O3  1  0.54943762  0.01920221  0.46790190  1
+  O  O4  1  0.27178058  0.73467246  0.56875634  1
+  Sn  Sn5  1  0.77166157  0.51891124  0.48765688  1
+  Sn  Sn6  1  0.27166157  0.01891124  0.51234312  1
+  O  O7  1  0.77170446  0.24649594  0.49996251  1
+  O  O8  1  0.27170446  0.74649594  0.50003749  1
+  S  S9  1  0.77168250  0.13286321  0.46492524  1
+  S  S10  1  0.27168250  0.63286321  0.53507476  1
+  O  O11  1  0.77178058  0.23467246  0.43124366  1

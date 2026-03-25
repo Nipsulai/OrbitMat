@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MnAuSeSI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.80810000
+_cell_length_b   5.17124231
+_cell_length_c   21.09946651
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99958964
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnAuSeSI2
+_chemical_formula_sum   'Mn1 Au1 Se1 S1 I2'
+_cell_volume   415.50351967
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.74958814  0.75038028  0.53969459  1
+  I  I1  1  0.74892981  0.75013703  0.35515827  1
+  Au  Au2  1  0.24934287  0.75023664  0.45421303  1
+  S  S3  1  0.24931347  0.25015490  0.47752227  1
+  Mn  Mn4  1  0.74947323  0.25037200  0.54884536  1
+  I  I5  1  0.24974243  0.25083505  0.64456884  1

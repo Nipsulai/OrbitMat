@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ca2CoS3Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.10188037
+_cell_length_b   4.10188037
+_cell_length_c   42.60007056
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2CoS3Cl
+_chemical_formula_sum   'Ca4 Co2 S6 Cl2'
+_cell_volume   716.76418982
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.50000000  0.50000000  0.60138171  1
+  S  S1  1  -0.00000000  -0.00000000  0.60138171  1
+  Cl  Cl2  1  0.50000000  0.00000000  0.67321608  1
+  Co  Co3  1  0.50000000  -0.00000000  0.58157609  1
+  Ca  Ca4  1  0.00000000  0.50000000  0.64841616  1
+  S  S5  1  0.50000000  0.00000000  0.52866021  1
+  Ca  Ca6  1  0.00000000  0.50000000  0.53919294  1
+  S  S7  1  0.00000000  0.00000000  0.39861829  1
+  S  S8  1  0.50000000  0.50000000  0.39861829  1
+  Cl  Cl9  1  -0.00000000  0.50000000  0.32678392  1
+  Co  Co10  1  -0.00000000  0.50000000  0.41842391  1
+  Ca  Ca11  1  0.50000000  0.00000000  0.35158384  1
+  S  S12  1  0.00000000  0.50000000  0.47133979  1
+  Ca  Ca13  1  0.50000000  0.00000000  0.46080706  1

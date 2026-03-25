@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cu2MoSe4SBr2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.19814519
+_cell_length_b   6.77028830
+_cell_length_c   20.19424548
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   98.10764947
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu2MoSe4SBr2
+_chemical_formula_sum   'Cu2 Mo1 Se4 S1 Br2'
+_cell_volume   703.59138995
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  -0.00422370  0.32864687  0.54796141  1
+  Se  Se1  1  0.33457895  0.80518419  0.55831025  1
+  Se  Se2  1  0.77771384  0.55255719  0.38273137  1
+  Mo  Mo3  1  0.62060774  0.79581718  0.45810206  1
+  Br  Br4  1  0.32214982  0.28423817  0.62860707  1
+  S  S5  1  0.84562770  0.09841832  0.47507947  1
+  Cu  Cu6  1  0.46295244  0.16178029  0.52205639  1
+  Se  Se7  1  0.39213554  0.41857018  0.43803087  1
+  Br  Br8  1  0.31284682  0.89923866  0.37139293  1
+  Se  Se9  1  0.88366163  0.65851620  0.55552320  1

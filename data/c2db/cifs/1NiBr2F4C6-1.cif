@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_NiC6(BrF2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.67788072
+_cell_length_b   7.01973127
+_cell_length_c   33.92925836
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiC6(BrF2)2
+_chemical_formula_sum   'Ni1 C6 Br2 F4'
+_cell_volume   875.97657785
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.50000000  0.00000000  0.54680356  1
+  C  C1  1  -0.00000000  0.60119013  0.53412676  1
+  C  C2  1  0.00000000  0.39880987  0.53412676  1
+  F  F3  1  -0.00000000  0.68079184  0.57028086  1
+  F  F4  1  0.00000000  0.31920816  0.57028086  1
+  Ni  Ni5  1  -0.00000000  -0.00000000  0.50000000  1
+  Br  Br6  1  0.50000000  -0.00000000  0.45319644  1
+  C  C7  1  0.00000000  0.71175856  0.50000000  1
+  C  C8  1  -0.00000000  0.28824144  0.50000000  1
+  C  C9  1  -0.00000000  0.39880987  0.46587324  1
+  C  C10  1  0.00000000  0.60119013  0.46587324  1
+  F  F11  1  0.00000000  0.31920816  0.42971914  1
+  F  F12  1  -0.00000000  0.68079184  0.42971914  1

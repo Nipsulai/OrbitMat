@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ge3Cl2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.06055982
+_cell_length_b   5.03694393
+_cell_length_c   20.61187412
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   105.98176816
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ge3Cl2O5
+_chemical_formula_sum   'Ge3 Cl2 O5'
+_cell_volume   505.08491832
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.26800365  0.35650980  0.54208982  1
+  O  O1  1  0.60437709  0.53934555  0.50282818  1
+  O  O2  1  -0.01088147  0.55188228  0.42830031  1
+  O  O3  1  0.86777472  0.09082394  0.51636653  1
+  Ge  Ge4  1  0.69284185  0.25708707  0.45361693  1
+  Cl  Cl5  1  0.65243721  1.02937300  0.36386793  1
+  Ge  Ge6  1  0.99145016  0.78622318  0.49451378  1
+  O  O7  1  0.12283336  0.63321754  0.56158262  1
+  O  O8  1  0.31925965  0.08735815  0.48130792  1
+  Cl  Cl9  1  0.33914766  0.21349212  0.63613207  1

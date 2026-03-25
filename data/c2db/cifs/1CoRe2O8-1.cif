@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Co(ReO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.64544947
+_cell_length_b   5.64374789
+_cell_length_c   37.35776440
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.97471862
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Co(ReO4)2
+_chemical_formula_sum   'Co1 Re2 O8'
+_cell_volume   1031.07016805
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Re  Re0  1  0.66553215  0.33304108  0.54674520  1
+  O  O1  1  0.88998506  0.22703655  0.53109155  1
+  O  O2  1  0.76977433  0.66319432  0.53112379  1
+  O  O3  1  0.33391553  0.10707230  0.53165482  1
+  O  O4  1  0.66810169  0.33454509  0.59232632  1
+  Co  Co5  1  1.00000000  0.00000000  0.50000000  1
+  Re  Re6  1  0.33446785  0.66695892  0.45325480  1
+  O  O7  1  0.11001494  0.77296345  0.46890845  1
+  O  O8  1  0.23022567  0.33680568  0.46887621  1
+  O  O9  1  0.66608447  0.89292770  0.46834518  1
+  O  O10  1  0.33189831  0.66545491  0.40767368  1

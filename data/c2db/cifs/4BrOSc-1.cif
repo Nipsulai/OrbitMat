@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ScBrO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.79030497
+_cell_length_b   7.10704387
+_cell_length_c   36.42040926
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScBrO
+_chemical_formula_sum   'Sc4 Br4 O4'
+_cell_volume   981.08802136
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.00000000  0.00023784  0.47204773  1
+  Sc  Sc1  1  0.50000000  0.25025491  0.52795233  1
+  Sc  Sc2  1  -0.00000000  0.50013028  0.47324351  1
+  Sc  Sc3  1  0.50000000  0.75036228  0.52675646  1
+  O  O4  1  -0.00000000  0.24551782  0.50337774  1
+  O  O5  1  0.50000000  0.00497538  0.49662226  1
+  O  O6  1  -0.00000000  0.75459386  0.50282828  1
+  O  O7  1  0.50000000  0.49589916  0.49717180  1
+  Br  Br8  1  -0.00000000  0.25497288  0.41695732  1
+  Br  Br9  1  0.50000000  0.99551839  0.58304267  1
+  Br  Br10  1  0.50000000  0.75021870  0.42607764  1
+  Br  Br11  1  0.00000000  0.50027181  0.57392242  1

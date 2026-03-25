@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CaS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.45758348
+_cell_length_b   10.29797135
+_cell_length_c   34.41560333
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99987052
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaS4
+_chemical_formula_sum   'Ca4 S16'
+_cell_volume   2643.04884914
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.01940570  -0.02183086  0.43569481  1
+  S  S1  1  0.81202500  0.47812776  0.43569274  1
+  S  S2  1  0.10971480  0.79245693  0.44292961  1
+  S  S3  1  0.72161044  0.29244393  0.44293004  1
+  Ca  Ca4  1  0.34204641  0.64550575  0.49880630  1
+  Ca  Ca5  1  0.48934660  0.14551494  0.49882310  1
+  Ca  Ca6  1  0.84203238  0.73314382  0.50328277  1
+  Ca  Ca7  1  -0.01067259  0.23315097  0.50330008  1
+  S  S8  1  0.31195901  0.90044107  0.56640591  1
+  S  S9  1  0.51936039  0.40048255  0.56640759  1
+  S  S10  1  0.12562389  0.75302654  0.55974868  1
+  S  S11  1  0.70570338  0.25303072  0.55974194  1
+  S  S12  1  0.50356416  0.88391647  0.51948159  1
+  S  S13  1  0.32785260  0.38389596  0.51948918  1
+  S  S14  1  0.22161324  0.08615182  0.55916998  1
+  S  S15  1  0.60981139  0.58616389  0.55916868  1
+  S  S16  1  0.20581739  0.12555539  0.44235937  1
+  S  S17  1  0.62560696  0.62555144  0.44236594  1
+  S  S18  1  0.82781799  -0.00541007  0.48260526  1
+  S  S19  1  0.00351587  0.49461007  0.48259780  1

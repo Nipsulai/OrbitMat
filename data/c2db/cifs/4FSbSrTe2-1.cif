@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_SrSbTe2F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.31497511
+_cell_length_b   4.31497511
+_cell_length_c   40.54823305
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.47030549
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrSbTe2F
+_chemical_formula_sum   'Sr2 Sb2 Te4 F2'
+_cell_volume   754.94253126
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.75051929  0.24948071  0.96593156  1
+  Sr  Sr1  1  0.24948071  0.75051929  0.03406844  1
+  Sb  Sb2  1  0.23977577  0.76022423  0.85907058  1
+  Sb  Sb3  1  0.76022423  0.23977577  0.14092942  1
+  Te  Te4  1  0.24930014  0.75069986  0.92735590  1
+  Te  Te5  1  0.75069986  0.24930014  0.07264410  1
+  Te  Te6  1  0.77909908  0.22090092  0.84441748  1
+  Te  Te7  1  0.22090092  0.77909908  0.15558252  1
+  F  F8  1  0.25075686  0.25075686  0.00000000  1
+  F  F9  1  0.74924314  0.74924314  0.00000000  1

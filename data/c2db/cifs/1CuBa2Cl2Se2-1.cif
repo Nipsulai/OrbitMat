@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Ba2Cu(SeCl)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.85086066
+_cell_length_b   4.85086066
+_cell_length_c   21.07899318
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   79.81561409
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Cu(SeCl)2
+_chemical_formula_sum   'Ba2 Cu1 Se2 Cl2'
+_cell_volume   488.19144472
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.95737993  0.95737993  0.50000000  1
+  Se  Se1  1  0.45836159  0.94924104  0.50000000  1
+  Se  Se2  1  0.94924104  0.45836159  0.50000000  1
+  Ba  Ba3  1  0.44328603  0.44328603  0.39204203  1
+  Cl  Cl4  1  0.03341410  0.03341410  0.34095569  1
+  Ba  Ba5  1  0.44328603  0.44328603  0.60795797  1
+  Cl  Cl6  1  0.03341410  0.03341410  0.65904431  1

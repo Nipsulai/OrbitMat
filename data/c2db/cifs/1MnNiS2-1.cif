@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_MnNiS2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.73208842
+_cell_length_b   3.73361080
+_cell_length_c   32.85828665
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.02171982
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnNiS2
+_chemical_formula_sum   'Mn1 Ni1 S2'
+_cell_volume   396.42535214
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.08975797  0.84065219  0.52171378  1
+  Ni  Ni1  1  0.42224470  0.50693583  0.47618156  1
+  S  S2  1  0.08898338  0.84020353  0.45498233  1
+  S  S3  1  0.42285984  0.50740569  0.54598326  1

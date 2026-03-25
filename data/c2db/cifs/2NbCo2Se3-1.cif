@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NbCo2Se3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.58171216
+_cell_length_b   10.45675419
+_cell_length_c   33.95421863
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbCo2Se3
+_chemical_formula_sum   'Nb2 Co4 Se6'
+_cell_volume   1271.69019004
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.50000000  0.41340994  0.49588271  1
+  Co  Co1  1  0.50000000  0.16649140  0.47821450  1
+  Co  Co2  1  -0.00000000  0.61893520  0.50018129  1
+  Se  Se3  1  0.50000000  0.61450251  0.45378205  1
+  Se  Se4  1  1.00000000  0.28416202  0.44943230  1
+  Se  Se5  1  0.00000000  0.45434505  0.55029131  1
+  Nb  Nb6  1  -0.00000000  -0.00428432  0.50411718  1
+  Co  Co7  1  0.00000000  0.24263393  0.52178539  1
+  Co  Co8  1  0.50000000  0.79019100  0.49981870  1
+  Se  Se9  1  1.00000000  0.79462333  0.54621797  1
+  Se  Se10  1  0.50000000  0.12496353  0.55056763  1
+  Se  Se11  1  0.50000000  0.95478053  0.44970854  1

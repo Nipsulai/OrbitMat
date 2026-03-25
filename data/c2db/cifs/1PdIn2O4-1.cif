@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_In2PdO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.48961277
+_cell_length_b   3.48952764
+_cell_length_c   38.86338000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00080698
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In2PdO4
+_chemical_formula_sum   'In2 Pd1 O4'
+_cell_volume   409.83736299
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.00000000  0.00000000  0.50000000  1
+  In  In1  1  0.66660118  0.33320237  0.42303503  1
+  In  In2  1  0.33339882  0.66679763  0.57696497  1
+  O  O3  1  0.66673637  0.33347273  0.59320610  1
+  O  O4  1  0.33326363  0.66652727  0.40679390  1
+  O  O5  1  0.66668687  0.33337374  0.47746403  1
+  O  O6  1  0.33331313  0.66662626  0.52253597  1

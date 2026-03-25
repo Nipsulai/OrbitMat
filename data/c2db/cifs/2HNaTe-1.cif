@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_NaTeH
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.00266613
+_cell_length_b   6.00163594
+_cell_length_c   18.61523208
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00401689
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaTeH
+_chemical_formula_sum   'Na2 Te2 H2'
+_cell_volume   670.62893807
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.94046360  0.96460504  0.49973091  1
+  Na  Na1  1  0.44028561  0.46371207  0.50008823  1
+  Te  Te2  1  0.44078636  0.96374508  0.44304433  1
+  H  H3  1  0.44157730  0.96424028  0.35326227  1
+  Te  Te4  1  0.94048266  0.46456593  0.55707874  1
+  H  H5  1  0.94157903  0.46420692  0.64686686  1

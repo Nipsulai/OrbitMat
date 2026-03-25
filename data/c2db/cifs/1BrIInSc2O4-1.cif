@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Sc2InIBrO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.44123761
+_cell_length_b   3.45415006
+_cell_length_c   23.54905772
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   105.54691434
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc2InIBrO4
+_chemical_formula_sum   'Sc2 In1 I1 Br1 O4'
+_cell_volume   504.77262757
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.80098612  1.00971914  0.54001132  1
+  I  I1  1  -0.00065883  0.10821730  0.31686970  1
+  O  O2  1  0.38383210  0.30102951  0.53059836  1
+  Sc  Sc3  1  0.34762657  0.78293280  0.48575901  1
+  In  In4  1  0.67735760  0.44785951  0.57586020  1
+  Sc  Sc5  1  0.87053348  0.04440258  0.45122034  1
+  O  O6  1  1.04022830  0.62923411  0.45537183  1
+  O  O7  1  0.57413049  0.89607079  0.43160320  1
+  Br  Br8  1  -0.33914026  0.44214117  0.68197828  1

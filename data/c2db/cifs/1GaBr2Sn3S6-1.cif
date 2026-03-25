@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GaSn3(S3Br)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.40307188
+_cell_length_b   7.57796660
+_cell_length_c   18.37244052
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99434369
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaSn3(S3Br)2
+_chemical_formula_sum   'Ga1 Sn3 S6 Br2'
+_cell_volume   891.47242076
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.42883994  0.22474244  0.40822013  1
+  Br  Br1  1  0.42898763  0.72736713  0.40837358  1
+  Sn  Sn2  1  0.61166203  0.97599713  0.51085454  1
+  S  S3  1  0.89323678  0.47580484  0.43374651  1
+  S  S4  1  0.77520188  0.22459121  0.59176274  1
+  S  S5  1  0.26411252  -0.02417983  0.58185074  1
+  S  S6  1  0.93069189  0.97570660  0.42352020  1
+  Sn  Sn7  1  0.09366847  0.22629407  0.50338688  1
+  S  S8  1  0.77491533  0.72711005  0.59177987  1
+  Sn  Sn9  1  0.09348933  0.72531417  0.50350833  1
+  Ga  Ga10  1  0.64556620  0.47584875  0.53172263  1
+  S  S11  1  0.29664500  0.47583356  0.57397719  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ba2FeBrO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.08994935
+_cell_length_b   4.08994935
+_cell_length_c   42.60007056
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2FeBrO3
+_chemical_formula_sum   'Ba4 Fe2 Br2 O6'
+_cell_volume   712.60058932
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.50000000  0.50000000  0.58187251  1
+  O  O1  1  0.00000000  0.00000000  0.58187251  1
+  Br  Br2  1  0.50000000  -0.00000000  0.66129231  1
+  Fe  Fe3  1  0.50000000  -0.00000000  0.57423700  1
+  Ba  Ba4  1  0.00000000  0.50000000  0.62476957  1
+  O  O5  1  0.50000000  0.00000000  0.52934706  1
+  Ba  Ba6  1  -0.00000000  0.50000000  0.53536238  1
+  O  O7  1  -0.00000000  0.00000000  0.41812749  1
+  O  O8  1  0.50000000  0.50000000  0.41812749  1
+  Br  Br9  1  0.00000000  0.50000000  0.33870769  1
+  Fe  Fe10  1  0.00000000  0.50000000  0.42576300  1
+  Ba  Ba11  1  0.50000000  0.00000000  0.37523043  1
+  O  O12  1  -0.00000000  0.50000000  0.47065294  1
+  Ba  Ba13  1  0.50000000  0.00000000  0.46463762  1

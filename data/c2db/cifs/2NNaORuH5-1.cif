@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_NaH5RuNO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.17867859
+_cell_length_b   3.65225527
+_cell_length_c   39.69765280
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.01162324
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaH5RuNO
+_chemical_formula_sum   'Na2 Ru2 H10 N2 O2'
+_cell_volume   750.83568096
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ru  Ru0  1  0.48800603  0.28130741  0.44167192  1
+  Na  Na1  1  0.98479584  0.78154607  0.47267230  1
+  H  H2  1  0.22711228  0.40662734  0.41758739  1
+  H  H3  1  0.47872341  -0.21884259  0.44923967  1
+  H  H4  1  0.69958967  0.28175998  0.47346602  1
+  H  H5  1  0.27127640  0.28139112  0.47387273  1
+  N  N6  1  0.69728647  0.28331373  0.40557637  1
+  O  O7  1  0.80271601  0.28581874  0.37934280  1
+  Ru  Ru8  1  -0.02616731  0.78083939  0.55832652  1
+  Na  Na9  1  0.47732613  0.28061980  0.52738833  1
+  H  H10  1  0.23414735  0.65420773  0.58245456  1
+  H  H11  1  -0.01663635  0.28096818  0.55078684  1
+  H  H12  1  -0.23785972  0.78000686  0.52653437  1
+  H  H13  1  0.19050058  0.78101739  0.52609741  1
+  N  N14  1  -0.23527823  0.78243684  0.59445405  1
+  O  O15  1  0.65943110  0.78469733  0.62069927  1
+  H  H16  1  0.23422162  0.90820035  0.58242532  1
+  H  H17  1  0.22794577  0.15261513  0.41757839  1

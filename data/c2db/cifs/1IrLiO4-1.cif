@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_LiIrO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.17878309
+_cell_length_b   5.23539148
+_cell_length_c   17.06805815
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.07031409
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiIrO4
+_chemical_formula_sum   'Li1 Ir1 O4'
+_cell_volume   284.04937847
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.26291456  0.45568525  0.43941730  1
+  Ir  Ir1  1  0.81335686  0.58666522  0.50003278  1
+  O  O2  1  0.26330115  0.71758522  0.56058270  1
+  O  O3  1  0.70616613  0.30013698  0.55113879  1
+  Li  Li4  1  0.22860128  0.08734585  0.49900064  1
+  O  O5  1  0.70776043  0.87310625  0.44872400  1

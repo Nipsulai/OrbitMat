@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ge2PO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.01231610
+_cell_length_b   5.01232125
+_cell_length_c   33.22369868
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.02144243
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ge2PO6
+_chemical_formula_sum   'Ge2 P1 O6'
+_cell_volume   722.70670403
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.66633777  0.33366929  0.49625627  1
+  P  P1  1  0.33300605  0.66700593  0.49632980  1
+  O  O2  1  0.62663762  0.96063645  0.46718947  1
+  O  O3  1  0.33301427  0.37337982  0.46718993  1
+  O  O4  1  0.03938108  0.66701573  0.46718989  1
+  O  O5  1  0.03944388  0.37344307  0.52539121  1
+  O  O6  1  0.33300367  0.96058801  0.52538952  1
+  O  O7  1  0.62658865  0.66700556  0.52538956  1
+  Ge  Ge8  1  -0.00033061  0.00033761  0.49625628  1

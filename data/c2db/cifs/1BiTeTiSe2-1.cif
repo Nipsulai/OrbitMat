@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_TiBiTeSe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.68923106
+_cell_length_b   4.68410486
+_cell_length_c   19.32549856
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.96484043
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiBiTeSe2
+_chemical_formula_sum   'Ti1 Bi1 Te1 Se2'
+_cell_volume   367.74208836
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.82568963  0.16175114  0.43677796  1
+  Te  Te1  1  0.82724977  0.16110225  0.61180272  1
+  Se  Se2  1  0.15911346  0.82840468  0.38802272  1
+  Ti  Ti3  1  0.16017385  0.82783072  0.53479685  1
+  Se  Se4  1  0.49361576  0.49451777  0.52487294  1

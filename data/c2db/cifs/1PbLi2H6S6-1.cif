@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Li2H6PbS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.29230796
+_cell_length_b   7.29230796
+_cell_length_c   33.66127800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2H6PbS6
+_chemical_formula_sum   'Li2 H6 Pb1 S6'
+_cell_volume   1550.21250052
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  1.00000000  0.00000000  0.47511634  1
+  H  H1  1  0.96158010  0.46015373  0.57220283  1
+  H  H2  1  0.49857362  0.03841990  0.57220283  1
+  H  H3  1  0.53984627  0.50142638  0.57220283  1
+  S  S4  1  0.98890779  0.61280593  0.54593113  1
+  S  S5  1  0.62389814  0.01109221  0.54593113  1
+  S  S6  1  0.38719407  0.37610186  0.54593113  1
+  Li  Li7  1  0.33333333  0.66666667  0.52488366  1
+  H  H8  1  0.37175323  0.20651294  0.42779717  1
+  H  H9  1  0.83475971  0.62824677  0.42779717  1
+  H  H10  1  0.79348706  0.16524029  0.42779717  1
+  Pb  Pb11  1  0.66666667  0.33333333  0.50000000  1
+  S  S12  1  0.34442554  0.05386074  0.45406887  1
+  S  S13  1  0.70943519  0.65557446  0.45406887  1
+  S  S14  1  0.94613926  0.29056481  0.45406887  1

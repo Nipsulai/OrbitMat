@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_ZnFeOF2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.40071071
+_cell_length_b   3.16140015
+_cell_length_c   17.43426301
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00588139
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnFeOF2
+_chemical_formula_sum   'Zn1 Fe1 O1 F2'
+_cell_volume   297.66925177
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.66221955  0.15381807  0.50004111  1
+  F  F1  1  0.81770378  0.65293080  0.56981262  1
+  O  O2  1  0.31420742  0.15632506  0.49981581  1
+  F  F3  1  0.81715679  0.65396270  0.43018738  1
+  Zn  Zn4  1  0.12993531  0.65642286  0.49986905  1

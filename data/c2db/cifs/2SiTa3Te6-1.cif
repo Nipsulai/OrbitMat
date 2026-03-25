@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ta3SiTe6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.40280433
+_cell_length_b   11.56217570
+_cell_length_c   33.82438320
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00347173
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta3SiTe6
+_chemical_formula_sum   'Ta6 Si2 Te12'
+_cell_volume   2504.03087507
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  -0.00275632  -0.00171928  0.50000000  1
+  Ta  Ta1  1  0.49724401  0.16935949  0.50000000  1
+  Ta  Ta2  1  0.29911113  0.64627549  0.50000000  1
+  Ta  Ta3  1  0.79911107  0.52136443  0.50000000  1
+  Ta  Ta4  1  0.02991460  0.30046135  0.50000000  1
+  Ta  Ta5  1  0.52991419  0.86717865  0.50000000  1
+  Si  Si6  1  0.90730487  0.75888941  0.50000000  1
+  Si  Si7  1  0.40730482  0.40875061  0.50000000  1
+  Te  Te8  1  0.12675052  0.49018975  0.55545067  1
+  Te  Te9  1  0.62675050  0.67745024  0.44454932  1
+  Te  Te10  1  0.12675052  0.49018975  0.44454933  1
+  Te  Te11  1  0.62675050  0.67745024  0.55545068  1
+  Te  Te12  1  0.18734026  0.83702747  0.55387738  1
+  Te  Te13  1  0.68734024  0.33061256  0.44612262  1
+  Te  Te14  1  0.18734026  0.83702747  0.44612262  1
+  Te  Te15  1  0.68734024  0.33061256  0.55387738  1
+  Te  Te16  1  0.18077261  0.15159386  0.55664359  1
+  Te  Te17  1  0.68077266  0.01604607  0.44335641  1
+  Te  Te18  1  0.18077261  0.15159386  0.44335641  1
+  Te  Te19  1  0.68077266  0.01604607  0.55664359  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CrCu(SbTe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.10173980
+_cell_length_b   7.10833305
+_cell_length_c   33.47259289
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01867972
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrCu(SbTe3)2
+_chemical_formula_sum   'Cr1 Cu1 Sb2 Te6'
+_cell_volume   1463.08896087
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  0.96337160  0.31503205  0.54489832  1
+  Sb  Sb1  1  0.96320695  0.31416877  0.45788273  1
+  Cr  Cr2  1  0.29686056  0.98163950  0.49951985  1
+  Te  Te3  1  -0.02936865  0.72881437  0.54989375  1
+  Cu  Cu4  1  0.63018005  0.64807646  0.49957151  1
+  Te  Te5  1  0.36978529  0.30712686  0.54992013  1
+  Te  Te6  1  0.54989688  -0.09160175  0.54988092  1
+  Te  Te7  1  0.55326147  0.30754382  0.44944639  1
+  Te  Te8  1  0.36594133  0.72481141  0.44952788  1
+  Te  Te9  1  -0.02985856  -0.08884408  0.44950991  1

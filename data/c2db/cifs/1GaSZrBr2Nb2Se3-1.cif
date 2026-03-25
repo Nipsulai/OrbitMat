@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_ZrNb2GaSe3SBr2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.91312914
+_cell_length_b   6.65497071
+_cell_length_c   20.13828175
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   105.00727077
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrNb2GaSe3SBr2
+_chemical_formula_sum   'Zr1 Nb2 Ga1 Se3 S1 Br2'
+_cell_volume   765.44666041
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.24358412  0.50968894  0.52150987  1
+  Zr  Zr1  1  0.71833233  0.39616925  0.52142434  1
+  Se  Se2  1  0.70488583  0.59429493  0.40844158  1
+  Se  Se3  1  0.75543676  0.76737802  0.58215243  1
+  Br  Br4  1  0.98876260  0.35699710  0.62758003  1
+  Nb  Nb5  1  0.56440484  0.88396336  0.47892122  1
+  S  S6  1  0.90203829  0.15960071  0.44984491  1
+  Nb  Nb7  1  0.02843572  0.84068692  0.47868741  1
+  Se  Se8  1  0.34739307  0.09668417  0.55236533  1
+  Br  Br9  1  0.30982321  0.90555282  0.37242115  1

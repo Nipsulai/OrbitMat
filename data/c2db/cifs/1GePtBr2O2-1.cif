@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_GePt(BrO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.96572385
+_cell_length_b   3.93014167
+_cell_length_c   20.51118540
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.07888395
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GePt(BrO)2
+_chemical_formula_sum   'Ge1 Pt1 Br2 O2'
+_cell_volume   319.68409052
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.66181103  0.74958642  0.44826400  1
+  Br  Br1  1  0.82077408  0.24988134  0.63373871  1
+  O  O2  1  0.69259208  0.24960092  0.47096895  1
+  O  O3  1  0.32721086  0.74890778  0.52388265  1
+  Br  Br4  1  0.09930658  0.75165016  0.36585705  1
+  Ge  Ge5  1  0.38397400  0.24925845  0.54557698  1

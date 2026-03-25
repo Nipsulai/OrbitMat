@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CrAg(Te3As)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.24048704
+_cell_length_b   7.24073848
+_cell_length_c   33.47259289
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   122.99493325
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrAg(Te3As)2
+_chemical_formula_sum   'Cr1 Ag1 Te6 As2'
+_cell_volume   1471.82555301
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.97612166  0.30512930  0.53706529  1
+  As  As1  1  0.97282084  0.30194847  0.46301676  1
+  Cr  Cr2  1  0.29558462  0.98237491  0.50002868  1
+  Te  Te3  1  0.05482159  0.69403608  0.55892512  1
+  Ag  Ag4  1  0.58406727  0.69375180  0.50001815  1
+  Te  Te5  1  0.34344804  0.31085829  0.54731519  1
+  Te  Te6  1  0.54417838  -0.03312299  0.55938168  1
+  Te  Te7  1  0.58382716  0.22311247  0.44118094  1
+  Te  Te8  1  0.31102984  0.73391135  0.44068117  1
+  Te  Te9  1  -0.03276445  -0.06531197  0.45277946  1

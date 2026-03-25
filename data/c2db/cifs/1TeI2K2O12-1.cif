@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_K2Te(IO6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.41227561
+_cell_length_b   6.41227561
+_cell_length_c   37.95498453
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Te(IO6)2
+_chemical_formula_sum   'K2 Te1 I2 O12'
+_cell_volume   1351.52415529
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.00000000  0.00000000  0.40343056  1
+  K  K1  1  0.66666667  0.33333333  0.46352745  1
+  O  O2  1  0.12470279  0.36692145  0.47607957  1
+  O  O3  1  0.24221866  0.87529721  0.47607957  1
+  O  O4  1  0.63307855  0.75778134  0.47607957  1
+  O  O5  1  0.27230119  0.26833318  0.42130812  1
+  O  O6  1  0.99603200  0.72769881  0.42130812  1
+  O  O7  1  0.73166682  0.00396800  0.42130812  1
+  Te  Te8  1  0.33333333  0.66666667  0.50000000  1
+  I  I9  1  0.66666667  0.33333333  0.59656944  1
+  K  K10  1  0.00000000  -0.00000000  0.53647255  1
+  O  O11  1  0.54196388  0.96641188  0.52392043  1
+  O  O12  1  0.42444801  0.45803612  0.52392043  1
+  O  O13  1  0.03358812  0.57555199  0.52392043  1
+  O  O14  1  0.39436548  0.06500015  0.57869188  1
+  O  O15  1  0.67063467  0.60563452  0.57869188  1
+  O  O16  1  0.93499985  0.32936533  0.57869188  1

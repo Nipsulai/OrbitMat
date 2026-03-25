@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HgSeF
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.37850941
+_cell_length_b   3.66809596
+_cell_length_c   21.34180596
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HgSeF
+_chemical_formula_sum   'Hg2 Se2 F2'
+_cell_volume   342.76632015
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.50000000  0.00000000  0.38410551  1
+  Hg  Hg1  1  0.00000000  0.50000000  0.61589451  1
+  Se  Se2  1  0.50000000  0.50000000  0.48020790  1
+  Se  Se3  1  0.00000000  -0.00000000  0.51979216  1
+  F  F4  1  0.50000000  0.50000000  0.32304720  1
+  F  F5  1  -0.00000000  -0.00000000  0.67695280  1

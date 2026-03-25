@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_AlCdGaSe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.99601304
+_cell_length_b   3.99600863
+_cell_length_c   39.30476960
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99996345
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlCdGaSe4
+_chemical_formula_sum   'Al1 Cd1 Ga1 Se4'
+_cell_volume   543.53731057
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  -0.00000191  -0.00000095  0.49983995  1
+  Al  Al1  1  0.66666256  0.33333128  0.40195757  1
+  Ga  Ga2  1  0.33333983  0.66666991  0.59810614  1
+  Se  Se3  1  0.66666185  0.33333093  0.46096241  1
+  Se  Se4  1  0.33333496  0.66666748  0.53805389  1
+  Se  Se5  1  0.33332965  0.66666482  0.37541426  1
+  Se  Se6  1  0.66667305  0.33333653  0.62566344  1

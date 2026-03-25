@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_AsRuO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.20144648
+_cell_length_b   5.35424429
+_cell_length_c   18.41164285
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.96079080
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AsRuO3
+_chemical_formula_sum   'As2 Ru2 O6'
+_cell_volume   439.70245573
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ru  Ru0  1  -0.00983028  -0.00493346  0.50357922  1
+  Ru  Ru1  1  0.34319770  0.67164341  0.50358637  1
+  As  As2  1  0.66681613  0.32682269  0.41319533  1
+  As  As3  1  0.66662367  0.33505983  0.54441977  1
+  O  O4  1  0.28344075  -0.05103523  0.44087238  1
+  O  O5  1  1.05004984  0.33231267  0.44087556  1
+  O  O6  1  0.66671621  0.70983160  0.43843997  1
+  O  O7  1  0.99427265  0.66166973  0.57052799  1
+  O  O8  1  0.33886152  0.33395912  0.57050158  1
+  O  O9  1  0.66658257  0.01816579  0.57334125  1

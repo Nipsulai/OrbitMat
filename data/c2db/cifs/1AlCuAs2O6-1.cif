@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_AlCu(AsO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.15185439
+_cell_length_b   5.15185439
+_cell_length_c   33.37581678
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00463707
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlCu(AsO3)2
+_chemical_formula_sum   'Al1 Cu1 As2 O6'
+_cell_volume   767.13076341
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.00003755  -0.00003755  0.50000000  1
+  Al  Al1  1  0.66671425  0.33328575  0.50000000  1
+  As  As2  1  0.33338743  0.66664875  0.46601710  1
+  As  As3  1  0.33335125  0.66661257  0.53398290  1
+  O  O4  1  0.37272969  1.02859982  0.46178267  1
+  O  O5  1  -0.02858678  0.34403978  0.46178004  1
+  O  O6  1  0.65599120  0.62728999  0.46178508  1
+  O  O7  1  -0.02859982  0.62727031  0.53821733  1
+  O  O8  1  0.37271001  0.34400880  0.53821492  1
+  O  O9  1  0.65596022  1.02858678  0.53821996  1

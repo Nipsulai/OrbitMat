@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_MnPSe2I
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.72686511
+_cell_length_b   11.34504723
+_cell_length_c   35.19677800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnPSe2I
+_chemical_formula_sum   'Mn2 P2 Se4 I2'
+_cell_volume   1488.17118525
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.00000000  0.24504604  0.45064106  1
+  P  P1  1  -0.00000000  0.74504604  0.54935894  1
+  Mn  Mn2  1  0.50000000  0.53907748  0.48700106  1
+  Mn  Mn3  1  0.50000000  0.03907748  0.51299894  1
+  Se  Se4  1  0.50000000  0.29911279  0.49121917  1
+  Se  Se5  1  0.50000000  0.79911279  0.50878083  1
+  Se  Se6  1  -0.00000000  0.54649988  0.53972502  1
+  I  I7  1  -0.00000000  0.57126775  0.42994910  1
+  I  I8  1  0.00000000  0.07126775  0.57005090  1
+  Se  Se9  1  -0.00000000  0.04649988  0.46027498  1

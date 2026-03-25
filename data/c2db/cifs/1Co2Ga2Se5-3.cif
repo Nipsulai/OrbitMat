@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ga2Co2Se5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.74786195
+_cell_length_b   3.74786195
+_cell_length_c   42.16152000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99871214
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ga2Co2Se5
+_chemical_formula_sum   'Ga2 Co2 Se5'
+_cell_volume   512.88464581
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.00014563  -0.00014563  0.46473053  1
+  Co  Co1  1  0.66654568  0.33345432  0.53529555  1
+  Ga  Ga2  1  -0.00002214  0.00002214  0.61720611  1
+  Ga  Ga3  1  0.66663319  0.33336681  0.38282007  1
+  Se  Se4  1  0.33312139  0.66687861  0.49999755  1
+  Se  Se5  1  -0.00016149  0.00016149  0.55938096  1
+  Se  Se6  1  0.66683859  0.33316141  0.44064192  1
+  Se  Se7  1  -0.00001320  0.00001320  0.35431010  1
+  Se  Se8  1  0.66662524  0.33337476  0.64571832  1

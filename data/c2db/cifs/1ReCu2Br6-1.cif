@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Cu2ReBr6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.61490226
+_cell_length_b   6.61490226
+_cell_length_c   17.73584758
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.95131738
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu2ReBr6
+_chemical_formula_sum   'Re1 Cu2 Br6'
+_cell_volume   672.42256724
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Re  Re0  1  0.00000258  0.96272503  0.49994009  1
+  Cu  Cu1  1  0.66696984  0.29603009  0.50022833  1
+  Cu  Cu2  1  0.33288400  0.62943254  0.49967432  1
+  Br  Br3  1  0.68370556  0.64625571  0.58072441  1
+  Br  Br4  1  0.99970972  0.27864525  0.58103432  1
+  Br  Br5  1  0.31601896  0.96217399  0.58092280  1
+  Br  Br6  1  0.31632829  0.27922769  0.41915887  1
+  Br  Br7  1  0.00032675  0.64680033  0.41883942  1
+  Br  Br8  1  0.68392411  0.96323821  0.41897463  1

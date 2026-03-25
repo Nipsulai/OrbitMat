@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_InNiSeCl5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.25015030
+_cell_length_b   6.37376156
+_cell_length_c   17.85812703
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.17122704
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InNiSeCl5
+_chemical_formula_sum   'In1 Ni1 Se1 Cl5'
+_cell_volume   621.18287801
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.16171890  0.81653669  0.58002315  1
+  Cl  Cl1  1  0.84767059  0.21386587  0.57905179  1
+  Cl  Cl2  1  0.43926611  0.78910011  0.42532748  1
+  Se  Se3  1  0.85409519  0.48905645  0.42300903  1
+  In  In4  1  0.47159519  0.15190271  0.50207173  1
+  Cl  Cl5  1  0.15012868  0.18870297  0.41997685  1
+  Cl  Cl6  1  0.43856804  0.48036474  0.57686158  1
+  Ni  Ni7  1  0.14523692  0.49399706  0.50252307  1

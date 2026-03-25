@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CaInSBr3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.61679256
+_cell_length_b   4.08868970
+_cell_length_c   18.40747116
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   98.32013778
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaInSBr3
+_chemical_formula_sum   'Ca1 In1 S1 Br3'
+_cell_volume   567.22482643
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.84194753  0.82603601  0.49642083  1
+  Br  Br1  1  0.59953681  0.64941479  0.59117729  1
+  Ca  Ca2  1  0.28394202  0.44359594  0.49371826  1
+  Br  Br3  1  0.42703197  0.97852309  0.40744326  1
+  S  S4  1  0.92878191  0.34694922  0.43010113  1
+  Br  Br5  1  0.12311181  -0.09415377  0.59255674  1

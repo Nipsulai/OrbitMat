@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Cu2(IBr)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.19325024
+_cell_length_b   6.48386250
+_cell_length_c   18.82041578
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   107.77620308
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu2(IBr)3
+_chemical_formula_sum   'Cu2 I3 Br3'
+_cell_volume   835.87632182
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.81598508  0.50523569  0.40113192  1
+  I  I1  1  0.36714007  0.94509222  0.39675431  1
+  I  I2  1  0.57174916  0.23797129  0.60068244  1
+  Br  Br3  1  0.28118746  0.41262187  0.41155538  1
+  Cu  Cu4  1  0.11426320  0.64535473  0.46726782  1
+  Cu  Cu5  1  0.53825918  0.29744197  0.46744716  1
+  Br  Br6  1  0.08324099  0.71751063  0.59013411  1
+  I  I7  1  0.82936761  -0.02559606  0.59330905  1

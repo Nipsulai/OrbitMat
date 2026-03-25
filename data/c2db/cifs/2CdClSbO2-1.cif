@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CdSbClO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.16440521
+_cell_length_b   7.35445015
+_cell_length_c   36.36461788
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CdSbClO2
+_chemical_formula_sum   'Cd2 Sb2 Cl2 O4'
+_cell_volume   1113.73589815
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  -0.00000000  0.57756864  0.50159355  1
+  O  O1  1  0.50000000  0.88770054  0.49840629  1
+  O  O2  1  0.00000000  0.15082275  0.48935736  1
+  O  O3  1  0.50000000  0.31444804  0.51064322  1
+  Cd  Cd4  1  0.50000000  0.61309552  0.47215527  1
+  Cd  Cd5  1  0.00000000  0.85217632  0.52784471  1
+  Sb  Sb6  1  0.00000000  0.34438580  0.53083994  1
+  Sb  Sb7  1  0.50000000  0.12088682  0.46916058  1
+  Cl  Cl8  1  0.50000000  0.47078559  0.41378996  1
+  Cl  Cl9  1  -0.00000000  -0.00550060  0.58620904  1

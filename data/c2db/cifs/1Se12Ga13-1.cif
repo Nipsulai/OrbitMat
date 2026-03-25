@@ -1,0 +1,51 @@
+# generated using pymatgen
+data_Ga13Se12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.68165969
+_cell_length_b   6.68206465
+_cell_length_c   28.82308679
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99410334
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ga13Se12
+_chemical_formula_sum   'Ga13 Se12'
+_cell_volume   1114.53047779
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.33332092  0.33331415  0.29250140  1
+  Ga  Ga1  1  0.33341261  0.33325163  0.37845641  1
+  Se  Se2  1  0.66703397  0.66705320  0.25328871  1
+  Se  Se3  1  0.66158955  0.66144937  0.42144333  1
+  Ga  Ga4  1  0.33331938  0.33333914  0.70744152  1
+  Ga  Ga5  1  0.33342630  0.33343312  0.62149728  1
+  Se  Se6  1  0.66694874  0.33334388  0.74660704  1
+  Se  Se7  1  0.66171022  0.33346888  0.57845686  1
+  Ga  Ga8  1  0.66659863  -0.00000170  0.29401042  1
+  Ga  Ga9  1  0.66666276  -0.00007880  0.38091990  1
+  Se  Se10  1  -0.00040885  0.33327820  0.25329413  1
+  Se  Se11  1  0.00512776  0.33319974  0.42144271  1
+  Ga  Ga12  1  0.66656942  -0.00006940  0.70597032  1
+  Ga  Ga13  1  0.66667665  0.00004507  0.61907099  1
+  Se  Se14  1  -0.00034015  -0.00027423  0.74660908  1
+  Se  Se15  1  0.00519611  0.00525829  0.57846350  1
+  Ga  Ga16  1  -0.00000111  0.66666780  0.29400832  1
+  Ga  Ga17  1  0.00007146  0.66659187  0.38091723  1
+  Se  Se18  1  0.33326756  -0.00039536  0.25328204  1
+  Se  Se19  1  0.33333118  0.00501246  0.42145385  1
+  Ga  Ga20  1  -0.00002603  0.66667044  0.70597112  1
+  Ga  Ga21  1  0.00009362  0.66679932  0.61907261  1
+  Se  Se22  1  0.33328241  0.66693431  0.74661706  1
+  Se  Se23  1  0.33340357  0.66165747  0.57844908  1
+  Ga  Ga24  1  0.33340175  0.33334291  0.50003067  1

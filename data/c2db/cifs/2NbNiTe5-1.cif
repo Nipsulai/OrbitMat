@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NbNiTe5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.70989087
+_cell_length_b   15.15229309
+_cell_length_c   34.58514100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbNiTe5
+_chemical_formula_sum   'Nb2 Ni2 Te10'
+_cell_volume   1944.14676710
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.50000000  0.56917840  0.45935651  1
+  Te  Te1  1  0.50000000  0.78032158  0.45935651  1
+  Te  Te2  1  0.50000000  0.28032158  0.54064349  1
+  Te  Te3  1  0.50000000  0.06917840  0.54064349  1
+  Te  Te4  1  0.00000000  0.84746809  0.53957310  1
+  Te  Te5  1  0.00000000  0.50203187  0.53957309  1
+  Te  Te6  1  0.50000000  0.67474997  0.56474119  1
+  Nb  Nb7  1  0.00000000  0.67474999  0.50193321  1
+  Ni  Ni8  1  0.50000000  0.42474998  0.50000000  1
+  Ni  Ni9  1  0.50000000  0.92474998  0.50000000  1
+  Te  Te10  1  -0.00000000  0.00203187  0.46042691  1
+  Te  Te11  1  1.00000000  0.34746809  0.46042690  1
+  Te  Te12  1  0.50000000  0.17474997  0.43525881  1
+  Nb  Nb13  1  -0.00000000  0.17474999  0.49806679  1

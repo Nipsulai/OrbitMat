@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CuAsCl3O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.94307495
+_cell_length_b   3.62668557
+_cell_length_c   17.94312418
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   117.04019184
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuAsCl3O
+_chemical_formula_sum   'Cu1 As1 Cl3 O1'
+_cell_volume   460.38604415
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.12421354  0.13401962  0.48978914  1
+  Cl  Cl1  1  0.37908142  0.38959921  0.58175406  1
+  O  O2  1  0.62157462  0.13085194  0.46945744  1
+  Cl  Cl3  1  0.86397983  0.87220160  0.58169901  1
+  As  As4  1  0.62193863  0.63120143  0.49693331  1
+  Cl  Cl5  1  0.12065946  0.63045397  0.41829405  1

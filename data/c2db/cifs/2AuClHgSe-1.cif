@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_HgAuSeCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.46511990
+_cell_length_b   7.17312496
+_cell_length_c   39.52370426
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HgAuSeCl
+_chemical_formula_sum   'Hg2 Au2 Se2 Cl2'
+_cell_volume   1265.89930797
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.50000000  1.09332241  0.51096682  1
+  Hg  Hg1  1  0.50000000  0.59332241  0.48903318  1
+  Se  Se2  1  0.50000000  0.28856097  0.45366294  1
+  Se  Se3  1  0.50000000  0.78856097  0.54633706  1
+  Au  Au4  1  -0.00000000  0.11208021  0.45743479  1
+  Au  Au5  1  -0.00000000  0.61208021  0.54256521  1
+  Cl  Cl6  1  0.00000000  0.26261329  0.54831167  1
+  Cl  Cl7  1  0.00000000  -0.23738671  0.45168833  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ba2NiS3Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.49854092
+_cell_length_b   4.49854092
+_cell_length_c   42.60007056
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2NiS3Br
+_chemical_formula_sum   'Ba4 Ni2 S6 Br2'
+_cell_volume   862.09210673
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.50000000  0.50000000  0.60072677  1
+  S  S1  1  -0.00000000  0.00000000  0.60072677  1
+  Br  Br2  1  0.50000000  0.00000000  0.68256352  1
+  Ni  Ni3  1  0.50000000  -0.00000000  0.58581050  1
+  Ba  Ba4  1  0.00000000  0.50000000  0.65336412  1
+  S  S5  1  0.50000000  0.00000000  0.53223793  1
+  Ba  Ba6  1  -0.00000000  0.50000000  0.54351122  1
+  S  S7  1  0.00000000  -0.00000000  0.39927323  1
+  S  S8  1  0.50000000  0.50000000  0.39927323  1
+  Br  Br9  1  0.00000000  0.50000000  0.31743648  1
+  Ni  Ni10  1  0.00000000  0.50000000  0.41418950  1
+  Ba  Ba11  1  0.50000000  0.00000000  0.34663588  1
+  S  S12  1  0.00000000  0.50000000  0.46776207  1
+  Ba  Ba13  1  0.50000000  0.00000000  0.45648878  1

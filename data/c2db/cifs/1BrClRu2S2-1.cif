@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Ru2S2BrCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.66024634
+_cell_length_b   4.28966719
+_cell_length_c   20.84919933
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99953489
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ru2S2BrCl
+_chemical_formula_sum   'Ru2 S2 Br1 Cl1'
+_cell_volume   327.35825401
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ru  Ru0  1  0.24611681  0.24981892  0.55342482  1
+  S  S1  1  0.24592585  0.74999914  0.50784918  1
+  Br  Br2  1  0.74653427  0.24845492  0.64027396  1
+  Cl  Cl3  1  0.24554402  0.75042689  0.35972604  1
+  Ru  Ru4  1  0.74591000  0.75020438  0.43810084  1
+  S  S5  1  0.74606224  0.25015658  0.48383080  1

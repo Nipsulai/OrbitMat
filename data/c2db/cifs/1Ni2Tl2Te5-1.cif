@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Tl2Ni2Te5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.20902763
+_cell_length_b   4.20903263
+_cell_length_c   43.33417120
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99996071
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tl2Ni2Te5
+_chemical_formula_sum   'Tl2 Ni2 Te5'
+_cell_volume   664.85259408
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.00005561  0.00011122  0.55104464  1
+  Ni  Ni1  1  0.33337079  0.66674158  0.46542188  1
+  Tl  Tl2  1  0.66663630  0.33327259  0.63051193  1
+  Tl  Tl3  1  0.66668341  0.33336683  0.36942374  1
+  Te  Te4  1  -0.00002732  -0.00005464  0.66649914  1
+  Te  Te5  1  0.00003822  0.00007643  0.49411875  1
+  Te  Te6  1  0.00001752  0.00003504  0.33313484  1
+  Te  Te7  1  0.66672092  0.33344183  0.56270379  1
+  Te  Te8  1  0.66670318  0.33340637  0.43833340  1

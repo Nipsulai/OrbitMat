@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ScPtBr2NO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.19877524
+_cell_length_b   5.44541708
+_cell_length_c   20.68712421
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   107.10014870
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScPtBr2NO
+_chemical_formula_sum   'Sc1 Pt1 Br2 N1 O1'
+_cell_volume   344.41218070
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.42968662  1.02292625  0.47664185  1
+  Pt  Pt1  1  0.05801969  0.27910634  0.48605169  1
+  N  N2  1  0.66346418  0.48991219  0.51112660  1
+  Br  Br3  1  0.07416747  0.31425139  0.36053499  1
+  Br  Br4  1  0.85611054  -0.12552648  0.63848908  1
+  Sc  Sc5  1  0.29447928  0.75159376  0.54204240  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ga3Au(ClO)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.35482767
+_cell_length_b   5.35615286
+_cell_length_c   20.30782467
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   104.84675111
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ga3Au(ClO)4
+_chemical_formula_sum   'Ga3 Au1 Cl4 O4'
+_cell_volume   563.00886386
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.62431179  0.12807413  0.36932129  1
+  Ga  Ga1  1  0.37502754  0.87719553  0.45602334  1
+  Ga  Ga2  1  0.87506729  0.37712000  0.45615701  1
+  Cl  Cl3  1  0.12598251  0.62614101  0.36933361  1
+  O  O4  1  0.09481163  0.65792978  0.51114202  1
+  Ga  Ga5  1  0.87505343  0.87700531  0.53422003  1
+  O  O6  1  0.65545659  0.09617612  0.51111560  1
+  Cl  Cl7  1  0.63790664  0.64015324  0.63063992  1
+  O  O8  1  0.14805885  0.15046129  0.48117258  1
+  Cl  Cl9  1  0.11248351  0.11379044  0.63068272  1
+  O  O10  1  0.60216633  0.60359356  0.48118666  1
+  Au  Au11  1  0.37506706  0.37702380  0.55351560  1

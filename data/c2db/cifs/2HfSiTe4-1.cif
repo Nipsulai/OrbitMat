@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HfSiTe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.97976949
+_cell_length_b   10.93214085
+_cell_length_c   37.44271262
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfSiTe4
+_chemical_formula_sum   'Hf2 Si2 Te8'
+_cell_volume   1629.03509884
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.00000000  0.00333192  0.45913185  1
+  Hf  Hf1  1  0.50000000  0.50333192  0.54086815  1
+  Si  Si2  1  -0.00000000  0.19228989  0.50855432  1
+  Si  Si3  1  0.50000000  0.69228989  0.49144568  1
+  Te  Te4  1  0.00000000  0.46785155  0.59818051  1
+  Te  Te5  1  0.50000000  0.96785155  0.40181949  1
+  Te  Te6  1  0.00000000  0.69111640  0.56390978  1
+  Te  Te7  1  0.50000000  0.19111640  0.43609022  1
+  Te  Te8  1  -0.00000000  0.42198060  0.48739810  1
+  Te  Te9  1  0.50000000  0.92198060  0.51260190  1
+  Te  Te10  1  0.00000000  0.72474179  0.44561981  1
+  Te  Te11  1  0.50000000  0.22474179  0.55438019  1

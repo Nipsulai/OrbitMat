@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_VMoCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.00892656
+_cell_length_b   6.00904036
+_cell_length_c   33.64480807
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   106.62981527
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VMoCl6
+_chemical_formula_sum   'V1 Mo1 Cl6'
+_cell_volume   1164.03048463
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.29400206  0.22289178  0.50000205  1
+  Mo  Mo1  1  0.79398468  0.72287824  0.49999623  1
+  Cl  Cl2  1  1.04528500  0.97459496  0.45097644  1
+  Cl  Cl3  1  0.54324523  0.97265618  0.50032624  1
+  Cl  Cl4  1  0.54266782  0.47135513  0.45101243  1
+  Cl  Cl5  1  0.54268617  0.47116106  0.54902637  1
+  Cl  Cl6  1  0.04470796  0.47308444  0.49966734  1
+  Cl  Cl7  1  0.04532809  0.97443898  0.54899496  1

@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_ZrTiIrSI2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.66924193
+_cell_length_b   4.78401526
+_cell_length_c   21.69645300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   99.10453264
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrTiIrSI2O
+_chemical_formula_sum   'Zr1 Ti1 Ir1 S1 I2 O1'
+_cell_volume   376.05497193
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.49700811  0.52160483  0.43340009  1
+  I  I1  1  0.08380662  0.79569217  0.34567749  1
+  Zr  Zr2  1  0.77984155  0.24300539  0.54720685  1
+  Ir  Ir3  1  0.21612578  1.01323395  0.47037329  1
+  S  S4  1  0.42986753  0.69726920  0.53866939  1
+  I  I5  1  0.24013830  0.17208275  0.65432566  1
+  O  O6  1  0.96291489  0.35854989  0.45052149  1

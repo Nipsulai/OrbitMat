@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_AlPbS2Br2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.81272987
+_cell_length_b   6.14923292
+_cell_length_c   21.72054117
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.34769069
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlPbS2Br2O
+_chemical_formula_sum   'Al1 Pb1 S2 Br2 O1'
+_cell_volume   509.23661933
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.30793064  0.82809123  0.53463949  1
+  S  S1  1  0.80524311  0.92475135  0.47934233  1
+  S  S2  1  0.28761143  0.45746474  0.53489789  1
+  Pb  Pb3  1  0.79173807  0.36703445  0.44709035  1
+  Br  Br4  1  0.49277973  0.10890904  0.65468770  1
+  Br  Br5  1  0.29218630  0.34260100  0.34529866  1
+  O  O6  1  0.29169085  0.87816283  0.61449593  1

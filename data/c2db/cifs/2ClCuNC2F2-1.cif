@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CuC2NClF2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.79162961
+_cell_length_b   9.55805007
+_cell_length_c   33.75467511
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.13983954
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuC2NClF2
+_chemical_formula_sum   'Cu2 C4 N2 Cl2 F4'
+_cell_volume   1068.46218733
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.47954942  0.04684433  0.45288262  1
+  Cu  Cu1  1  0.42127213  0.89414037  0.51522085  1
+  N  N2  1  0.26292489  0.66534451  0.50394020  1
+  C  C3  1  0.30477786  0.60990157  0.46869409  1
+  F  F4  1  0.34337526  0.69735626  0.43680751  1
+  C  C5  1  0.30504617  0.46535470  0.46492820  1
+  F  F6  1  0.35262809  0.41611197  0.42945207  1
+  Cl  Cl7  1  0.04182556  -0.01093764  0.54715069  1
+  Cu  Cu8  1  0.09931732  0.14155015  0.48483458  1
+  N  N9  1  0.26081707  0.37079214  0.49605611  1
+  C  C10  1  0.21863577  0.42616978  0.53129925  1
+  F  F11  1  1.17741849  0.33819761  0.56315165  1
+  C  C12  1  0.21835671  0.57070926  0.53506409  1
+  F  F13  1  0.16843109  0.61948033  0.57051124  1

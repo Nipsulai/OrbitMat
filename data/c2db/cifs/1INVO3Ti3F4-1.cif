@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Ti3VINO3F4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.09230527
+_cell_length_b   6.02157120
+_cell_length_c   20.38375122
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   121.01989227
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti3VINO3F4
+_chemical_formula_sum   'Ti3 V1 I1 N1 O3 F4'
+_cell_volume   640.84138955
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.38469767  0.57199437  0.62894495  1
+  O  O1  1  0.86613278  0.09856944  0.63205987  1
+  Ti  Ti2  1  0.20043012  0.76050955  0.49486379  1
+  Ti  Ti3  1  0.17080149  0.24455078  0.58157106  1
+  V  V4  1  0.70741279  0.78401230  0.57563583  1
+  I  I5  1  0.20253756  0.75533611  0.36794013  1
+  O  O6  1  1.03080395  0.41821110  0.52923479  1
+  Ti  Ti7  1  0.69901948  0.23276587  0.57964638  1
+  F  F8  1  0.83001935  0.57791991  0.62481905  1
+  O  O9  1  0.04203064  0.93901114  0.52661377  1
+  F  F10  1  0.37973950  0.13029715  0.63097044  1
+  F  F11  1  0.52810010  0.42395941  0.52705917  1
+  N  N12  1  0.53091486  0.92957224  0.52616123  1

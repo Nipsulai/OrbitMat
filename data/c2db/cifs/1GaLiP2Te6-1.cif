@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiGa(Te3P)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.05573347
+_cell_length_b   7.05573347
+_cell_length_c   32.96233225
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   114.85520378
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiGa(Te3P)2
+_chemical_formula_sum   'Li1 Ga1 Te6 P2'
+_cell_volume   1488.97731141
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.31113594  0.01670987  0.44730027  1
+  Ga  Ga1  1  -0.00071170  0.00071170  0.50000000  1
+  P  P2  1  0.46006700  0.82006091  0.48807752  1
+  P  P3  1  0.17993909  0.53993300  0.51192248  1
+  Li  Li4  1  0.63925873  0.36074127  0.50000000  1
+  Te  Te5  1  0.68394951  0.71028209  0.44672530  1
+  Te  Te6  1  0.28971791  0.31605049  0.55327470  1
+  Te  Te7  1  0.65753806  1.00414971  0.54852999  1
+  Te  Te8  1  -0.00414971  0.34246194  0.45147001  1
+  Te  Te9  1  0.98329013  0.68886406  0.55269973  1

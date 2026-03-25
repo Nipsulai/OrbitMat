@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_SrSbS2Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.30498427
+_cell_length_b   6.61787902
+_cell_length_c   40.54823305
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99917753
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrSbS2Cl
+_chemical_formula_sum   'Sr4 Sb4 S8 Cl4'
+_cell_volume   1691.90028944
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.00227871  1.00312906  0.54613411  1
+  Sr  Sr1  1  0.49390813  0.00628814  0.45386576  1
+  Sr  Sr2  1  0.50227822  0.50629862  0.54613419  1
+  Sr  Sr3  1  0.99391133  0.50311771  0.45386601  1
+  Sb  Sb4  1  0.44965963  0.95097713  0.62704783  1
+  Sb  Sb5  1  0.04652946  0.05844440  0.37295275  1
+  Sb  Sb6  1  0.94964717  0.55860859  0.62705649  1
+  Sb  Sb7  1  0.54654249  0.45081243  0.37294309  1
+  S  S8  1  0.49857845  0.01832068  0.56997116  1
+  S  S9  1  0.99761403  0.99109972  0.43002810  1
+  S  S10  1  -0.00139605  0.49125724  0.56997356  1
+  S  S11  1  0.49758316  0.51815895  0.43002723  1
+  S  S12  1  0.54318674  0.58216405  0.62589717  1
+  S  S13  1  0.95300236  0.42725702  0.37410325  1
+  S  S14  1  0.04319087  0.92747847  0.62590214  1
+  S  S15  1  0.45299828  0.08194232  0.37409689  1
+  Cl  Cl16  1  0.74890524  0.75647453  0.49979331  1
+  Cl  Cl17  1  0.74728290  0.25294145  0.50020645  1
+  Cl  Cl18  1  0.24893887  0.75295088  0.49979490  1
+  Cl  Cl19  1  0.24724837  0.25646693  0.50020545  1

@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_MnVSeBr4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.40499454
+_cell_length_b   6.61553281
+_cell_length_c   18.42909117
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   117.08430700
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnVSeBr4
+_chemical_formula_sum   'Mn1 V1 Se1 Br4'
+_cell_volume   695.25191933
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.26726301  0.70046212  0.40718909  1
+  Br  Br1  1  0.26842004  0.70075386  0.59303473  1
+  V  V2  1  0.17261282  0.39258076  0.50010190  1
+  Mn  Mn3  1  0.55200149  0.98836784  0.49982133  1
+  Br  Br4  1  0.89788684  0.12763625  0.40696527  1
+  Br  Br5  1  0.89781686  0.12703246  0.59282932  1
+  Se  Se6  1  0.48989251  0.33547333  0.50010030  1

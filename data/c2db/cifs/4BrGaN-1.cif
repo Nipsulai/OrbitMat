@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_GaBrN
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.97185432
+_cell_length_b   3.97185432
+_cell_length_c   20.57350539
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   129.07741940
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaBrN
+_chemical_formula_sum   'Ga2 Br2 N2'
+_cell_volume   251.95422749
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.31038928  0.68961072  0.05602862  1
+  Ga  Ga1  1  0.68961072  0.31038928  0.94397138  1
+  Br  Br2  1  0.37861192  0.62138808  0.86456330  1
+  Br  Br3  1  0.62138808  0.37861192  0.13543670  1
+  N  N4  1  0.90678670  0.09321330  0.01042751  1
+  N  N5  1  0.09321330  0.90678670  0.98957249  1

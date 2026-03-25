@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GaIr2Rh(SBr)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.94218695
+_cell_length_b   5.94536822
+_cell_length_c   20.70896391
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   104.75891342
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaIr2Rh(SBr)4
+_chemical_formula_sum   'Ga1 Ir2 Rh1 S4 Br4'
+_cell_volume   707.47769535
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.11965186  0.63166319  0.52223378  1
+  Rh  Rh1  1  0.37530782  0.87620128  0.44902766  1
+  Br  Br2  1  0.12033182  0.12033539  0.63780803  1
+  S  S3  1  0.63119706  0.12047039  0.52225226  1
+  Ir  Ir4  1  0.87531841  0.37615409  0.44987249  1
+  Br  Br5  1  0.63207311  0.63020431  0.63783799  1
+  S  S6  1  0.11434586  0.11944873  0.47389483  1
+  S  S7  1  0.63634825  0.63284097  0.47386523  1
+  Ir  Ir8  1  0.87549146  0.87596299  0.54745328  1
+  Br  Br9  1  0.62533765  0.13050910  0.36216201  1
+  Br  Br10  1  0.12480024  0.62243382  0.36218027  1
+  Ga  Ga11  1  0.37555238  0.37605098  0.55473099  1

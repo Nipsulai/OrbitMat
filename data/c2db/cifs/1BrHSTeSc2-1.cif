@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Sc2TeHSBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.46857705
+_cell_length_b   3.80013495
+_cell_length_c   18.49946954
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99025417
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc2TeHSBr
+_chemical_formula_sum   'Sc2 Te1 H1 S1 Br1'
+_cell_volume   454.74407015
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.76332338  0.99880936  0.50251081  1
+  Te  Te1  1  0.57678369  0.49865261  0.59458297  1
+  Sc  Sc2  1  0.23179906  0.49763430  0.50166048  1
+  S  S3  1  0.09001866  -0.00198297  0.56859569  1
+  Br  Br4  1  0.42102525  0.99743091  0.40541703  1
+  H  H5  1  0.91075372  0.49709708  0.45934153  1

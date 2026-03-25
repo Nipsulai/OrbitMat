@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_TlCuS
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.05553500
+_cell_length_b   4.05553500
+_cell_length_c   20.82074774
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.62467239
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlCuS
+_chemical_formula_sum   'Tl2 Cu2 S2'
+_cell_volume   342.42606742
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  1  0.49471769  0.00528231  0.13957463  1
+  Tl  Tl1  1  0.99471769  0.50528231  0.86042537  1
+  Cu  Cu2  1  0.26376380  0.73623620  0.00000000  1
+  Cu  Cu3  1  0.76376380  0.23623620  1.00000000  1
+  S  S4  1  0.00156471  0.49843529  0.07996748  1
+  S  S5  1  0.50156471  0.99843529  0.92003252  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NiBr2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.40604670
+_cell_length_b   7.92757973
+_cell_length_c   35.98474239
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00221101
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiBr2
+_chemical_formula_sum   'Ni4 Br8'
+_cell_volume   1827.46520383
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.48792654  0.66795139  0.50378956  1
+  Br  Br1  1  0.04234779  0.50204425  0.49621033  1
+  Br  Br2  1  0.54234800  0.16795088  0.49621019  1
+  Br  Br3  1  0.41409538  0.90540915  0.42628025  1
+  Br  Br4  1  0.91409652  0.76458563  0.42628012  1
+  Ni  Ni5  1  0.21104557  0.72132186  0.46307573  1
+  Ni  Ni6  1  0.71104392  0.94867520  0.46307599  1
+  Br  Br7  1  -0.01207360  0.00204459  0.50378954  1
+  Br  Br8  1  0.61617780  0.40541003  0.57371967  1
+  Br  Br9  1  0.11617930  0.26458650  0.57371944  1
+  Ni  Ni10  1  0.81923024  0.22132004  0.53692383  1
+  Ni  Ni11  1  0.31922857  0.44867390  0.53692413  1

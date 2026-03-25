@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HfAuSeSCl2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.11736002
+_cell_length_b   6.35769659
+_cell_length_c   18.95497053
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   109.56525759
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfAuSeSCl2
+_chemical_formula_sum   'Hf1 Au1 Se1 S1 Cl2'
+_cell_volume   581.08538874
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.48860570  0.46304406  0.60432542  1
+  S  S1  1  0.16113624  0.85573348  0.53613139  1
+  Cl  Cl2  1  0.44044859  0.45530009  0.39567458  1
+  Au  Au3  1  0.65151789  0.83510017  0.53933821  1
+  Se  Se4  1  0.85042429  0.16448598  0.46284639  1
+  Hf  Hf5  1  0.39972015  0.23399008  0.49906184  1

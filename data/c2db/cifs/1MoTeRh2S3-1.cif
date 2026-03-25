@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_TeMoRh2S3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.76114816
+_cell_length_b   4.60215661
+_cell_length_c   18.70034611
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   91.56873716
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TeMoRh2S3
+_chemical_formula_sum   'Te1 Mo1 Rh2 S3'
+_cell_volume   409.59998380
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  1  0.30541670  0.26228233  0.52343101  1
+  S  S1  1  0.28631167  0.25722105  0.40454355  1
+  Rh  Rh2  1  0.19628992  0.75511742  0.43964097  1
+  S  S3  1  0.23761025  0.75494206  0.56614583  1
+  S  S4  1  0.73622970  0.71282494  0.40106210  1
+  Te  Te5  1  0.79834003  0.24414454  0.59893790  1
+  Rh  Rh6  1  0.69992756  0.74171554  0.52377383  1

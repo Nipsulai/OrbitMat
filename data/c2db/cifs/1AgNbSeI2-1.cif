@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_NbAgSeI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.20678770
+_cell_length_b   4.19564493
+_cell_length_c   21.57780664
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.06078718
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbAgSeI2
+_chemical_formula_sum   'Nb1 Ag1 Se1 I2'
+_cell_volume   329.62557940
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.70604577  0.17351672  0.47770097  1
+  Ag  Ag1  1  -0.13062216  0.49521939  0.58536367  1
+  Nb  Nb2  1  1.03751302  0.83617516  0.43236133  1
+  I  I3  1  0.53137786  0.82050827  0.65242065  1
+  I  I4  1  0.37294718  0.50754656  0.34757935  1

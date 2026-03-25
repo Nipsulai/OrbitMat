@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_MnMoBrO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.70571034
+_cell_length_b   6.70525817
+_cell_length_c   37.50448000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnMoBrO4
+_chemical_formula_sum   'Mn2 Mo2 Br2 O8'
+_cell_volume   1686.33340014
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.00000000  0.29000001  0.46215599  1
+  O  O1  1  0.28431594  0.29000475  0.47285093  1
+  O  O2  1  0.00000000  0.57431210  0.47285105  1
+  Br  Br3  1  -0.00000000  0.29000085  0.39918402  1
+  Mn  Mn4  1  0.50000000  0.79000001  0.53784401  1
+  Mo  Mo5  1  0.50000000  0.29000129  0.50000092  1
+  Mo  Mo6  1  0.00000000  0.79000129  0.49999908  1
+  O  O7  1  0.21568406  0.79000475  0.52714907  1
+  O  O8  1  0.78431594  0.79000475  0.52714907  1
+  O  O9  1  0.50000000  0.50568616  0.52715018  1
+  O  O10  1  0.50000000  0.07431210  0.52714895  1
+  Br  Br11  1  0.50000000  0.79000085  0.60081598  1
+  O  O12  1  0.71568406  0.29000475  0.47285093  1
+  O  O13  1  -0.00000000  0.00568616  0.47284982  1

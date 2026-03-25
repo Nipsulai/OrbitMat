@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Pd4Se2Br5Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.32617359
+_cell_length_b   7.22699847
+_cell_length_c   18.53870087
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.78619736
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pd4Se2Br5Cl
+_chemical_formula_sum   'Pd4 Se2 Br5 Cl1'
+_cell_volume   981.54777084
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.16118876  0.88446052  0.40455909  1
+  Br  Br1  1  0.16190470  0.39175745  0.40470427  1
+  Pd  Pd2  1  0.23910069  0.12790378  0.49896677  1
+  Se  Se3  1  0.93466430  0.12769632  0.55546679  1
+  Pd  Pd4  1  0.24188832  0.62925749  0.50110615  1
+  Pd  Pd5  1  0.76882053  0.87557149  0.50060354  1
+  Se  Se6  1  0.93742401  0.62775595  0.55838958  1
+  Pd  Pd7  1  0.76920959  0.38084241  0.50041206  1
+  Br  Br8  1  0.32713989  0.36771893  0.59451760  1
+  Cl  Cl9  1  0.57906573  0.62889469  0.45041155  1
+  Br  Br10  1  0.32798815  0.87009579  0.59544091  1
+  Br  Br11  1  0.57846245  0.12883365  0.44026298  1

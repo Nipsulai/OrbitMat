@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_CoH4C6(BrN)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.78148614
+_cell_length_b   9.12340911
+_cell_length_c   34.11854533
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CoH4C6(BrN)2
+_chemical_formula_sum   'Co1 H4 C6 Br2 N2'
+_cell_volume   1177.09135433
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.50000000  0.21435725  0.50072361  1
+  Co  Co1  1  0.50000000  0.00308650  0.50074561  1
+  C  C2  1  0.50000000  0.29090333  0.46663683  1
+  H  H3  1  0.50000000  0.22596063  0.43991909  1
+  C  C4  1  0.50000000  0.44265487  0.46533572  1
+  H  H5  1  0.50000000  0.49885313  0.43717576  1
+  C  C6  1  0.50000000  0.52226972  0.50070477  1
+  C  C7  1  0.50000000  0.67719219  0.50070840  1
+  N  N8  1  0.50000000  0.80498842  0.50073012  1
+  C  C9  1  0.50000000  0.29096566  0.53480147  1
+  C  C10  1  0.50000000  0.44271529  0.53608347  1
+  H  H11  1  0.50000000  0.22607895  0.56152881  1
+  H  H12  1  0.50000000  0.49897065  0.56423539  1
+  Br  Br13  1  0.00000000  0.99522208  0.55188018  1
+  Br  Br14  1  -0.00000000  -0.00495065  0.44963665  1

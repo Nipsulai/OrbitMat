@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MnCu(BrO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.31921900
+_cell_length_b   3.74556307
+_cell_length_c   20.55051437
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00035473
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnCu(BrO)2
+_chemical_formula_sum   'Mn1 Cu1 Br2 O2'
+_cell_volume   255.49106604
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.19099656  0.25195859  0.52988273  1
+  O  O1  1  0.71313051  0.75204594  0.48971964  1
+  Cu  Cu2  1  0.82130049  0.25208956  0.45162636  1
+  Mn  Mn3  1  0.22871298  0.75193430  0.54404575  1
+  Br  Br4  1  0.34204876  0.25202581  0.36498524  1
+  Br  Br5  1  0.71500281  0.75173768  0.63506117  1

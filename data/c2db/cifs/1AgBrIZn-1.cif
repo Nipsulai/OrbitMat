@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_ZnAgIBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.10891831
+_cell_length_b   4.57806178
+_cell_length_c   17.87645696
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.29657729
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnAgIBr
+_chemical_formula_sum   'Zn1 Ag1 I1 Br1'
+_cell_volume   418.10584311
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.25177739  0.73098920  0.54724128  1
+  I  I1  1  0.24984549  0.31522218  0.41944390  1
+  Ag  Ag2  1  0.74900622  0.21177554  0.48393630  1
+  Br  Br3  1  0.75155507  0.74412483  0.58032318  1

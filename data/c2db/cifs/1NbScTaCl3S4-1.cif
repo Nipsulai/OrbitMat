@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_ScTaNbS4Cl3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.45917092
+_cell_length_b   6.16918688
+_cell_length_c   18.96350032
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   101.38571150
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScTaNbS4Cl3
+_chemical_formula_sum   'Sc1 Ta1 Nb1 S4 Cl3'
+_cell_volume   740.78343570
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  -0.01113697  0.37308828  0.51176653  1
+  S  S1  1  0.64434555  0.45875788  0.50556420  1
+  S  S2  1  0.76315955  1.03095481  0.57596993  1
+  S  S3  1  0.16561556  0.71918807  0.56190781  1
+  Cl  Cl4  1  0.58461022  0.90788154  0.40912944  1
+  Cl  Cl5  1  0.02527950  0.57351388  0.39548448  1
+  Nb  Nb6  1  0.88764439  0.80323293  0.48847972  1
+  Sc  Sc7  1  0.42077632  0.06052178  0.51164611  1
+  S  S8  1  0.11861093  0.11958266  0.42995126  1
+  Cl  Cl9  1  0.23637737  0.25147922  0.60441782  1

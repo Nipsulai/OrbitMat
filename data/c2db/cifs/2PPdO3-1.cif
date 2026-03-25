@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_PPdO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.17146694
+_cell_length_b   5.17186230
+_cell_length_c   18.41164285
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00072105
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PPdO3
+_chemical_formula_sum   'P2 Pd2 O6'
+_cell_volume   426.46237771
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.00002908  0.00011755  0.49997525  1
+  Pd  Pd1  1  0.33331164  0.66656398  0.50003041  1
+  P  P2  1  0.66652451  0.33330883  0.44213665  1
+  P  P3  1  0.66681490  0.33337090  0.55786920  1
+  O  O4  1  0.37155252  0.03831513  0.42139503  1
+  O  O5  1  0.96155450  0.33332326  0.42138053  1
+  O  O6  1  0.66644728  0.62820116  0.42136886  1
+  O  O7  1  0.96181367  0.62833840  0.57861035  1
+  O  O8  1  0.37181246  0.33341380  0.57862429  1
+  O  O9  1  0.66683635  0.03845114  0.57863747  1

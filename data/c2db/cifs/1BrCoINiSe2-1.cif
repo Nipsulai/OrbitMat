@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CoNiSe2IBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.38424368
+_cell_length_b   3.59529877
+_cell_length_c   17.97154817
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00432610
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CoNiSe2IBr
+_chemical_formula_sum   'Co1 Ni1 Se2 I1 Br1'
+_cell_volume   412.50567853
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.55803388  0.75179830  0.58266566  1
+  Se  Se1  1  0.06940026  0.25167079  0.56154934  1
+  Se  Se2  1  0.22479684  0.75182020  0.42875020  1
+  Br  Br3  1  0.70575207  0.25208519  0.41733147  1
+  Co  Co4  1  0.37705147  0.25185580  0.49452220  1
+  Ni  Ni5  1  0.90615890  0.75177407  0.49598786  1

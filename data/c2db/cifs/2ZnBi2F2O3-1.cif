@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_ZnBi2O3F2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.59929053
+_cell_length_b   5.48709213
+_cell_length_c   39.53738304
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnBi2O3F2
+_chemical_formula_sum   'Zn2 Bi4 O6 F4'
+_cell_volume   1214.73955863
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.50000000  0.19703789  0.43283214  1
+  Bi  Bi1  1  -0.00000000  0.69703789  0.56716786  1
+  Bi  Bi2  1  0.50000000  0.72252679  0.50886862  1
+  Bi  Bi3  1  0.00000000  0.22252679  0.49113138  1
+  Zn  Zn4  1  0.50000000  0.31209180  0.56915321  1
+  F  F5  1  0.50000000  0.47121005  0.61025428  1
+  F  F6  1  0.50000000  -0.03799996  0.56408598  1
+  O  O7  1  0.50000000  0.41914612  0.47536305  1
+  O  O8  1  0.00000000  0.91914612  0.52463695  1
+  O  O9  1  0.75276425  -0.01745649  0.46005191  1
+  O  O10  1  0.74723575  0.48254351  0.53994809  1
+  O  O11  1  0.24723575  -0.01745649  0.46005191  1
+  O  O12  1  0.25276425  0.48254351  0.53994809  1
+  Zn  Zn13  1  -0.00000000  0.81209180  0.43084679  1
+  F  F14  1  -0.00000000  0.46200004  0.43591402  1
+  F  F15  1  -0.00000000  -0.02878995  0.38974572  1

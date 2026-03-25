@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_NbZnCl2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.18854092
+_cell_length_b   3.23315986
+_cell_length_c   20.48104019
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.09839483
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbZnCl2
+_chemical_formula_sum   'Nb1 Zn1 Cl2'
+_cell_volume   184.49142645
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.82133095  0.13855387  0.55149056  1
+  Zn  Zn1  1  0.17340740  0.84235032  0.44210618  1
+  Cl  Cl2  1  0.51955028  0.53040786  0.36607874  1
+  Cl  Cl3  1  0.48979106  0.48250591  0.63386739  1

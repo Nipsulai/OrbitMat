@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Pt3S2I2N
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.83640232
+_cell_length_b   5.07165745
+_cell_length_c   21.82705750
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   79.08492458
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pt3S2I2N
+_chemical_formula_sum   'Pt3 S2 I2 N1'
+_cell_volume   417.00422691
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.20950764  0.74739439  0.49973451  1
+  S  S1  1  0.71934905  0.74606160  0.43214386  1
+  N  N2  1  0.37935629  0.32252663  0.49994576  1
+  Pt  Pt3  1  0.73257365  0.24502162  0.43375146  1
+  I  I4  1  0.23442578  0.23478840  0.65638978  1
+  Pt  Pt5  1  0.73097211  0.24562210  0.56637217  1
+  S  S6  1  0.71915252  0.74680736  0.56732826  1
+  I  I7  1  0.23636859  0.23408817  0.34361022  1

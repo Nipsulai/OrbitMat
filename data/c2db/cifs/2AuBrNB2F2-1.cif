@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_B2AuBrNF2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.44694853
+_cell_length_b   9.98614035
+_cell_length_c   33.75467511
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   127.16827178
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   B2AuBrNF2
+_chemical_formula_sum   'B4 Au2 Br2 N2 F4'
+_cell_volume   1194.47821726
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.31136714  0.03542691  0.43492756  1
+  Au  Au1  1  0.27906965  0.88939692  0.49909055  1
+  N  N2  1  0.27706695  0.67862223  0.49950140  1
+  B  B3  1  0.30182426  0.61468905  0.46317753  1
+  F  F4  1  0.32364920  0.68391208  0.42814385  1
+  B  B5  1  0.29930106  0.43887960  0.46401395  1
+  F  F6  1  0.35670055  0.38766958  0.42991722  1
+  Br  Br7  1  0.21058315  -0.00078413  0.56504049  1
+  Au  Au8  1  0.24348398  0.14624511  0.50090407  1
+  N  N9  1  0.24433830  0.35668415  0.50050086  1
+  B  B10  1  0.21891430  0.42044813  0.53680958  1
+  F  F11  1  1.19737516  0.35127802  0.57184439  1
+  B  B12  1  0.22129734  0.59631240  0.53599755  1
+  F  F13  1  0.16435311  0.64757643  0.57011617  1

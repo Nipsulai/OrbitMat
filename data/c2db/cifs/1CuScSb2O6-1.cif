@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_ScCu(SbO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.19411167
+_cell_length_b   5.19317036
+_cell_length_c   33.32484660
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99414554
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScCu(SbO3)2
+_chemical_formula_sum   'Sc1 Cu1 Sb2 O6'
+_cell_volume   778.51728631
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  -0.03688939  0.00425929  0.46511529  1
+  O  O1  1  0.63853528  0.32872990  0.46509299  1
+  O  O2  1  0.31396676  0.67964914  0.46507000  1
+  O  O3  1  0.63870896  0.67991902  0.53488838  1
+  O  O4  1  -0.03666188  0.32906488  0.53492744  1
+  O  O5  1  0.31424043  0.00447725  0.53490633  1
+  Cu  Cu6  1  0.63867153  0.00434863  0.50000008  1
+  Sc  Sc7  1  0.30527376  0.33773519  0.50000006  1
+  Sb  Sb8  1  0.97179210  0.67090826  0.43787820  1
+  Sb  Sb9  1  0.97208181  0.67122895  0.56212192  1

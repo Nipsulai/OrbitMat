@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_CuAgBr2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.35567767
+_cell_length_b   4.34694386
+_cell_length_c   18.54372053
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   98.57594189
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuAgBr2
+_chemical_formula_sum   'Cu1 Ag1 Br2'
+_cell_volume   347.17902368
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.37504812  0.87755130  0.50009796  1
+  Br  Br1  1  0.14980404  0.08770660  0.59555042  1
+  Br  Br2  1  0.59968729  0.66742120  0.40444958  1
+  Ag  Ag3  1  0.87616380  0.37605231  0.49950766  1

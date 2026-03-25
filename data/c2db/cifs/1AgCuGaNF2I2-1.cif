@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_GaCuAgI2NF2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.83412563
+_cell_length_b   5.34655549
+_cell_length_c   20.30211139
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   95.06058938
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaCuAgI2NF2
+_chemical_formula_sum   'Ga1 Cu1 Ag1 I2 N1 F2'
+_cell_volume   414.55811910
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.97416670  0.47085265  0.39556467  1
+  Cu  Cu1  1  0.10348867  0.04425397  0.49811385  1
+  Ga  Ga2  1  0.57432959  0.66236338  0.56047473  1
+  I  I3  1  0.15020968  0.98472930  0.36941971  1
+  I  I4  1  0.53859630  0.20653261  0.63058029  1
+  F  F5  1  0.07635097  0.64932637  0.59099405  1
+  N  N6  1  0.62364386  0.01454227  0.53357016  1
+  F  F7  1  0.51549868  0.49603138  0.47871140  1

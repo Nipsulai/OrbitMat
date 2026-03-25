@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_CoC8(BrF2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.53730848
+_cell_length_b   9.42380277
+_cell_length_c   34.11854533
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CoC8(BrF2)2
+_chemical_formula_sum   'Co1 C8 Br2 F4'
+_cell_volume   1137.33820988
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  C  C0  1  0.50000000  0.21196995  0.50074409  1
+  Co  Co1  1  0.50000000  -0.00227372  0.50077084  1
+  C  C2  1  0.50000000  0.29411714  0.46602433  1
+  F  F3  1  0.50000000  0.23194537  0.43038800  1
+  C  C4  1  0.50000000  0.44141223  0.46545369  1
+  F  F5  1  0.50000000  0.51017916  0.43117359  1
+  C  C6  1  0.50000000  0.52183643  0.50071181  1
+  C  C7  1  0.50000000  0.66893108  0.50071349  1
+  C  C8  1  0.50000000  0.80107385  0.50076550  1
+  C  C9  1  0.50000000  0.29421046  0.53544593  1
+  C  C10  1  0.50000000  0.44150250  0.53598534  1
+  F  F11  1  0.50000000  0.23214644  0.57109634  1
+  F  F12  1  0.50000000  0.51036346  0.57025056  1
+  Br  Br13  1  0.00000000  0.98606916  0.54846660  1
+  Br  Br14  1  -0.00000000  -0.01408252  0.45308043  1

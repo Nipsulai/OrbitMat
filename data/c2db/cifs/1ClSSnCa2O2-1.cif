@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Ca2SnSClO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.70627590
+_cell_length_b   5.73883597
+_cell_length_c   20.46267016
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00260232
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2SnSClO2
+_chemical_formula_sum   'Ca2 Sn1 S1 Cl1 O2'
+_cell_volume   435.23504886
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.24463351  0.70208431  0.63391050  1
+  O  O1  1  0.74508996  0.77134431  0.57369123  1
+  Ca  Ca2  1  0.74431359  0.19025283  0.58745704  1
+  S  S3  1  0.74413677  0.23627301  0.45599269  1
+  O  O4  1  0.24432477  0.35681729  0.62263497  1
+  Cl  Cl5  1  0.24669399  0.73557619  0.36629145  1
+  Ca  Ca6  1  0.74670381  0.73411447  0.45232598  1

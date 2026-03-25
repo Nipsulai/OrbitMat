@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Zn2Ga2Te5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.25049326
+_cell_length_b   4.25049241
+_cell_length_c   42.49425000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000662
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn2Ga2Te5
+_chemical_formula_sum   'Zn2 Ga2 Te5'
+_cell_volume   664.87399632
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.00000005  0.00000010  0.45622553  1
+  Ga  Ga1  1  0.66666588  0.33333177  0.64154317  1
+  Zn  Zn2  1  0.66666827  0.33333655  0.35803005  1
+  Zn  Zn3  1  0.33333250  0.66666501  0.55440278  1
+  Te  Te4  1  0.33333488  0.66666977  0.33614479  1
+  Te  Te5  1  0.66666700  0.33333401  0.42277523  1
+  Te  Te6  1  0.33333314  0.66666628  0.49407908  1
+  Te  Te7  1  0.66666577  0.33333153  0.57889951  1
+  Te  Te8  1  0.33333260  0.66666521  0.66915742  1

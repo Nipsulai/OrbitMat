@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cu2P2Se5S
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.62984049
+_cell_length_b   6.14136955
+_cell_length_c   18.58503420
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   122.32719696
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu2P2Se5S
+_chemical_formula_sum   'Cu2 P2 Se5 S1'
+_cell_volume   639.42931652
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.88193330  0.47932626  0.59644949  1
+  Se  Se1  1  0.53390591  0.83162351  0.57303825  1
+  P  P2  1  0.19775321  0.83754580  0.55860231  1
+  Se  Se3  1  0.81159452  0.83873621  0.42225822  1
+  S  S4  1  0.44409374  0.17552175  0.40561261  1
+  P  P5  1  0.15162159  0.84367180  0.43925155  1
+  Cu  Cu6  1  0.87994239  0.19016522  0.50468464  1
+  Se  Se7  1  0.22276117  0.19202442  0.59430643  1
+  Se  Se8  1  0.11889809  0.48343364  0.40355051  1
+  Cu  Cu9  1  0.45693071  0.47166466  0.48841874  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CoMoBrO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.67146054
+_cell_length_b   6.67147637
+_cell_length_c   37.50448000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CoMoBrO4
+_chemical_formula_sum   'Co2 Mo2 Br2 O8'
+_cell_volume   1669.26782390
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.00000000  0.28999866  0.45875728  1
+  O  O1  1  0.28450322  0.29000524  0.47258127  1
+  O  O2  1  0.00000000  0.57450030  0.47258238  1
+  Br  Br3  1  -0.00000000  0.29000250  0.39779279  1
+  Co  Co4  1  0.50000000  0.78999866  0.54124272  1
+  Mo  Mo5  1  0.50000000  0.29000114  0.50000010  1
+  Mo  Mo6  1  -0.00000000  0.79000114  0.49999990  1
+  O  O7  1  0.21549678  0.79000524  0.52741873  1
+  O  O8  1  0.78450322  0.79000524  0.52741873  1
+  O  O9  1  0.50000000  0.50549633  0.52741925  1
+  O  O10  1  0.50000000  0.07450030  0.52741762  1
+  Br  Br11  1  0.50000000  0.79000250  0.60220721  1
+  O  O12  1  0.71549678  0.29000524  0.47258127  1
+  O  O13  1  -0.00000000  0.00549633  0.47258075  1

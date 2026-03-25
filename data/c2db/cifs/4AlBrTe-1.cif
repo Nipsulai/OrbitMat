@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_AlTeBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.30652577
+_cell_length_b   8.02875124
+_cell_length_c   34.12533539
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99999962
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlTeBr
+_chemical_formula_sum   'Al4 Te4 Br4'
+_cell_volume   2001.86990736
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.47328943  0.80192144  0.53376266  1
+  Te  Te1  1  0.28831085  0.30192144  0.53376266  1
+  Al  Al2  1  0.82413990  0.76192346  0.51261200  1
+  Al  Al3  1  0.93746040  0.26192345  0.51261200  1
+  Br  Br4  1  -0.01621808  0.70422361  0.56917474  1
+  Br  Br5  1  0.77781840  0.20422359  0.56917475  1
+  Te  Te6  1  -0.02670984  -0.00735291  0.46623780  1
+  Te  Te7  1  0.78831013  0.49264710  0.46623780  1
+  Al  Al8  1  0.32413873  0.03264479  0.48738808  1
+  Al  Al9  1  0.43746156  0.53264481  0.48738808  1
+  Br  Br10  1  0.48378158  0.09034532  0.43082562  1
+  Br  Br11  1  0.27781874  0.59034533  0.43082562  1

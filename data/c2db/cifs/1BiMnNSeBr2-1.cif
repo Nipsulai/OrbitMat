@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MnBiSeBr2N
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.94819894
+_cell_length_b   5.08529926
+_cell_length_c   20.94419781
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.89966420
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnBiSeBr2N
+_chemical_formula_sum   'Mn1 Bi1 Se1 Br2 N1'
+_cell_volume   420.51220729
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.62366729  0.74963883  0.45974009  1
+  N  N1  1  0.62438567  0.53326071  0.52044825  1
+  Br  Br2  1  0.62397768  0.58437469  0.35809440  1
+  Se  Se3  1  0.12310121  0.02599186  0.46526520  1
+  Bi  Bi4  1  0.12309373  0.35733857  0.56991685  1
+  Br  Br5  1  0.62769736  1.02610702  0.64190560  1

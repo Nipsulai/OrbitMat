@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_FeCuTeI
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.02680184
+_cell_length_b   4.02417690
+_cell_length_c   19.04831009
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.95550385
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeCuTeI
+_chemical_formula_sum   'Fe1 Cu1 Te1 I1'
+_cell_volume   267.43543921
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.33768257  0.16243957  0.52724245  1
+  I  I1  1  0.67187775  0.82970395  0.60626428  1
+  Te  Te2  1  0.33662500  0.16251020  0.39373572  1
+  Cu  Cu3  1  0.67027895  0.82919913  0.45201583  1

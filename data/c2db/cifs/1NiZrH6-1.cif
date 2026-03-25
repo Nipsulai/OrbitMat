@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_ZrNiH6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.08809894
+_cell_length_b   5.65176001
+_cell_length_c   17.77979632
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   123.13268321
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrNiH6
+_chemical_formula_sum   'Zr1 Ni1 H6'
+_cell_volume   259.85933478
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.27579884  0.92793360  0.47510903  1
+  Ni  Ni1  1  0.26797054  0.41970478  0.47414276  1
+  H  H2  1  0.35353267  0.87674596  0.59112422  1
+  H  H3  1  1.09376467  0.87625305  0.59098389  1
+  H  H4  1  -0.01271674  0.13936767  0.53166456  1
+  H  H5  1  0.84456808  0.49618948  0.50159548  1
+  H  H6  1  0.01200927  0.16509386  0.41309792  1
+  H  H7  1  0.55680619  0.70933838  0.42244448  1

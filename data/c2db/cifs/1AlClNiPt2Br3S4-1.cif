@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_AlNiPt2S4Br3Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.01330653
+_cell_length_b   6.97825817
+_cell_length_c   20.54679107
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99724015
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlNiPt2S4Br3Cl
+_chemical_formula_sum   'Al1 Ni1 Pt2 S4 Br3 Cl1'
+_cell_volume   718.81196458
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.24826616  0.37206857  0.37392902  1
+  Pt  Pt1  1  0.24826025  0.12381533  0.45618397  1
+  Br  Br2  1  0.74761343  0.62310412  0.63497950  1
+  Pt  Pt3  1  0.24832036  0.62036491  0.45616571  1
+  Ni  Ni4  1  0.74814416  0.37192127  0.54944192  1
+  S  S5  1  0.74829066  0.61088899  0.47331434  1
+  Al  Al6  1  0.74799734  0.87201859  0.54949506  1
+  S  S7  1  0.74823641  0.13290960  0.47327246  1
+  S  S8  1  0.24790892  0.37207416  0.53324214  1
+  S  S9  1  0.24813127  0.87200467  0.53006312  1
+  Br  Br10  1  0.24971921  0.87212819  0.36502050  1
+  Br  Br11  1  0.74769107  0.12118810  0.63496409  1

@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_NiPO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.74442868
+_cell_length_b   5.48030531
+_cell_length_c   30.85500000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   126.29205877
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiPO3
+_chemical_formula_sum   'Ni1 P1 O3'
+_cell_volume   646.62848882
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.25522557  0.93693388  0.49507547  1
+  O  O1  1  0.38543595  0.74284873  0.49050350  1
+  Ni  Ni2  1  0.68264591  0.61750517  0.50034596  1
+  O  O3  1  0.46598232  0.23901636  0.47057749  1
+  O  O4  1  0.06655264  -0.07870333  0.53754694  1

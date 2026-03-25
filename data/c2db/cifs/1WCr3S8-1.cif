@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cr3WS8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.18086771
+_cell_length_b   5.34744456
+_cell_length_c   18.02310179
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cr3WS8
+_chemical_formula_sum   'Cr3 W1 S8'
+_cell_volume   595.69680963
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.00210876  0.00139017  0.49999365  1
+  Cr  Cr1  1  0.49961338  0.00137494  0.50002020  1
+  Cr  Cr2  1  0.25082764  0.49949111  0.50000963  1
+  W  W3  1  0.75084662  0.50133286  0.50000562  1
+  S  S4  1  0.00989192  0.32895147  0.41613259  1
+  S  S5  1  0.25085153  0.83191372  0.58067786  1
+  S  S6  1  0.00986919  0.32887597  0.58384133  1
+  S  S7  1  0.25092340  0.83190164  0.41932327  1
+  S  S8  1  0.49177103  0.32887195  0.41616598  1
+  S  S9  1  0.75090419  0.84692843  0.58381475  1
+  S  S10  1  0.49182919  0.32893651  0.58386741  1
+  S  S11  1  0.75085600  0.84694052  0.41620180  1

@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ni2P2Se5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.08279029
+_cell_length_b   6.04687577
+_cell_length_c   33.25052414
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.80470413
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni2P2Se5
+_chemical_formula_sum   'Ni2 P2 Se5'
+_cell_volume   1061.24173178
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.64520176  -0.00280559  0.50384098  1
+  Se  Se1  1  0.33894902  0.03152798  0.54983424  1
+  Se  Se2  1  0.36679916  0.65595167  0.45766829  1
+  Ni  Ni3  1  0.35770671  0.35336084  0.50383956  1
+  P  P4  1  0.00140327  0.67946976  0.52627594  1
+  Se  Se5  1  0.66383089  0.69395794  0.54982882  1
+  Se  Se6  1  0.00149850  0.29349857  0.53970558  1
+  P  P7  1  0.00152159  0.69736140  0.46022452  1
+  Se  Se8  1  0.63608567  0.29070283  0.45766137  1

@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_ZnAuI2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.39333625
+_cell_length_b   5.91492617
+_cell_length_c   20.24457566
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   73.30462134
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnAuI2O
+_chemical_formula_sum   'Zn1 Au1 I2 O1'
+_cell_volume   389.20682160
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Au  Au0  1  0.94272774  0.75954256  0.49998514  1
+  Zn  Zn1  1  0.17154989  0.30015997  0.50004396  1
+  O  O2  1  0.73276956  0.17793117  0.49994145  1
+  I  I3  1  -0.02741054  0.69554533  0.37060955  1
+  I  I4  1  0.97641058  0.69613256  0.62937885  1

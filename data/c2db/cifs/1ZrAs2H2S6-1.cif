@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_ZrAs2(HS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.03019952
+_cell_length_b   7.03182892
+_cell_length_c   36.18153200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99839263
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrAs2(HS3)2
+_chemical_formula_sum   'Zr1 As2 H2 S6'
+_cell_volume   1549.03262366
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.33336744  0.66662661  0.55462258  1
+  Zr  Zr1  1  0.66669996  0.33330001  0.49999999  1
+  H  H2  1  0.33335977  0.66663999  0.59665886  1
+  S  S3  1  0.51470772  0.48528935  0.54858232  1
+  S  S4  1  0.51469008  1.02924510  0.54858231  1
+  S  S5  1  -0.02924634  0.48530740  0.54858208  1
+  As  As6  1  0.00003245  -0.00002662  0.44537743  1
+  H  H7  1  0.00004011  -0.00003999  0.40334115  1
+  S  S8  1  0.81869239  0.18131082  0.45141774  1
+  S  S9  1  0.81870930  0.63735488  0.45141766  1
+  S  S10  1  0.36264618  0.18129333  0.45141791  1

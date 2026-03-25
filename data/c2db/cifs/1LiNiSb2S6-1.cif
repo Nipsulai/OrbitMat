@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiNi(SbS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.28988377
+_cell_length_b   6.28917547
+_cell_length_c   33.22614168
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00393784
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiNi(SbS3)2
+_chemical_formula_sum   'Li1 Ni1 Sb2 S6'
+_cell_volume   1138.22898900
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.67745798  0.99850107  0.50000121  1
+  S  S1  1  0.70344374  0.73971416  0.54775872  1
+  Li  Li2  1  0.01043558  0.66450145  0.50000060  1
+  S  S3  1  -0.06375610  0.28258555  0.54788202  1
+  Sb  Sb4  1  0.34420857  0.33173126  0.54133594  1
+  S  S5  1  0.39377356  0.97340005  0.54792814  1
+  S  S6  1  0.39270114  0.73971018  0.45223713  1
+  S  S7  1  0.70283514  0.28264985  0.45212716  1
+  Sb  Sb8  1  0.34395525  0.33174563  0.45866183  1
+  S  S9  1  -0.06396233  -0.02655973  0.45206736  1

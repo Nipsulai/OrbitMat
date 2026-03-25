@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_BaBiS2Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.54788931
+_cell_length_b   6.82358131
+_cell_length_c   40.54823305
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00351323
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaBiS2Cl
+_chemical_formula_sum   'Ba4 Bi4 S8 Cl4'
+_cell_volume   1811.69728419
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.00140721  0.99924416  0.54939865  1
+  Ba  Ba1  1  0.49478818  0.01016553  0.45060150  1
+  Ba  Ba2  1  0.50140970  0.51016207  0.54939818  1
+  Ba  Ba3  1  0.99478512  0.49924748  0.45060218  1
+  Bi  Bi4  1  0.45169335  0.95013314  0.63326192  1
+  Bi  Bi5  1  0.04449025  0.05929478  0.36673648  1
+  Bi  Bi6  1  0.95163268  0.55950601  0.63328715  1
+  Bi  Bi7  1  0.54455644  0.44992603  0.36671440  1
+  S  S8  1  0.49735025  0.00809756  0.57362175  1
+  S  S9  1  0.99884260  1.00131666  0.42637815  1
+  S  S10  1  -0.00263608  0.50140913  0.57362463  1
+  S  S11  1  0.49882669  0.50800656  0.42637595  1
+  S  S12  1  0.54585925  0.57837407  0.63446019  1
+  S  S13  1  0.95032403  0.43105505  0.36554077  1
+  S  S14  1  0.04578850  0.93131408  0.63444188  1
+  S  S15  1  0.45039862  0.07811903  0.36555644  1
+  Cl  Cl16  1  0.74871351  0.75627462  0.49911213  1
+  Cl  Cl17  1  0.74748232  0.25313142  0.50088778  1
+  Cl  Cl18  1  0.24866418  0.75308654  0.49911421  1
+  Cl  Cl19  1  0.24753265  0.25632368  0.50088558  1

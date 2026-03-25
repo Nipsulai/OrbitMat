@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_GaSb2Te6Au
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.24797353
+_cell_length_b   7.24797353
+_cell_length_c   33.42590400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00244887
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaSb2Te6Au
+_chemical_formula_sum   'Ga1 Sb2 Te6 Au1'
+_cell_volume   1520.67453300
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  -0.00000210  0.00000210  0.50000000  1
+  Au  Au1  1  0.66666329  0.33333671  0.50000000  1
+  Te  Te2  1  0.73646096  0.67550300  0.55348838  1
+  Te  Te3  1  -0.06097180  0.26351620  0.55348905  1
+  Te  Te4  1  0.32450964  1.06099623  0.55348664  1
+  Te  Te5  1  0.32449700  0.26353904  0.44651162  1
+  Te  Te6  1  -0.06099623  0.67549036  0.44651336  1
+  Te  Te7  1  0.73648380  1.06097180  0.44651095  1
+  Sb  Sb8  1  0.33333016  0.66667474  0.54393827  1
+  Sb  Sb9  1  0.33332526  0.66666984  0.45606173  1

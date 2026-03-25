@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_AlAu(SBr)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.57769113
+_cell_length_b   5.17408990
+_cell_length_c   20.68332200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.98781342
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlAu(SBr)2
+_chemical_formula_sum   'Al1 Au1 S2 Br2'
+_cell_volume   382.87507769
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.74793506  0.24752056  0.45250537  1
+  S  S1  1  0.74693211  0.74734720  0.45830542  1
+  S  S2  1  0.24800973  0.24733742  0.52886515  1
+  Au  Au3  1  0.24784085  0.74735453  0.54086825  1
+  Br  Br4  1  0.74834418  0.74742298  0.63502523  1
+  Br  Br5  1  0.24703471  0.24740883  0.36400770  1

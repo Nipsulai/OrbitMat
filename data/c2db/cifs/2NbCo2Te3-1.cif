@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NbCo2Te3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.72403874
+_cell_length_b   10.68634886
+_cell_length_c   33.95421863
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbCo2Te3
+_chemical_formula_sum   'Nb2 Co4 Te6'
+_cell_volume   1351.25489126
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.50000000  0.40339152  0.49741218  1
+  Co  Co1  1  0.50000000  0.16440241  0.47932344  1
+  Co  Co2  1  0.00000000  0.62024867  0.50055153  1
+  Te  Te3  1  0.50000000  0.61066310  0.44898437  1
+  Te  Te4  1  1.00000000  0.27895131  0.44302732  1
+  Te  Te5  1  -0.00000000  0.45736683  0.55645980  1
+  Nb  Nb6  1  -0.00000000  0.00573413  0.50258788  1
+  Co  Co7  1  -0.00000000  0.24472363  0.52067656  1
+  Co  Co8  1  0.50000000  0.78887754  0.49944858  1
+  Te  Te9  1  1.00000000  0.79846283  0.55101577  1
+  Te  Te10  1  0.50000000  0.13017435  0.55697267  1
+  Te  Te11  1  0.50000000  0.95175900  0.44354027  1

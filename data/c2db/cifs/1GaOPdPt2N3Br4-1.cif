@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GaPdPt2Br4N3O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.27747364
+_cell_length_b   5.27795398
+_cell_length_c   20.58672559
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   100.25934059
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaPdPt2Br4N3O
+_chemical_formula_sum   'Ga1 Pd1 Pt2 Br4 N3 O1'
+_cell_volume   564.25991406
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.62165427  0.12147492  0.51838812  1
+  Ga  Ga1  1  0.87799841  0.37315848  0.45711172  1
+  Br  Br2  1  0.62466270  0.12545399  0.36431440  1
+  O  O3  1  0.61983622  0.61080167  0.47634867  1
+  Pt  Pt4  1  0.38024662  0.37763016  0.54284184  1
+  Br  Br5  1  0.62826954  0.62732740  0.63568748  1
+  Pd  Pd6  1  0.88693411  0.88444213  0.54321289  1
+  Pt  Pt7  1  0.37035945  0.88456964  0.45798692  1
+  N  N8  1  0.14134225  0.63243352  0.51884542  1
+  Br  Br9  1  0.11416198  0.63701415  0.36544274  1
+  Br  Br10  1  0.13749460  0.13231206  0.63204354  1
+  N  N11  1  0.14016491  0.13329542  0.48005191  1

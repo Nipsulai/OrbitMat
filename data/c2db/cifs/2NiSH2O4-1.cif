@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_NiH2SO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.68596180
+_cell_length_b   5.61347865
+_cell_length_c   34.22894359
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00050440
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiH2SO4
+_chemical_formula_sum   'Ni2 H4 S2 O8'
+_cell_volume   900.37683803
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.17128527  0.65392689  0.50623536  1
+  Ni  Ni1  1  0.67128543  0.15388456  0.49376447  1
+  S  S2  1  0.08710488  0.15401084  0.55339452  1
+  S  S3  1  0.58710409  0.65379384  0.44660528  1
+  O  O4  1  0.94070947  0.36847870  0.52965066  1
+  O  O5  1  0.44070242  0.43932132  0.47034934  1
+  O  O6  1  0.94084179  0.93983848  0.52964050  1
+  O  O7  1  0.44084865  0.86796161  0.47035913  1
+  O  O8  1  0.90182330  0.65408453  0.45718013  1
+  O  O9  1  0.40182361  0.15373067  0.54281956  1
+  O  O10  1  0.45384120  0.65378964  0.55334812  1
+  H  H11  1  0.57857476  0.79458702  0.55166668  1
+  H  H12  1  0.58562082  0.51765883  0.55117130  1
+  O  O13  1  0.95383856  0.15402673  0.44665148  1
+  H  H14  1  0.08571340  0.29009784  0.44883475  1
+  H  H15  1  0.07847194  0.01317228  0.44832588  1

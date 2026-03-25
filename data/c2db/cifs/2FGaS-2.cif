@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_GaSF
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.96028484
+_cell_length_b   3.28642864
+_cell_length_c   21.34180596
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaSF
+_chemical_formula_sum   'Ga2 S2 F2'
+_cell_volume   347.90605656
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.50000000  0.00000000  0.45724053  1
+  Ga  Ga1  1  0.00000000  0.50000000  0.54275965  1
+  S  S2  1  0.50000000  0.50000000  0.53989108  1
+  S  S3  1  0.00000000  0.00000000  0.46010908  1
+  F  F4  1  0.50000000  0.50000000  0.40083345  1
+  F  F5  1  -0.00000000  0.00000000  0.59916680  1

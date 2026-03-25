@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CrAsO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.97511656
+_cell_length_b   4.97545582
+_cell_length_c   18.41164285
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99777585
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrAsO3
+_chemical_formula_sum   'Cr2 As2 O6'
+_cell_volume   394.70173942
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.00004277  0.00009545  0.50000765  1
+  Cr  Cr1  1  0.33329563  0.66658918  0.50000761  1
+  As  As2  1  0.66672616  0.33334036  0.39591387  1
+  As  As3  1  0.66660978  0.33334387  0.60402155  1
+  O  O4  1  0.33302221  -0.00038328  0.43945455  1
+  O  O5  1  1.00080293  0.33334281  0.43929652  1
+  O  O6  1  0.66674880  0.66707935  0.43944897  1
+  O  O7  1  1.00056986  0.66732395  0.56056719  1
+  O  O8  1  0.33227611  0.33334133  0.56072645  1
+  O  O9  1  0.66658731  -0.00065132  0.56057304  1

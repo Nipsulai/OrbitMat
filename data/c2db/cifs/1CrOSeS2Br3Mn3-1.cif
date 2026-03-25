@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Mn3CrSeS2Br3O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.55917637
+_cell_length_b   5.81429717
+_cell_length_c   20.15170261
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.28468385
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn3CrSeS2Br3O
+_chemical_formula_sum   'Mn3 Cr1 Se1 S2 Br3 O1'
+_cell_volume   694.89825944
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.67328558  0.70488725  0.49434254  1
+  Cr  Cr1  1  0.90365525  0.06479152  0.47247713  1
+  S  S2  1  0.20234343  0.47101476  0.44900769  1
+  Mn  Mn3  1  0.90809706  0.58463077  0.47599954  1
+  Mn  Mn4  1  0.44153888  0.35854140  0.52286664  1
+  Se  Se5  1  0.75097315  0.24243974  0.56622381  1
+  S  S6  1  0.14628645  0.95878124  0.54381601  1
+  Br  Br7  1  -0.00761517  0.86088478  0.37217699  1
+  Br  Br8  1  0.61963307  0.16359759  0.40194617  1
+  Mn  Mn9  1  0.43426001  0.83076818  0.51879532  1
+  Br  Br10  1  0.37879033  0.57028198  0.62782301  1

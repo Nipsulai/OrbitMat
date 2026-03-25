@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Mn2MoW2Br2N(Cl2O)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.91919333
+_cell_length_b   5.77947937
+_cell_length_c   20.45555719
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.77598044
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2MoW2Br2N(Cl2O)2
+_chemical_formula_sum   'Mn2 Mo1 W2 Br2 N1 Cl4 O2'
+_cell_volume   630.15419077
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.16624936  0.52539563  0.37715362  1
+  Mn  Mn1  1  0.79456213  0.12663827  0.46042918  1
+  Cl  Cl2  1  0.52645702  0.50641239  0.62297434  1
+  W  W3  1  0.83766526  0.82377890  0.54807787  1
+  Mo  Mo4  1  0.16755560  0.82915303  0.46240477  1
+  W  W5  1  0.20601133  0.52674076  0.54823572  1
+  Cl  Cl6  1  0.16670461  0.82039462  0.62944637  1
+  Br  Br7  1  0.84130784  0.84474098  0.36664853  1
+  Cl  Cl8  1  0.47941167  0.18423855  0.39166481  1
+  O  O9  1  0.88067022  0.50834459  0.50645484  1
+  O  O10  1  0.12582856  0.15329906  0.51010511  1
+  Mn  Mn11  1  0.50324521  0.56081764  0.45413184  1
+  N  N12  1  0.50428249  0.83454454  0.51022245  1
+  Br  Br13  1  0.86594120  0.17635960  0.63335147  1

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_As2Pd2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.48623984
+_cell_length_b   6.98648321
+_cell_length_c   33.16810806
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   80.35492239
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   As2Pd2O7
+_chemical_formula_sum   'As2 Pd2 O7'
+_cell_volume   1253.34706802
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.75554782  0.00279294  0.48430551  1
+  Pd  Pd1  1  0.09768093  0.66462903  0.52848562  1
+  O  O2  1  0.44673393  1.02590489  0.46939547  1
+  O  O3  1  0.85686055  0.49752291  0.54998629  1
+  O  O4  1  0.84158635  -0.09217330  0.53115853  1
+  O  O5  1  0.36563276  0.42355928  0.53162343  1
+  As  As6  1  0.64676868  0.45984232  0.51338893  1
+  Pd  Pd7  1  0.29058472  0.79082774  0.46637623  1
+  O  O8  1  0.62655214  0.63709293  0.47612948  1
+  O  O9  1  0.78899988  0.25275543  0.48542677  1
+  O  O10  1  -0.03924950  -0.08223834  0.44639700  1

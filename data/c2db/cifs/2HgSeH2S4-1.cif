@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_HgH2SeS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.20682869
+_cell_length_b   7.25483478
+_cell_length_c   34.12349480
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.02315855
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HgH2SeS4
+_chemical_formula_sum   'Hg2 H4 Se2 S8'
+_cell_volume   1536.56435337
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.40190458  0.88695877  0.48269510  1
+  Hg  Hg1  1  0.90190458  0.38695877  0.51730490  1
+  Se  Se2  1  0.53112812  0.38696217  0.42966471  1
+  Se  Se3  1  0.03112812  0.88696217  0.57033529  1
+  S  S4  1  0.69371148  0.88701949  0.56056379  1
+  S  S5  1  0.19371148  0.38701949  0.43943621  1
+  S  S6  1  0.68545817  0.15511178  0.46544491  1
+  S  S7  1  0.18549515  0.11891513  0.53454475  1
+  S  S8  1  0.68549515  0.61891513  0.46545525  1
+  S  S9  1  0.18545817  0.65511178  0.53455509  1
+  S  S10  1  0.14259387  0.88703173  0.41727803  1
+  S  S11  1  0.64259387  0.38703173  0.58272197  1
+  H  H12  1  0.50794661  0.52283793  0.56949179  1
+  H  H13  1  0.50780271  0.25119969  0.56948726  1
+  H  H14  1  0.00780271  0.75119969  0.43051274  1
+  H  H15  1  0.00794661  0.02283793  0.43050821  1

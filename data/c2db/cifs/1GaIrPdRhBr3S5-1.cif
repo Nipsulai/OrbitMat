@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GaIrPdRhS5Br3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.04566456
+_cell_length_b   6.48835831
+_cell_length_c   21.26792643
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   104.77673460
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaIrPdRhS5Br3
+_chemical_formula_sum   'Ga1 Ir1 Pd1 Rh1 S5 Br3'
+_cell_volume   806.67337803
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ir  Ir0  1  0.88882122  0.95107248  0.50733756  1
+  S  S1  1  1.01261468  0.67246179  0.45368057  1
+  Rh  Rh2  1  0.12337809  0.48393853  0.54378134  1
+  S  S3  1  0.69951396  0.06011882  0.41724011  1
+  S  S4  1  0.18138975  0.22885911  0.47896616  1
+  Ga  Ga5  1  0.39976789  0.75936141  0.42865552  1
+  Br  Br6  1  0.21883543  0.35145630  0.64735631  1
+  S  S7  1  0.53985400  0.65467365  0.52258508  1
+  Br  Br8  1  0.05143062  0.81144030  0.60355881  1
+  Br  Br9  1  0.47773196  0.50749021  0.35264369  1
+  Pd  Pd10  1  0.60075469  0.34523384  0.46828648  1
+  S  S11  1  0.77089152  0.23755538  0.55650865  1

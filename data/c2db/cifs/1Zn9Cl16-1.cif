@@ -1,0 +1,51 @@
+# generated using pymatgen
+data_Zn9Cl16
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.44726797
+_cell_length_b   7.44784804
+_cell_length_c   26.19386362
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.98503175
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn9Cl16
+_chemical_formula_sum   'Zn9 Cl16'
+_cell_volume   1452.87193658
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  -0.03961162  -0.00000264  0.30730778  1
+  Cl  Cl1  1  -0.04036515  0.24994046  0.35930285  1
+  Cl  Cl2  1  0.21088920  0.00004694  0.25561122  1
+  Zn  Zn3  1  0.04524357  -0.00001558  0.69227664  1
+  Cl  Cl4  1  0.04503610  0.24997129  0.74420357  1
+  Cl  Cl5  1  0.29533535  -0.00003739  0.64038791  1
+  Zn  Zn6  1  -0.04093323  0.50000459  0.30735565  1
+  Cl  Cl7  1  -0.04036892  0.75006832  0.35930567  1
+  Cl  Cl8  1  0.20955757  0.50003424  0.25560272  1
+  Zn  Zn9  1  0.04508901  0.49998740  0.69228238  1
+  Cl  Cl10  1  0.04503265  0.74999285  0.74420464  1
+  Cl  Cl11  1  0.29530397  0.49995478  0.64042227  1
+  Zn  Zn12  1  0.46057200  0.00007285  0.30774676  1
+  Cl  Cl13  1  0.45972550  0.25017323  0.35966440  1
+  Cl  Cl14  1  0.70991775  0.00002500  0.25554643  1
+  Zn  Zn15  1  0.54524608  -0.00007056  0.69237177  1
+  Cl  Cl16  1  0.54516039  0.24977396  0.74436840  1
+  Cl  Cl17  1  0.79512164  -0.00004596  0.64040133  1
+  Zn  Zn18  1  0.45931231  0.50006979  0.30764947  1
+  Cl  Cl19  1  0.45973941  0.74996196  0.35966319  1
+  Cl  Cl20  1  0.70889203  0.50003252  0.25549907  1
+  Zn  Zn21  1  0.54490537  0.49992931  0.69251720  1
+  Cl  Cl22  1  0.54516967  0.75009157  0.74436837  1
+  Cl  Cl23  1  0.79476834  0.49995714  0.64049964  1
+  Zn  Zn24  1  0.10121765  0.49985063  0.49714496  1

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Ta3SI7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.62089566
+_cell_length_b   7.62228269
+_cell_length_c   33.72094200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99269816
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta3SI7
+_chemical_formula_sum   'Ta3 S1 I7'
+_cell_volume   1696.49798239
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.86549539  0.23909092  0.50028926  1
+  Ta  Ta1  1  0.25281784  0.62641320  0.50028942  1
+  Ta  Ta2  1  0.86549537  0.62641305  0.50028947  1
+  S  S3  1  0.99460394  0.49730807  0.55121786  1
+  I  I4  1  0.66126931  0.83063855  0.45769410  1
+  I  I5  1  0.16305115  0.83420211  0.44414283  1
+  I  I6  1  0.65770726  0.32885711  0.44414283  1
+  I  I7  1  0.49206894  0.99984322  0.54617684  1
+  I  I8  1  0.16304991  0.32885724  0.44414282  1
+  I  I9  1  0.49206665  0.49223337  0.54617637  1
+  I  I10  1  -0.00032570  -0.00015674  0.54617683  1

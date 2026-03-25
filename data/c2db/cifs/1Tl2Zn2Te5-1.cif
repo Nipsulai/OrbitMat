@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Tl2Zn2Te5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.44462223
+_cell_length_b   4.44462143
+_cell_length_c   42.49425000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000595
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tl2Zn2Te5
+_chemical_formula_sum   'Tl2 Zn2 Te5'
+_cell_volume   726.99329313
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  1  -0.00000023  -0.00000046  0.45348101  1
+  Tl  Tl1  1  0.66666577  0.33333153  0.64675964  1
+  Zn  Zn2  1  0.66666884  0.33333767  0.35094553  1
+  Zn  Zn3  1  0.33333247  0.66666494  0.55654757  1
+  Te  Te4  1  0.33333547  0.66667094  0.33404958  1
+  Te  Te5  1  0.66666681  0.33333361  0.41576833  1
+  Te  Te6  1  0.33333285  0.66666570  0.49603903  1
+  Te  Te7  1  0.66666574  0.33333148  0.57774661  1
+  Te  Te8  1  0.33333240  0.66666480  0.67991137  1

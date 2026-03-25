@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Te8As2Pt3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.96223634
+_cell_length_b   7.96223634
+_cell_length_c   38.39724000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00078868
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Te8As2Pt3
+_chemical_formula_sum   'Te8 As2 Pt3'
+_cell_volume   2108.12965416
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.32599931  0.17400067  0.49999994  1
+  Pt  Pt1  1  0.82599933  0.67400069  0.49999994  1
+  Pt  Pt2  1  0.32599938  0.67400062  0.50000002  1
+  Te  Te3  1  0.64961575  0.35038425  0.53590285  1
+  Te  Te4  1  0.64958384  0.82120267  0.53591219  1
+  Te  Te5  1  0.17879733  0.35041616  0.53591219  1
+  As  As6  1  0.49271945  0.50728055  0.57814208  1
+  Te  Te7  1  0.49269795  0.50730205  0.64072727  1
+  Te  Te8  1  0.00238316  -0.00238316  0.46409698  1
+  Te  Te9  1  0.00241511  0.52679844  0.46408781  1
+  Te  Te10  1  0.47320156  -0.00241511  0.46408781  1
+  As  As11  1  0.15927976  0.84072024  0.42185787  1
+  Te  Te12  1  0.15930200  0.84069800  0.35927268  1

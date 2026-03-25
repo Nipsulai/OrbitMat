@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Ti2GaBr2N3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.04473876
+_cell_length_b   5.42230453
+_cell_length_c   19.98926764
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   112.15277255
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti2GaBr2N3
+_chemical_formula_sum   'Ti2 Ga1 Br2 N3'
+_cell_volume   406.03873640
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.71130852  0.54752493  0.45908898  1
+  Ti  Ti1  1  0.09010454  0.31297413  0.54010031  1
+  Ti  Ti2  1  0.39457559  0.93861544  0.50096285  1
+  Br  Br3  1  0.29396141  0.70182587  0.62479866  1
+  N  N4  1  0.91226182  0.94378130  0.49864563  1
+  N  N5  1  0.21628910  0.55365167  0.46775228  1
+  Br  Br6  1  0.52651556  0.17503368  0.37520134  1
+  N  N7  1  0.58210671  0.28614696  0.54214534  1

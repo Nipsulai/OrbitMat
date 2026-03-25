@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_GaNiS2BrCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.57503514
+_cell_length_b   8.05531762
+_cell_length_c   18.10103633
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   116.35507327
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaNiS2BrCl
+_chemical_formula_sum   'Ga1 Ni1 S2 Br1 Cl1'
+_cell_volume   467.09323710
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.10006594  0.10586929  0.52539703  1
+  Ga  Ga1  1  0.66390856  0.66981176  0.50513157  1
+  Br  Br2  1  0.36892099  0.37430370  0.44395845  1
+  S  S3  1  0.53350872  0.03934567  0.58391166  1
+  Cl  Cl4  1  0.87288648  0.87902479  0.41467666  1
+  S  S5  1  0.20590569  0.71181295  0.58554708  1

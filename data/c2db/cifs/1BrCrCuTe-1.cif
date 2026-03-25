@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_CrCuTeBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.87047088
+_cell_length_b   4.46897504
+_cell_length_c   18.42266392
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.67123255
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrCuTeBr
+_chemical_formula_sum   'Cr1 Cu1 Te1 Br1'
+_cell_volume   287.20430996
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.14101074  0.11820884  0.44473429  1
+  Cr  Cr1  1  0.83883736  0.51405261  0.50905417  1
+  Te  Te2  1  0.44767682  0.73149254  0.40710725  1
+  Br  Br3  1  0.24759489  0.33258316  0.59289275  1

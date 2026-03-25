@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_ScI3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.85505841
+_cell_length_b   4.13717004
+_cell_length_c   18.84071917
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000028
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScI3
+_chemical_formula_sum   'Sc2 I6'
+_cell_volume   846.12204877
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.00000002  0.62162023  0.50000001  1
+  Sc  Sc1  1  0.50000001  0.62162019  0.50000002  1
+  I  I2  1  0.93907665  0.12162906  0.60173954  1
+  I  I3  1  0.06092336  0.12162906  0.39826046  1
+  I  I4  1  0.43907663  0.12162906  0.39826045  1
+  I  I5  1  0.56092335  0.12162909  0.60173954  1
+  I  I6  1  0.25000000  0.62176167  0.55769449  1
+  I  I7  1  0.74999999  0.62176166  0.44230549  1

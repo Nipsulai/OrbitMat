@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CsHg2Te(SCl)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.24135706
+_cell_length_b   7.46649160
+_cell_length_c   42.96172426
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsHg2Te(SCl)3
+_chemical_formula_sum   'Cs2 Hg4 Te2 S6 Cl6'
+_cell_volume   2322.83438706
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.50000000  0.85195096  0.62044532  1
+  Hg  Hg1  1  -0.00000000  0.35195096  0.37955468  1
+  Hg  Hg2  1  0.00000000  0.29487302  0.60879046  1
+  Hg  Hg3  1  0.50000000  0.79487302  0.39120954  1
+  Cs  Cs4  1  0.00000000  0.79094785  0.52063874  1
+  Cs  Cs5  1  0.50000000  0.29094785  0.47936126  1
+  Te  Te6  1  0.50000000  1.01733078  0.56375852  1
+  Te  Te7  1  0.00000000  0.51733078  0.43624148  1
+  S  S8  1  0.23909162  0.18949203  0.55576514  1
+  S  S9  1  0.76090838  0.18949203  0.55576514  1
+  S  S10  1  0.26090838  0.68949203  0.44423486  1
+  S  S11  1  0.73909162  0.68949203  0.44423486  1
+  S  S12  1  0.50000000  0.79404937  0.52699933  1
+  S  S13  1  0.00000000  0.29404937  0.47300067  1
+  Cl  Cl14  1  0.50000000  0.68360074  0.66563124  1
+  Cl  Cl15  1  0.50000000  0.52902103  0.36215197  1
+  Cl  Cl16  1  0.00000000  0.60339667  0.59617181  1
+  Cl  Cl17  1  0.50000000  0.10339667  0.40382819  1
+  Cl  Cl18  1  0.00000000  0.18360074  0.33436876  1
+  Cl  Cl19  1  -0.00000000  0.02902103  0.63784803  1

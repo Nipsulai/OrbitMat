@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_TlPPb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.88952635
+_cell_length_b   4.07827312
+_cell_length_c   19.21876430
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlPPb
+_chemical_formula_sum   'Tl2 P2 Pb2'
+_cell_volume   539.99673423
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pb  Pb0  1  0.93979380  0.59216747  0.56881366  1
+  Pb  Pb1  1  0.43979380  0.09224908  0.43118634  1
+  P  P2  1  0.31737955  0.59228328  0.51933989  1
+  P  P3  1  0.81737955  0.09212327  0.48066011  1
+  Tl  Tl4  1  0.51476815  0.09244165  0.60913186  1
+  Tl  Tl5  1  0.01476815  0.59196490  0.39086814  1

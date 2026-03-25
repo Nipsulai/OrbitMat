@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TaMnTe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.46371900
+_cell_length_b   10.41944100
+_cell_length_c   34.40380438
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99873940
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaMnTe3
+_chemical_formula_sum   'Ta2 Mn2 Te6'
+_cell_volume   1241.63384215
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.50214610  0.57860322  0.50799018  1
+  Ta  Ta1  1  0.00214635  0.19184154  0.49201381  1
+  Te  Te2  1  1.00214030  0.64071594  0.56770600  1
+  Te  Te3  1  0.50213979  0.12972575  0.43229980  1
+  Te  Te4  1  0.50214034  0.32504488  0.54484461  1
+  Te  Te5  1  1.00214027  0.44541271  0.45516072  1
+  Mn  Mn6  1  1.00211549  0.78422339  0.50569541  1
+  Mn  Mn7  1  0.50211552  0.98623073  0.49430626  1
+  Te  Te8  1  0.50215687  0.78307791  0.45159037  1
+  Te  Te9  1  0.00215688  -0.01263669  0.54841561  1

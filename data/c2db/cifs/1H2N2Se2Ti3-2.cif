@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ti3H2(SeN)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.22261237
+_cell_length_b   3.22189939
+_cell_length_c   24.22047184
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.02054465
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti3H2(SeN)2
+_chemical_formula_sum   'Ti3 H2 Se2 N2'
+_cell_volume   217.74256249
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.98137613  0.98267452  0.49999802  1
+  Ti  Ti1  1  0.64787472  0.31622290  0.59584253  1
+  Ti  Ti2  1  0.64787499  0.31622375  0.40415391  1
+  N  N3  1  0.31483997  0.64867996  0.55293953  1
+  N  N4  1  0.31484028  0.64868094  0.44705676  1
+  Se  Se5  1  0.98121769  0.98280467  0.66654373  1
+  Se  Se6  1  0.98121815  0.98280601  0.33345293  1
+  H  H7  1  0.98315728  0.97771043  0.72965453  1
+  H  H8  1  0.98316034  0.97771816  0.27034221  1

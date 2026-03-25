@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_SnSbSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.18840291
+_cell_length_b   7.18928339
+_cell_length_c   18.41164285
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00712308
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SnSbSe3
+_chemical_formula_sum   'Sn2 Sb2 Se6'
+_cell_volume   823.96736523
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  -0.00000842  -0.00000681  0.50018459  1
+  Sn  Sn1  1  0.33334829  0.66668657  0.49983081  1
+  Sb  Sb2  1  0.66668543  0.33333382  0.42346733  1
+  Sb  Sb3  1  0.66665454  0.33334606  0.57652670  1
+  Se  Se4  1  0.32531357  -0.00696806  0.39274367  1
+  Se  Se5  1  1.00708818  0.33230930  0.39276170  1
+  Se  Se6  1  0.66768049  0.67467697  0.39274508  1
+  Se  Se7  1  1.00802271  0.67362008  0.60726443  1
+  Se  Se8  1  0.32628034  0.33439590  0.60724649  1
+  Se  Se9  1  0.66563504  -0.00799319  0.60726327  1

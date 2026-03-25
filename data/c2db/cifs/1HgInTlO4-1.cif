@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_TlInHgO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.56717809
+_cell_length_b   3.56718102
+_cell_length_c   39.30476960
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00002714
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlInHgO4
+_chemical_formula_sum   'Tl1 In1 Hg1 O4'
+_cell_volume   433.13742327
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  -0.00000070  -0.00000035  0.50100894  1
+  Tl  Tl1  1  0.66666494  0.33333247  0.41622426  1
+  In  In2  1  0.33333611  0.66666805  0.58384066  1
+  O  O3  1  0.66666579  0.33333289  0.47080397  1
+  O  O4  1  0.33333299  0.66666650  0.53198016  1
+  O  O5  1  0.33333174  0.66666587  0.39653172  1
+  O  O6  1  0.66666920  0.33333460  0.59961506  1

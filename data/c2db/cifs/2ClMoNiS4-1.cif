@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NiMoS4Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.86463907
+_cell_length_b   7.86425979
+_cell_length_c   37.50448000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiMoS4Cl
+_chemical_formula_sum   'Ni2 Mo2 S8 Cl2'
+_cell_volume   2319.63576710
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.00000000  0.28999904  0.46229333  1
+  S  S1  1  0.28494957  0.29000198  0.46247582  1
+  S  S2  1  -0.00000000  0.57490759  0.46248706  1
+  Cl  Cl3  1  -0.00000000  0.29000175  0.40108076  1
+  Ni  Ni4  1  0.50000000  0.78999904  0.53770667  1
+  Mo  Mo5  1  0.50000000  0.29000135  0.49999421  1
+  Mo  Mo6  1  -0.00000000  0.79000135  0.50000579  1
+  S  S7  1  0.21505043  0.79000198  0.53752418  1
+  S  S8  1  0.78494957  0.79000198  0.53752418  1
+  S  S9  1  0.50000000  0.50509069  0.53751420  1
+  S  S10  1  0.50000000  0.07490759  0.53751294  1
+  Cl  Cl11  1  0.50000000  0.79000175  0.59891924  1
+  S  S12  1  0.71505043  0.29000198  0.46247582  1
+  S  S13  1  0.00000000  0.00509069  0.46248580  1

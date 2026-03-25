@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Sb(PbSe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.88496037
+_cell_length_b   6.88496029
+_cell_length_c   33.22369868
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99873996
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sb(PbSe3)2
+_chemical_formula_sum   'Sb1 Pb2 Se6'
+_cell_volume   1363.91407090
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pb  Pb0  1  0.66635788  0.33366510  0.49630793  1
+  Sb  Sb1  1  0.33299903  0.66699903  0.49626509  1
+  Se  Se2  1  0.64170063  0.97570062  0.44636822  1
+  Se  Se3  1  0.33300581  0.35830624  0.44636798  1
+  Se  Se4  1  0.02430626  0.66700581  0.44636797  1
+  Se  Se5  1  0.02456882  0.35856883  0.54618643  1
+  Se  Se6  1  0.33301185  0.97546641  0.54618902  1
+  Se  Se7  1  0.64146639  0.66701187  0.54618902  1
+  Pb  Pb8  1  -0.00033493  0.00035786  0.49630793  1

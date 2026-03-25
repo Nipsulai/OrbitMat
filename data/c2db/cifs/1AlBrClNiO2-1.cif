@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_AlNiBrClO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.19341736
+_cell_length_b   3.76322053
+_cell_length_c   20.15721357
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99962166
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlNiBrClO2
+_chemical_formula_sum   'Al1 Ni1 Br1 Cl1 O2'
+_cell_volume   242.23999451
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.74825447  0.74935275  0.45617510  1
+  Cl  Cl1  1  0.24721536  0.74902004  0.37206624  1
+  Ni  Ni2  1  0.24983769  0.24965583  0.53727731  1
+  O  O3  1  0.24882851  0.74957123  0.51431298  1
+  Br  Br4  1  0.75136558  0.25087195  0.62791783  1
+  O  O5  1  0.74807065  0.24937238  0.47428515  1

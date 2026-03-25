@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TlAg(PS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.34683815
+_cell_length_b   6.34611543
+_cell_length_c   33.52445200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00376776
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlAg(PS3)2
+_chemical_formula_sum   'Tl1 Ag1 P2 S6'
+_cell_volume   1169.34111563
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  -0.00888301  -0.00688724  0.44859565  1
+  S  S1  1  0.37257444  0.68718928  0.44859371  1
+  S  S2  1  0.67850569  0.37457322  0.44859539  1
+  S  S3  1  0.67849565  -0.00688733  0.55140436  1
+  S  S4  1  0.37256741  0.37457317  0.55140460  1
+  S  S5  1  -0.00888523  0.68718922  0.55140630  1
+  Ag  Ag6  1  0.01407243  0.35164555  0.50000000  1
+  Tl  Tl7  1  0.34739560  0.01829131  0.50000000  1
+  P  P8  1  0.68073291  0.68495555  0.46596878  1
+  P  P9  1  0.68072256  0.68495550  0.53403122  1

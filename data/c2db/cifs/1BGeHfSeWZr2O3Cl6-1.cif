@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_HfZr2GeBWSe(Cl2O)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.91419233
+_cell_length_b   7.80843257
+_cell_length_c   21.39557761
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   103.35112458
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfZr2GeBWSe(Cl2O)3
+_chemical_formula_sum   'Hf1 Zr2 Ge1 B1 W1 Se1 Cl6 O3'
+_cell_volume   961.35592599
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.38241057  0.06651171  0.46763029  1
+  Cl  Cl1  1  0.59798691  0.29409791  0.39104607  1
+  Hf  Hf2  1  0.27073047  0.69439171  0.55205917  1
+  Ge  Ge3  1  0.92156811  0.71485134  0.37809868  1
+  W  W4  1  0.86575600  0.91198478  0.51850287  1
+  Cl  Cl5  1  0.65977509  0.78648818  0.61239772  1
+  Zr  Zr6  1  -0.00955936  0.36930571  0.46061106  1
+  O  O7  1  0.51752349  0.86114185  0.49120325  1
+  Cl  Cl8  1  0.11345589  0.58276416  0.64946072  1
+  O  O9  1  0.26187901  0.47254619  0.50914441  1
+  Cl  Cl10  1  1.29572394  0.91772467  0.35798055  1
+  O  O11  1  0.05794703  0.11782949  0.46309154  1
+  B  B12  1  0.95622413  0.71169461  0.47760007  1
+  Se  Se13  1  0.69108415  0.25736901  0.54746258  1
+  Cl  Cl14  1  0.12487919  0.46936610  0.35054044  1
+  Cl  Cl15  1  0.19647805  0.01149262  0.58714493  1

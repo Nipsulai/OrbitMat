@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_MnCuS2I3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.13520408
+_cell_length_b   7.85949723
+_cell_length_c   18.45940751
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   100.41261326
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnCuS2I3
+_chemical_formula_sum   'Mn1 Cu1 S2 I3'
+_cell_volume   590.06225589
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  1.33449760  0.50145847  0.40629690  1
+  Mn  Mn1  1  0.61692087  0.02880527  0.50825541  1
+  I  I2  1  0.23456686  0.79841631  0.59370310  1
+  Cu  Cu3  1  -0.13124774  0.60082398  0.49015179  1
+  S  S4  1  0.79862890  0.85290907  0.42327833  1
+  S  S5  1  0.11471579  0.08409563  0.44482832  1
+  I  I6  1  0.71515725  0.31631415  0.58352249  1

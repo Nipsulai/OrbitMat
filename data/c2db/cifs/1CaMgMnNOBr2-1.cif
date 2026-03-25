@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_CaMgMnBr2NO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.21647058
+_cell_length_b   3.68996907
+_cell_length_c   23.40344822
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.85463147
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaMgMnBr2NO
+_chemical_formula_sum   'Ca1 Mg1 Mn1 Br2 N1 O1'
+_cell_volume   249.96432970
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.83890357  0.83236614  0.48805438  1
+  Ca  Ca1  1  0.10150484  0.35719628  0.59779749  1
+  N  N2  1  0.20936858  0.57362784  0.44793019  1
+  Mg  Mg3  1  0.60312855  0.36067833  0.38941660  1
+  Br  Br4  1  0.91477786  0.98425274  0.32046560  1
+  Br  Br5  1  0.78901672  0.73138425  0.67953440  1
+  O  O6  1  0.41946880  -0.00692488  0.54420970  1

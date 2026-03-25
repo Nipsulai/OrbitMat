@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ca2FeS3Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.33473224
+_cell_length_b   4.33473224
+_cell_length_c   42.60007056
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2FeS3Br
+_chemical_formula_sum   'Ca4 Fe2 S6 Br2'
+_cell_volume   800.45121761
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.50000000  0.50000000  0.59498369  1
+  S  S1  1  -0.00000000  -0.00000000  0.59498369  1
+  Br  Br2  1  0.50000000  0.00000000  0.66793204  1
+  Fe  Fe3  1  0.50000000  0.00000000  0.57783234  1
+  Ca  Ca4  1  -0.00000000  0.50000000  0.63952268  1
+  S  S5  1  0.50000000  -0.00000000  0.52527716  1
+  Ca  Ca6  1  -0.00000000  0.50000000  0.54083129  1
+  S  S7  1  0.00000000  0.00000000  0.40501631  1
+  S  S8  1  0.50000000  0.50000000  0.40501631  1
+  Br  Br9  1  0.00000000  0.50000000  0.33206796  1
+  Fe  Fe10  1  0.00000000  0.50000000  0.42216766  1
+  Ca  Ca11  1  0.50000000  0.00000000  0.36047732  1
+  S  S12  1  0.00000000  0.50000000  0.47472284  1
+  Ca  Ca13  1  0.50000000  0.00000000  0.45916871  1

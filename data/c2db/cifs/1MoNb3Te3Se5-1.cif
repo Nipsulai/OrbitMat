@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Nb3Te3MoSe5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.52058290
+_cell_length_b   7.25705390
+_cell_length_c   18.82419011
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   116.63174772
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb3Te3MoSe5
+_chemical_formula_sum   'Nb3 Te3 Mo1 Se5'
+_cell_volume   796.26003753
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.34065679  0.35436303  0.51940224  1
+  Mo  Mo1  1  0.62436894  0.90548235  0.51609218  1
+  Te  Te2  1  0.48201009  0.12378370  0.42243704  1
+  Se  Se3  1  0.97239478  0.12476402  0.60134381  1
+  Se  Se4  1  0.23394488  0.62954992  0.57984071  1
+  Te  Te5  1  -0.02034774  0.62741277  0.39805974  1
+  Nb  Nb6  1  0.84705161  0.35866716  0.51820286  1
+  Nb  Nb7  1  0.10486288  0.89673998  0.51794840  1
+  Se  Se8  1  0.47915057  0.12004696  0.59701016  1
+  Se  Se9  1  0.72322361  0.62630745  0.58257698  1
+  Se  Se10  1  0.97195111  0.12165359  0.43456480  1
+  Te  Te11  1  0.47872112  0.62680951  0.40135963  1

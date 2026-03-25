@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_In2GaS3I2BrCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.87805766
+_cell_length_b   7.57180418
+_cell_length_c   20.83633331
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   123.89398167
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In2GaS3I2BrCl
+_chemical_formula_sum   'In2 Ga1 S3 I2 Br1 Cl1'
+_cell_volume   900.74457200
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.40460235  0.67151387  0.51643344  1
+  Ga  Ga1  1  0.99609473  0.80441569  0.43898374  1
+  S  S2  1  0.19013834  0.28800789  0.50456091  1
+  Br  Br3  1  0.84204881  0.43499626  0.40474463  1
+  I  I4  1  0.72636370  0.23136306  0.62846571  1
+  Cl  Cl5  1  -0.07933201  -0.05396322  0.35994817  1
+  S  S6  1  0.79874747  0.72958192  0.53530691  1
+  In  In7  1  0.55611063  0.30760839  0.51100349  1
+  I  I8  1  0.25107823  0.72491531  0.64005183  1
+  S  S9  1  0.39171868  0.93855837  0.45132355  1

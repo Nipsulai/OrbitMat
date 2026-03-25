@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_PdClO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.34596792
+_cell_length_b   4.18087914
+_cell_length_c   20.71937519
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99897978
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PdClO2
+_chemical_formula_sum   'Pd2 Cl2 O4'
+_cell_volume   289.84515226
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.92311439  0.95674987  0.54312233  1
+  Pd  Pd1  1  0.42222638  0.45386774  0.45687484  1
+  O  O2  1  0.92290204  0.45495654  0.52148673  1
+  O  O3  1  0.42242844  0.95566719  0.47850967  1
+  O  O4  1  0.92167030  0.48991587  0.39461650  1
+  O  O5  1  0.42368508  0.92068058  0.60538024  1
+  Cl  Cl6  1  0.42438521  0.13273545  0.67506013  1
+  Cl  Cl7  1  0.92101954  0.27780358  0.32494450  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NiSbTe2Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.87895281
+_cell_length_b   11.58874441
+_cell_length_c   35.30245859
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiSbTe2Br
+_chemical_formula_sum   'Ni2 Sb2 Te4 Br2'
+_cell_volume   1586.92292051
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.50000000  0.56671947  0.49999969  1
+  Te  Te1  1  -0.00000000  0.56758390  0.54687593  1
+  Ni  Ni2  1  0.50000000  0.06670535  0.50000065  1
+  Sb  Sb3  1  0.00000000  0.81277330  0.56130088  1
+  Te  Te4  1  0.50000000  0.84715593  0.50346492  1
+  Br  Br5  1  -0.00000000  0.08786962  0.54948962  1
+  Sb  Sb6  1  -0.00000000  0.32067171  0.43870977  1
+  Te  Te7  1  0.50000000  0.28628945  0.49652442  1
+  Te  Te8  1  -0.00000000  0.56581716  0.45312407  1
+  Br  Br9  1  0.00000000  0.04555944  0.45051020  1

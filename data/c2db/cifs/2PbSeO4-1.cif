@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_PbSeO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.29904232
+_cell_length_b   7.56830112
+_cell_length_c   35.73694800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.01198422
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PbSeO4
+_chemical_formula_sum   'Pb2 Se2 O8'
+_cell_volume   1703.68923599
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  -0.01373959  -0.00210371  0.46242019  1
+  O  O1  1  0.05706045  0.49807492  0.53760185  1
+  O  O2  1  0.48626041  0.49789629  0.53757981  1
+  O  O3  1  0.55706045  -0.00192508  0.46239815  1
+  O  O4  1  0.27188162  0.80170925  0.56213740  1
+  Pb  Pb5  1  0.77176237  0.52536748  0.49350325  1
+  Pb  Pb6  1  0.27176237  0.02536748  0.50649675  1
+  O  O7  1  0.77175611  0.22080943  0.50980535  1
+  O  O8  1  0.27175611  0.72080943  0.49019465  1
+  Se  Se9  1  0.77175825  0.12788145  0.46635556  1
+  Se  Se10  1  0.27175825  0.62788145  0.53364444  1
+  O  O11  1  0.77188162  0.30170925  0.43786260  1

@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_HfGeI2N
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.67514904
+_cell_length_b   3.67475649
+_cell_length_c   22.03857494
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.92566093
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfGeI2N
+_chemical_formula_sum   'Hf1 Ge1 I2 N1'
+_cell_volume   255.32344788
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.03834870  0.30282248  0.43550643  1
+  Hf  Hf1  1  0.58991900  0.74945022  0.55930476  1
+  I  I2  1  0.36860920  0.97499288  0.34039666  1
+  N  N3  1  0.92156551  0.41767696  0.53883486  1
+  I  I4  1  0.25965638  0.07974436  0.65976468  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ZrNb3N3Cl4O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.48773984
+_cell_length_b   5.48679340
+_cell_length_c   20.18082038
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   104.07671995
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrNb3N3Cl4O
+_chemical_formula_sum   'Zr1 Nb3 N3 Cl4 O1'
+_cell_volume   589.39935009
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.12131599  0.37012374  0.62836077  1
+  Nb  Nb1  1  0.38385481  0.13609902  0.47190994  1
+  Cl  Cl2  1  0.61827232  0.87312172  0.62836769  1
+  N  N3  1  0.62688055  0.37899434  0.53707037  1
+  N  N4  1  0.61817875  0.87329416  0.47551234  1
+  Nb  Nb5  1  0.84683727  0.14147917  0.53321157  1
+  Cl  Cl6  1  0.60926294  0.36208537  0.37163538  1
+  Zr  Zr7  1  0.86948091  0.62172670  0.46164870  1
+  Nb  Nb8  1  0.38926011  0.59898280  0.53319317  1
+  N  N9  1  0.12096220  0.37028669  0.47549954  1
+  O  O10  1  0.12795699  0.88011026  0.52441466  1
+  Cl  Cl11  1  0.13404401  0.88618933  0.37215346  1

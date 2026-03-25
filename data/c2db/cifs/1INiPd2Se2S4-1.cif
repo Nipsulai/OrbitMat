@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NiPd2Se2S4I
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.64259667
+_cell_length_b   5.53744168
+_cell_length_c   20.03425740
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   96.19048710
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiPd2Se2S4I
+_chemical_formula_sum   'Ni1 Pd2 Se2 S4 I1'
+_cell_volume   732.62285542
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.97062002  0.46199779  0.62562384  1
+  S  S1  1  -0.03986511  0.22736583  0.48842076  1
+  Pd  Pd2  1  0.27398195  0.72872796  0.49360590  1
+  S  S3  1  0.44231199  0.16460103  0.50625501  1
+  Se  Se4  1  0.98516782  0.87680633  0.55939855  1
+  S  S5  1  0.43684817  0.61390332  0.59545917  1
+  Pd  Pd6  1  0.72478321  0.45669499  0.54092510  1
+  Ni  Ni7  1  0.20184978  0.32594910  0.56186678  1
+  I  I8  1  0.10367646  0.78430599  0.37429121  1
+  Se  Se9  1  0.51214567  0.48568701  0.43486650  1

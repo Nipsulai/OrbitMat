@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Hf2VIClO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.89455145
+_cell_length_b   5.44439470
+_cell_length_c   21.41191868
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   110.99262792
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf2VIClO4
+_chemical_formula_sum   'Hf2 V1 I1 Cl1 O4'
+_cell_volume   423.87306225
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.12734077  0.66614899  0.42086329  1
+  Hf  Hf1  1  0.19487721  0.80114931  0.56352125  1
+  I  I2  1  0.54067227  0.49426290  0.64972779  1
+  O  O3  1  0.67519164  0.76183670  0.40922954  1
+  V  V4  1  0.85233105  0.11553480  0.46454894  1
+  Cl  Cl5  1  0.93577508  0.28547428  0.35027221  1
+  O  O6  1  0.04165371  0.49522785  0.50550466  1
+  O  O7  1  0.30177111  0.01456059  0.47620872  1
+  O  O8  1  0.76689680  0.94506055  0.55281886  1

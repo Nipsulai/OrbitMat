@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Te3As4(AuCl)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.20095317
+_cell_length_b   8.58332151
+_cell_length_c   34.12562733
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Te3As4(AuCl)2
+_chemical_formula_sum   'Te3 As4 Au2 Cl2'
+_cell_volume   2109.24005918
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.08063764  0.00000000  0.54732814  1
+  As  As1  1  0.83739328  0.00000000  0.43907349  1
+  As  As2  1  0.13478582  0.85475531  0.43601086  1
+  As  As3  1  0.13478582  0.14524469  0.43601086  1
+  Au  Au4  1  0.53786554  0.74407055  0.52236872  1
+  Au  Au5  1  0.53786554  0.25592945  0.52236872  1
+  Cl  Cl6  1  0.68953704  0.50000000  0.54790500  1
+  Cl  Cl7  1  0.26963809  0.50000000  0.45073730  1
+  Te  Te8  1  0.74529078  0.00000000  0.51536527  1
+  Te  Te9  1  0.17816328  0.74611159  0.50805072  1
+  Te  Te10  1  0.17816328  0.25388841  0.50805072  1

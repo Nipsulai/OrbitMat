@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HgGe(SeI)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.56181228
+_cell_length_b   6.06896928
+_cell_length_c   21.94183663
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   117.96536720
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HgGe(SeI)2
+_chemical_formula_sum   'Hg1 Ge1 Se2 I2'
+_cell_volume   536.53706792
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.31648841  0.43587478  0.34181277  1
+  Se  Se1  1  0.27618523  0.25102391  0.51567890  1
+  Se  Se2  1  0.77441682  0.58788953  0.47708516  1
+  Hg  Hg3  1  0.13569839  0.69887600  0.57393058  1
+  Ge  Ge4  1  0.86278689  0.21433054  0.42857640  1
+  I  I5  1  0.61715038  0.82111890  0.65818723  1

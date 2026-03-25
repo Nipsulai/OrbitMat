@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_KNiP
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.94511468
+_cell_length_b   3.94511468
+_cell_length_c   18.97602463
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99984543
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNiP
+_chemical_formula_sum   'K2 Ni2 P2'
+_cell_volume   295.34151627
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.99135249  0.99135249  0.44161176  1
+  K  K1  1  0.49118886  0.49118886  0.35234553  1
+  P  P2  1  0.49110613  0.49110613  0.55838798  1
+  Ni  Ni3  1  0.49142110  0.99103758  0.49999989  1
+  Ni  Ni4  1  0.99103758  0.49142110  0.49999989  1
+  K  K5  1  0.99126888  0.99126888  0.64765452  1

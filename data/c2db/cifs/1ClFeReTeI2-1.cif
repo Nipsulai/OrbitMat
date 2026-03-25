@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_FeReTeI2Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.20701505
+_cell_length_b   4.14936682
+_cell_length_c   18.93323661
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   86.06496425
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeReTeI2Cl
+_chemical_formula_sum   'Fe1 Re1 Te1 I2 Cl1'
+_cell_volume   486.47937673
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.04616967  0.21828841  0.56886370  1
+  Re  Re1  1  0.29968018  0.68468912  0.49963263  1
+  Cl  Cl2  1  0.52201083  0.69717300  0.60387522  1
+  Fe  Fe3  1  0.69102770  0.55153325  0.49792822  1
+  I  I4  1  0.97537927  0.69726486  0.39612809  1
+  Te  Te5  1  0.45548037  0.16363248  0.42860273  1

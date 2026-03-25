@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CaSn2SBr2ClO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.87501793
+_cell_length_b   4.80146394
+_cell_length_c   20.18704456
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   105.55563877
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaSn2SBr2ClO
+_chemical_formula_sum   'Ca1 Sn2 S1 Br2 Cl1 O1'
+_cell_volume   641.96830535
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.51213081  0.65107400  0.58902499  1
+  O  O1  1  0.62192272  0.85200525  0.50164276  1
+  Ca  Ca2  1  0.94852345  0.09819552  0.48252309  1
+  Br  Br3  1  0.78517006  0.95292999  0.34877861  1
+  Br  Br4  1  0.72896114  0.12335991  0.65079628  1
+  Sn  Sn5  1  0.44372185  0.79103722  0.41667944  1
+  Cl  Cl6  1  0.07303014  0.65130348  0.53609958  1
+  S  S7  1  0.32309451  0.24596193  0.41083560  1

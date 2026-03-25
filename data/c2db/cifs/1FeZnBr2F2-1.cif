@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ZnFe(BrF)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.11813132
+_cell_length_b   5.92032450
+_cell_length_c   18.86987136
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.77388897
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnFe(BrF)2
+_chemical_formula_sum   'Zn1 Fe1 Br2 F2'
+_cell_volume   435.58314808
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.63430820  0.39105433  0.49954117  1
+  F  F1  1  0.80187866  0.75363393  0.50184812  1
+  Br  Br2  1  0.50674043  0.12765135  0.39745899  1
+  F  F3  1  0.17909896  0.48835182  0.49800308  1
+  Br  Br4  1  0.50445201  0.13233330  0.60254101  1
+  Fe  Fe5  1  0.33282188  0.85144228  0.50043887  1

@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_CuH
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.45954668
+_cell_length_b   2.46009783
+_cell_length_c   18.85580293
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.95164480
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuH
+_chemical_formula_sum   'Cu2 H2'
+_cell_volume   114.09124587
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  H  H0  1  -0.08278688  0.08362076  0.41167325  1
+  H  H1  1  0.41705118  0.58313925  0.58846590  1
+  Cu  Cu2  1  -0.08333326  0.08329615  0.56066671  1
+  Cu  Cu3  1  0.41698169  0.58354254  0.43940364  1

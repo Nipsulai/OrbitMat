@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CuSbS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.23285018
+_cell_length_b   6.23539206
+_cell_length_c   18.41164285
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.97353511
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuSbS3
+_chemical_formula_sum   'Cu2 Sb2 S6'
+_cell_volume   619.85396189
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.00006520  0.00014546  0.50005754  1
+  Cu  Cu1  1  0.33327586  0.66653557  0.49995365  1
+  Sb  Sb2  1  0.66649457  0.33331623  0.42418894  1
+  Sb  Sb3  1  0.66684530  0.33336317  0.57578947  1
+  S  S4  1  0.28040639  -0.05248943  0.41495046  1
+  S  S5  1  1.05245382  0.33321003  0.41481371  1
+  S  S6  1  0.66635324  0.71919276  0.41493881  1
+  S  S7  1  1.05291481  0.71913974  0.58506212  1
+  S  S8  1  0.28091569  0.33348057  0.58519905  1
+  S  S9  1  0.66697570  -0.05249508  0.58507407  1

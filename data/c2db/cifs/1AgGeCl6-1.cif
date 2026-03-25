@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_AgGeCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.34803804
+_cell_length_b   6.35033259
+_cell_length_c   17.96960296
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.08593830
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgGeCl6
+_chemical_formula_sum   'Ag1 Ge1 Cl6'
+_cell_volume   656.06343958
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.09174338  0.70841544  0.50015089  1
+  Cl  Cl1  1  0.80248547  0.77538085  0.42131551  1
+  Cl  Cl2  1  0.73601524  0.31175269  0.58262851  1
+  Cl  Cl3  1  0.45473276  0.74271217  0.56649114  1
+  Ge  Ge4  1  0.74888697  0.05309029  0.49977586  1
+  Cl  Cl5  1  0.06014938  0.34820504  0.43330609  1
+  Cl  Cl6  1  0.49033655  0.06806598  0.41737149  1
+  Cl  Cl7  1  1.02719682  0.99950928  0.57836648  1

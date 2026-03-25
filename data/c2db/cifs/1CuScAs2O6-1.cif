@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_ScCu(AsO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.33427584
+_cell_length_b   5.33425855
+_cell_length_c   33.32484660
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99807903
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScCu(AsO3)2
+_chemical_formula_sum   'Sc1 Cu1 As2 O6'
+_cell_volume   821.21472476
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.00182618  0.00964474  0.45870567  1
+  O  O1  1  0.63337764  0.36230111  0.45870317  1
+  O  O2  1  0.28078104  0.64118677  0.45871172  1
+  O  O3  1  0.63334728  0.64116671  0.54129448  1
+  O  O4  1  0.00180815  0.36221902  0.54128807  1
+  O  O5  1  0.28070266  0.00961846  0.54129671  1
+  Cu  Cu6  1  0.63861323  0.00438711  0.50000014  1
+  Sc  Sc7  1  0.30528411  0.33771377  0.49999999  1
+  As  As8  1  0.97198040  0.67103191  0.46557742  1
+  As  As9  1  0.97196902  0.67101897  0.53442263  1

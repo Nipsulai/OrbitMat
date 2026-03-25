@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_In3IBrO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.07503859
+_cell_length_b   6.28323583
+_cell_length_c   21.08580674
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.90301990
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In3IBrO3
+_chemical_formula_sum   'In3 I1 Br1 O3'
+_cell_volume   510.77283593
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.10899956  0.33899427  0.41576930  1
+  O  O1  1  0.56408266  0.24910367  0.45247486  1
+  Br  Br2  1  0.31323427  0.74914598  0.35568915  1
+  In  In3  1  0.69254624  0.50631042  0.53755953  1
+  O  O4  1  0.86709309  0.85572951  0.50994903  1
+  O  O5  1  0.21009155  0.54141535  0.50365827  1
+  In  In6  1  0.39034977  0.90228849  0.48099492  1
+  I  I7  1  0.56952194  0.26075365  0.64431829  1

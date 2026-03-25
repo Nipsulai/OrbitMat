@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_HfZr3MnZnPSeS7Cl5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.27856126
+_cell_length_b   8.34781445
+_cell_length_c   23.31964739
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   104.07424338
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfZr3MnZnPSeS7Cl5
+_chemical_formula_sum   'Hf1 Zr3 Mn1 Zn1 P1 Se1 S7 Cl5'
+_cell_volume   1374.37019668
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.29291741  0.63881254  0.51250960  1
+  S  S1  1  0.10304846  0.98788368  0.47070886  1
+  P  P2  1  0.97676015  0.67105072  0.61189421  1
+  Mn  Mn3  1  0.19371996  0.34176795  0.50318452  1
+  Zr  Zr4  1  0.86046480  0.04085927  0.39897165  1
+  Zr  Zr5  1  0.36311092  0.05178619  0.39460418  1
+  Cl  Cl6  1  0.78390774  0.63769843  0.67838279  1
+  Zr  Zr7  1  0.68031897  0.29845662  0.50601696  1
+  S  S8  1  0.94406317  0.36023771  0.42777402  1
+  Cl  Cl9  1  0.42030015  0.25840350  0.57734150  1
+  S  S10  1  0.26123965  0.75143131  0.36154047  1
+  S  S11  1  0.76716659  0.73445233  0.38339059  1
+  S  S12  1  0.45048569  0.35394916  0.42894031  1
+  Hf  Hf13  1  0.04206238  0.67845110  0.44599470  1
+  S  S14  1  0.59447786  1.00614187  0.47225136  1
+  Cl  Cl15  1  0.12274304  0.11652767  0.32238528  1
+  Cl  Cl16  1  0.92503121  0.24651654  0.57443990  1
+  Zn  Zn17  1  0.46318835  0.65015864  0.42343073  1
+  Se  Se18  1  0.78126504  0.63648677  0.53384646  1
+  Cl  Cl19  1  0.63475754  0.10668125  0.32161721  1

@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ta4N3Cl2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.24800077
+_cell_length_b   5.29710890
+_cell_length_c   20.82345499
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   113.77783679
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta4N3Cl2
+_chemical_formula_sum   'Ta4 N3 Cl2'
+_cell_volume   428.79753736
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.74787997  0.14231740  0.51878354  1
+  Ta  Ta1  1  0.91440121  0.51393933  0.56311695  1
+  Ta  Ta2  1  0.23830260  0.12191380  0.51774285  1
+  Ta  Ta3  1  0.85243029  0.34856114  0.43176191  1
+  N  N4  1  0.05027699  0.74109322  0.46845838  1
+  Cl  Cl5  1  0.65256180  0.94796203  0.36017078  1
+  Ta  Ta6  1  0.53697938  0.71813264  0.48361767  1
+  Cl  Cl7  1  0.42691041  0.24816947  0.63982922  1
+  N  N8  1  0.35276865  0.35222926  0.42733901  1

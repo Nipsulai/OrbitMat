@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_InSiTeCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.59436997
+_cell_length_b   4.60345206
+_cell_length_c   18.20718089
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.26254866
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InSiTeCl
+_chemical_formula_sum   'In1 Si1 Te1 Cl1'
+_cell_volume   385.07713928
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.67537235  0.17940987  0.58686881  1
+  Cl  Cl1  1  0.33118719  0.83349725  0.58807751  1
+  In  In2  1  0.24806031  0.74614315  0.41192190  1
+  Te  Te3  1  0.74746000  0.24932613  0.45049060  1

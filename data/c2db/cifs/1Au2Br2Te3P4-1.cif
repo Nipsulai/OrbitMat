@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Te3P4(AuBr)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.32292487
+_cell_length_b   8.32818215
+_cell_length_c   34.12562733
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Te3P4(AuBr)2
+_chemical_formula_sum   'Te3 P4 Au2 Br2'
+_cell_volume   2081.20776479
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.00609012  -0.00000000  0.54394359  1
+  P  P1  1  0.87530827  -0.00000000  0.43514308  1
+  P  P2  1  0.13619011  0.86597270  0.44241993  1
+  P  P3  1  0.13619011  0.13402730  0.44241993  1
+  Au  Au4  1  0.54945229  0.72902683  0.51119563  1
+  Au  Au5  1  0.54945229  0.27097317  0.51119563  1
+  Br  Br6  1  0.59444308  0.50000000  0.56431374  1
+  Br  Br7  1  0.45259391  0.50000000  0.45635519  1
+  Te  Te8  1  0.71526605  0.00000000  0.50238932  1
+  Te  Te9  1  0.15415706  0.76672596  0.51202543  1
+  Te  Te10  1  0.15415706  0.23327404  0.51202543  1

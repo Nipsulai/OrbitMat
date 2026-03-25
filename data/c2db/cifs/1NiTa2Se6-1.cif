@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ta2NiSe6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.40643229
+_cell_length_b   9.44764978
+_cell_length_c   33.82902786
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   100.38603146
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta2NiSe6
+_chemical_formula_sum   'Ta2 Ni1 Se6'
+_cell_volume   1070.87407969
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.27407388  0.54814777  0.48672168  1
+  Ta  Ta1  1  0.56593166  0.13186332  0.51327831  1
+  Se  Se2  1  0.02212618  0.04425235  0.45940374  1
+  Se  Se3  1  0.81787934  0.63575868  0.54059626  1
+  Se  Se4  1  0.16250550  0.32501100  0.54067149  1
+  Se  Se5  1  0.67750004  0.35500009  0.45932850  1
+  Ni  Ni6  1  0.92000273  0.84000547  0.50000000  1
+  Se  Se7  1  0.84666098  0.69332197  0.44357056  1
+  Se  Se8  1  -0.00665546  -0.01331092  0.55642943  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CuPdCl3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.45360553
+_cell_length_b   6.45360617
+_cell_length_c   17.94568176
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00462818
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuPdCl3
+_chemical_formula_sum   'Cu2 Pd2 Cl6'
+_cell_volume   647.25470053
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.00094838  0.00094838  0.42461607  1
+  Cu  Cu1  1  0.99905161  0.99905161  0.57538394  1
+  Pd  Pd2  1  0.66664587  0.33335412  0.50000000  1
+  Pd  Pd3  1  0.33335412  0.66664589  0.50000000  1
+  Cl  Cl4  1  0.34748659  0.34748660  0.41815142  1
+  Cl  Cl5  1  0.65388939  0.00026048  0.41841003  1
+  Cl  Cl6  1  0.00026047  0.65388938  0.41841003  1
+  Cl  Cl7  1  0.65251342  0.65251342  0.58184858  1
+  Cl  Cl8  1  0.34611062  0.99973952  0.58158997  1
+  Cl  Cl9  1  0.99973953  0.34611061  0.58158997  1

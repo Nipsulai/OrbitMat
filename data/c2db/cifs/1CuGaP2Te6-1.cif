@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_GaCu(Te3P)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.82556452
+_cell_length_b   6.82556452
+_cell_length_c   33.42590400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00337355
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaCu(Te3P)2
+_chemical_formula_sum   'Ga1 Cu1 Te6 P2'
+_cell_volume   1348.57834208
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  -0.00000234  0.00000234  0.50000000  1
+  Cu  Cu1  1  0.66669335  0.33330665  0.50000000  1
+  Te  Te2  1  0.68403722  0.66712092  0.55324279  1
+  Te  Te3  1  -0.01694476  0.31595402  0.55324192  1
+  Te  Te4  1  0.33289085  1.01695125  0.55324019  1
+  Te  Te5  1  0.33287908  0.31596278  0.44675721  1
+  Te  Te6  1  -0.01695125  0.66710915  0.44675981  1
+  Te  Te7  1  0.68404598  1.01694476  0.44675808  1
+  P  P8  1  0.33332612  0.66667431  0.53386651  1
+  P  P9  1  0.33332569  0.66667388  0.46613349  1

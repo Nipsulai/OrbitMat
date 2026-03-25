@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_GaCu(PSe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.32453345
+_cell_length_b   6.32452635
+_cell_length_c   33.52445200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99980407
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaCu(PSe3)2
+_chemical_formula_sum   'Ga1 Cu1 P2 Se6'
+_cell_volume   1161.31403931
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.02489584  0.02317698  0.45014310  1
+  Se  Se1  1  0.34250858  0.69090193  0.45014311  1
+  Se  Se2  1  0.67478788  0.34078702  0.45014378  1
+  Se  Se3  1  0.67478110  0.02317690  0.54985690  1
+  Se  Se4  1  0.34249911  0.34078701  0.54985622  1
+  Se  Se5  1  0.02489338  0.69090192  0.54985688  1
+  Cu  Cu6  1  0.01408485  0.35167104  0.50000000  1
+  Ga  Ga7  1  0.34739516  0.01829045  0.50000000  1
+  P  P8  1  0.68072381  0.68495317  0.46656320  1
+  P  P9  1  0.68072936  0.68495320  0.53343680  1

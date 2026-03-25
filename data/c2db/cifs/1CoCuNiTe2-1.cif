@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_CoCuNiTe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.05815403
+_cell_length_b   4.05964475
+_cell_length_c   19.06084042
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00939599
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CoCuNiTe2
+_chemical_formula_sum   'Co1 Cu1 Ni1 Te2'
+_cell_volume   271.92435524
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.50783780  0.15802716  0.39352431  1
+  Co  Co1  1  0.50442819  0.15641558  0.52436585  1
+  Te  Te2  1  0.17081751  0.48943281  0.60651434  1
+  Cu  Cu3  1  0.83755263  0.82290162  0.56276544  1
+  Ni  Ni4  1  0.84130347  0.82467000  0.43849230  1

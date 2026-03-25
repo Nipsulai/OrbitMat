@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_TaCuNiSI2N2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.35112530
+_cell_length_b   6.22836307
+_cell_length_c   22.27444024
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   105.61816620
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaCuNiSI2N2O
+_chemical_formula_sum   'Ta1 Cu1 Ni1 S1 I2 N2 O1'
+_cell_volume   447.74682297
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.38526529  0.45435551  0.46452914  1
+  Ta  Ta1  1  0.58375172  0.84877631  0.48950697  1
+  S  S2  1  0.50505733  0.67905801  0.58321062  1
+  Cu  Cu3  1  0.31898749  0.32259623  0.54680642  1
+  Ni  Ni4  1  0.83374868  0.35161726  0.44967086  1
+  I  I5  1  0.84149727  0.36599939  0.33655854  1
+  N  N6  1  0.73426924  0.15069111  0.51802074  1
+  I  I7  1  0.23925051  0.16971011  0.66554964  1
+  O  O8  1  0.08066797  0.84349435  0.44762742  1

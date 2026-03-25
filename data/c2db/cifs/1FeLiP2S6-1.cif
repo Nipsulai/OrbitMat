@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiFe(PS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.86592304
+_cell_length_b   5.86542556
+_cell_length_c   33.22614168
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00343591
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiFe(PS3)2
+_chemical_formula_sum   'Li1 Fe1 P2 S6'
+_cell_volume   989.99133851
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.67732962  0.99823079  0.49999865  1
+  S  S1  1  0.66893002  0.69080279  0.54645330  1
+  Li  Li2  1  0.01050943  0.66461021  0.49999859  1
+  S  S3  1  -0.01451488  0.29763774  0.54646177  1
+  P  P4  1  0.34423981  0.33188470  0.53249654  1
+  S  S5  1  0.37835774  1.00725981  0.54648451  1
+  S  S6  1  0.37829151  0.69080242  0.45354348  1
+  S  S7  1  0.66857675  0.29763859  0.45353597  1
+  P  P8  1  0.34406924  0.33188772  0.46750053  1
+  S  S9  1  -0.01467330  0.00726786  0.45351211  1

@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Cu(PdO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.16521110
+_cell_length_b   3.16517525
+_cell_length_c   38.20510740
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00090258
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu(PdO2)2
+_chemical_formula_sum   'Cu1 Pd2 O4'
+_cell_volume   331.47329690
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  -0.00000169  0.00003771  0.39931053  1
+  O  O1  1  -0.00000169  0.00003771  0.60068947  1
+  Cu  Cu2  1  0.33333486  0.66671433  0.50000000  1
+  Pd  Pd3  1  0.66666167  0.33336393  0.42409683  1
+  Pd  Pd4  1  0.66666167  0.33336393  0.57590317  1
+  O  O5  1  0.33332436  0.66668901  0.54848494  1
+  O  O6  1  0.33332436  0.66668901  0.45151506  1

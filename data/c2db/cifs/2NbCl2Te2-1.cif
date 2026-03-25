@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Nb(TeCl)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.49810305
+_cell_length_b   6.87412816
+_cell_length_c   34.07882097
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   118.20640299
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb(TeCl)2
+_chemical_formula_sum   'Nb2 Te4 Cl4'
+_cell_volume   1341.49242321
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.67329905  0.00000000  0.43126879  1
+  Cl  Cl1  1  0.61677202  0.43016058  0.45882266  1
+  Te  Te2  1  0.75161815  -0.00000000  0.56873124  1
+  Cl  Cl3  1  0.23830577  0.43016056  0.54117735  1
+  Cl  Cl4  1  0.80814521  0.56983944  0.54117735  1
+  Nb  Nb5  1  0.84416685  0.26341648  0.50000001  1
+  Nb  Nb6  1  0.58075037  0.73658352  0.50000001  1
+  Te  Te7  1  0.38929129  0.00000000  0.53222936  1
+  Te  Te8  1  1.03562593  -0.00000000  0.46777066  1
+  Cl  Cl9  1  0.18661144  0.56983942  0.45882266  1

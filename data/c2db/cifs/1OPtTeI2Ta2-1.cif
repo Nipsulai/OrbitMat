@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Ta2TePtI2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.59313362
+_cell_length_b   5.67368058
+_cell_length_c   21.56387359
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99811528
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta2TePtI2O
+_chemical_formula_sum   'Ta2 Te1 Pt1 I2 O1'
+_cell_volume   439.60743326
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.24612973  0.62041723  0.45120809  1
+  O  O1  1  0.74713809  0.32307521  0.59352336  1
+  Ta  Ta2  1  0.24712888  0.43215750  0.57096248  1
+  Te  Te3  1  0.24585873  0.14391517  0.46057753  1
+  Pt  Pt4  1  0.74621681  0.79813605  0.52393643  1
+  I  I5  1  0.24771929  0.80980986  0.65227147  1
+  I  I6  1  0.74601434  0.64097651  0.34791822  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Hf2Mn3Br3ClO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.90913842
+_cell_length_b   7.08060200
+_cell_length_c   20.76734177
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   99.34956202
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf2Mn3Br3ClO5
+_chemical_formula_sum   'Hf2 Mn3 Br3 Cl1 O5'
+_cell_volume   857.36792631
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.70980265  0.99197094  0.57722851  1
+  Br  Br1  1  0.94215257  0.52161551  0.36114396  1
+  Hf  Hf2  1  0.77783720  0.33344172  0.47358908  1
+  Mn  Mn3  1  0.35516178  0.61533514  0.52374066  1
+  O  O4  1  0.55307437  0.20680638  0.54389162  1
+  O  O5  1  0.67265708  0.58122050  0.49201535  1
+  Br  Br6  1  0.49903061  0.71894818  0.63885604  1
+  Hf  Hf7  1  0.22341735  0.12058181  0.51278654  1
+  O  O8  1  0.87142140  0.04531343  0.48093786  1
+  Br  Br9  1  1.08221278  1.09483718  0.63696393  1
+  Cl  Cl10  1  0.41995817  0.19667177  0.40258158  1
+  Mn  Mn11  1  -0.09316482  0.77819499  0.44662825  1
+  O  O12  1  0.21434247  0.84197083  0.49674188  1
+  O  O13  1  0.10301767  0.38545925  0.50791858  1

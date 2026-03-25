@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ZrNbNCl2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.38421308
+_cell_length_b   4.19333752
+_cell_length_c   20.31939932
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99999996
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrNbNCl2O
+_chemical_formula_sum   'Zr1 Nb1 N1 Cl2 O1'
+_cell_volume   288.35559714
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.25232597  0.24970499  0.45724904  1
+  Cl  Cl1  1  0.25242359  0.74935376  0.63150801  1
+  N  N2  1  0.25243466  0.74970685  0.47062325  1
+  Zr  Zr3  1  0.75242989  0.74967113  0.53521720  1
+  O  O4  1  0.75230816  0.24966726  0.53072115  1
+  Cl  Cl5  1  0.75234296  0.24977768  0.36763844  1

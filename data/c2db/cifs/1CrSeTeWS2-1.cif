@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CrTeWSeS2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.37614552
+_cell_length_b   4.37627167
+_cell_length_c   18.14720358
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   88.93967008
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrTeWSeS2
+_chemical_formula_sum   'Cr1 Te1 W1 Se1 S2'
+_cell_volume   347.48124395
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.87429096  0.61414943  0.41328682  1
+  S  S1  1  0.12674209  0.38110177  0.58670198  1
+  Cr  Cr2  1  0.61624954  0.35590813  0.52812149  1
+  W  W3  1  0.14719601  0.88701065  0.52850686  1
+  Se  Se4  1  0.38971136  0.12860641  0.41995635  1
+  S  S5  1  0.64113820  0.86630802  0.58671318  1

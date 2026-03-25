@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_InPdS2BrCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.65119786
+_cell_length_b   5.32848330
+_cell_length_c   20.51556786
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.01944916
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InPdS2BrCl
+_chemical_formula_sum   'In1 Pd1 S2 Br1 Cl1'
+_cell_volume   399.13746525
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.75128418  0.25067759  0.45132107  1
+  S  S1  1  0.25143134  0.25059813  0.52538356  1
+  Br  Br2  1  0.25114295  0.25087520  0.36504129  1
+  S  S3  1  0.75133488  0.75072292  0.45830070  1
+  In  In4  1  0.25129055  0.75055613  0.54514061  1
+  Cl  Cl5  1  0.75142625  0.75017864  0.63487867  1

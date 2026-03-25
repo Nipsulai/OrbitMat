@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CrWCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.34410646
+_cell_length_b   6.34663693
+_cell_length_c   33.64480807
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   114.78133676
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrWCl6
+_chemical_formula_sum   'Cr1 W1 Cl6'
+_cell_volume   1229.92014052
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.29399956  0.22289631  0.50000112  1
+  W  W1  1  0.79404312  0.72293903  0.50000196  1
+  Cl  Cl2  1  1.05009871  0.97819288  0.44987393  1
+  Cl  Cl3  1  0.57601538  0.94066090  0.49987652  1
+  Cl  Cl4  1  0.53841200  0.46668415  0.44988237  1
+  Cl  Cl5  1  0.53785538  0.46754371  0.55012527  1
+  Cl  Cl6  1  0.01197538  0.50512079  0.50012385  1
+  Cl  Cl7  1  0.04951050  0.97902523  0.55011593  1

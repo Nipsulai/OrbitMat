@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CdAuSeSBrCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.40690864
+_cell_length_b   7.20569460
+_cell_length_c   18.76772882
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   106.50108322
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CdAuSeSBrCl
+_chemical_formula_sum   'Cd1 Au1 Se1 S1 Br1 Cl1'
+_cell_volume   571.42093794
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.38165412  0.91171003  0.49713923  1
+  Au  Au1  1  0.64634689  0.44497812  0.52390708  1
+  Br  Br2  1  0.45818800  0.17956173  0.39962214  1
+  Cl  Cl3  1  0.50995469  0.15486378  0.60037786  1
+  S  S4  1  0.19538235  0.55760114  0.55615860  1
+  Se  Se5  1  0.79323923  0.72870180  0.44529631  1

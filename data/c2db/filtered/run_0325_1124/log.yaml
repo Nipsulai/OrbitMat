@@ -1,0 +1,24 @@
+meta:
+  timestamp: '2026-03-25T11:24:30.656329'
+  database_source: /home/nikolai/OrbitMat/data/c2db/all_data.json
+stats:
+  total_entries: 16905
+  magnetic_entries: 4241
+  filtered_entries: 2965
+  retention_rate_percent: 17.54
+  insulators: 2965
+  metals: 0
+  bandgap_hse_min: 0.0003
+  bandgap_hse_max: 10.7916
+  bandgap_hse_mean: 2.5781
+configuration:
+  exclude_lattice_types: null
+  exclude_centering_types: null
+  bandgap_min: 1.0e-05
+  bandgap_max: inf
+  bandgap_method: hse
+  n_atoms_min: null
+  n_atoms_max: null
+  insulators_only: true
+  exclude_magnetic: true
+  keep_k: 2965

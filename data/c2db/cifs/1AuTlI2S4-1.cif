@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_TlAu(S2I)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.39577103
+_cell_length_b   4.52239680
+_cell_length_c   23.39918499
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.57917427
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlAu(S2I)2
+_chemical_formula_sum   'Tl1 Au1 S4 I2'
+_cell_volume   570.95347325
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.65887200  -0.24942566  0.67946637  1
+  Au  Au1  1  0.88768112  0.41545505  0.52965531  1
+  S  S2  1  0.48562967  0.29810161  0.56238999  1
+  Tl  Tl3  1  0.35611405  1.19799421  0.40667986  1
+  S  S4  1  -0.00583196  0.70425392  0.61296557  1
+  S  S5  1  0.84244480  1.13014919  0.44377553  1
+  S  S6  1  0.29801018  0.55351119  0.50544335  1
+  I  I7  1  0.35018333  -0.29963384  0.32051126  1

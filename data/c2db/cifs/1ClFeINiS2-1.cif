@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_FeNiS2ICl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.43012440
+_cell_length_b   4.61056914
+_cell_length_c   20.47023968
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99632901
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeNiS2ICl
+_chemical_formula_sum   'Fe1 Ni1 S2 I1 Cl1'
+_cell_volume   323.73327186
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.74999721  0.74763930  0.46415090  1
+  Ni  Ni1  1  0.25006418  0.24856908  0.55745304  1
+  I  I2  1  0.24995915  0.75132588  0.36638555  1
+  S  S3  1  0.25020074  0.74885748  0.53620073  1
+  Cl  Cl4  1  0.75011296  0.24826934  0.63361445  1
+  S  S5  1  0.75014921  0.24902397  0.48442796  1

@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_In2Co2Te5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.11104683
+_cell_length_b   4.11104683
+_cell_length_c   42.16152000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00110254
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In2Co2Te5
+_chemical_formula_sum   'In2 Co2 Te5'
+_cell_volume   617.08773518
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  -0.00004422  0.00004422  0.46328542  1
+  Co  Co1  1  0.66664464  0.33335536  0.53671655  1
+  In  In2  1  -0.00001399  0.00001399  0.62881671  1
+  In  In3  1  0.66661413  0.33338587  0.37118378  1
+  Te  Te4  1  0.33329936  0.66670064  0.49999804  1
+  Te  Te5  1  -0.00004398  0.00004398  0.56154774  1
+  Te  Te6  1  0.66664418  0.33335582  0.43845286  1
+  Te  Te7  1  -0.00005962  0.00005962  0.33516984  1
+  Te  Te8  1  0.66665983  0.33334017  0.66483014  1

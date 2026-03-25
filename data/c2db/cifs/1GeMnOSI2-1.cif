@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MnGeSI2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.20737172
+_cell_length_b   4.50855251
+_cell_length_c   20.80759103
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   118.54674614
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnGeSI2O
+_chemical_formula_sum   'Mn1 Ge1 S1 I2 O1'
+_cell_volume   429.12463665
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  -0.04268098  0.82628782  0.49503321  1
+  I  I1  1  0.23745586  0.47721555  0.36044538  1
+  Mn  Mn2  1  0.97029738  0.33127371  0.46645766  1
+  Ge  Ge3  1  0.47676720  0.67818701  0.51755935  1
+  O  O4  1  0.59824617  0.12772402  0.49737021  1
+  I  I5  1  0.39846218  0.59959985  0.63955462  1

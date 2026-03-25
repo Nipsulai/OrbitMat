@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Pt3(ClO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.03769091
+_cell_length_b   5.46630145
+_cell_length_c   20.39366821
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.19394628
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pt3(ClO2)2
+_chemical_formula_sum   'Pt3 Cl2 O4'
+_cell_volume   427.61005536
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.18639720  0.45282006  0.36776363  1
+  Pt  Pt1  1  0.59426950  0.10079234  0.59464548  1
+  O  O2  1  0.08542060  0.09486784  0.57053884  1
+  Pt  Pt3  1  0.14007191  0.30632813  0.47168071  1
+  Pt  Pt4  1  0.84558875  0.74482919  0.52527437  1
+  Cl  Cl5  1  0.73274732  0.51860542  0.63223925  1
+  O  O6  1  0.66318965  0.38745242  0.48417136  1
+  O  O7  1  0.29142241  0.65031141  0.52240449  1
+  O  O8  1  0.94203374  0.94874167  0.44429314  1

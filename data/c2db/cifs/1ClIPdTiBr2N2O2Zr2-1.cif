@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Zr2TiPdIBr2N2ClO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.03509144
+_cell_length_b   6.08871135
+_cell_length_c   23.34539596
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   109.42408132
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr2TiPdIBr2N2ClO2
+_chemical_formula_sum   'Zr2 Ti1 Pd1 I1 Br2 N2 Cl1 O2'
+_cell_volume   540.91610552
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.41964804  0.39172094  0.47947308  1
+  Zr  Zr1  1  0.11433289  0.77307389  0.51445882  1
+  Ti  Ti2  1  0.87354648  0.19928932  0.57039645  1
+  Zr  Zr3  1  0.75948878  0.06731832  0.42815549  1
+  I  I4  1  0.74402423  1.04509472  0.67880085  1
+  N  N5  1  0.21354368  -0.02619222  0.44371001  1
+  N  N6  1  0.91708540  0.38755902  0.49381657  1
+  Br  Br7  1  0.52766963  0.60375586  0.38830384  1
+  Br  Br8  1  0.79275431  0.13698682  0.32127679  1
+  O  O9  1  0.30710533  0.16708479  0.56164382  1
+  O  O10  1  0.67676793  0.89768995  0.52474853  1
+  Cl  Cl11  1  0.02455645  0.58350529  0.61520277  1

@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_YCl2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.03134075
+_cell_length_b   4.15698055
+_cell_length_c   18.58191360
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   102.49228673
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YCl2O
+_chemical_formula_sum   'Y1 Cl2 O1'
+_cell_volume   304.02717783
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.81663479  0.76715981  0.51981612  1
+  Y  Y1  1  0.72368260  0.25025605  0.49724307  1
+  Cl  Cl2  1  0.25273063  0.33830506  0.40361828  1
+  Cl  Cl3  1  0.20466828  0.15771484  0.59638172  1

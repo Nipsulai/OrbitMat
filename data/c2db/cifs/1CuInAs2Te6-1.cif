@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_InCu(Te3As)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.04117121
+_cell_length_b   7.04125604
+_cell_length_c   33.52445200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99959539
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InCu(Te3As)2
+_chemical_formula_sum   'In1 Cu1 Te6 As2'
+_cell_volume   1439.42529758
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.03004446  0.06419286  0.44521209  1
+  Te  Te1  1  0.30149248  0.65504887  0.44521102  1
+  Te  Te2  1  0.71065726  0.33563445  0.44521366  1
+  Te  Te3  1  0.71064818  0.06419279  0.55478793  1
+  Te  Te4  1  0.30147714  0.33563459  0.55478633  1
+  Te  Te5  1  0.03005639  0.65504886  0.55478898  1
+  Cu  Cu6  1  0.01407123  0.35164291  0.50000000  1
+  In  In7  1  0.34739531  0.01829073  0.50000000  1
+  As  As8  1  0.68072973  0.68495701  0.46199549  1
+  As  As9  1  0.68072724  0.68495701  0.53800451  1

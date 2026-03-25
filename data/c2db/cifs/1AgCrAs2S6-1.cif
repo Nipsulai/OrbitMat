@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CrAg(AsS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.17694137
+_cell_length_b   6.17670183
+_cell_length_c   33.47259289
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.97404682
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrAg(AsS3)2
+_chemical_formula_sum   'Cr1 Ag1 As2 S6'
+_cell_volume   1106.27633266
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.96359637  0.31516093  0.53600267  1
+  As  As1  1  0.96281953  0.31447239  0.46399107  1
+  Cr  Cr2  1  0.29664666  0.98132515  0.49999269  1
+  S  S3  1  0.01228269  0.68853973  0.54984657  1
+  Ag  Ag4  1  0.63031848  0.64766339  0.50003361  1
+  S  S5  1  0.28871532  0.26677700  0.54977329  1
+  S  S6  1  0.59049785  -0.00975063  0.54980565  1
+  S  S7  1  0.58947574  0.26591205  0.45016614  1
+  S  S8  1  0.28766470  0.68756689  0.45016833  1
+  S  S9  1  0.01108506  -0.01073846  0.45023283  1

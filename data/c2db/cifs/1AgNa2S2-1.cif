@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Na2AgS2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.83791353
+_cell_length_b   7.21929372
+_cell_length_c   32.36152978
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   105.41505820
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2AgS2
+_chemical_formula_sum   'Na2 Ag1 S2'
+_cell_volume   864.38554890
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.55059576  0.10119152  0.54192152  1
+  S  S1  1  0.93602519  0.87205037  0.50949405  1
+  Na  Na2  1  0.09084804  0.18169609  0.45807842  1
+  S  S3  1  0.70541896  0.41083793  0.49050605  1
+  Ag  Ag4  1  0.32072179  0.64144359  0.49999992  1

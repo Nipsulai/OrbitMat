@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Hf2SI2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.72096109
+_cell_length_b   4.76896487
+_cell_length_c   20.85948991
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99738265
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf2SI2O
+_chemical_formula_sum   'Hf2 S1 I2 O1'
+_cell_volume   370.15441623
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.24435926  0.75090206  0.52795834  1
+  I  I1  1  0.74426197  0.75080014  0.64045142  1
+  Hf  Hf2  1  0.74425019  0.25104743  0.46621254  1
+  O  O3  1  0.74443155  0.75051291  0.47303377  1
+  S  S4  1  0.24424754  0.25091977  0.54917271  1
+  I  I5  1  0.24459625  0.25027810  0.35954858  1

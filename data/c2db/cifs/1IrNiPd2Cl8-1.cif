@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NiIr(PdCl4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.21860243
+_cell_length_b   7.03492361
+_cell_length_c   18.02303448
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99975001
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiIr(PdCl4)2
+_chemical_formula_sum   'Ni1 Ir1 Pd2 Cl8'
+_cell_volume   915.25144381
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  -0.00331037  0.12657235  0.58386586  1
+  Cl  Cl1  1  0.22966522  0.87249486  0.44597581  1
+  Ir  Ir2  1  0.92069222  0.37262241  0.49995307  1
+  Cl  Cl3  1  0.84481907  0.61876263  0.41613959  1
+  Cl  Cl4  1  0.61142223  0.87280533  0.55355838  1
+  Pd  Pd5  1  0.42063930  0.11120602  0.49967217  1
+  Cl  Cl6  1  0.61309085  0.37237406  0.54431951  1
+  Ni  Ni7  1  0.92075832  0.87263247  0.50003037  1
+  Cl  Cl8  1  -0.00400736  0.61889431  0.58380090  1
+  Pd  Pd9  1  0.42081291  0.63408002  0.49976317  1
+  Cl  Cl10  1  0.22827950  0.37287206  0.45538349  1
+  Cl  Cl11  1  0.84563939  0.12631588  0.41613414  1

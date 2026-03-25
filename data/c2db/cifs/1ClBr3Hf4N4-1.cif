@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Hf4Br3N4Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.46841405
+_cell_length_b   5.46846722
+_cell_length_c   20.92934893
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   98.77324297
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf4Br3N4Cl
+_chemical_formula_sum   'Hf4 Br3 N4 Cl1'
+_cell_volume   618.54513179
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.37109108  0.62612277  0.45867563  1
+  Hf  Hf1  1  0.87381513  0.12888237  0.45869192  1
+  Hf  Hf2  1  0.87198248  0.62806997  0.54150613  1
+  Br  Br3  1  0.62253287  0.37761766  0.64164970  1
+  Hf  Hf4  1  0.37301622  0.12699461  0.54151156  1
+  Br  Br5  1  0.62237440  0.87745455  0.35834430  1
+  Cl  Cl6  1  0.12222405  0.37759383  0.36713798  1
+  N  N7  1  0.62248946  0.37749703  0.48470503  1
+  N  N8  1  0.12252881  0.37753146  0.51612704  1
+  N  N9  1  0.12248110  0.87748763  0.48469944  1
+  N  N10  1  0.62247258  0.87751224  0.51505612  1
+  Br  Br11  1  0.12259055  0.87730128  0.64164076  1

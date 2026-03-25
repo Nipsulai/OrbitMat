@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_HfPO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.65454181
+_cell_length_b   5.65253002
+_cell_length_c   18.41164285
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.96154723
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfPO3
+_chemical_formula_sum   'Hf2 P2 O6'
+_cell_volume   556.54867762
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.00585851  -0.00589787  0.50009939  1
+  Hf  Hf1  1  0.32747545  0.67257285  0.49993039  1
+  P  P2  1  0.71990038  0.38644690  0.44151298  1
+  P  P3  1  0.61344508  0.28023941  0.55849938  1
+  O  O4  1  0.22329213  -0.10969984  0.43242289  1
+  O  O5  1  1.01078754  0.37271098  0.45608885  1
+  O  O6  1  0.70610446  0.67749967  0.45594764  1
+  O  O7  1  1.11004506  0.77637879  0.56760706  1
+  O  O8  1  0.32255167  0.29396738  0.54393794  1
+  O  O9  1  0.62722638  -0.01082174  0.54407909  1

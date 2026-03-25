@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Ca2Ag(ClO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.16953492
+_cell_length_b   4.16993010
+_cell_length_c   21.11520749
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   91.04112713
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2Ag(ClO)2
+_chemical_formula_sum   'Ca2 Ag1 Cl2 O2'
+_cell_volume   367.06251871
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  -0.07450146  0.74378907  0.57532699  1
+  Cl  Cl1  1  0.72972912  0.23728963  0.64481730  1
+  Ag  Ag2  1  0.44582321  0.20649747  0.49996739  1
+  Cl  Cl3  1  0.47594620  0.48924640  0.35517484  1
+  O  O4  1  0.42375816  0.70759866  0.51534072  1
+  O  O5  1  0.94692326  0.18426440  0.48459695  1
+  Ca  Ca6  1  0.98253862  0.68587237  0.42461565  1

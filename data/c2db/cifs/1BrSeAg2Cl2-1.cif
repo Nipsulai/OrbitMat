@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Ag2SeBrCl2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.83785833
+_cell_length_b   6.92310995
+_cell_length_c   18.55043360
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   91.25069658
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ag2SeBrCl2
+_chemical_formula_sum   'Ag2 Se1 Br1 Cl2'
+_cell_volume   492.76602378
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.25058617  0.06485240  0.42782409  1
+  Ag  Ag1  1  0.75752713  0.24839718  0.49174625  1
+  Cl  Cl2  1  0.87835568  0.62652224  0.40430322  1
+  Ag  Ag3  1  0.24159331  0.75551474  0.49708542  1
+  Cl  Cl4  1  0.26018114  0.43178806  0.55684769  1
+  Br  Br5  1  0.59726547  0.90547856  0.59569678  1

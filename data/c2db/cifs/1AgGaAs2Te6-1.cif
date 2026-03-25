@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_GaAg(Te3As)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.02465392
+_cell_length_b   7.02471811
+_cell_length_c   33.52445200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99968564
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaAg(Te3As)2
+_chemical_formula_sum   'Ga1 Ag1 Te6 As2'
+_cell_volume   1432.67449436
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.05981261  0.02855752  0.44366759  1
+  Te  Te1  1  0.33712755  0.72044474  0.44366678  1
+  Te  Te2  1  0.64525627  0.30587265  0.44366848  1
+  Te  Te3  1  0.64524463  0.02855741  0.55633243  1
+  Te  Te4  1  0.33711634  0.30587274  0.55633151  1
+  Te  Te5  1  0.05981711  0.72044459  0.55633321  1
+  Ag  Ag6  1  0.01407244  0.35164577  0.50000000  1
+  Ga  Ga7  1  0.34739699  0.01829414  0.50000000  1
+  As  As8  1  0.68073041  0.68495556  0.46228825  1
+  As  As9  1  0.68072509  0.68495551  0.53771174  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_AgTeBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.35648277
+_cell_length_b   7.76696117
+_cell_length_c   34.55201445
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99321319
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgTeBr
+_chemical_formula_sum   'Ag4 Te4 Br4'
+_cell_volume   1974.21626393
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.02220836  0.00066572  0.47050859  1
+  Te  Te1  1  0.59289519  0.50067020  0.52949021  1
+  Te  Te2  1  0.09289263  0.73912877  0.52949057  1
+  Te  Te3  1  0.52220639  0.23912560  0.47050936  1
+  Ag  Ag4  1  0.33137974  0.00385042  0.51341687  1
+  Ag  Ag5  1  0.28374036  0.50384895  0.48658371  1
+  Ag  Ag6  1  0.78373078  0.73594997  0.48658247  1
+  Ag  Ag7  1  0.83136702  0.23594777  0.51341645  1
+  Br  Br8  1  0.56081361  0.90518148  0.56446063  1
+  Br  Br9  1  0.05428380  0.40517743  0.43553668  1
+  Br  Br10  1  0.55429210  0.83461772  0.43553822  1
+  Br  Br11  1  0.06081862  0.33461872  0.56446217  1

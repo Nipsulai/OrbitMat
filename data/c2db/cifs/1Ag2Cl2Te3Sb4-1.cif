@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Ag2Sb4Te3Cl2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.52442595
+_cell_length_b   8.34964350
+_cell_length_c   34.12562733
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ag2Sb4Te3Cl2
+_chemical_formula_sum   'Ag2 Sb4 Te3 Cl2'
+_cell_volume   2143.98602036
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  -0.00904521  0.00000000  0.55211572  1
+  Sb  Sb1  1  0.83541645  -0.00000000  0.42673909  1
+  Sb  Sb2  1  0.16371852  0.82602766  0.43692234  1
+  Sb  Sb3  1  0.16371852  0.17397234  0.43692234  1
+  Ag  Ag4  1  0.53540684  0.70698677  0.51391462  1
+  Ag  Ag5  1  0.53540684  0.29301323  0.51391462  1
+  Cl  Cl6  1  0.64021706  0.50000000  0.56290726  1
+  Cl  Cl7  1  0.46476834  0.50000000  0.45612712  1
+  Te  Te8  1  0.68725008  0.00000000  0.50246857  1
+  Te  Te9  1  0.15322802  0.74046844  0.51559882  1
+  Te  Te10  1  0.15322802  0.25953156  0.51559882  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_BaICl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.23579520
+_cell_length_b   4.89709805
+_cell_length_c   19.19149676
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00105484
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaICl
+_chemical_formula_sum   'Ba2 I2 Cl2'
+_cell_volume   774.02178636
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.04469876  0.45094132  0.60856923  1
+  I  I1  1  0.54470540  0.95128070  0.39143107  1
+  Ba  Ba2  1  0.78618994  0.95091153  0.54089948  1
+  Ba  Ba3  1  0.28619600  0.45122401  0.45910090  1
+  Cl  Cl4  1  0.56206144  0.45087298  0.56713873  1
+  Cl  Cl5  1  0.06206647  0.95117325  0.43286060  1

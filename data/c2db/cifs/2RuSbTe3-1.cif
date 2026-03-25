@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_SbTe3Ru
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.14434300
+_cell_length_b   7.14434386
+_cell_length_c   18.41164285
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99915060
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SbTe3Ru
+_chemical_formula_sum   'Sb2 Te6 Ru2'
+_cell_volume   813.86343463
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ru  Ru0  1  0.00000215  0.00001248  0.49999697  1
+  Ru  Ru1  1  0.33333771  0.66666745  0.50000044  1
+  Sb  Sb2  1  0.66666780  0.33333677  0.42230400  1
+  Sb  Sb3  1  0.66667219  0.33334346  0.57776096  1
+  Te  Te4  1  0.25800214  -0.07532020  0.41528843  1
+  Te  Te5  1  1.07534734  0.33333763  0.41528819  1
+  Te  Te6  1  0.66667431  0.74201031  0.41528996  1
+  Te  Te7  1  1.07536320  0.74202768  0.58470055  1
+  Te  Te8  1  0.25796539  0.33334064  0.58470080  1
+  Te  Te9  1  0.66666761  -0.07535544  0.58469904  1

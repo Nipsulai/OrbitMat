@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_HfWBr2O3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.95263697
+_cell_length_b   5.80150984
+_cell_length_c   19.66047573
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   109.90676958
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfWBr2O3
+_chemical_formula_sum   'Hf1 W1 Br2 O3'
+_cell_volume   423.90091933
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.56411498  0.48293050  0.50595862  1
+  Hf  Hf1  1  0.37264235  0.09975197  0.47415370  1
+  W  W2  1  0.06782579  0.49036560  0.50841893  1
+  Br  Br3  1  0.19066242  0.73544849  0.38220858  1
+  Br  Br4  1  0.95658806  0.26873751  0.61790972  1
+  O  O5  1  0.91436248  0.18327321  0.44711604  1
+  O  O6  1  0.23613241  0.82710418  0.53674013  1

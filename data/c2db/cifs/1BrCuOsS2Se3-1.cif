@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CuOsSe3S2Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.93032832
+_cell_length_b   5.82525030
+_cell_length_c   18.71571125
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   109.24871160
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuOsSe3S2Br
+_chemical_formula_sum   'Cu1 Os1 Se3 S2 Br1'
+_cell_volume   507.47321473
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.10619737  0.15593747  0.59924000  1
+  S  S1  1  0.24998601  0.84092724  0.42145008  1
+  Se  Se2  1  0.82623968  0.45022787  0.58097520  1
+  S  S3  1  0.62278465  0.89252177  0.57432048  1
+  Os  Os4  1  0.44847628  0.14565339  0.50600872  1
+  Br  Br5  1  0.82586393  0.20984253  0.40072263  1
+  Cu  Cu6  1  0.88675364  0.78303109  0.49085036  1
+  Se  Se7  1  0.47399638  0.52438513  0.42396675  1

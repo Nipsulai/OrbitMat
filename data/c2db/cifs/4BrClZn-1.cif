@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ZnBrCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.84445557
+_cell_length_b   7.46186244
+_cell_length_c   19.86816134
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000039
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnBrCl
+_chemical_formula_sum   'Zn4 Br4 Cl4'
+_cell_volume   1014.71440463
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.67671825  0.74612443  0.55754357  1
+  Zn  Zn1  1  0.32328172  0.24612444  0.44245643  1
+  Zn  Zn2  1  0.17671827  0.74612444  0.44245643  1
+  Zn  Zn3  1  0.82328172  0.24612444  0.55754357  1
+  Br  Br4  1  0.18458576  0.24580088  0.55413082  1
+  Br  Br5  1  0.81541426  0.74580088  0.44586917  1
+  Br  Br6  1  0.68458576  0.24580088  0.44586918  1
+  Br  Br7  1  0.31541426  0.74580088  0.55413082  1
+  Cl  Cl8  1  0.74950857  0.99630458  0.62173351  1
+  Cl  Cl9  1  0.25049143  0.49630456  0.37826650  1
+  Cl  Cl10  1  0.24950855  0.99630456  0.37826650  1
+  Cl  Cl11  1  0.75049144  0.49630457  0.62173350  1

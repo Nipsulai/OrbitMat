@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Nb2NiIrS8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.90592926
+_cell_length_b   6.71446511
+_cell_length_c   18.10466779
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   92.07474958
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb2NiIrS8
+_chemical_formula_sum   'Nb2 Ni1 Ir1 S8'
+_cell_volume   717.47277411
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.39185731  0.92164026  0.49951299  1
+  S  S1  1  0.10210549  0.35717318  0.43200605  1
+  Ni  Ni2  1  0.94693908  0.10469996  0.50135316  1
+  S  S3  1  0.56436459  0.62355680  0.41425781  1
+  S  S4  1  0.77262075  0.34285256  0.57717922  1
+  Nb  Nb5  1  0.86790145  0.61532468  0.49790940  1
+  S  S6  1  0.62602885  0.13086148  0.42246619  1
+  S  S7  1  0.08184174  0.87475691  0.41654093  1
+  S  S8  1  0.25323466  0.14485474  0.58574219  1
+  S  S9  1  0.26618484  0.62259140  0.57002497  1
+  Ir  Ir10  1  0.44818311  0.36627479  0.50001019  1
+  S  S11  1  0.76021142  0.87458232  0.57804129  1

@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_ZnGaNi3Te2P3RuICl3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.00333310
+_cell_length_b   6.66996459
+_cell_length_c   21.79763791
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.48870113
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnGaNi3Te2P3RuICl3
+_chemical_formula_sum   'Zn1 Ga1 Ni3 Te2 P3 Ru1 I1 Cl3'
+_cell_volume   787.86986976
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.83874387  0.09520459  0.49995925  1
+  Te  Te1  1  0.15439086  0.54367443  0.59598541  1
+  Zn  Zn2  1  0.69538823  0.49728217  0.59654973  1
+  Ni  Ni3  1  0.53820243  0.20285828  0.50950275  1
+  Te  Te4  1  0.74595006  0.90381966  0.62249805  1
+  Ru  Ru5  1  0.86151416  0.82075695  0.43906540  1
+  P  P6  1  0.54037198  0.51713139  0.48331400  1
+  Ga  Ga7  1  0.27862706  0.46862554  0.39691292  1
+  Cl  Cl8  1  0.56128202  0.76952242  0.34606362  1
+  I  I9  1  0.18921880  0.09235854  0.34407398  1
+  Ni  Ni10  1  0.14319615  0.16035829  0.56790673  1
+  P  P11  1  0.17333270  0.90784066  0.50707786  1
+  Ni  Ni12  1  0.48174228  0.80379370  0.52242474  1
+  Cl  Cl13  1  0.92813237  0.51263500  0.37762791  1
+  Cl  Cl14  1  0.40239233  0.21783849  0.65592602  1

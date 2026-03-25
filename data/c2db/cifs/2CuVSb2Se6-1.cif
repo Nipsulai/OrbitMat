@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_VCu(SbSe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.70611816
+_cell_length_b   11.61514566
+_cell_length_c   33.68690401
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.01422491
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VCu(SbSe3)2
+_chemical_formula_sum   'V2 Cu2 Sb4 Se12'
+_cell_volume   2623.95841068
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.64128283  0.68558067  0.49999725  1
+  V  V1  1  0.14164976  0.52121900  0.50000278  1
+  Se  Se2  1  0.24362473  0.35387367  0.45642870  1
+  Se  Se3  1  0.74347302  0.85297018  0.45643545  1
+  Se  Se4  1  0.84051048  0.15931572  0.45532691  1
+  Se  Se5  1  0.34046602  0.04755176  0.45532555  1
+  Sb  Sb6  1  0.64374887  0.35489331  0.45699121  1
+  Sb  Sb7  1  0.14372940  0.85191949  0.45693909  1
+  Se  Se8  1  0.34691081  0.64886862  0.45351779  1
+  Se  Se9  1  0.84690529  0.55786484  0.45356301  1
+  Cu  Cu10  1  0.64146372  0.02500448  0.49999594  1
+  Cu  Cu11  1  0.14146578  0.18179386  0.50000416  1
+  Se  Se12  1  0.53930759  0.85292571  0.54357127  1
+  Se  Se13  1  1.03945879  0.35382927  0.54356419  1
+  Se  Se14  1  0.44246340  0.15924768  0.54467425  1
+  Sb  Sb15  1  0.63920165  0.35487995  0.54306122  1
+  Se  Se16  1  0.43602215  0.55793087  0.54648226  1
+  Se  Se17  1  -0.05758207  0.04748332  0.54467320  1
+  Sb  Sb18  1  0.13918262  0.85190654  0.54300912  1
+  Se  Se19  1  0.93602743  0.64893507  0.54643708  1

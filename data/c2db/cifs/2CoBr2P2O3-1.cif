@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_CoP2Br2O3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.31062687
+_cell_length_b   7.93017977
+_cell_length_c   35.68792633
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.95079647
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CoP2Br2O3
+_chemical_formula_sum   'Co2 P4 Br4 O6'
+_cell_volume   1502.96883313
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.00716315  0.02794037  0.53527596  1
+  P  P1  1  0.95708395  0.91154333  0.46472389  1
+  P  P2  1  0.00693420  0.41143726  0.53528458  1
+  P  P3  1  0.95732915  0.52804501  0.46471474  1
+  Br  Br4  1  0.41201915  0.21951465  0.43504349  1
+  Br  Br5  1  0.55225910  0.71998810  0.56495540  1
+  Br  Br6  1  0.65276794  0.22003419  0.57041238  1
+  Br  Br7  1  0.31149269  0.71947670  0.42958772  1
+  Co  Co8  1  0.51813099  0.21996459  0.49873885  1
+  Co  Co9  1  0.44612330  0.71952774  0.50126092  1
+  O  O10  1  0.78138193  1.02195896  0.50132565  1
+  O  O11  1  0.18285518  0.91751879  0.49867576  1
+  O  O12  1  0.14197971  0.21965688  0.52302306  1
+  O  O13  1  0.82228143  0.71982493  0.47697560  1
+  O  O14  1  0.18296103  0.52171831  0.49868127  1
+  O  O15  1  0.78130259  0.41776134  0.50131743  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_AgI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.54715436
+_cell_length_b   14.10648621
+_cell_length_c   33.07712046
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99821129
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgI2
+_chemical_formula_sum   'Ag4 I8'
+_cell_volume   2121.71105887
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  -0.07197992  0.32330015  0.44841711  1
+  I  I1  1  0.69719044  0.82330349  0.44841475  1
+  I  I2  1  0.25748647  0.57024903  0.44913315  1
+  I  I3  1  0.36774343  0.07023907  0.44913794  1
+  I  I4  1  -0.07197684  0.00885096  0.55158982  1
+  I  I5  1  0.69718563  0.50885684  0.55158549  1
+  I  I6  1  0.25748437  0.76191190  0.55087121  1
+  I  I7  1  0.36773960  0.26193110  0.55086049  1
+  Ag  Ag8  1  0.79060476  0.66608802  0.49999805  1
+  Ag  Ag9  1  0.83459618  0.16609773  0.49999489  1
+  Ag  Ag10  1  0.31263279  0.91610605  0.49999173  1
+  Ag  Ag11  1  0.31263178  0.41607307  0.50000659  1

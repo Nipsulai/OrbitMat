@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_GeIrSeSI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.75745895
+_cell_length_b   5.07997890
+_cell_length_c   21.21196686
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00056064
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GeIrSeSI2
+_chemical_formula_sum   'Ge1 Ir1 Se1 S1 I2'
+_cell_volume   404.89003888
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.24931532  0.25162268  0.64560302  1
+  I  I1  1  0.74994926  0.74653951  0.35452263  1
+  S  S2  1  0.24936664  0.25110602  0.48451200  1
+  Ge  Ge3  1  0.24961139  0.74936819  0.45593556  1
+  Ir  Ir4  1  0.74931856  0.25129412  0.55253476  1
+  Se  Se5  1  0.74960231  0.75139344  0.54055071  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ScBi(ClO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.65736818
+_cell_length_b   3.93996967
+_cell_length_c   20.56229851
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99679429
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScBi(ClO)2
+_chemical_formula_sum   'Sc1 Bi1 Cl2 O2'
+_cell_volume   296.30107031
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.24593857  0.33528480  0.43708177  1
+  Cl  Cl1  1  0.74562324  -0.16386221  0.36474274  1
+  Cl  Cl2  1  0.24591272  0.83308117  0.63526266  1
+  O  O3  1  0.74621624  0.33560336  0.50801956  1
+  Sc  Sc4  1  0.74612879  0.83534677  0.54713611  1
+  O  O5  1  0.24613507  0.83579871  0.49405702  1

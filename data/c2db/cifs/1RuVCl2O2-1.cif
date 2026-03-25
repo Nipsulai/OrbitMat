@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_VRu(ClO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.23221049
+_cell_length_b   4.09643166
+_cell_length_c   19.83855496
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.98727615
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VRu(ClO)2
+_chemical_formula_sum   'V1 Ru1 Cl2 O2'
+_cell_volume   262.67296283
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.74845622  0.82414182  0.53380879  1
+  Ru  Ru1  1  0.24876588  0.20669706  0.46326812  1
+  O  O2  1  0.74870101  0.28034727  0.53034991  1
+  O  O3  1  0.24836933  0.70850256  0.47714997  1
+  Cl  Cl4  1  0.24834551  0.78779173  0.62194827  1
+  Cl  Cl5  1  0.74882028  0.19206908  0.37805173  1

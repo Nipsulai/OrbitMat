@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Hf2TeSeI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.87409151
+_cell_length_b   6.95138705
+_cell_length_c   18.69544953
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00631060
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf2TeSeI2
+_chemical_formula_sum   'Hf2 Te1 Se1 I2'
+_cell_volume   503.47424001
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.22963512  0.58901894  0.51254292  1
+  Se  Se1  1  0.72961007  0.48126283  0.59866592  1
+  Hf  Hf2  1  0.72940548  0.19685662  0.50394460  1
+  I  I3  1  0.72975598  0.81549679  0.42240885  1
+  Te  Te4  1  0.22947102  0.31202734  0.40130344  1
+  I  I5  1  0.22919391  0.97593521  0.59552806  1

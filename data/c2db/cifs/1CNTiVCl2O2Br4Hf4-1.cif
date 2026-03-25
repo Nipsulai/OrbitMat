@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Hf4TiVCBr4N(ClO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.73469475
+_cell_length_b   6.04192702
+_cell_length_c   21.58083073
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   121.55288644
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf4TiVCBr4N(ClO)2
+_chemical_formula_sum   'Hf4 Ti1 V1 C1 Br4 N1 Cl2 O2'
+_cell_volume   748.30978928
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.77319728  0.28667403  0.46434022  1
+  Hf  Hf1  1  0.18469749  0.13868512  0.45476624  1
+  V  V2  1  0.35412355  0.55584368  0.54904907  1
+  Br  Br3  1  0.49603085  0.79389814  0.65246936  1
+  Hf  Hf4  1  0.44109543  0.11460024  0.57212368  1
+  N  N5  1  0.57767603  0.92227304  0.51377689  1
+  Br  Br6  1  0.79695395  0.47269394  0.64593074  1
+  Br  Br7  1  0.57120195  0.06200527  0.35719455  1
+  Cl  Cl8  1  0.12932041  0.18296085  0.62594674  1
+  Ti  Ti9  1  0.80184145  0.77841157  0.55668071  1
+  Cl  Cl10  1  0.95197221  0.70595879  0.38601351  1
+  O  O11  1  0.12065328  0.87360337  0.52540003  1
+  C  C12  1  0.54552676  0.42103043  0.50203088  1
+  Br  Br13  1  0.27951385  0.39646399  0.34753064  1
+  Hf  Hf14  1  0.61342364  0.72894775  0.43415052  1
+  O  O15  1  0.08880085  0.37656082  0.49512796  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_SnBP(HO)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.51367848
+_cell_length_b   5.59214698
+_cell_length_c   36.62564200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   96.20633064
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SnBP(HO)3
+_chemical_formula_sum   'Sn2 B2 P2 H6 O6'
+_cell_volume   919.05513551
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  1.02188799  -0.08798124  0.53245357  1
+  Sn  Sn1  1  1.02188799  0.41201876  0.46754643  1
+  P  P2  1  0.57339897  0.35210741  0.54374122  1
+  P  P3  1  0.57339897  0.85210741  0.45625878  1
+  O  O4  1  0.79817353  0.51157073  0.51661767  1
+  O  O5  1  0.79817353  0.01157073  0.48338233  1
+  O  O6  1  0.30359042  0.23912393  0.51764890  1
+  O  O7  1  0.30359042  0.73912393  0.48235110  1
+  O  O8  1  0.72872485  0.13544439  0.55922116  1
+  O  O9  1  0.72872485  0.63544439  0.44077884  1
+  B  B10  1  0.45060433  0.55467841  0.58141877  1
+  B  B11  1  0.45060433  0.05467841  0.41858123  1
+  H  H12  1  0.26889332  0.44843128  0.60129856  1
+  H  H13  1  0.26889332  0.94843128  0.39870144  1
+  H  H14  1  0.31885238  0.69958616  0.56136746  1
+  H  H15  1  0.31885238  0.19958616  0.43863254  1
+  H  H16  1  0.66804372  0.66106671  0.59569292  1
+  H  H17  1  0.66804372  0.16106671  0.40430708  1

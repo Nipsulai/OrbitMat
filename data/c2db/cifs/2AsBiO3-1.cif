@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_BiAsO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.54268600
+_cell_length_b   5.47805537
+_cell_length_c   34.07255376
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   94.68109322
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BiAsO3
+_chemical_formula_sum   'Bi2 As2 O6'
+_cell_volume   845.07013803
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.00421000  0.00496069  0.56489452  1
+  As  As1  1  0.50421000  0.50496069  0.43510548  1
+  Bi  Bi2  1  0.50267378  0.44200648  0.53841380  1
+  Bi  Bi3  1  0.00267378  0.94200648  0.46158620  1
+  O  O4  1  0.39802968  0.07775190  0.56244680  1
+  O  O5  1  0.89802968  0.57775190  0.43755320  1
+  O  O6  1  0.45408279  0.31426223  0.47940887  1
+  O  O7  1  0.95408279  0.81426223  0.52059113  1
+  O  O8  1  0.94504009  0.30625572  0.54509064  1
+  O  O9  1  0.44504009  0.80625572  0.45490936  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_KGa(BrO3)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.87184959
+_cell_length_b   8.05299018
+_cell_length_c   37.04679588
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   81.90464575
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KGa(BrO3)4
+_chemical_formula_sum   'K1 Ga1 Br4 O12'
+_cell_volume   1438.97177818
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.00000000  -0.00000000  0.50000000  1
+  Ga  Ga1  1  0.00000000  0.50000000  0.50000000  1
+  Br  Br2  1  0.74852538  0.74296890  0.42818013  1
+  Br  Br3  1  0.25147462  0.25703110  0.57181987  1
+  Br  Br4  1  0.53453828  0.31737144  0.44567549  1
+  Br  Br5  1  0.46546172  0.68262856  0.55432451  1
+  O  O6  1  0.78138505  0.69446591  0.47592347  1
+  O  O7  1  0.21861495  0.30553409  0.52407653  1
+  O  O8  1  0.79204171  0.56027666  0.40606102  1
+  O  O9  1  0.20795829  0.43972334  0.59393898  1
+  O  O10  1  1.01460710  0.84812300  0.42021761  1
+  O  O11  1  -0.01460710  0.15187700  0.57978239  1
+  O  O12  1  0.79529168  0.31513386  0.47805312  1
+  O  O13  1  0.20470832  0.68486614  0.52194688  1
+  O  O14  1  0.27351870  0.47565500  0.45784415  1
+  O  O15  1  0.72648130  0.52434500  0.54215585  1
+  O  O16  1  0.43573134  0.12974739  0.45266446  1
+  O  O17  1  0.56426866  0.87025261  0.54733554  1

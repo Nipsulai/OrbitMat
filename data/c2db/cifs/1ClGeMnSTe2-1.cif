@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MnGeTe2SCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.81799372
+_cell_length_b   6.11330255
+_cell_length_c   19.76776921
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00743797
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnGeTe2SCl
+_chemical_formula_sum   'Mn1 Ge1 Te2 S1 Cl1'
+_cell_volume   461.39061602
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.28748660  0.65620658  0.53135647  1
+  Ge  Ge1  1  0.78740866  0.16828276  0.45915858  1
+  Cl  Cl2  1  0.28732531  0.42660961  0.62059452  1
+  Te  Te3  1  0.78752011  0.94726374  0.57448248  1
+  Te  Te4  1  0.28742654  0.04526966  0.37940548  1
+  S  S5  1  0.78743236  0.53927475  0.46468514  1

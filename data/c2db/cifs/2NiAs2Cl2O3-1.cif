@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_NiAs2Cl2O3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.29066833
+_cell_length_b   8.00948534
+_cell_length_c   35.68792633
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   102.54669170
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiAs2Cl2O3
+_chemical_formula_sum   'Ni2 As4 Cl4 O6'
+_cell_volume   1476.18015112
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  -0.04061697  0.01582215  0.54151733  1
+  As  As1  1  1.00492297  0.92367880  0.45848333  1
+  As  As2  1  0.04341589  0.43593905  0.53829575  1
+  As  As3  1  0.92089928  0.50356100  0.46170410  1
+  Cl  Cl4  1  0.40332611  0.23324966  0.44265917  1
+  Cl  Cl5  1  0.56098706  0.70625175  0.55734080  1
+  Cl  Cl6  1  0.63017813  0.15671652  0.57020212  1
+  Cl  Cl7  1  0.33413530  0.78278741  0.42979810  1
+  Ni  Ni8  1  0.49038858  0.16922066  0.50405098  1
+  Ni  Ni9  1  0.47391943  0.77028073  0.49594914  1
+  O  O10  1  0.75491091  1.00112508  0.49843526  1
+  O  O11  1  0.20939330  0.93837324  0.50156551  1
+  O  O12  1  0.15685992  0.23676559  0.52879060  1
+  O  O13  1  0.80744970  0.70273576  0.47120993  1
+  O  O14  1  0.20238201  0.54856175  0.49552292  1
+  O  O15  1  0.76193453  0.39093403  0.50447634  1

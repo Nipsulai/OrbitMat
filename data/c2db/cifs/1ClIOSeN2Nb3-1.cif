@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Nb3SeIN2ClO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.20505304
+_cell_length_b   5.56947694
+_cell_length_c   21.58879795
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00390285
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb3SeIN2ClO
+_chemical_formula_sum   'Nb3 Se1 I1 N2 Cl1 O1'
+_cell_volume   385.37016762
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.96975715  0.10321876  0.51220828  1
+  Nb  Nb1  1  -0.03022779  0.88205563  0.43556143  1
+  Nb  Nb2  1  0.46976758  0.32205907  0.48746587  1
+  Nb  Nb3  1  0.96951990  0.77752078  0.56290226  1
+  Se  Se4  1  -0.03023113  0.32451637  0.39166090  1
+  I  I5  1  0.96920568  0.38818895  0.65268316  1
+  N  N6  1  0.46975527  0.69571990  0.48740245  1
+  Cl  Cl7  1  0.46978747  0.82919794  0.34740770  1
+  O  O8  1  0.46953503  0.86460445  0.60447177  1

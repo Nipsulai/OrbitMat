@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_SrCoSi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.92640577
+_cell_length_b   3.92640577
+_cell_length_c   19.90202884
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99999738
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCoSi
+_chemical_formula_sum   'Sr2 Co2 Si2'
+_cell_volume   306.82285744
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.99577386  0.99577386  0.63256745  1
+  Co  Co1  1  0.49577625  0.99582157  0.49986759  1
+  Co  Co2  1  0.99582157  0.49577625  0.49986759  1
+  Si  Si3  1  0.49586608  0.49586608  0.55830875  1
+  Sr  Sr4  1  0.49582293  0.49582293  0.36716433  1
+  Si  Si5  1  0.99573133  0.99573133  0.44141615  1

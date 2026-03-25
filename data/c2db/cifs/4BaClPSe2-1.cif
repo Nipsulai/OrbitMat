@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_BaPSe2Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.58209674
+_cell_length_b   7.00826423
+_cell_length_c   40.54823305
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99672699
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaPSe2Cl
+_chemical_formula_sum   'Ba4 P4 Se8 Cl4'
+_cell_volume   1870.45240460
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.00332851  0.99347198  0.54905518  1
+  Ba  Ba1  1  0.49286514  0.01593978  0.45094481  1
+  Ba  Ba2  1  0.50331506  0.51595642  0.54905913  1
+  Ba  Ba3  1  0.99287851  0.49345567  0.45094079  1
+  P  P4  1  0.45281968  0.92850582  0.62739435  1
+  P  P5  1  0.04337363  0.08091738  0.37260391  1
+  P  P6  1  0.95282102  0.58114260  0.62741884  1
+  P  P7  1  0.54336375  0.42828018  0.37258233  1
+  Se  Se8  1  0.49723399  -0.01325512  0.57322143  1
+  Se  Se9  1  0.99895787  1.02267176  0.42677863  1
+  Se  Se10  1  -0.00275912  0.52269729  0.57322247  1
+  Se  Se11  1  0.49895123  0.48671674  0.42677824  1
+  Se  Se12  1  0.60503570  0.62636308  0.63836451  1
+  Se  Se13  1  0.89115218  0.38306503  0.36163591  1
+  Se  Se14  1  0.10504794  0.88326932  0.63834809  1
+  Se  Se15  1  0.39113525  0.12616375  0.36165068  1
+  Cl  Cl16  1  0.74848431  0.75777503  0.49749985  1
+  Cl  Cl17  1  0.74771097  0.25163475  0.50250064  1
+  Cl  Cl18  1  0.24853998  0.75164900  0.49749936  1
+  Cl  Cl19  1  0.24765426  0.25776121  0.50250107  1

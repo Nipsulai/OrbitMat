@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Re(H3Au)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.82962716
+_cell_length_b   4.83092124
+_cell_length_c   17.73584758
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.02344990
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Re(H3Au)2
+_chemical_formula_sum   'Re1 H6 Au2'
+_cell_volume   358.28074675
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Re  Re0  1  0.00292450  0.78207974  0.49388183  1
+  Au  Au1  1  0.33613280  0.44871863  0.49010379  1
+  Au  Au2  1  0.66891792  0.11553705  0.52840805  1
+  H  H3  1  0.26262564  0.91083702  0.57424302  1
+  H  H4  1  0.87260169  0.52085969  0.57404511  1
+  H  H5  1  0.87149152  0.91305485  0.57384823  1
+  H  H6  1  0.87179090  0.91465524  0.42259868  1
+  H  H7  1  0.26181693  -0.08809927  0.42160807  1
+  H  H8  1  -0.12750333  0.52207639  0.42184224  1

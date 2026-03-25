@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_SbPtS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.26676831
+_cell_length_b   6.72443936
+_cell_length_c   17.97355483
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   117.77417678
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SbPtS3
+_chemical_formula_sum   'Sb2 Pt2 S6'
+_cell_volume   670.15373099
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.00396650  0.00790503  0.49880022  1
+  Pt  Pt1  1  0.32938764  0.65875925  0.49880088  1
+  Sb  Sb2  1  0.65871785  0.33332193  0.41818702  1
+  Sb  Sb3  1  0.67455857  0.33334184  0.57949068  1
+  S  S4  1  0.27714385  -0.07461779  0.42365573  1
+  S  S5  1  1.06584553  0.33332610  0.42089205  1
+  S  S6  1  0.68508641  0.74126961  0.42365681  1
+  S  S7  1  1.05621748  0.74126142  0.57394093  1
+  S  S8  1  0.26743162  0.33333828  0.57672632  1
+  S  S9  1  0.64829315  -0.07458755  0.57393965  1

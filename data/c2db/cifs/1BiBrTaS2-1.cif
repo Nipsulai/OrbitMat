@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_TaBiS2Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.39024138
+_cell_length_b   3.51713203
+_cell_length_c   21.66807264
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   113.61860588
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaBiS2Br
+_chemical_formula_sum   'Ta1 Bi1 S2 Br1'
+_cell_volume   306.55127580
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.18226649  0.00972780  0.54154085  1
+  Br  Br1  1  0.19762443  1.01710886  0.65388018  1
+  S  S2  1  0.78095010  0.30910341  0.52172854  1
+  S  S3  1  0.80823912  0.32660346  0.34612580  1
+  Bi  Bi4  1  0.22069316  0.03353770  0.39996452  1

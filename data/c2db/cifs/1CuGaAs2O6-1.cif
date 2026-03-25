@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_GaCu(AsO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.20078674
+_cell_length_b   5.20078674
+_cell_length_c   33.37581678
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01572961
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaCu(AsO3)2
+_chemical_formula_sum   'Ga1 Cu1 As2 O6'
+_cell_volume   781.68498022
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.00003340  -0.00003340  0.50000000  1
+  Ga  Ga1  1  0.66671271  0.33328729  0.50000000  1
+  As  As2  1  0.33340860  0.66666812  0.46571835  1
+  As  As3  1  0.33333188  0.66659140  0.53428165  1
+  O  O4  1  0.36323780  1.01835025  0.45973637  1
+  O  O5  1  -0.01835124  0.34477282  0.45973454  1
+  O  O6  1  0.65521571  0.63676857  0.45973758  1
+  O  O7  1  -0.01835025  0.63676220  0.54026363  1
+  O  O8  1  0.36323143  0.34478429  0.54026242  1
+  O  O9  1  0.65522718  1.01835124  0.54026546  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_GaSiNi2(BrN)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.68590188
+_cell_length_b   4.17988048
+_cell_length_c   22.10518133
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   77.66493435
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaSiNi2(BrN)2
+_chemical_formula_sum   'Ga1 Si1 Ni2 Br2 N2'
+_cell_volume   332.70436573
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.37421605  0.20349963  0.42504817  1
+  Ni  Ni1  1  0.76636469  0.65680042  0.42544371  1
+  Ga  Ga2  1  0.15289077  0.41715954  0.57999681  1
+  N  N3  1  0.66781914  -0.02775672  0.48894258  1
+  Si  Si4  1  0.17894623  0.91296460  0.50839651  1
+  Br  Br5  1  0.65321901  0.41094115  0.66071366  1
+  N  N6  1  0.26286516  0.65675129  0.44133333  1
+  Br  Br7  1  0.94171889  0.30803708  0.33929092  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CuGeS2IBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.61708111
+_cell_length_b   4.93010020
+_cell_length_c   20.96558534
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99915596
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuGeS2IBr
+_chemical_formula_sum   'Cu1 Ge1 S2 I1 Br1'
+_cell_volume   373.87031611
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.25001738  0.74899744  0.64240584  1
+  Cu  Cu1  1  0.24816470  0.24892549  0.44210956  1
+  S  S2  1  0.24942685  0.74882320  0.45952195  1
+  S  S3  1  0.74926194  0.24895769  0.51582828  1
+  Ge  Ge4  1  0.75008910  0.74940964  0.53785488  1
+  Br  Br5  1  0.74685481  0.24920458  0.35731142  1

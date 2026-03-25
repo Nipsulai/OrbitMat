@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Cr2O5F2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.99449635
+_cell_length_b   6.03430371
+_cell_length_c   35.21389409
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   104.36645536
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cr2O5F2
+_chemical_formula_sum   'Cr2 O5 F2'
+_cell_volume   616.40638076
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.32998769  0.65997537  0.49999932  1
+  O  O1  1  0.01924898  0.03849797  0.52054052  1
+  O  O2  1  0.64072691  0.28145382  0.47946054  1
+  Cr  Cr3  1  0.47770837  0.95541673  0.48827294  1
+  Cr  Cr4  1  0.18226869  0.36453737  0.51172756  1
+  O  O5  1  0.95031405  0.90062810  0.45055261  1
+  O  O6  1  0.70967197  0.41934395  0.54944697  1
+  F  F7  1  0.62774812  0.25549624  0.57985769  1
+  F  F8  1  0.03224161  0.06448323  0.42014304  1

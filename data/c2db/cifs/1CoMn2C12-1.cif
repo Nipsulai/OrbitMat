@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Mn2CoC12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.52051551
+_cell_length_b   7.52086898
+_cell_length_c   36.25372320
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01209669
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2CoC12
+_chemical_formula_sum   'Mn2 Co1 C12'
+_cell_volume   1775.60324155
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.25091648  0.98698121  0.49999414  1
+  C  C1  1  0.37152169  0.86636914  0.47260646  1
+  C  C2  1  0.13006930  0.10716629  0.52742812  1
+  Mn  Mn3  1  0.91766145  0.32022063  0.56165970  1
+  C  C4  1  1.13062342  0.74561512  0.52734638  1
+  C  C5  1  0.04542785  0.19161632  0.54443699  1
+  C  C6  1  1.04624821  0.57642783  0.54433186  1
+  C  C7  1  0.66151587  0.19252870  0.54431373  1
+  C  C8  1  0.49224401  1.10782853  0.52734804  1
+  Mn  Mn9  1  0.58428783  0.65375022  0.43831805  1
+  C  C10  1  0.37171140  0.22836734  0.47264121  1
+  C  C11  1  0.45608763  0.78174544  0.45563096  1
+  C  C12  1  0.45641284  0.39753782  0.45565517  1
+  C  C13  1  0.84068069  0.78213494  0.45556632  1
+  C  C14  1  0.00976733  -0.13340594  0.47257892  1

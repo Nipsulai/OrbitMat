@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_HfFeSe2I3Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.39651654
+_cell_length_b   6.29511709
+_cell_length_c   19.05595732
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   105.18692413
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfFeSe2I3Br
+_chemical_formula_sum   'Hf1 Fe1 Se2 I3 Br1'
+_cell_volume   740.52506582
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.48210092  0.22129307  0.50504664  1
+  I  I1  1  0.92986144  0.08450382  0.39357771  1
+  Fe  Fe2  1  0.62925866  0.88361785  0.49874777  1
+  Br  Br3  1  0.93643553  0.08249378  0.59339317  1
+  Hf  Hf4  1  0.12728048  0.37924299  0.50273159  1
+  Se  Se5  1  0.77878599  0.54779898  0.50344279  1
+  I  I6  1  0.32575816  0.69150009  0.60642229  1
+  I  I7  1  0.32668147  0.68361357  0.39580192  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TlBiO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.70036466
+_cell_length_b   5.70036466
+_cell_length_c   35.18700000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00389724
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlBiO3
+_chemical_formula_sum   'Tl2 Bi2 O6'
+_cell_volume   990.15023184
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.00002921  -0.00002921  0.50000000  1
+  O  O1  1  0.32883545  0.25926884  0.53614499  1
+  O  O2  1  -0.06949270  0.67115984  0.53614505  1
+  O  O3  1  0.74072947  1.06948963  0.53614493  1
+  O  O4  1  0.74073116  0.67116455  0.46385501  1
+  O  O5  1  -0.06948963  0.25927053  0.46385507  1
+  O  O6  1  0.32884016  1.06949270  0.46385495  1
+  Tl  Tl7  1  0.00001663  -0.00000769  0.59123030  1
+  Tl  Tl8  1  1.00000769  0.99998337  0.40876970  1
+  Bi  Bi9  1  0.66669021  0.33330979  0.50000000  1

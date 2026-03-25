@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HfZrTeBrCl2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.72806303
+_cell_length_b   4.70383926
+_cell_length_c   18.38227931
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99579556
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfZrTeBrCl2
+_chemical_formula_sum   'Hf1 Zr1 Te1 Br1 Cl2'
+_cell_volume   408.82278258
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.74835092  0.74995450  0.40800163  1
+  Cl  Cl1  1  0.24723751  0.25051872  0.58776666  1
+  Zr  Zr2  1  0.24796486  0.74977509  0.50445018  1
+  Hf  Hf3  1  0.74837990  0.24940756  0.50355019  1
+  Br  Br4  1  0.24824814  0.24977601  0.41919735  1
+  Cl  Cl5  1  0.74784792  0.75125302  0.59199837  1

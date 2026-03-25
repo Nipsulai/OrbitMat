@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_BaSnTe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.97619556
+_cell_length_b   4.68728517
+_cell_length_c   18.52454069
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.97200410
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaSnTe2
+_chemical_formula_sum   'Ba1 Sn1 Te2'
+_cell_volume   432.08203840
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.22356060  0.24838490  0.59513166  1
+  Sn  Sn1  1  0.21599526  0.25114576  0.42801527  1
+  Te  Te2  1  0.83974156  0.75200124  0.40486834  1
+  Ba  Ba3  1  0.73061491  0.74826456  0.58074529  1

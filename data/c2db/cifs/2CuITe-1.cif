@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CuTeI
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.20945582
+_cell_length_b   3.85364376
+_cell_length_c   21.28430570
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuTeI
+_chemical_formula_sum   'Cu2 Te2 I2'
+_cell_volume   427.29067175
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.50000000  0.00000000  0.42925203  1
+  Cu  Cu1  1  0.00000000  0.50000000  0.57075078  1
+  Te  Te2  1  0.50000000  0.50000000  0.51905682  1
+  Te  Te3  1  -0.00000000  -0.00000000  0.48095224  1
+  I  I4  1  0.50000000  0.50000000  0.34281085  1
+  I  I5  1  0.00000000  0.00000000  0.65718819  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Hf4Se2S2Br3Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.33478031
+_cell_length_b   6.33462101
+_cell_length_c   20.61837668
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.79983436
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf4Se2S2Br3Cl
+_chemical_formula_sum   'Hf4 Se2 S2 Br3 Cl1'
+_cell_volume   783.24240440
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.88002566  0.37521645  0.46052171  1
+  S  S1  1  0.12914414  0.12662645  0.45087022  1
+  Hf  Hf2  1  0.37742395  0.87717691  0.46057648  1
+  Br  Br3  1  0.62903338  0.12602144  0.36381627  1
+  Hf  Hf4  1  0.88102275  0.87793236  0.53748039  1
+  Br  Br5  1  0.12837598  0.62672950  0.36375318  1
+  S  S6  1  0.62892498  0.62633401  0.45183338  1
+  Hf  Hf7  1  0.37749257  0.37482945  0.53755480  1
+  Se  Se8  1  0.12883682  0.62600896  0.55637280  1
+  Cl  Cl9  1  0.12923307  0.12607046  0.62650670  1
+  Br  Br10  1  0.62918638  0.62613963  0.63624682  1
+  Se  Se11  1  0.62903792  0.12607621  0.55624041  1

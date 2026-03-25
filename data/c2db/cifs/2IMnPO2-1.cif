@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_MnPIO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.33782785
+_cell_length_b   8.07754707
+_cell_length_c   35.19677800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnPIO2
+_chemical_formula_sum   'Mn2 P2 I2 O4'
+_cell_volume   948.95657644
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.00000000  0.17631689  0.45507186  1
+  P  P1  1  -0.00000000  0.67631689  0.54492814  1
+  Mn  Mn2  1  0.50000000  0.53455124  0.47035960  1
+  Mn  Mn3  1  0.50000000  0.03455124  0.52964040  1
+  O  O4  1  0.50000000  0.27848972  0.46604015  1
+  O  O5  1  0.50000000  0.77848972  0.53395985  1
+  O  O6  1  -0.00000000  0.55935177  0.50856737  1
+  I  I7  1  0.00000000  0.65247849  0.41408606  1
+  I  I8  1  0.00000000  0.15247849  0.58591394  1
+  O  O9  1  -0.00000000  0.05935177  0.49143263  1

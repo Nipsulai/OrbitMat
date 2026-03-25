@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaNi(AsS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.21808931
+_cell_length_b   6.21541357
+_cell_length_c   33.22614168
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01535482
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaNi(AsS3)2
+_chemical_formula_sum   'Na1 Ni1 As2 S6'
+_cell_volume   1111.91173483
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.67736019  0.99829574  0.49999877  1
+  S  S1  1  0.65642586  0.71538664  0.54937256  1
+  Na  Na2  1  0.01060495  0.66481424  0.49999979  1
+  S  S3  1  -0.03914685  0.26003909  0.54945177  1
+  As  As4  1  0.34428602  0.33170137  0.53647616  1
+  S  S5  1  0.41624179  1.02015162  0.54947104  1
+  S  S6  1  0.41544693  0.71551386  0.45064512  1
+  S  S7  1  0.65562619  0.26011302  0.45053905  1
+  As  As8  1  0.34387407  0.33175365  0.46352440  1
+  S  S9  1  -0.03962321  0.02021724  0.45052098  1

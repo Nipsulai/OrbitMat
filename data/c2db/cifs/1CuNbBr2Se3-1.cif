@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_NbCuSe3Br2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.32593051
+_cell_length_b   6.10325191
+_cell_length_c   20.58299465
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.18984370
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbCuSe3Br2
+_chemical_formula_sum   'Nb1 Cu1 Se3 Br2'
+_cell_volume   543.38291386
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.14118990  0.30840607  0.42375550  1
+  Se  Se1  1  0.92234721  0.78525158  0.51040132  1
+  Nb  Nb2  1  0.37916336  0.99254017  0.46827990  1
+  Se  Se3  1  0.65129214  0.10007378  0.57417035  1
+  Br  Br4  1  0.33148413  0.42576253  0.63562153  1
+  Br  Br5  1  0.48241303  0.80251694  0.36437847  1
+  Cu  Cu6  1  0.06135564  0.37385582  0.53540381  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CuWI5Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.60992589
+_cell_length_b   6.52337893
+_cell_length_c   18.83260715
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.22251023
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuWI5Br
+_chemical_formula_sum   'Cu1 W1 I5 Br1'
+_cell_volume   845.76308715
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.58151889  0.48317232  0.58048335  1
+  I  I1  1  0.14398676  0.21227438  0.43613358  1
+  I  I2  1  0.85188918  0.57625031  0.39824544  1
+  W  W3  1  0.86165887  0.84622007  0.50625704  1
+  I  I4  1  0.57611658  0.92804729  0.43228512  1
+  I  I5  1  0.14099853  0.76903877  0.57975927  1
+  Br  Br6  1  0.84443456  0.09571441  0.60175456  1
+  Cu  Cu7  1  0.39748112  0.11367346  0.50788424  1

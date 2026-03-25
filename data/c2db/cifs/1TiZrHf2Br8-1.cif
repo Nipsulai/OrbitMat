@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Hf2ZrTiBr8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.27597004
+_cell_length_b   7.27723451
+_cell_length_c   19.08418192
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   123.26860756
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf2ZrTiBr8
+_chemical_formula_sum   'Hf2 Zr1 Ti1 Br8'
+_cell_volume   844.87648570
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.33174345  0.07974735  0.57718395  1
+  Hf  Hf1  1  0.52890029  0.89101104  0.50117070  1
+  Br  Br2  1  0.66207212  0.25415214  0.41619468  1
+  Zr  Zr3  1  1.02739812  0.39008196  0.50126711  1
+  Br  Br4  1  0.67052559  0.75600041  0.39299212  1
+  Ti  Ti5  1  -0.03472760  0.95074437  0.49680900  1
+  Br  Br6  1  0.83784296  0.58933370  0.57799835  1
+  Br  Br7  1  0.33809029  0.58335067  0.60703079  1
+  Br  Br8  1  0.83522875  0.08038108  0.60484695  1
+  Br  Br9  1  0.16490982  0.24571713  0.39397653  1
+  Hf  Hf10  1  0.47429918  0.44686710  0.49615537  1
+  Br  Br11  1  0.16356122  0.75812867  0.41896049  1

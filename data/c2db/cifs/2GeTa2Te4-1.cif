@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ta2GeTe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.53064971
+_cell_length_b   7.95373100
+_cell_length_c   33.77308754
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta2GeTe4
+_chemical_formula_sum   'Ta4 Ge2 Te8'
+_cell_volume   1754.27653338
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  -0.00353985  -0.00378776  0.50000105  1
+  Ta  Ta1  1  0.71137627  0.49621224  0.49999895  1
+  Ta  Ta2  1  0.21137627  0.67878776  0.49999895  1
+  Ta  Ta3  1  0.49646015  0.17878776  0.50000105  1
+  Ge  Ge4  1  0.60391821  0.83750000  0.50000000  1
+  Ge  Ge5  1  0.10391821  0.33750000  0.50000000  1
+  Te  Te6  1  0.89243882  0.72061748  0.55624379  1
+  Te  Te7  1  0.81539760  0.22061749  0.44375621  1
+  Te  Te8  1  0.31539760  0.95438251  0.44375621  1
+  Te  Te9  1  0.39243882  0.45438252  0.55624379  1
+  Te  Te10  1  0.81539741  0.22062251  0.55624597  1
+  Te  Te11  1  0.89243901  0.72062250  0.44375403  1
+  Te  Te12  1  0.39243901  0.45437750  0.44375403  1
+  Te  Te13  1  0.31539741  0.95437749  0.55624597  1

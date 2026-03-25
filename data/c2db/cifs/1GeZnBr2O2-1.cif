@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ZnGe(BrO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.41259849
+_cell_length_b   3.69172381
+_cell_length_c   20.72606145
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00083256
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnGe(BrO)2
+_chemical_formula_sum   'Zn1 Ge1 Br2 O2'
+_cell_volume   261.11461332
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.25200527  0.74291607  0.52884001  1
+  Zn  Zn1  1  0.75015538  0.74318633  0.44538669  1
+  Br  Br2  1  0.75198105  0.24331945  0.63814058  1
+  Ge  Ge3  1  0.25132820  0.24289926  0.54431281  1
+  O  O4  1  0.75145872  0.24293561  0.49179629  1
+  Br  Br5  1  0.25013986  0.74253440  0.36188376  1

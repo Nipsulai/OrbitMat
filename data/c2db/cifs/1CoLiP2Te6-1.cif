@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiCo(Te3P)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.78119339
+_cell_length_b   6.78062432
+_cell_length_c   33.22614168
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00400366
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCo(Te3P)2
+_chemical_formula_sum   'Li1 Co1 Te6 P2'
+_cell_volume   1323.02739036
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.67760243  0.99877338  0.49999992  1
+  Te  Te1  1  0.68004014  0.71593095  0.55128617  1
+  Li  Li2  1  0.00992954  0.66348734  0.49999989  1
+  Te  Te3  1  -0.03940237  0.28295931  0.55145600  1
+  P  P4  1  0.34456470  0.33200543  0.53313395  1
+  Te  Te5  1  0.39335531  0.99692032  0.55137799  1
+  Te  Te6  1  0.39232239  0.71594979  0.44871509  1
+  Te  Te7  1  0.67880931  0.28298850  0.44854680  1
+  P  P8  1  0.34387544  0.33202437  0.46686615  1
+  Te  Te9  1  -0.03999727  -0.00304610  0.44861758  1

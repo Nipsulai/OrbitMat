@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Ta3NiTeI3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.47794912
+_cell_length_b   5.75145208
+_cell_length_c   22.69395313
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99976709
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta3NiTeI3
+_chemical_formula_sum   'Ta3 Ni1 Te1 I3'
+_cell_volume   453.95299301
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.24786548  0.37724203  0.48779571  1
+  Ta  Ta1  1  0.24785372  0.89072409  0.48777242  1
+  Te  Te2  1  0.74769844  0.13391991  0.57274794  1
+  Ta  Ta3  1  0.74746816  0.63392318  0.56961581  1
+  I  I4  1  0.24859879  0.13423676  0.33060401  1
+  Ni  Ni5  1  0.74860123  0.13419107  0.41992736  1
+  I  I6  1  0.74765778  0.63415811  0.40315282  1
+  I  I7  1  0.24746948  0.63379061  0.66957808  1

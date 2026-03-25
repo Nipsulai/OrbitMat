@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Zr2MoSe2IBr2NO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.93861737
+_cell_length_b   5.73713128
+_cell_length_c   19.64357053
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   88.69777981
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr2MoSe2IBr2NO
+_chemical_formula_sum   'Zr2 Mo1 Se2 I1 Br2 N1 O1'
+_cell_volume   669.09592123
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.86788301  0.94890307  0.40937526  1
+  Zr  Zr1  1  0.16695663  0.26874824  0.47945009  1
+  Zr  Zr2  1  0.62019459  0.70005093  0.50485443  1
+  I  I3  1  0.85673287  0.92905616  0.61819568  1
+  Mo  Mo4  1  0.12565883  0.76722922  0.50599799  1
+  Se  Se5  1  0.15581951  0.64883619  0.38180432  1
+  N  N6  1  0.37164315  -0.01921702  0.50833678  1
+  Br  Br7  1  0.54607721  0.36730310  0.39999657  1
+  Br  Br8  1  0.35393365  0.47633395  0.59620053  1
+  O  O9  1  0.90432104  0.47262700  0.51431944  1

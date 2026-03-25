@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_HfGe2W2Se(SI3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.29904054
+_cell_length_b   7.51770160
+_cell_length_c   22.00622702
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   121.90626477
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfGe2W2Se(SI3)2
+_chemical_formula_sum   'Hf1 Ge2 W2 Se1 S2 I6'
+_cell_volume   1025.08550898
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  W  W0  1  0.28148416  0.29474327  0.54258918  1
+  Ge  Ge1  1  0.18475168  0.81757952  0.41285018  1
+  Ge  Ge2  1  0.44091440  0.70995576  0.54483325  1
+  Se  Se3  1  0.77199978  0.82077759  0.47447332  1
+  S  S4  1  0.49932819  0.19582688  0.48690672  1
+  I  I5  1  0.11671685  0.90069007  0.60688946  1
+  S  S6  1  0.17821910  0.45623258  0.47098256  1
+  W  W7  1  0.48118116  0.46662197  0.43372254  1
+  I  I8  1  0.50781445  0.44240371  0.65918737  1
+  I  I9  1  0.45084645  0.74056559  0.34081263  1
+  Hf  Hf10  1  0.72860774  0.51815585  0.54398963  1
+  I  I11  1  0.21476141  0.14540468  0.34539709  1
+  I  I12  1  0.92887025  0.29801688  0.60786879  1
+  I  I13  1  0.81309657  0.49903322  0.35167991  1

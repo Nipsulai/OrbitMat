@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiIn(Te3As)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.29618889
+_cell_length_b   7.29618889
+_cell_length_c   32.96233225
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   113.62909939
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiIn(Te3As)2
+_chemical_formula_sum   'Li1 In1 Te6 As2'
+_cell_volume   1607.61132175
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.31997804  0.02897224  0.44253343  1
+  In  In1  1  0.00213618  -0.00213618  0.50000000  1
+  As  As2  1  0.46672114  0.82897767  0.48591800  1
+  As  As3  1  0.17102233  0.53327886  0.51408200  1
+  Li  Li4  1  0.63884878  0.36115122  0.50000000  1
+  Te  Te5  1  0.69031370  0.69637109  0.44601209  1
+  Te  Te6  1  0.30362891  0.30968630  0.55398791  1
+  Te  Te7  1  0.65199099  1.01561556  0.54987444  1
+  Te  Te8  1  -0.01561556  0.34800901  0.45012556  1
+  Te  Te9  1  0.97102776  0.68002196  0.55746657  1

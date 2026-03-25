@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Pt2SI2F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.37006041
+_cell_length_b   3.38111233
+_cell_length_c   20.32056601
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   105.39773553
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pt2SI2F
+_chemical_formula_sum   'Pt2 S1 I2 F1'
+_cell_volume   421.95262287
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.46829782  0.49922118  0.49933333  1
+  I  I1  1  0.35244017  0.44140018  0.37035421  1
+  F  F2  1  0.24577792  0.88787390  0.51338091  1
+  Pt  Pt3  1  0.94938978  0.23982925  0.41007330  1
+  S  S4  1  0.72471658  0.12749615  0.49200996  1
+  I  I5  1  0.51443792  0.52218507  0.63103338  1

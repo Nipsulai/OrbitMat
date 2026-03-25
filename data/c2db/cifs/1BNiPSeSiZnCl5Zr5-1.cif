@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Zr5ZnSiNiBPSeCl5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.47984144
+_cell_length_b   6.67176807
+_cell_length_c   21.33333382
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   121.60306061
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr5ZnSiNiBPSeCl5
+_chemical_formula_sum   'Zr5 Zn1 Si1 Ni1 B1 P1 Se1 Cl5'
+_cell_volume   785.50717529
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.49613781  0.69513717  0.43606225  1
+  Zr  Zr1  1  0.83856452  0.96895830  0.56750803  1
+  Zn  Zn2  1  0.40649416  0.22409845  0.54242484  1
+  Zr  Zr3  1  0.17077327  0.96372505  0.43272905  1
+  Zr  Zr4  1  0.81998007  0.31305661  0.42542367  1
+  Se  Se5  1  0.16656383  0.66093553  0.35156249  1
+  Zr  Zr6  1  0.21958157  0.71849262  0.56792851  1
+  Cl  Cl7  1  0.52321720  0.72589057  0.64843751  1
+  Cl  Cl8  1  0.17177319  0.99438698  0.64563361  1
+  Si  Si9  1  0.81397419  0.63161249  0.50314799  1
+  Cl  Cl10  1  0.48455736  0.32103182  0.35816867  1
+  Cl  Cl11  1  0.91167989  0.35278749  0.64819864  1
+  B  B12  1  0.52423995  0.00138511  0.49808927  1
+  Cl  Cl13  1  0.84066090  0.98868083  0.35681839  1
+  P  P14  1  0.15859170  0.34370436  0.50146295  1
+  Ni  Ni15  1  0.80302565  0.31692222  0.54677564  1

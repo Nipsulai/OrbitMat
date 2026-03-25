@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_HfVIBrO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.97738348
+_cell_length_b   5.84348887
+_cell_length_c   21.40188446
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   109.87875812
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfVIBrO3
+_chemical_formula_sum   'Hf1 V1 I1 Br1 O3'
+_cell_volume   467.77919915
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.88203533  1.32022603  0.64956357  1
+  Hf  Hf1  1  0.85488045  0.26912262  0.52337699  1
+  Br  Br2  1  0.53789592  0.63557721  0.35043643  1
+  O  O3  1  0.00651559  0.57280250  0.46876821  1
+  O  O4  1  0.38844682  0.33623091  0.50690625  1
+  V  V5  1  0.53920098  0.63832787  0.45924309  1
+  O  O6  1  0.68254517  -0.07428247  0.49213419  1

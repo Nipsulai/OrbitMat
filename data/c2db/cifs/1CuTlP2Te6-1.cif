@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TlCu(Te3P)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.07997983
+_cell_length_b   7.08015134
+_cell_length_c   33.52445200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99924832
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlCu(Te3P)2
+_chemical_formula_sum   'Tl1 Cu1 Te6 P2'
+_cell_volume   1455.35911427
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  -0.02918191  0.05934372  0.44341475  1
+  Te  Te1  1  0.30635125  0.60066128  0.44341533  1
+  Te  Te2  1  0.76502875  0.39487135  0.44341641  1
+  Te  Te3  1  0.76502536  0.05934351  0.55658527  1
+  Te  Te4  1  0.30634229  0.39487126  0.55658358  1
+  Te  Te5  1  -0.02919012  0.60066123  0.55658466  1
+  Cu  Cu6  1  0.01406830  0.35163731  0.50000000  1
+  Tl  Tl7  1  0.34739382  0.01828779  0.50000000  1
+  P  P8  1  0.68073280  0.68496111  0.46588085  1
+  P  P9  1  0.68072801  0.68496098  0.53411915  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_HgAuSBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.45338991
+_cell_length_b   7.14053804
+_cell_length_c   39.52370426
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HgAuSBr
+_chemical_formula_sum   'Hg2 Au2 S2 Br2'
+_cell_volume   1256.83798770
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.50000000  1.10304838  0.52469743  1
+  Hg  Hg1  1  0.50000000  0.60304838  0.47530257  1
+  S  S2  1  0.50000000  0.24633588  0.46526725  1
+  S  S3  1  0.50000000  0.74633588  0.53473275  1
+  Au  Au4  1  -0.00000000  0.17132140  0.45369922  1
+  Au  Au5  1  -0.00000000  0.67132140  0.54630078  1
+  Br  Br6  1  0.00000000  0.23584007  0.56025160  1
+  Br  Br7  1  0.00000000  -0.26415993  0.43974840  1

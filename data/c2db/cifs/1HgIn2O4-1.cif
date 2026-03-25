@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_In2HgO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.51423107
+_cell_length_b   3.51422871
+_cell_length_c   39.30476960
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99997781
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In2HgO4
+_chemical_formula_sum   'In2 Hg1 O4'
+_cell_volume   420.37445774
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  -0.00000138  -0.00000069  0.50000664  1
+  In  In1  1  0.66666522  0.33333261  0.41638975  1
+  In  In2  1  0.33333702  0.66666851  0.58360008  1
+  O  O3  1  0.66666559  0.33333280  0.46810673  1
+  O  O4  1  0.33333147  0.66666573  0.53187135  1
+  O  O5  1  0.33333144  0.66666572  0.39959135  1
+  O  O6  1  0.66667058  0.33333529  0.60043102  1

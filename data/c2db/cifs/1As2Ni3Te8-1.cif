@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Ni3(Te4As)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.64293601
+_cell_length_b   7.64293601
+_cell_length_c   38.39724000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99234623
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni3(Te4As)2
+_chemical_formula_sum   'Ni3 Te8 As2'
+_cell_volume   1942.60533443
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.32599968  0.17400020  0.49999997  1
+  Ni  Ni1  1  0.82599980  0.67400032  0.49999997  1
+  Ni  Ni2  1  0.32599974  0.67400026  0.49999997  1
+  Te  Te3  1  0.65164996  0.34835004  0.53347819  1
+  Te  Te4  1  0.65163341  0.82532086  0.53348475  1
+  Te  Te5  1  0.17467914  0.34836659  0.53348475  1
+  As  As6  1  0.49269094  0.50730906  0.57821643  1
+  Te  Te7  1  0.49268380  0.50731620  0.64096511  1
+  Te  Te8  1  0.00034950  -0.00034950  0.46652174  1
+  Te  Te9  1  0.00036593  0.52267964  0.46651521  1
+  Te  Te10  1  0.47732036  -0.00036593  0.46651521  1
+  As  As11  1  0.15930849  0.84069151  0.42178352  1
+  Te  Te12  1  0.15931617  0.84068383  0.35903485  1

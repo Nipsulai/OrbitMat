@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_MnBiO2F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.49727801
+_cell_length_b   8.19457320
+_cell_length_c   35.19677800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnBiO2F
+_chemical_formula_sum   'Mn2 Bi2 O4 F2'
+_cell_volume   1008.69392348
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  -0.00000000  0.28483479  0.43915049  1
+  Bi  Bi1  1  -0.00000000  0.78483479  0.56084951  1
+  Mn  Mn2  1  0.50000000  0.53914946  0.50415243  1
+  Mn  Mn3  1  0.50000000  0.03914946  0.49584757  1
+  O  O4  1  0.50000000  0.30841109  0.47620158  1
+  O  O5  1  0.50000000  0.80841109  0.52379842  1
+  O  O6  1  -0.00000000  0.55165592  0.53694412  1
+  F  F7  1  -0.00000000  0.55374721  0.45888229  1
+  F  F8  1  -0.00000000  0.05374721  0.54111771  1
+  O  O9  1  -0.00000000  0.05165592  0.46305588  1

@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_FeAsO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.55883042
+_cell_length_b   5.54675566
+_cell_length_c   30.85500000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99559061
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeAsO3
+_chemical_formula_sum   'Fe1 As1 O3'
+_cell_volume   823.94445981
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.30432195  0.95850732  0.47557499  1
+  O  O1  1  0.35512663  0.69972332  0.50266948  1
+  Fe  Fe2  1  0.63805106  0.62526797  0.50916309  1
+  O  O3  1  0.56184489  0.26625746  0.50315875  1
+  O  O4  1  -0.00348710  -0.09288349  0.50312482  1

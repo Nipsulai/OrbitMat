@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_InCu(PO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.19400298
+_cell_length_b   5.19400298
+_cell_length_c   33.37581678
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99902675
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InCu(PO3)2
+_chemical_formula_sum   'In1 Cu1 P2 O6'
+_cell_volume   779.77836519
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.00000764  -0.00000764  0.50000000  1
+  In  In1  1  0.66670131  0.33329869  0.50000000  1
+  P  P2  1  0.33339587  0.66664914  0.46842654  1
+  P  P3  1  0.33335086  0.66660413  0.53157346  1
+  O  O4  1  0.36000673  0.97316195  0.45777111  1
+  O  O5  1  0.02686594  0.38673459  0.45776748  1
+  O  O6  1  0.61330918  0.64004171  0.45777424  1
+  O  O7  1  0.02683805  0.63999327  0.54222889  1
+  O  O8  1  0.35995829  0.38669082  0.54222576  1
+  O  O9  1  0.61326541  0.97313406  0.54223252  1

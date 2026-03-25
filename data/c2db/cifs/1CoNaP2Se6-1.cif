@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaCo(PSe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.36246044
+_cell_length_b   6.36309914
+_cell_length_c   33.22614168
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99698518
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCo(PSe3)2
+_chemical_formula_sum   'Na1 Co1 P2 Se6'
+_cell_volume   1164.97745747
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.67746248  0.99850058  0.50000009  1
+  Se  Se1  1  0.65299015  0.70325720  0.54984344  1
+  Na  Na2  1  0.01074417  0.66506802  0.50000004  1
+  Se  Se3  1  -0.02740018  0.26906975  0.54985284  1
+  P  P4  1  0.34412195  0.33181942  0.53300649  1
+  Se  Se5  1  0.40675011  1.02306416  0.54985517  1
+  Se  Se6  1  0.40668622  0.70325441  0.45015617  1
+  Se  Se7  1  0.65289469  0.26907392  0.45014794  1
+  P  P8  1  0.34411922  0.33182076  0.46699337  1
+  Se  Se9  1  -0.02726753  0.02306821  0.45014440  1

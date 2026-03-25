@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_NaBeP
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.72277678
+_cell_length_b   3.72272257
+_cell_length_c   19.74920796
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaBeP
+_chemical_formula_sum   'Na2 Be2 P2'
+_cell_volume   273.70160968
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.47292036  0.39107794  0.56461145  1
+  P  P1  1  0.97292036  0.89139735  0.43538855  1
+  Be  Be2  1  0.47297836  0.89116885  0.50002184  1
+  Be  Be3  1  0.97297836  0.39130644  0.49997816  1
+  Na  Na4  1  0.97277156  0.89084654  0.62017584  1
+  Na  Na5  1  0.47277156  0.39163875  0.37982416  1

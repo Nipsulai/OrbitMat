@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_NbPdSe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.22194585
+_cell_length_b   8.36191111
+_cell_length_c   34.64024860
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbPdSe2
+_chemical_formula_sum   'Nb4 Pd4 Se8'
+_cell_volume   1802.24062020
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  -0.00000000  -0.00000000  0.43719172  1
+  Se  Se1  1  -0.00000000  0.50000000  0.43719172  1
+  Se  Se2  1  1.03313105  0.75000000  0.54193091  1
+  Se  Se3  1  -0.03313105  0.25000000  0.54193091  1
+  Se  Se4  1  0.50000000  0.00000000  0.56253168  1
+  Se  Se5  1  0.50000000  0.50000000  0.56253168  1
+  Se  Se6  1  0.46693907  0.75000000  0.45779360  1
+  Se  Se7  1  0.53306093  0.25000000  0.45779360  1
+  Nb  Nb8  1  0.74997855  0.05029342  0.49986028  1
+  Nb  Nb9  1  0.25002145  0.94970658  0.49986028  1
+  Nb  Nb10  1  0.74997855  0.44970658  0.49986028  1
+  Nb  Nb11  1  0.25002145  0.55029342  0.49986028  1
+  Pd  Pd12  1  0.88958697  0.75000000  0.47182350  1
+  Pd  Pd13  1  0.11041303  0.25000000  0.47182350  1
+  Pd  Pd14  1  0.61046845  0.75000000  0.52790588  1
+  Pd  Pd15  1  0.38953155  0.25000000  0.52790588  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CoRe2RhS8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.85884174
+_cell_length_b   6.54509971
+_cell_length_c   18.27373763
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   91.18880900
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CoRe2RhS8
+_chemical_formula_sum   'Co1 Re2 Rh1 S8'
+_cell_volume   700.58676647
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.56188085  0.85229332  0.49675624  1
+  S  S1  1  0.24077140  0.88625396  0.56510972  1
+  S  S2  1  0.71122033  0.12248288  0.56097286  1
+  Re  Re3  1  0.50810059  0.40248355  0.49786485  1
+  S  S4  1  0.86688952  0.39302384  0.42359314  1
+  S  S5  1  0.74330147  0.62230088  0.56843547  1
+  Re  Re6  1  0.10470548  0.59731975  0.49828680  1
+  S  S7  1  0.39054594  0.63166126  0.41042507  1
+  S  S8  1  0.22897330  0.38172119  0.58957493  1
+  Rh  Rh9  1  0.06956246  0.15469603  0.49786918  1
+  S  S10  1  0.90108724  0.87334430  0.43412721  1
+  S  S11  1  0.41225180  0.10980029  0.42823723  1

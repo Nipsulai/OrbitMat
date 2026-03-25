@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ZnPd3Br3ClO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.30487483
+_cell_length_b   5.30337216
+_cell_length_c   20.55733094
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   98.96206886
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnPd3Br3ClO4
+_chemical_formula_sum   'Zn1 Pd3 Br3 Cl1 O4'
+_cell_volume   571.29357591
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.12569546  0.38142724  0.54356462  1
+  Pd  Pd1  1  0.11861853  0.87569748  0.45473385  1
+  O  O2  1  0.34341206  0.09997934  0.52241038  1
+  Cl  Cl3  1  0.35511126  0.11402306  0.37293338  1
+  Zn  Zn4  1  0.61987085  0.36723294  0.44769082  1
+  O  O5  1  0.37970220  0.61609737  0.47955798  1
+  Br  Br6  1  0.85606961  0.13976713  0.62894345  1
+  Pd  Pd7  1  0.61509634  0.87005613  0.54358584  1
+  O  O8  1  0.86393704  0.12892511  0.48059626  1
+  O  O9  1  0.89567814  0.65120674  0.52116068  1
+  Br  Br10  1  0.38392209  0.61382222  0.63514447  1
+  Br  Br11  1  0.87757114  0.63550312  0.36482083  1

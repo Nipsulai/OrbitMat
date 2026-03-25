@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_InGaP2(SeS2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.54396062
+_cell_length_b   6.54269090
+_cell_length_c   18.62495076
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.43080278
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InGaP2(SeS2)2
+_chemical_formula_sum   'In1 Ga1 P2 Se2 S4'
+_cell_volume   694.52090460
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.49525733  0.85081400  0.56096504  1
+  S  S1  1  0.46209838  0.13265799  0.40849262  1
+  S  S2  1  0.81017323  0.12199875  0.59346426  1
+  S  S3  1  0.21933708  0.53313980  0.40646995  1
+  P  P4  1  0.49158095  0.84722345  0.43908226  1
+  Ga  Ga5  1  0.83419428  0.50829361  0.50055498  1
+  Se  Se6  1  0.83453782  0.88769010  0.40268563  1
+  S  S7  1  0.21090735  0.88205175  0.59154647  1
+  In  In8  1  0.16310307  0.17945470  0.49968254  1
+  Se  Se9  1  0.45295143  0.50693730  0.59731437  1

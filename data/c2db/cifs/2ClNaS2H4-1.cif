@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_NaH4S2Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.05697686
+_cell_length_b   7.25459169
+_cell_length_c   34.16182666
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   118.61750487
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaH4S2Cl
+_chemical_formula_sum   'Na2 H8 S4 Cl2'
+_cell_volume   1535.27606136
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.02360892  0.00908267  0.46067954  1
+  Cl  Cl1  1  0.47502455  0.01026557  0.53938269  1
+  Na  Na2  1  0.38688656  0.28048653  0.49854072  1
+  Na  Na3  1  0.11106516  0.73884455  0.50138345  1
+  S  S4  1  0.80530534  0.37145413  0.45277905  1
+  S  S5  1  0.69341759  0.64809536  0.54722202  1
+  S  S6  1  0.05439514  0.36260143  0.54741621  1
+  S  S7  1  0.44413519  0.65676888  0.45258528  1
+  H  H8  1  0.83636468  0.22348429  0.54704392  1
+  H  H9  1  0.66210471  0.79598543  0.45294187  1
+  H  H10  1  0.05547337  0.41737568  0.58526467  1
+  H  H11  1  0.44307130  0.60204850  0.41473502  1
+  H  H12  1  0.86378215  0.43349011  0.41538354  1
+  H  H13  1  0.63471923  0.58617923  0.58460938  1
+  H  H14  1  0.88262841  0.22924737  0.45259149  1
+  H  H15  1  0.61573530  0.78999749  0.54744433  1

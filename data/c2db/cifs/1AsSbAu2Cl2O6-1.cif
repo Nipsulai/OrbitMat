@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SbAsAu2(ClO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.92668952
+_cell_length_b   6.41436942
+_cell_length_c   19.06120201
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   104.51530312
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SbAsAu2(ClO3)2
+_chemical_formula_sum   'Sb1 As1 Au2 Cl2 O6'
+_cell_volume   819.86349637
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.31698964  0.85532450  0.44727153  1
+  O  O1  1  0.29079334  0.44075081  0.52162856  1
+  As  As2  1  0.25731210  0.11640882  0.45988289  1
+  Au  Au3  1  0.15376062  0.69369252  0.52632655  1
+  O  O4  1  0.74391016  0.69011592  0.45728806  1
+  Au  Au5  1  0.69782440  0.98223877  0.48865315  1
+  Sb  Sb6  1  0.58474666  0.52823932  0.53226519  1
+  Cl  Cl7  1  0.90227836  0.49961409  0.60639957  1
+  O  O8  1  0.09603097  -0.00788703  0.53052448  1
+  O  O9  1  0.58497970  0.80443559  0.57647680  1
+  Cl  Cl10  1  0.85360891  0.17761806  0.39353193  1
+  O  O11  1  0.54162101  0.21781797  0.51008793  1

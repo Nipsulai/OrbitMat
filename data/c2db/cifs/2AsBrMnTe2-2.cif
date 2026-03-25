@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_MnTe2AsBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.86033359
+_cell_length_b   12.42920182
+_cell_length_c   35.19677800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnTe2AsBr
+_chemical_formula_sum   'Mn2 Te4 As2 Br2'
+_cell_volume   1688.77186303
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.00000000  0.25910501  0.44744902  1
+  As  As1  1  -0.00000000  0.75910501  0.55255098  1
+  Mn  Mn2  1  0.50000000  0.53617035  0.49055943  1
+  Mn  Mn3  1  0.50000000  0.03617035  0.50944057  1
+  Te  Te4  1  0.50000000  0.30257116  0.49835251  1
+  Te  Te5  1  0.50000000  0.80257116  0.50164749  1
+  Te  Te6  1  -0.00000000  0.54885773  0.54941748  1
+  Br  Br7  1  0.00000000  0.55429175  0.44133186  1
+  Br  Br8  1  0.00000000  0.05429175  0.55866814  1
+  Te  Te9  1  -0.00000000  0.04885773  0.45058252  1

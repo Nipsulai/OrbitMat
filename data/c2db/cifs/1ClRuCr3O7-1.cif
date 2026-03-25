@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cr3RuClO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.11601154
+_cell_length_b   5.83830892
+_cell_length_c   20.22312064
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   106.65671558
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cr3RuClO7
+_chemical_formula_sum   'Cr3 Ru1 Cl1 O7'
+_cell_volume   578.69547649
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ru  Ru0  1  0.85684852  0.86007008  0.54991157  1
+  Cr  Cr1  1  0.33961352  0.22458079  0.47092696  1
+  Cr  Cr2  1  0.88862639  0.36504447  0.52958272  1
+  O  O3  1  0.61449146  0.54473407  0.50868393  1
+  Cr  Cr4  1  0.34254495  0.73327673  0.48615422  1
+  O  O5  1  0.11996582  0.18151423  0.55785132  1
+  O  O6  1  0.11509576  0.43080932  0.45480103  1
+  O  O7  1  0.10480984  0.91251531  0.46116318  1
+  Cl  Cl8  1  0.51839148  0.26077256  0.37086372  1
+  O  O9  1  0.74471610  0.82684724  0.62913519  1
+  O  O10  1  0.61392541  0.05181033  0.50962702  1
+  O  O11  1  0.12155398  0.66525772  0.56246876  1

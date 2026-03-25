@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NaCd2Br3O4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.81519083
+_cell_length_b   7.39020342
+_cell_length_c   42.96172426
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCd2Br3O4
+_chemical_formula_sum   'Na2 Cd4 Br6 O8'
+_cell_volume   1528.80325609
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.50000000  0.75961802  0.57798302  1
+  Cd  Cd1  1  0.00000000  0.25961802  0.42201698  1
+  Cd  Cd2  1  0.00000000  0.28445297  0.57489515  1
+  Cd  Cd3  1  0.50000000  0.78445297  0.42510485  1
+  Na  Na4  1  0.00000000  0.94097986  0.50588330  1
+  Na  Na5  1  0.50000000  0.44097986  0.49411670  1
+  O  O6  1  0.50000000  1.11897698  0.54496852  1
+  O  O7  1  0.00000000  0.61897698  0.45503148  1
+  O  O8  1  0.26427084  0.19995775  0.53194793  1
+  O  O9  1  0.73572916  0.19995775  0.53194793  1
+  O  O10  1  0.23572916  0.69995775  0.46805207  1
+  O  O11  1  0.76427084  0.69995775  0.46805207  1
+  O  O12  1  0.50000000  0.91658167  0.53506916  1
+  O  O13  1  0.00000000  0.41658167  0.46493084  1
+  Br  Br14  1  0.50000000  0.44611411  0.60835287  1
+  Br  Br15  1  0.50000000  0.47013983  0.39383093  1
+  Br  Br16  1  0.00000000  0.60837039  0.54589498  1
+  Br  Br17  1  0.50000000  0.10837039  0.45410502  1
+  Br  Br18  1  0.00000000  -0.05388589  0.39164713  1
+  Br  Br19  1  -0.00000000  -0.02986017  0.60616907  1

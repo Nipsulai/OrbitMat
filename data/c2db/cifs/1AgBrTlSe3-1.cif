@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_TlAgSe3Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.34351481
+_cell_length_b   7.03736927
+_cell_length_c   18.14609294
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   132.62835990
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlAgSe3Br
+_chemical_formula_sum   'Tl1 Ag1 Se3 Br1'
+_cell_volume   689.97725882
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.10893519  0.46686692  0.48777885  1
+  Se  Se1  1  0.37651206  0.12828880  0.55223705  1
+  Tl  Tl2  1  0.85958996  -0.03953371  0.56585971  1
+  Ag  Ag3  1  0.76201711  0.45643201  0.46782621  1
+  Br  Br4  1  0.71292342  0.75437812  0.41335603  1
+  Se  Se5  1  0.30494250  0.76533538  0.58685039  1

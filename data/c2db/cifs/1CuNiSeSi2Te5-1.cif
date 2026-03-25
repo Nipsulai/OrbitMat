@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CuSi2NiTe5Se
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.42868710
+_cell_length_b   5.82450553
+_cell_length_c   19.79289312
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   106.32289522
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuSi2NiTe5Se
+_chemical_formula_sum   'Cu1 Si2 Ni1 Te5 Se1'
+_cell_volume   711.25115448
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.69106713  0.42452698  0.62107611  1
+  Cu  Cu1  1  0.71861574  0.80041947  0.54143169  1
+  Si  Si2  1  0.56875955  0.12057059  0.51953035  1
+  Se  Se3  1  1.02407481  0.14308959  0.57758538  1
+  Si  Si4  1  0.18989980  0.93981141  0.50321656  1
+  Te  Te5  1  0.36719409  0.70267694  0.61843308  1
+  Te  Te6  1  0.22896992  0.50643262  0.41365783  1
+  Te  Te7  1  0.71086029  0.50386786  0.44010988  1
+  Te  Te8  1  0.10710622  0.02218892  0.37892389  1
+  Ni  Ni9  1  0.07041751  0.54283128  0.53017618  1

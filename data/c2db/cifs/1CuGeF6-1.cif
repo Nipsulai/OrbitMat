@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CuGeF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.87767547
+_cell_length_b   4.87900430
+_cell_length_c   33.53662103
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   102.51684436
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuGeF6
+_chemical_formula_sum   'Cu1 Ge1 F6'
+_cell_volume   779.14196023
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.41907375  0.53480872  0.46554638  1
+  F  F1  1  -0.01411093  0.10293810  0.45955036  1
+  F  F2  1  0.42088256  0.05167526  0.49999562  1
+  Cu  Cu3  1  0.67849867  0.79511167  0.49998446  1
+  F  F4  1  -0.06184080  0.05516419  0.53441739  1
+  F  F5  1  0.37149664  0.48706490  0.54042163  1
+  F  F6  1  0.93631993  0.53852311  0.50008476  1
+  Ge  Ge7  1  0.17857481  0.29506621  0.49999196  1

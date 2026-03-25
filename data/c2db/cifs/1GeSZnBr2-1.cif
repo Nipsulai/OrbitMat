@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_ZnGeSBr2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.92879023
+_cell_length_b   3.90704542
+_cell_length_c   21.05411400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   75.93148262
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnGeSBr2
+_chemical_formula_sum   'Zn1 Ge1 S1 Br2'
+_cell_volume   313.48630280
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.71344985  0.86796769  0.43294622  1
+  Br  Br1  1  0.67593822  0.18899441  0.64377508  1
+  S  S2  1  0.21136973  0.67315069  0.50771775  1
+  Zn  Zn3  1  0.17471689  0.17782307  0.57208330  1
+  Br  Br4  1  0.96496482  0.36579877  0.35622492  1

@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Zr2TeSI
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.87455917
+_cell_length_b   3.87513487
+_cell_length_c   21.49803116
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01038676
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr2TeSI
+_chemical_formula_sum   'Zr2 Te1 S1 I1'
+_cell_volume   279.50718463
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.17486809  0.16855299  0.65134055  1
+  Zr  Zr1  1  0.50808312  0.83533095  0.56449518  1
+  S  S2  1  0.84136212  0.50215098  0.50177693  1
+  I  I3  1  0.50694585  0.83486304  0.34869556  1
+  Zr  Zr4  1  0.17432137  0.16863852  0.44454970  1

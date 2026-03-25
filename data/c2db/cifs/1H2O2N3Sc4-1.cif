@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Sc4H2N3O2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.20670303
+_cell_length_b   3.20670303
+_cell_length_c   26.97548028
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc4H2N3O2
+_chemical_formula_sum   'Sc4 H2 N3 O2'
+_cell_volume   240.22450193
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.33333333  0.66666667  0.45335828  1
+  Sc  Sc1  1  0.66666667  0.33333333  0.54650196  1
+  Sc  Sc2  1  0.00000000  0.00000000  0.35895886  1
+  Sc  Sc3  1  0.00000000  0.00000000  0.64093167  1
+  N  N4  1  0.00000000  0.00000000  0.49992789  1
+  N  N5  1  0.66666667  0.33333333  0.40119695  1
+  N  N6  1  0.33333333  0.66666667  0.59868677  1
+  O  O7  1  0.66666667  0.33333333  0.68700900  1
+  O  O8  1  0.33333333  0.66666667  0.31291282  1
+  H  H9  1  0.66666667  0.33333333  0.72301347  1
+  H  H10  1  0.33333333  0.66666667  0.27690931  1

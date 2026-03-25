@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_In2Au2S4I3Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.79313601
+_cell_length_b   6.79321411
+_cell_length_c   21.35199913
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   109.00027246
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In2Au2S4I3Br
+_chemical_formula_sum   'In2 Au2 S4 I3 Br1'
+_cell_volume   931.65154793
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.62070300  0.37862547  0.54581930  1
+  I  I1  1  0.89509813  0.61060750  0.64863225  1
+  I  I2  1  0.37431146  0.63431090  0.35125517  1
+  Au  Au3  1  0.12060552  0.37947780  0.47955111  1
+  Br  Br4  1  0.83824435  0.09691946  0.35436590  1
+  In  In5  1  0.12071025  0.87929341  0.54588549  1
+  S  S6  1  0.90542535  0.59304242  0.47054257  1
+  S  S7  1  0.83253092  0.09129652  0.51864689  1
+  I  I8  1  0.35283712  0.15272474  0.64874483  1
+  S  S9  1  0.41271537  0.67155413  0.51989162  1
+  Au  Au10  1  0.61797912  0.87678551  0.43745690  1
+  S  S11  1  0.33416490  0.16433064  0.47049898  1

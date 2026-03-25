@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_TlCdInO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.52281904
+_cell_length_b   3.52281822
+_cell_length_c   39.30476960
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999224
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlCdInO4
+_chemical_formula_sum   'Tl1 Cd1 In1 O4'
+_cell_volume   422.43168896
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  -0.00000118  -0.00000059  0.50097178  1
+  Tl  Tl1  1  0.66666441  0.33333220  0.41795914  1
+  In  In2  1  0.33333727  0.66666863  0.58228169  1
+  O  O3  1  0.66666369  0.33333184  0.47194153  1
+  O  O4  1  0.33333449  0.66666724  0.53081206  1
+  O  O5  1  0.33333076  0.66666538  0.39687209  1
+  O  O6  1  0.66667063  0.33333531  0.59916717  1

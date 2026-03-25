@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_MnNbI2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.31853593
+_cell_length_b   4.07922139
+_cell_length_c   20.16669168
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   130.81095567
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnNbI2O
+_chemical_formula_sum   'Mn1 Nb1 I2 O1'
+_cell_volume   268.88700973
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.69862943  0.43854634  0.49938732  1
+  I  I1  1  0.15587584  0.37511951  0.62809963  1
+  Mn  Mn2  1  0.15005503  0.04091024  0.45351545  1
+  Nb  Nb3  1  0.65354130  0.92403949  0.51662189  1
+  I  I4  1  0.51003667  0.72632587  0.37190037  1

@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_TlZnPdAu2S7Br3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.81771388
+_cell_length_b   8.98519065
+_cell_length_c   20.52312587
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   110.67499257
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlZnPdAu2S7Br3
+_chemical_formula_sum   'Tl1 Zn1 Pd1 Au2 S7 Br3'
+_cell_volume   1176.24817780
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.50455452  0.87371406  0.56932680  1
+  S  S1  1  0.81383215  0.74327773  0.47391360  1
+  Br  Br2  1  0.26030165  0.47430731  0.63025016  1
+  Tl  Tl3  1  0.84851472  0.41841381  0.44598043  1
+  Au  Au4  1  0.55261587  0.61986406  0.55386301  1
+  Au  Au5  1  0.28142429  0.24680062  0.47387064  1
+  S  S6  1  0.23632323  0.63364168  0.44482409  1
+  S  S7  1  0.94902244  0.16671813  0.41936370  1
+  S  S8  1  0.25681163  0.84709242  0.40912708  1
+  S  S9  1  0.58515343  0.36251307  0.54215629  1
+  S  S10  1  0.12526155  0.06455818  0.56092372  1
+  Zn  Zn11  1  0.79030191  -0.00427952  0.50405647  1
+  Br  Br12  1  1.01697265  0.77482452  0.63455859  1
+  Br  Br13  1  0.49457270  0.36987054  0.36544141  1
+  Pd  Pd14  1  0.16014949  0.82516051  0.51970655  1

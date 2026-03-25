@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Mn2MoSeCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.30310119
+_cell_length_b   7.20757083
+_cell_length_c   18.10541995
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   91.16937992
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2MoSeCl6
+_chemical_formula_sum   'Mn2 Mo1 Se1 Cl6'
+_cell_volume   822.35879663
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  1  0.42974473  0.36065174  0.49840114  1
+  Cl  Cl1  1  0.52910829  0.09694414  0.41565099  1
+  Mn  Mn2  1  0.45124196  0.92124762  0.52138658  1
+  Mn  Mn3  1  0.91480083  0.57492840  0.50049444  1
+  Cl  Cl4  1  0.10408874  0.38379244  0.42234849  1
+  Cl  Cl5  1  0.62664881  0.57698701  0.41424060  1
+  Se  Se6  1  0.25440710  0.63651415  0.56382780  1
+  Cl  Cl7  1  0.25936627  0.14755509  0.58575940  1
+  Cl  Cl8  1  0.79596760  0.84115298  0.56193779  1
+  Cl  Cl9  1  0.73628788  0.35275616  0.57917320  1

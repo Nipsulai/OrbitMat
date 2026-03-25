@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CaHNO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.82095335
+_cell_length_b   3.54017112
+_cell_length_c   39.29205120
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaHNO3
+_chemical_formula_sum   'Ca2 H2 N2 O6'
+_cell_volume   670.59743026
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.00000000  0.00000000  0.46883134  1
+  Ca  Ca1  1  0.50000000  0.50000000  0.53116866  1
+  N  N2  1  0.50000000  0.50000000  0.42330279  1
+  N  N3  1  -0.00000000  -0.00000000  0.57669721  1
+  O  O4  1  0.50000000  0.50000000  0.39249674  1
+  O  O5  1  0.00000000  -0.00000000  0.60750326  1
+  O  O6  1  0.77233916  0.00000000  0.55939640  1
+  O  O7  1  0.72766084  0.50000000  0.44060360  1
+  O  O8  1  0.22766084  -0.00000000  0.55939640  1
+  O  O9  1  0.27233916  0.50000000  0.44060360  1
+  H  H10  1  0.50000000  -0.00000000  0.49501373  1
+  H  H11  1  -0.00000000  0.50000000  0.50498627  1

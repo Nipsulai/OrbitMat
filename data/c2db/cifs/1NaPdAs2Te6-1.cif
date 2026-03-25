@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaTe6As2Pd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.13816815
+_cell_length_b   7.12611563
+_cell_length_c   33.22614168
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.05050837
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaTe6As2Pd
+_chemical_formula_sum   'Na1 Te6 As2 Pd1'
+_cell_volume   1462.94810852
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.67799313  0.99945812  0.49999545  1
+  Te  Te1  1  0.66584869  0.72428325  0.55791441  1
+  Na  Na2  1  0.01116716  0.66588913  0.50000022  1
+  Te  Te3  1  -0.04678042  0.26228921  0.55791818  1
+  As  As4  1  0.34412450  0.33104730  0.53802078  1
+  Te  Te5  1  0.41461204  1.00860239  0.55788014  1
+  Te  Te6  1  0.41488264  0.72443102  0.44208811  1
+  Te  Te7  1  0.66541675  0.26224830  0.44207881  1
+  As  As8  1  0.34331933  0.33109210  0.46197882  1
+  Te  Te9  1  -0.04949282  0.00865174  0.44212484  1

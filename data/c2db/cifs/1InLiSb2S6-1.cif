@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiIn(SbS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.93264076
+_cell_length_b   6.93264076
+_cell_length_c   32.96233225
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   111.33247122
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiIn(SbS3)2
+_chemical_formula_sum   'Li1 In1 Sb2 S6'
+_cell_volume   1475.67693930
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.32811602  0.05078000  0.45165383  1
+  In  In1  1  0.00663401  -0.00663401  0.50000000  1
+  Sb  Sb2  1  0.49091561  0.85135587  0.48551726  1
+  Sb  Sb3  1  0.14864413  0.50908439  0.51448274  1
+  Li  Li4  1  0.64077303  0.35922697  0.50000000  1
+  S  S5  1  0.71895353  0.73421264  0.44971858  1
+  S  S6  1  0.26578736  0.28104647  0.55028142  1
+  S  S7  1  0.67986800  1.02891059  0.54200367  1
+  S  S8  1  -0.02891059  0.32013200  0.45799633  1
+  S  S9  1  0.94922000  0.67188398  0.54834617  1

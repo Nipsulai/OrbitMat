@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CuSbTe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.99530093
+_cell_length_b   6.99112310
+_cell_length_c   18.41164285
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.04071300
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuSbTe3
+_chemical_formula_sum   'Cu2 Sb2 Te6'
+_cell_volume   779.46785284
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.00001623  0.00006397  0.50014414  1
+  Cu  Cu1  1  0.33332410  0.66661692  0.49985333  1
+  Sb  Sb2  1  0.66672707  0.33334576  0.41982897  1
+  Sb  Sb3  1  0.66661222  0.33333273  0.58019993  1
+  Te  Te4  1  0.25394130  -0.07851808  0.40703261  1
+  Te  Te5  1  1.07881999  0.33268279  0.40674601  1
+  Te  Te6  1  0.66622464  0.74544380  0.40693346  1
+  Te  Te7  1  1.07941196  0.74521763  0.59296965  1
+  Te  Te8  1  0.25450210  0.33400110  0.59325548  1
+  Te  Te9  1  0.66712084  -0.07878617  0.59306634  1

@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_MnSbTeSeS
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.84887818
+_cell_length_b   3.84894394
+_cell_length_c   21.51914769
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00364234
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnSbTeSeS
+_chemical_formula_sum   'Mn1 Sb1 Te1 Se1 S1'
+_cell_volume   276.06764373
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.17242380  0.83416897  0.42331271  1
+  Sb  Sb1  1  0.83803250  0.16650617  0.57541231  1
+  Se  Se2  1  0.17115767  0.83364934  0.65147319  1
+  Te  Te3  1  0.83901980  0.16729070  0.34852681  1
+  S  S4  1  0.50507134  0.50066212  0.48513192  1

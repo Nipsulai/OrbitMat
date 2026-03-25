@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_HfV2(IO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.86175945
+_cell_length_b   5.84368685
+_cell_length_c   21.41046573
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   109.34131744
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfV2(IO2)2
+_chemical_formula_sum   'Hf1 V2 I2 O4'
+_cell_volume   455.89924947
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.29791449  0.47230430  0.35029598  1
+  O  O1  1  0.57501994  0.03043310  0.40322450  1
+  I  I2  1  0.92560388  0.74322212  0.64970402  1
+  O  O3  1  0.22290729  0.32811227  0.49863121  1
+  O  O4  1  0.91797818  0.71705946  0.47895230  1
+  O  O5  1  0.56928059  1.02168615  0.52527321  1
+  V  V6  1  0.44376967  0.76862531  0.45185752  1
+  V  V7  1  0.04950350  -0.01779394  0.54638911  1
+  Hf  Hf8  1  0.71650992  0.31554505  0.46080749  1

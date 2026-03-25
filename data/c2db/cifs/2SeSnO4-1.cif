@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SnSeO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.68390809
+_cell_length_b   8.26518969
+_cell_length_c   35.73694800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00584592
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SnSeO4
+_chemical_formula_sum   'Sn2 Se2 O8'
+_cell_volume   1678.87100916
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.00805145  0.01061967  0.46564869  1
+  O  O1  1  0.03499618  0.51102021  0.53440836  1
+  O  O2  1  0.50805145  0.51061967  0.53435131  1
+  O  O3  1  0.53499618  0.01102021  0.46559164  1
+  O  O4  1  0.27211433  0.73978645  0.57746648  1
+  Sn  Sn5  1  0.77171226  0.51961768  0.49005797  1
+  Sn  Sn6  1  0.27171226  0.01961768  0.50994203  1
+  O  O7  1  0.77190545  0.25744338  0.49932396  1
+  O  O8  1  0.27190545  0.75744338  0.50067604  1
+  Se  Se9  1  0.77178357  0.13380518  0.46074765  1
+  Se  Se10  1  0.27178357  0.63380518  0.53925235  1
+  O  O11  1  0.77211433  0.23978645  0.42253352  1

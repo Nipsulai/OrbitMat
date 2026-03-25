@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MnAl(SI)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.70894578
+_cell_length_b   4.86812780
+_cell_length_c   21.00908557
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00445633
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnAl(SI)2
+_chemical_formula_sum   'Mn1 Al1 S2 I2'
+_cell_volume   379.33210699
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.75414705  0.24785895  0.45360205  1
+  Mn  Mn1  1  0.25305426  0.74790269  0.54567687  1
+  I  I2  1  0.25424477  0.24734571  0.35698841  1
+  I  I3  1  0.75323533  0.74804946  0.64301159  1
+  S  S4  1  0.75286760  0.74799294  0.47072520  1
+  S  S5  1  0.25384693  0.24801691  0.52849567  1

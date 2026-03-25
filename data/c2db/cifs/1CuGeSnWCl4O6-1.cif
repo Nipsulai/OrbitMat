@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CuSnGeW(Cl2O3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.07362620
+_cell_length_b   6.42214172
+_cell_length_c   20.66213427
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   103.82459239
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuSnGeW(Cl2O3)2
+_chemical_formula_sum   'Cu1 Sn1 Ge1 W1 Cl4 O6'
+_cell_volume   911.44533530
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.58865300  0.46342683  0.50130592  1
+  Cl  Cl1  1  0.67962914  0.19554704  0.36298283  1
+  W  W2  1  0.83889597  0.56794426  0.53170263  1
+  O  O3  1  0.12234494  0.57874374  0.54608161  1
+  Cl  Cl4  1  0.25184728  0.60469073  0.40929317  1
+  Cl  Cl5  1  0.18854343  0.11302790  0.58600769  1
+  Cl  Cl6  1  0.77553462  0.61949732  0.63701717  1
+  Cu  Cu7  1  0.20966415  0.35202996  0.49678454  1
+  O  O8  1  0.54215371  0.94655450  0.51009019  1
+  O  O9  1  0.92302486  0.80322386  0.48522935  1
+  Sn  Sn10  1  0.24979749  0.86442411  0.49753703  1
+  Ge  Ge11  1  0.59661926  0.19037026  0.46332398  1
+  O  O12  1  0.85924486  0.30206764  0.49624085  1
+  O  O13  1  0.31489475  0.14929684  0.44749697  1

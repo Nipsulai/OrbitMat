@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Zr2CI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.62716859
+_cell_length_b   3.62707325
+_cell_length_c   21.55080109
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99941883
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr2CI2
+_chemical_formula_sum   'Zr2 C1 I2'
+_cell_volume   245.53910132
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.16375837  0.83058138  0.65228873  1
+  Zr  Zr1  1  0.83031112  0.16384045  0.55313652  1
+  Zr  Zr2  1  0.16361046  0.83040793  0.44684374  1
+  C  C3  1  0.49692423  0.49708076  0.49999705  1
+  I  I4  1  0.83011679  0.16362242  0.34767480  1

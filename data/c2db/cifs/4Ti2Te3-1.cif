@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ti2Te3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.74148812
+_cell_length_b   6.74028616
+_cell_length_c   24.88965745
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01054877
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti2Te3
+_chemical_formula_sum   'Ti8 Te12'
+_cell_volume   979.34900430
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.66670548  0.33324000  0.36479085  1
+  Te  Te1  1  0.35031235  0.33324441  0.43758785  1
+  Te  Te2  1  0.66667190  0.67353491  0.30366748  1
+  Ti  Ti3  1  0.66674720  0.33330592  0.63522204  1
+  Te  Te4  1  0.32633943  0.33321555  0.69631743  1
+  Te  Te5  1  0.66652888  0.64958890  0.56243174  1
+  Ti  Ti6  1  -0.00009603  0.00006472  0.37222104  1
+  Te  Te7  1  0.66671287  0.01701990  0.43760120  1
+  Te  Te8  1  0.00704173  0.33340635  0.30365541  1
+  Ti  Ti9  1  -0.00005854  -0.00007429  0.62772802  1
+  Te  Te10  1  0.66671783  -0.00696473  0.69634512  1
+  Te  Te11  1  -0.01698238  0.33336100  0.56241461  1
+  Ti  Ti12  1  0.33346064  0.66664593  0.37225644  1
+  Te  Te13  1  -0.01697181  0.64972024  0.43756651  1
+  Te  Te14  1  0.32636174  -0.00700503  0.30369283  1
+  Ti  Ti15  1  0.33322883  0.66664941  0.62781629  1
+  Te  Te16  1  0.00688928  0.67365502  0.69635629  1
+  Te  Te17  1  0.35035207  0.01692807  0.56243002  1
+  Ti  Ti18  1  -0.00000361  -0.00008876  0.50003151  1
+  Ti  Ti19  1  0.33330832  0.66664830  0.49997966  1

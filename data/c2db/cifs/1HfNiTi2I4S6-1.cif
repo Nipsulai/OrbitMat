@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_HfTi2Ni(S3I2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.30947870
+_cell_length_b   6.91434937
+_cell_length_c   21.77623098
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.14651497
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfTi2Ni(S3I2)2
+_chemical_formula_sum   'Hf1 Ti2 Ni1 S6 I4'
+_cell_volume   902.75816189
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.07072945  0.15321048  0.42329550  1
+  S  S1  1  0.64528756  0.72943791  0.49956666  1
+  S  S2  1  0.12922225  0.64194549  0.43650862  1
+  I  I3  1  0.75207310  0.02633536  0.65558778  1
+  I  I4  1  0.53540986  0.51009728  0.34441222  1
+  Hf  Hf5  1  0.91121927  0.06545649  0.52847223  1
+  Ti  Ti6  1  0.90713681  0.56588631  0.52782078  1
+  S  S7  1  0.18524616  0.88491241  0.55253738  1
+  S  S8  1  0.62122206  0.24486084  0.49814629  1
+  S  S9  1  0.17996939  0.39209859  0.56440104  1
+  I  I10  1  0.77892838  0.53555989  0.65310892  1
+  I  I11  1  0.48358147  0.99685488  0.34907914  1
+  Ni  Ni12  1  0.29698600  0.97375244  0.45533427  1
+  Ti  Ti13  1  0.35558675  0.41899150  0.46684854  1

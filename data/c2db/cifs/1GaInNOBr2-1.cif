@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_InGaBr2NO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.62061762
+_cell_length_b   4.14802828
+_cell_length_c   20.57750164
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99892413
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InGaBr2NO
+_chemical_formula_sum   'In1 Ga1 Br2 N1 O1'
+_cell_volume   309.04165082
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.74686843  0.75059107  0.45580910  1
+  In  In1  1  0.24689787  0.25072107  0.53684086  1
+  Br  Br2  1  0.74698119  0.25025288  0.63552427  1
+  N  N3  1  0.24684692  0.75064994  0.50611938  1
+  O  O4  1  0.74691345  0.25062669  0.47259470  1
+  Br  Br5  1  0.24741763  0.74871916  0.36447573  1

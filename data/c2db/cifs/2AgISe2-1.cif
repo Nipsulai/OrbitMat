@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_AgSe2I
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.26050515
+_cell_length_b   8.15971771
+_cell_length_c   18.16974489
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgSe2I
+_chemical_formula_sum   'Ag2 Se4 I2'
+_cell_volume   779.92243565
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.99494297  0.97895055  0.38290196  1
+  I  I1  1  0.49753526  0.95482592  0.61661523  1
+  Se  Se2  1  0.56758061  0.59380443  0.44845208  1
+  Se  Se3  1  0.06720985  0.34078890  0.55181430  1
+  Se  Se4  1  0.87286931  0.59470449  0.55381985  1
+  Se  Se5  1  0.37298333  0.34008178  0.44651456  1
+  Ag  Ag6  1  0.71865996  0.11882899  0.49839247  1
+  Ag  Ag7  1  0.21747589  0.81714472  0.50142348  1

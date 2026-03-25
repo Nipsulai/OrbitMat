@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_VAg(Te3P)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.01733556
+_cell_length_b   7.01686465
+_cell_length_c   33.47259289
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   121.55076734
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VAg(Te3P)2
+_chemical_formula_sum   'V1 Ag1 Te6 P2'
+_cell_volume   1404.54105990
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.97885856  0.31942315  0.53342047  1
+  P  P1  1  0.95857616  0.29917708  0.46657972  1
+  V  V2  1  0.31188007  0.96611909  0.50000293  1
+  Te  Te3  1  0.03425469  0.67913070  0.55739167  1
+  Ag  Ag4  1  0.57905167  0.69884194  0.49998737  1
+  Te  Te5  1  0.31990735  0.29763547  0.54722288  1
+  Te  Te6  1  0.59540600  0.00199429  0.55775256  1
+  Te  Te7  1  0.59888579  0.24389120  0.44262807  1
+  Te  Te8  1  0.27596541  0.68263135  0.44223805  1
+  Te  Te9  1  -0.01966209  -0.04192738  0.45278808  1

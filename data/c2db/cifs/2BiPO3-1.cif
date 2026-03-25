@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_BiPO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.64467343
+_cell_length_b   4.99590626
+_cell_length_c   34.07255376
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   97.88919349
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BiPO3
+_chemical_formula_sum   'Bi2 P2 O6'
+_cell_volume   783.14853069
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.00881328  -0.01062835  0.55896742  1
+  P  P1  1  0.50881328  0.48937165  0.44103258  1
+  Bi  Bi2  1  0.53918521  0.46614653  0.54527323  1
+  Bi  Bi3  1  0.03918521  0.96614653  0.45472677  1
+  O  O4  1  0.35851538  0.04459658  0.56211950  1
+  O  O5  1  0.85851538  0.54459658  0.43788050  1
+  O  O6  1  0.44558634  0.34233447  0.48440049  1
+  O  O7  1  0.94558634  0.84233447  0.51559951  1
+  O  O8  1  0.95179950  0.30280436  0.55103678  1
+  O  O9  1  0.45179950  0.80280436  0.44896322  1

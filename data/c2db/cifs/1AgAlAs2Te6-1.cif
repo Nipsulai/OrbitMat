@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_AlAg(Te3As)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.01274461
+_cell_length_b   7.01274461
+_cell_length_c   33.42590400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99847227
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlAg(Te3As)2
+_chemical_formula_sum   'Al1 Ag1 Te6 As2'
+_cell_volume   1423.62801370
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  -0.00000348  0.00000348  0.50000000  1
+  Ag  Ag1  1  0.66667785  0.33332215  0.50000000  1
+  Te  Te2  1  0.71688318  0.70790803  0.55623257  1
+  Te  Te3  1  -0.00899748  0.28310825  0.55623301  1
+  Te  Te4  1  0.29210368  1.00900193  0.55623143  1
+  Te  Te5  1  0.29209197  0.28311682  0.44376743  1
+  Te  Te6  1  -0.00900193  0.70789632  0.44376857  1
+  Te  Te7  1  0.71689175  1.00899748  0.44376699  1
+  As  As8  1  0.33332955  0.66667514  0.53753608  1
+  As  As9  1  0.33332486  0.66667045  0.46246392  1

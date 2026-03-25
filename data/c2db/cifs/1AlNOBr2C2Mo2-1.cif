@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_AlMo2C2Br2NO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.97761418
+_cell_length_b   5.50420180
+_cell_length_c   21.66670876
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   114.17347861
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlMo2C2Br2NO
+_chemical_formula_sum   'Al1 Mo2 C2 Br2 N1 O1'
+_cell_volume   432.76514337
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  1  0.08629540  0.09901845  0.55272945  1
+  Mo  Mo1  1  0.38600582  0.77368538  0.49715968  1
+  Al  Al2  1  0.69866141  0.33916392  0.44071171  1
+  O  O3  1  0.52201683  0.97839584  0.42939383  1
+  N  N4  1  0.55989609  0.04397231  0.56092653  1
+  C  C5  1  0.23356095  0.34815765  0.48619652  1
+  Br  Br6  1  0.83012343  0.53247730  0.34615317  1
+  C  C7  1  0.88524751  0.73460230  0.51107524  1
+  Br  Br8  1  0.24125945  0.33510500  0.65384683  1

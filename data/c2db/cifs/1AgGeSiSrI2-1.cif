@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_SrSiAgGeI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.33869198
+_cell_length_b   4.32189798
+_cell_length_c   23.21327985
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.76799208
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrSiAgGeI2
+_chemical_formula_sum   'Sr1 Si1 Ag1 Ge1 I2'
+_cell_volume   374.01348550
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.50037076  0.78490708  0.32319155  1
+  Ge  Ge1  1  0.50416026  0.79462693  0.53621258  1
+  Ag  Ag2  1  0.14507398  0.24614201  0.61241040  1
+  Sr  Sr3  1  0.83225968  0.45426759  0.41163893  1
+  Si  Si4  1  0.17017460  0.11410714  0.50393916  1
+  I  I5  1  0.83195248  0.57441236  0.67681044  1

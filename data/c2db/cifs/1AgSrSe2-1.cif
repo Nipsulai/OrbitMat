@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_SrAgSe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.09668907
+_cell_length_b   4.09814797
+_cell_length_c   18.45986589
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99657167
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrAgSe2
+_chemical_formula_sum   'Sr1 Ag1 Se2'
+_cell_volume   309.91969761
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.75099242  0.24186233  0.43664767  1
+  Se  Se1  1  0.25093954  0.74438902  0.40628681  1
+  Sr  Sr2  1  0.24933421  0.74408721  0.57003902  1
+  Se  Se3  1  0.74955026  0.24396605  0.59371319  1

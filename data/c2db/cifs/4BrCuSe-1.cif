@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CuSeBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.45204192
+_cell_length_b   6.89325252
+_cell_length_c   34.55201445
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99250187
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuSeBr
+_chemical_formula_sum   'Cu4 Se4 Br4'
+_cell_volume   1536.71997826
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.01134206  0.00100564  0.47661734  1
+  Se  Se1  1  0.60375169  0.50099801  0.52337388  1
+  Se  Se2  1  0.10379726  0.73885120  0.52338402  1
+  Se  Se3  1  0.51134015  0.23885222  0.47662115  1
+  Cu  Cu4  1  0.30270043  0.04009484  0.51949561  1
+  Cu  Cu5  1  0.31243144  0.54011438  0.48050904  1
+  Cu  Cu6  1  0.81236064  0.69963881  0.48050798  1
+  Cu  Cu7  1  0.80269141  0.19964009  0.51948568  1
+  Br  Br8  1  0.57083731  0.94528082  0.56295250  1
+  Br  Br9  1  0.04425015  0.44527413  0.43704336  1
+  Br  Br10  1  0.54426491  0.79451882  0.43704576  1
+  Br  Br11  1  0.07087135  0.29452776  0.56295868  1

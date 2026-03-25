@@ -1,0 +1,29 @@
+# generated using pymatgen
+data_FeSeCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.21294518
+_cell_length_b   3.77430744
+_cell_length_c   32.98965040
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.19882101
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeSeCl
+_chemical_formula_sum   'Fe1 Se1 Cl1'
+_cell_volume   361.98292393
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.03341104  0.97382429  0.49424598  1
+  Se  Se1  1  0.34773515  0.60252125  0.45579864  1
+  Cl  Cl2  1  0.57541743  0.05784508  0.54407184  1

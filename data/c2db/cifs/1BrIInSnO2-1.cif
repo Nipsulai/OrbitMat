@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_InSnIBrO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.78269267
+_cell_length_b   4.13408187
+_cell_length_c   21.39034219
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00353009
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InSnIBrO2
+_chemical_formula_sum   'In1 Sn1 I1 Br1 O2'
+_cell_volume   334.50134052
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.75146415  0.75337039  0.44199127  1
+  I  I1  1  0.75223608  0.24850006  0.64949814  1
+  O  O2  1  0.75173285  0.25340470  0.47568301  1
+  Sn  Sn3  1  0.25208637  0.25317960  0.53962443  1
+  Br  Br4  1  0.25074499  0.75322709  0.35061846  1
+  O  O5  1  0.25153848  0.75333658  0.50385152  1

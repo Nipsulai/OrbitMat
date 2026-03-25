@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_VBrClO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.56069297
+_cell_length_b   3.81504323
+_cell_length_c   33.48574452
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.93795605
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VBrClO
+_chemical_formula_sum   'V1 Br1 Cl1 O1'
+_cell_volume   454.87670344
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.11945493  0.07844906  0.49700410  1
+  Br  Br1  1  0.61975317  0.15876713  0.55064955  1
+  Cl  Cl2  1  0.61961615  0.15733302  0.44962275  1
+  O  O3  1  0.11999253  0.65126114  0.49686763  1

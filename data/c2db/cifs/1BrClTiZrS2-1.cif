@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ZrTiS2BrCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.59399443
+_cell_length_b   4.97499680
+_cell_length_c   20.36955962
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00935857
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrTiS2BrCl
+_chemical_formula_sum   'Zr1 Ti1 S2 Br1 Cl1'
+_cell_volume   364.20997791
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.24965709  0.24424921  0.53762772  1
+  Zr  Zr1  1  0.25054590  0.74434233  0.53061757  1
+  S  S2  1  0.75039881  0.74400137  0.44197006  1
+  Br  Br3  1  0.75067333  0.74400137  0.63180353  1
+  Ti  Ti4  1  0.74918958  0.24381167  0.45219045  1
+  Cl  Cl5  1  0.24938418  0.24373335  0.36819647  1

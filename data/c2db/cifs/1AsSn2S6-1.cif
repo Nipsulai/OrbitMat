@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Sn2AsS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.29589813
+_cell_length_b   6.29589820
+_cell_length_c   33.22369868
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99989995
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sn2AsS6
+_chemical_formula_sum   'Sn2 As1 S6'
+_cell_volume   1140.49776463
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.66634908  0.33366436  0.49629961  1
+  As  As1  1  0.33300721  0.66700721  0.49626766  1
+  S  S2  1  0.65790460  0.99190457  0.45200667  1
+  S  S3  1  0.33299835  0.34211143  0.45200636  1
+  S  S4  1  0.00811145  0.66699832  0.45200635  1
+  S  S5  1  0.00828851  0.34228854  0.54055441  1
+  S  S6  1  0.33301709  0.99174142  0.54055495  1
+  S  S7  1  0.65774140  0.66701712  0.54055495  1
+  Sn  Sn8  1  -0.00033564  0.00034909  0.49629961  1

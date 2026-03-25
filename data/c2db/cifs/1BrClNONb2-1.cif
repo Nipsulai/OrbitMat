@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Nb2BrNClO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.87061739
+_cell_length_b   3.14035692
+_cell_length_c   21.38198367
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   113.91922776
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb2BrNClO
+_chemical_formula_sum   'Nb2 Br1 N1 Cl1 O1'
+_cell_volume   237.57978284
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.62570907  0.87876951  0.46705658  1
+  N  N1  1  0.77435785  0.45311470  0.53379296  1
+  Nb  Nb2  1  0.19648348  0.16417608  0.55974824  1
+  O  O3  1  0.21930917  0.17550283  0.46188040  1
+  Cl  Cl4  1  0.30908558  0.72037375  0.64928380  1
+  Br  Br5  1  0.63259121  0.88214897  0.35076235  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_In3GeF8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.77857295
+_cell_length_b   5.54777183
+_cell_length_c   19.12118007
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   103.05523661
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In3GeF8
+_chemical_formula_sum   'In3 Ge1 F8'
+_cell_volume   700.48463788
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.53070433  0.57988509  0.50605380  1
+  Ge  Ge1  1  0.89540964  0.14134763  0.55688929  1
+  F  F2  1  0.86658477  0.73782279  0.39201543  1
+  In  In3  1  0.12763791  0.64744014  0.44165386  1
+  In  In4  1  0.40479458  0.22122677  0.53729041  1
+  F  F5  1  0.60275300  0.10205653  0.46274641  1
+  In  In6  1  0.55347177  0.75430639  0.39740238  1
+  F  F7  1  0.64017941  0.19866450  0.60787218  1
+  F  F8  1  0.23737711  0.85759479  0.53943032  1
+  F  F9  1  0.16813547  0.28270837  0.60499351  1
+  F  F10  1  0.91131061  0.46620307  0.52378365  1
+  F  F11  1  0.17767709  0.24546911  0.45921021  1

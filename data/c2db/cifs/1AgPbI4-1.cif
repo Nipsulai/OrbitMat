@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_AgPbI4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.25217981
+_cell_length_b   7.98143307
+_cell_length_c   19.05269121
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.91292905
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgPbI4
+_chemical_formula_sum   'Ag1 Pb1 I4'
+_cell_volume   646.61879554
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.74966174  0.58989918  0.50004005  1
+  I  I1  1  0.74861627  0.24046759  0.60635482  1
+  I  I2  1  0.24861814  0.72936805  0.58485176  1
+  Pb  Pb3  1  0.24935844  0.08983542  0.50008623  1
+  I  I4  1  0.25003465  0.45107122  0.41518969  1
+  I  I5  1  0.75014397  0.93965942  0.39364518  1

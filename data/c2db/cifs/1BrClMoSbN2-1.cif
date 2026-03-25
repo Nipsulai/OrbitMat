@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_SbMoBrN2Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.46407974
+_cell_length_b   3.44383027
+_cell_length_c   22.22050226
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.68246892
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SbMoBrN2Cl
+_chemical_formula_sum   'Sb1 Mo1 Br1 N2 Cl1'
+_cell_volume   230.30047866
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  1  0.51233226  0.17488567  0.57856658  1
+  N  N1  1  0.17376734  0.50573414  0.57005449  1
+  Sb  Sb2  1  0.84673391  0.83981541  0.43585584  1
+  N  N3  1  0.50893659  0.17155031  0.48503872  1
+  Br  Br4  1  0.18143503  0.50568345  0.33758152  1
+  Cl  Cl5  1  0.82155533  0.83176113  0.66244864  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ta3SiS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.83572969
+_cell_length_b   10.87018544
+_cell_length_c   33.78321020
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99855465
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta3SiS6
+_chemical_formula_sum   'Ta6 Si2 S12'
+_cell_volume   2143.05361047
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.00189988  0.00310417  0.50000000  1
+  Ta  Ta1  1  0.50189889  0.16269677  0.50000000  1
+  Ta  Ta2  1  0.51627039  0.87272211  0.50000000  1
+  Ta  Ta3  1  0.01627324  0.29307715  0.50000000  1
+  Ta  Ta4  1  0.79572677  0.52340181  0.50000000  1
+  Ta  Ta5  1  0.29572624  0.64239699  0.50000000  1
+  Si  Si6  1  0.90641815  0.76240507  0.50000000  1
+  Si  Si7  1  0.40641629  0.40339484  0.50000000  1
+  S  S8  1  0.67740612  0.01710403  0.54774713  1
+  S  S9  1  0.17740506  0.14869602  0.45225305  1
+  S  S10  1  0.67740612  0.01710403  0.45225287  1
+  S  S11  1  0.17740506  0.14869602  0.54774695  1
+  S  S12  1  0.62078046  0.68356473  0.54639392  1
+  S  S13  1  0.12078034  0.48223566  0.45360625  1
+  S  S14  1  0.62078046  0.68356473  0.45360608  1
+  S  S15  1  0.12078034  0.48223566  0.54639375  1
+  S  S16  1  0.17840727  0.83137570  0.54575749  1
+  S  S17  1  0.67840612  0.33442451  0.45424274  1
+  S  S18  1  0.17840727  0.83137570  0.45424251  1
+  S  S19  1  0.67840612  0.33442451  0.54575726  1

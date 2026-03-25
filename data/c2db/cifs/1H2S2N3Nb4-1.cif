@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Nb4H2S2N3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.18963986
+_cell_length_b   3.18963986
+_cell_length_c   27.21500789
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb4H2S2N3
+_chemical_formula_sum   'Nb4 H2 S2 N3'
+_cell_volume   239.78521149
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.33333333  0.66666667  0.45571333  1
+  Nb  Nb1  1  0.66666667  0.33333333  0.54430273  1
+  Nb  Nb2  1  0.00000000  0.00000000  0.36046820  1
+  Nb  Nb3  1  -0.00000000  -0.00000000  0.63954668  1
+  N  N4  1  0.00000000  -0.00000000  0.50000819  1
+  N  N5  1  0.66666667  0.33333333  0.41023914  1
+  N  N6  1  0.33333333  0.66666667  0.58977661  1
+  S  S7  1  0.66666667  0.33333333  0.69772296  1
+  S  S8  1  0.33333333  0.66666667  0.30229150  1
+  H  H9  1  0.66666667  0.33333333  0.74918293  1
+  H  H10  1  0.33333333  0.66666667  0.25083158  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CaFeSi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.01679745
+_cell_length_b   4.01679745
+_cell_length_c   19.90202884
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaFeSi
+_chemical_formula_sum   'Ca2 Fe2 Si2'
+_cell_volume   321.11250347
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.01097541  0.01097541  0.61077877  1
+  Fe  Fe1  1  0.51093475  0.01114441  0.50000863  1
+  Fe  Fe2  1  0.01114441  0.51093475  0.50000863  1
+  Si  Si3  1  0.51117300  0.51117300  0.55554717  1
+  Ca  Ca4  1  0.51110422  0.51110422  0.38923737  1
+  Si  Si5  1  0.01090607  0.01090607  0.44447115  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_AlTe6As2Au
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.98967295
+_cell_length_b   6.98967295
+_cell_length_c   33.42590400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00256087
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlTe6As2Au
+_chemical_formula_sum   'Al1 Te6 As2 Au1'
+_cell_volume   1414.21779313
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  -0.00000346  0.00000346  0.50000000  1
+  Au  Au1  1  0.66666722  0.33333278  0.50000000  1
+  Te  Te2  1  0.72334749  0.68847746  0.55431726  1
+  Te  Te3  1  -0.03488911  0.27662610  0.55431886  1
+  Te  Te4  1  0.31154984  1.03492221  0.55431391  1
+  Te  Te5  1  0.31152254  0.27665251  0.44568274  1
+  Te  Te6  1  -0.03492221  0.68845016  0.44568609  1
+  Te  Te7  1  0.72337390  1.03488911  0.44568114  1
+  As  As8  1  0.33333023  0.66667646  0.53805932  1
+  As  As9  1  0.33332354  0.66666977  0.46194068  1

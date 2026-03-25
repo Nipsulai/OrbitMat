@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_FeTe2H
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.53998943
+_cell_length_b   5.10920170
+_cell_length_c   20.71937519
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.96780018
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeTe2H
+_chemical_formula_sum   'Fe2 Te4 H2'
+_cell_volume   374.74133462
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.92347973  0.95705482  0.55940290  1
+  Fe  Fe1  1  0.42215801  0.45326884  0.44088740  1
+  Te  Te2  1  0.92234911  0.45559204  0.53428881  1
+  Te  Te3  1  0.42328860  0.95476692  0.46600545  1
+  Te  Te4  1  0.92180177  0.46325400  0.35039059  1
+  Te  Te5  1  0.42383864  0.94721795  0.64991484  1
+  H  H6  1  0.42188312  0.26593228  0.67446798  1
+  H  H7  1  0.92376076  0.14472464  0.32570834  1

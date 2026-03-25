@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_MnSnSe(BrCl)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.01016130
+_cell_length_b   7.15968904
+_cell_length_c   18.59610408
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   103.62543599
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnSnSe(BrCl)2
+_chemical_formula_sum   'Mn1 Sn1 Se1 Br2 Cl2'
+_cell_volume   648.29099151
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.86147366  0.09827245  0.40331028  1
+  Mn  Mn1  1  0.77871710  0.86362803  0.50114161  1
+  Cl  Cl2  1  0.85472715  0.08554073  0.58621694  1
+  Se  Se3  1  0.28104669  0.84926827  0.48016119  1
+  Cl  Cl4  1  0.69802552  0.59544057  0.41891293  1
+  Sn  Sn5  1  0.06778232  0.46515840  0.50008387  1
+  Br  Br6  1  0.70507062  0.60458715  0.59668972  1

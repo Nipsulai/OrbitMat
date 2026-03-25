@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HfMnI3Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.93747780
+_cell_length_b   7.54130092
+_cell_length_c   19.00744219
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   104.75404581
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfMnI3Br
+_chemical_formula_sum   'Hf1 Mn1 I3 Br1'
+_cell_volume   545.79191520
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.93383338  0.70478199  0.50548867  1
+  I  I1  1  0.15926998  0.15875049  0.60549083  1
+  Br  Br2  1  0.43442073  0.70494214  0.58812143  1
+  Hf  Hf3  1  0.58746872  0.01029417  0.50596514  1
+  I  I4  1  0.04670476  0.92502226  0.39459541  1
+  I  I5  1  0.76682131  0.37680947  0.43633753  1

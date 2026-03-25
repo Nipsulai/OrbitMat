@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_In4Se3SIBr2Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.28939769
+_cell_length_b   6.66272783
+_cell_length_c   22.39664310
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   96.19199813
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In4Se3SIBr2Cl
+_chemical_formula_sum   'In4 Se3 S1 I1 Br2 Cl1'
+_cell_volume   1081.39801942
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.60264747  0.21727721  0.50445348  1
+  I  I1  1  0.09068792  0.91221832  0.33487161  1
+  In  In2  1  0.72706929  0.74423534  0.58849599  1
+  Se  Se3  1  0.47263869  0.42975493  0.59313267  1
+  Br  Br4  1  0.68468772  0.00820455  0.66512839  1
+  S  S5  1  0.72965230  0.88498268  0.48465787  1
+  In  In6  1  0.04779802  0.05223968  0.44593094  1
+  Cl  Cl7  1  0.99335668  0.57298421  0.62177969  1
+  Se  Se8  1  0.26076716  0.96620624  0.53320430  1
+  In  In9  1  0.22008196  0.57262769  0.52320889  1
+  Se  Se10  1  0.93770257  0.41470363  0.45905371  1
+  Br  Br11  1  0.43021836  0.40649792  0.42057381  1

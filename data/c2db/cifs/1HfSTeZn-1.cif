@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_HfZnTeS
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.82042963
+_cell_length_b   3.82064035
+_cell_length_c   19.51849228
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.98700907
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfZnTeS
+_chemical_formula_sum   'Hf1 Zn1 Te1 S1'
+_cell_volume   246.76416857
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.33143021  0.66227021  0.38425099  1
+  Hf  Hf1  1  0.66548442  0.32960334  0.47871038  1
+  Zn  Zn2  1  0.33267047  0.66359707  0.57861964  1
+  S  S3  1  0.66594934  0.33015793  0.61574901  1

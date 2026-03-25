@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_AgAu2Se3Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.24773258
+_cell_length_b   7.21501182
+_cell_length_c   19.80898742
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   53.13996797
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgAu2Se3Br
+_chemical_formula_sum   'Ag1 Au2 Se3 Br1'
+_cell_volume   485.73852797
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.71811726  0.31964100  0.37861602  1
+  Se  Se1  1  0.28708707  0.72697062  0.40022932  1
+  Br  Br2  1  0.79345806  0.75166135  0.62138398  1
+  Ag  Ag3  1  0.32041196  0.22246838  0.45011005  1
+  Au  Au4  1  0.52683889  0.74908148  0.50769293  1
+  Au  Au5  1  0.81175671  0.23179635  0.54081616  1
+  Se  Se6  1  0.29572109  0.25057480  0.60743611  1

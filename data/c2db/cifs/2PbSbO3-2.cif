@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_SbPbO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.36843930
+_cell_length_b   6.36630125
+_cell_length_c   18.41164285
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99335025
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SbPbO3
+_chemical_formula_sum   'Sb2 Pb2 O6'
+_cell_volume   646.50586560
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pb  Pb0  1  -0.00002527  0.00010952  0.45014849  1
+  Pb  Pb1  1  0.33299103  0.66616588  0.54988297  1
+  Sb  Sb2  1  0.66648341  0.33312467  0.41976178  1
+  Sb  Sb3  1  0.66667759  0.33323577  0.58020914  1
+  O  O4  1  0.34563851  0.11501894  0.38952055  1
+  O  O5  1  0.88448904  0.23039913  0.38937881  1
+  O  O6  1  0.76895304  0.65418001  0.38969522  1
+  O  O7  1  0.98733813  0.55144890  0.61059827  1
+  O  O8  1  0.44851338  0.43581133  0.61056501  1
+  O  O9  1  0.56424055  0.01219969  0.61030872  1

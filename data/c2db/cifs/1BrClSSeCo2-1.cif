@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Co2SeSBrCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.95464772
+_cell_length_b   6.10446990
+_cell_length_c   18.29149938
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   107.05359509
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Co2SeSBrCl
+_chemical_formula_sum   'Co2 Se1 S1 Br1 Cl1'
+_cell_volume   422.15989478
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.58239736  0.38476567  0.59000387  1
+  Cl  Cl1  1  0.14068599  0.86634109  0.53442725  1
+  Co  Co2  1  0.32439839  0.20766481  0.47617397  1
+  S  S3  1  0.81750962  0.19157635  0.42342789  1
+  Co  Co4  1  0.93031297  0.52595565  0.47996832  1
+  Se  Se5  1  0.44443491  0.55649131  0.41001764  1

@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Co2SbS2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.44849614
+_cell_length_b   3.44834399
+_cell_length_c   35.11107744
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00153495
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Co2SbS2
+_chemical_formula_sum   'Co2 Sb1 S2'
+_cell_volume   361.58332789
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.00000515  0.00000988  0.45062431  1
+  Co  Co1  1  0.00000445  0.00000987  0.54937393  1
+  Sb  Sb2  1  0.66663820  0.33327907  0.49999903  1
+  S  S3  1  0.33334123  0.66668585  0.42309418  1
+  S  S4  1  0.33334092  0.66668578  0.57690349  1

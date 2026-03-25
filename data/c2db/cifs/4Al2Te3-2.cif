@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Al2Te3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.87558436
+_cell_length_b   7.87558436
+_cell_length_c   18.54116258
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   129.56911106
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al2Te3
+_chemical_formula_sum   'Al4 Te6'
+_cell_volume   886.49487938
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.40024040  0.90024040  0.96560332  1
+  Al  Al1  1  0.90024040  0.40024040  0.03439668  1
+  Al  Al2  1  0.03775306  0.03775306  0.00000000  1
+  Al  Al3  1  0.53775306  0.53775306  1.00000000  1
+  Te  Te4  1  0.37339474  0.20024144  0.90896798  1
+  Te  Te5  1  0.20024144  0.37339474  0.09103202  1
+  Te  Te6  1  0.70024144  0.87339474  0.90896798  1
+  Te  Te7  1  0.87339474  0.70024144  0.09103202  1
+  Te  Te8  1  0.04309349  0.54309349  0.90459669  1
+  Te  Te9  1  0.54309349  0.04309349  0.09540331  1

@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_K2Ge(OF)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.29190176
+_cell_length_b   6.29190176
+_cell_length_c   33.66127800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Ge(OF)6
+_chemical_formula_sum   'K2 Ge1 O6 F6'
+_cell_volume   1154.05125619
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  1.00000000  0.00000000  0.53831701  1
+  F  F1  1  0.99047653  0.42654551  0.56471123  1
+  F  F2  1  0.43606898  0.00952347  0.56471123  1
+  F  F3  1  0.57345449  0.56393102  0.56471123  1
+  O  O4  1  0.96843899  0.53885887  0.52782903  1
+  O  O5  1  0.57041988  0.03156101  0.52782903  1
+  O  O6  1  0.46114113  0.42958012  0.52782903  1
+  K  K7  1  0.33333333  0.66666667  0.46168299  1
+  F  F8  1  0.34285681  0.24012116  0.43528877  1
+  F  F9  1  0.89726435  0.65714319  0.43528877  1
+  F  F10  1  0.75987884  0.10273565  0.43528877  1
+  Ge  Ge11  1  0.66666667  0.33333333  0.50000000  1
+  O  O12  1  0.36489434  0.12780780  0.47217097  1
+  O  O13  1  0.76291346  0.63510566  0.47217097  1
+  O  O14  1  0.87219220  0.23708654  0.47217097  1

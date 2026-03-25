@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_FePIO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.26500763
+_cell_length_b   7.86210789
+_cell_length_c   35.19677800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FePIO2
+_chemical_formula_sum   'Fe2 P2 I2 O4'
+_cell_volume   903.49573860
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.00000000  0.16057703  0.45712686  1
+  P  P1  1  -0.00000000  0.66057703  0.54287314  1
+  Fe  Fe2  1  0.50000000  0.53056954  0.46391973  1
+  Fe  Fe3  1  0.50000000  0.03056954  0.53608027  1
+  O  O4  1  0.50000000  0.27624378  0.46227516  1
+  O  O5  1  0.50000000  0.77624378  0.53772484  1
+  O  O6  1  0.00000000  0.57798162  0.50183527  1
+  I  I7  1  -0.00000000  0.65549354  0.41030333  1
+  I  I8  1  -0.00000000  0.15549354  0.58969667  1
+  O  O9  1  -0.00000000  0.07798162  0.49816473  1

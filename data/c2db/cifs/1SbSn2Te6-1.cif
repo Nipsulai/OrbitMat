@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Sn2SbTe6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.16717683
+_cell_length_b   7.16717680
+_cell_length_c   33.22369868
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99989212
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sn2SbTe6
+_chemical_formula_sum   'Sn2 Sb1 Te6'
+_cell_volume   1478.00301671
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.66634850  0.33367582  0.49632184  1
+  Sb  Sb1  1  0.33303863  0.66703864  0.49619313  1
+  Te  Te2  1  0.67192905  1.00592904  0.44263090  1
+  Te  Te3  1  0.33300171  0.32806538  0.44263966  1
+  Te  Te4  1  -0.00593462  0.66700171  0.44263966  1
+  Te  Te5  1  -0.00573038  0.32826964  0.54994306  1
+  Te  Te6  1  0.33300852  1.00574477  0.54993068  1
+  Te  Te7  1  0.67174476  0.66700855  0.54993069  1
+  Sn  Sn8  1  -0.00032419  0.00034849  0.49632184  1

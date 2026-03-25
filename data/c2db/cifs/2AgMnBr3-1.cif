@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_MnAgBr3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.02278834
+_cell_length_b   7.02638449
+_cell_length_c   18.17228001
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00693398
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnAgBr3
+_chemical_formula_sum   'Mn2 Ag2 Br6'
+_cell_volume   776.51740280
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.33392028  0.66720680  0.49986165  1
+  Mn  Mn1  1  0.66607972  0.33279320  0.50013835  1
+  Br  Br2  1  0.62498004  -0.00043937  0.58708211  1
+  Br  Br3  1  0.37513425  0.37464506  0.58691049  1
+  Br  Br4  1  0.00044731  0.62497496  0.58672980  1
+  Br  Br5  1  0.37501995  0.00043937  0.41291789  1
+  Br  Br6  1  0.62486577  0.62535496  0.41308951  1
+  Br  Br7  1  -0.00044731  0.37502503  0.41327020  1
+  Ag  Ag8  1  0.00008505  -0.00046486  0.58123797  1
+  Ag  Ag9  1  -0.00008505  0.00046486  0.41876202  1

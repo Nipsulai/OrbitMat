@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_HfTiTeI
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.86649989
+_cell_length_b   4.23233635
+_cell_length_c   19.20108952
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99933804
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfTiTeI
+_chemical_formula_sum   'Hf1 Ti1 Te1 I1'
+_cell_volume   314.21292694
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.75274918  0.74943147  0.39121611  1
+  Ti  Ti1  1  0.75273656  0.24947038  0.49722036  1
+  Hf  Hf2  1  0.25273172  0.74946354  0.50984031  1
+  Te  Te3  1  0.25275595  0.24939509  0.60850849  1

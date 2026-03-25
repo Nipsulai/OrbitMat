@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_CuBiTeSe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.33098473
+_cell_length_b   4.32624389
+_cell_length_c   18.88832544
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   60.01903600
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuBiTeSe
+_chemical_formula_sum   'Cu1 Bi1 Te1 Se1'
+_cell_volume   306.55260725
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.25144706  0.99832691  0.57281003  1
+  Se  Se1  1  0.24993475  -0.00049555  0.39716059  1
+  Bi  Bi2  1  0.58336887  0.33276469  0.47598354  1
+  Te  Te3  1  0.91781500  0.66521341  0.60285739  1

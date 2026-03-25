@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NiMoS4I
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.86281438
+_cell_length_b   7.86180027
+_cell_length_c   37.50448000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiMoS4I
+_chemical_formula_sum   'Ni2 Mo2 S8 I2'
+_cell_volume   2318.37229336
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.00000000  0.28999949  0.46375481  1
+  S  S1  1  0.28336325  0.29000170  0.46277379  1
+  S  S2  1  -0.00000000  0.57335479  0.46277280  1
+  I  I3  1  0.00000000  0.29000141  0.39112868  1
+  Ni  Ni4  1  0.50000000  0.78999949  0.53624519  1
+  Mo  Mo5  1  0.50000000  0.29000098  0.49999407  1
+  Mo  Mo6  1  -0.00000000  0.79000098  0.50000593  1
+  S  S7  1  0.21663675  0.79000170  0.53722621  1
+  S  S8  1  0.78336325  0.79000170  0.53722621  1
+  S  S9  1  0.50000000  0.50664418  0.53722819  1
+  S  S10  1  0.50000000  0.07335479  0.53722720  1
+  I  I11  1  0.50000000  0.79000141  0.60887132  1
+  S  S12  1  0.71663675  0.29000170  0.46277379  1
+  S  S13  1  -0.00000000  0.00664418  0.46277181  1

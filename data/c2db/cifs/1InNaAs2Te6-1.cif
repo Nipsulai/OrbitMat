@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaIn(Te3As)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.53629374
+_cell_length_b   7.53629374
+_cell_length_c   32.96233225
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   114.07071780
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaIn(Te3As)2
+_chemical_formula_sum   'Na1 In1 Te6 As2'
+_cell_volume   1709.32512659
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.31068976  0.01295571  0.44481781  1
+  In  In1  1  0.00104845  -0.00104845  0.50000000  1
+  As  As2  1  0.46851110  0.82558336  0.48647505  1
+  As  As3  1  0.17441664  0.53148890  0.51352495  1
+  Na  Na4  1  0.63357703  0.36642297  0.50000000  1
+  Te  Te5  1  0.69404023  0.73370006  0.44138908  1
+  Te  Te6  1  0.26629994  0.30595977  0.55861092  1
+  Te  Te7  1  0.66144860  0.99703613  0.55000169  1
+  Te  Te8  1  0.00296387  0.33855140  0.44999831  1
+  Te  Te9  1  0.98704429  0.68931024  0.55518219  1

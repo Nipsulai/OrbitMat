@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_MnSbTeBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.42507461
+_cell_length_b   4.42759179
+_cell_length_c   18.86831007
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.75459596
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnSbTeBr
+_chemical_formula_sum   'Mn1 Sb1 Te1 Br1'
+_cell_volume   332.95357656
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.53439042  0.46848917  0.39749188  1
+  Mn  Mn1  1  0.49608523  0.50822315  0.53474423  1
+  Sb  Sb2  1  0.84135680  0.16246860  0.49544840  1
+  Te  Te3  1  0.14509287  0.85934652  0.60250812  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_AlMo2S3Cl2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.24559675
+_cell_length_b   4.87890875
+_cell_length_c   22.65931499
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000359
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlMo2S3Cl2
+_chemical_formula_sum   'Al1 Mo2 S3 Cl2'
+_cell_volume   358.80958192
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.75027465  0.24658486  0.49993606  1
+  Cl  Cl1  1  0.75030666  0.74871794  0.33099996  1
+  S  S2  1  0.25027389  0.24746421  0.42349018  1
+  Mo  Mo3  1  0.25068257  0.74569216  0.59013331  1
+  Mo  Mo4  1  0.25034879  0.74754870  0.40985390  1
+  S  S5  1  0.25035447  0.24573849  0.57639222  1
+  S  S6  1  0.75054523  0.74657784  0.50000917  1
+  Cl  Cl7  1  0.75076543  0.74446330  0.66900555  1

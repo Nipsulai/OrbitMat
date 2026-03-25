@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_MnMo(SBr2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.18367766
+_cell_length_b   5.88926475
+_cell_length_c   18.60432103
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   105.76257538
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnMo(SBr2)2
+_chemical_formula_sum   'Mn1 Mo1 S2 Br4'
+_cell_volume   652.04173099
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.95542173  0.92382102  0.40312585  1
+  S  S1  1  0.38217938  0.76324732  0.49942530  1
+  Br  Br2  1  0.95589817  0.92364598  0.59680987  1
+  S  S3  1  0.11629239  0.46568046  0.49928979  1
+  Br  Br4  1  0.54361363  0.30503527  0.40319246  1
+  Mo  Mo5  1  0.24917623  0.11456202  0.49982965  1
+  Mn  Mn6  1  0.74909419  0.61437441  0.50014306  1
+  Br  Br7  1  0.54205143  0.30502065  0.59687158  1

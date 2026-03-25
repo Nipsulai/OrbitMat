@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_ZrTiTeCBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.19980839
+_cell_length_b   5.91233640
+_cell_length_c   19.03731812
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   105.77510557
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrTiTeCBr
+_chemical_formula_sum   'Zr1 Ti1 Te1 C1 Br1'
+_cell_volume   346.58973958
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  C  C0  1  0.48425222  0.47232119  0.49119689  1
+  Ti  Ti1  1  0.86910374  0.24383330  0.47253543  1
+  Zr  Zr2  1  0.11330730  0.72769466  0.51606651  1
+  Br  Br3  1  0.23768768  0.97963307  0.39376718  1
+  Te  Te4  1  0.77158107  0.04678487  0.60678481  1

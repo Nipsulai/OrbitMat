@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NaHg2Se(ClO)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.62000127
+_cell_length_b   6.69818788
+_cell_length_c   42.96172426
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaHg2Se(ClO)3
+_chemical_formula_sum   'Na2 Hg4 Se2 Cl6 O6'
+_cell_volume   1617.24360456
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.50000000  0.78290280  0.59752671  1
+  Hg  Hg1  1  0.00000000  0.28290280  0.40247329  1
+  Hg  Hg2  1  0.00000000  0.30033655  0.59005022  1
+  Hg  Hg3  1  0.50000000  0.80033655  0.40994978  1
+  Na  Na4  1  0.00000000  1.04596163  0.50537331  1
+  Na  Na5  1  0.50000000  0.54596163  0.49462669  1
+  Se  Se6  1  0.50000000  1.00390715  0.54858701  1
+  Se  Se7  1  0.00000000  0.50390715  0.45141299  1
+  O  O8  1  0.25825031  0.14949503  0.54563783  1
+  O  O9  1  0.74174969  0.14949503  0.54563783  1
+  O  O10  1  0.24174969  0.64949503  0.45436217  1
+  O  O11  1  0.75825031  0.64949503  0.45436217  1
+  O  O12  1  0.50000000  0.84789920  0.51831675  1
+  O  O13  1  0.00000000  0.34789920  0.48168325  1
+  Cl  Cl14  1  0.50000000  0.52511031  0.63413151  1
+  Cl  Cl15  1  0.50000000  0.52362700  0.37636525  1
+  Cl  Cl16  1  0.00000000  0.61585513  0.56530356  1
+  Cl  Cl17  1  0.50000000  0.11585513  0.43469644  1
+  Cl  Cl18  1  0.00000000  0.02511031  0.36586849  1
+  Cl  Cl19  1  -0.00000000  0.02362700  0.62363475  1

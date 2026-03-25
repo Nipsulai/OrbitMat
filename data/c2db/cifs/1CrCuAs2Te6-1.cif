@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CrCu(Te3As)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.15570502
+_cell_length_b   7.15553025
+_cell_length_c   33.47259289
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   122.75687355
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrCu(Te3As)2
+_chemical_formula_sum   'Cr1 Cu1 Te6 As2'
+_cell_volume   1441.33931157
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.98313783  0.30357618  0.53707558  1
+  As  As1  1  0.97438332  0.29490356  0.46293545  1
+  Cr  Cr2  1  0.29761275  0.98034026  0.49998815  1
+  Te  Te3  1  0.05511320  0.69300660  0.55942699  1
+  Cu  Cu4  1  0.56208149  0.71589647  0.49999161  1
+  Te  Te5  1  0.37520659  0.34658407  0.54129125  1
+  Te  Te6  1  0.54573479  -0.04548377  0.55890454  1
+  Te  Te7  1  0.58501943  0.22295958  0.44059066  1
+  Te  Te8  1  0.32342096  0.73226863  0.44109855  1
+  Te  Te9  1  -0.06854441  -0.09719095  0.45869917  1

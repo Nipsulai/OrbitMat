@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TlAg(SbO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.75063409
+_cell_length_b   5.75063409
+_cell_length_c   33.37581678
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01507711
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlAg(SbO3)2
+_chemical_formula_sum   'Tl1 Ag1 Sb2 O6'
+_cell_volume   955.71411853
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.00003321  -0.00003321  0.50000000  1
+  Tl  Tl1  1  0.66671385  0.33328615  0.50000000  1
+  Sb  Sb2  1  0.33340952  0.66665781  0.45948006  1
+  Sb  Sb3  1  0.33334219  0.66659048  0.54051994  1
+  O  O4  1  0.36657847  1.01449507  0.45301193  1
+  O  O5  1  -0.01448987  0.35198115  0.45300907  1
+  O  O6  1  0.64801950  0.63343110  0.45301275  1
+  O  O7  1  -0.01449507  0.63342153  0.54698807  1
+  O  O8  1  0.36656890  0.35198050  0.54698725  1
+  O  O9  1  0.64801885  1.01448987  0.54699093  1

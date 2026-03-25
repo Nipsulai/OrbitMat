@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_NaNF2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.92046961
+_cell_length_b   4.92046961
+_cell_length_c   33.24843837
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   84.52600107
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaNF2
+_chemical_formula_sum   'Na2 N2 F4'
+_cell_volume   801.30761230
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.01254798  -0.01254798  0.54545066  1
+  F  F1  1  0.66435300  0.33564700  0.54544487  1
+  Na  Na2  1  0.33841205  0.16158795  0.50000000  1
+  Na  Na3  1  0.83841205  0.66158795  0.50000000  1
+  N  N4  1  0.83846126  0.16153874  0.51706461  1
+  F  F5  1  0.16435300  0.83564700  0.45455513  1
+  F  F6  1  0.51254798  0.48745202  0.45454934  1
+  N  N7  1  0.33846126  0.66153874  0.48293539  1

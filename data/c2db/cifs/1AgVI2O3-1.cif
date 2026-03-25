@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_VAgI2O3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.89554265
+_cell_length_b   5.63406204
+_cell_length_c   21.82567975
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   109.65105206
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VAgI2O3
+_chemical_formula_sum   'V1 Ag1 I2 O3'
+_cell_volume   451.12487010
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.79514001  0.59435854  0.53735855  1
+  Ag  Ag1  1  0.68422926  0.37901908  0.45257971  1
+  O  O2  1  0.49058902  -0.04251475  0.52118114  1
+  O  O3  1  0.22291126  0.46153065  0.46652746  1
+  V  V4  1  0.37780497  0.66341153  0.53607901  1
+  I  I5  1  0.57294953  1.15921373  0.34371283  1
+  I  I6  1  0.27490458  0.60720880  0.65630645  1

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Cu4Se(BrCl2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.07502696
+_cell_length_b   8.17099174
+_cell_length_c   18.72791002
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.74218609
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu4Se(BrCl2)2
+_chemical_formula_sum   'Cu4 Se1 Br2 Cl4'
+_cell_volume   880.33978801
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.07489168  0.49342253  0.47887559  1
+  Cl  Cl1  1  1.02730653  0.28106984  0.40047181  1
+  Cu  Cu2  1  0.59034470  0.10265288  0.50914437  1
+  Cu  Cu3  1  0.54149422  0.63234121  0.50748401  1
+  Cl  Cl4  1  0.41632176  0.96331413  0.41093062  1
+  Cl  Cl5  1  0.82533770  0.94605977  0.55288154  1
+  Br  Br6  1  0.63421425  0.31418551  0.59952819  1
+  Cu  Cu7  1  0.11284074  0.96819826  0.47470737  1
+  Se  Se8  1  0.33039664  0.29597145  0.49811804  1
+  Br  Br9  1  0.83579631  0.65658208  0.42196601  1
+  Cl  Cl10  1  0.24865834  0.65074883  0.57302859  1

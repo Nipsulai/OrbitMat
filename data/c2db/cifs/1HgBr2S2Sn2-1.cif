@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Sn2Hg(SBr)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.37734314
+_cell_length_b   7.42148999
+_cell_length_c   33.84208688
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   107.15214030
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sn2Hg(SBr)2
+_chemical_formula_sum   'Sn2 Hg1 S2 Br2'
+_cell_volume   1050.51172723
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.69603471  0.39206943  0.48361899  1
+  Sn  Sn1  1  0.76840854  0.53681707  0.55498648  1
+  Hg  Hg2  1  0.53319328  0.06638656  0.49999966  1
+  Br  Br3  1  -0.06347683  -0.12695367  0.42831189  1
+  Sn  Sn4  1  0.29797778  0.59595557  0.44501301  1
+  Br  Br5  1  0.12986303  0.25972607  0.57168734  1
+  S  S6  1  0.37035122  0.74070244  0.51637971  1

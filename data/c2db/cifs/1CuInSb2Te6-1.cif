@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_InCu(SbTe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.27815456
+_cell_length_b   7.27815456
+_cell_length_c   33.42590400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00221712
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InCu(SbTe3)2
+_chemical_formula_sum   'In1 Cu1 Sb2 Te6'
+_cell_volume   1533.36885557
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  -0.00000885  0.00000885  0.50000000  1
+  Cu  Cu1  1  0.66667177  0.33332823  0.50000000  1
+  Te  Te2  1  0.70258357  0.63676606  0.55420168  1
+  Te  Te3  1  -0.06583273  0.29737795  0.55420346  1
+  Te  Te4  1  0.36324956  1.06587518  0.55419811  1
+  Te  Te5  1  0.36323394  0.29741643  0.44579832  1
+  Te  Te6  1  -0.06587518  0.63675044  0.44580189  1
+  Te  Te7  1  0.70262205  1.06583273  0.44579654  1
+  Sb  Sb8  1  0.33332653  0.66667071  0.54343498  1
+  Sb  Sb9  1  0.33332929  0.66667347  0.45656502  1

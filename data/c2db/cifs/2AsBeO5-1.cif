@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_BeAsO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.62222379
+_cell_length_b   8.67051694
+_cell_length_c   33.77797596
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99844247
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BeAsO5
+_chemical_formula_sum   'Be2 As2 O10'
+_cell_volume   1353.72229492
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  -0.04854605  0.00836607  0.52209002  1
+  O  O1  1  0.57090131  0.79543531  0.55487549  1
+  O  O2  1  0.35893705  0.21779320  0.51460046  1
+  O  O3  1  0.81155181  0.43285556  0.52007638  1
+  As  As4  1  0.71275875  0.86011195  0.50956452  1
+  Be  Be5  1  0.02650137  0.55832277  0.50258421  1
+  O  O6  1  0.25618923  0.64527962  0.53725040  1
+  O  O7  1  0.31048205  0.50837090  0.47781919  1
+  O  O8  1  0.69103196  0.29543122  0.44502732  1
+  O  O9  1  0.90304635  0.71786567  0.48530654  1
+  O  O10  1  0.45035295  0.93288384  0.47983372  1
+  As  As11  1  0.54913140  0.36007663  0.49034692  1
+  Be  Be12  1  0.23550423  0.05830832  0.49731380  1
+  O  O13  1  0.00567833  0.14525731  0.46265957  1

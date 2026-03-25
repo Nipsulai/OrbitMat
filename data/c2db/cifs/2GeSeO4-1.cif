@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GeSeO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.44860939
+_cell_length_b   7.81061738
+_cell_length_c   35.73694800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00586756
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GeSeO4
+_chemical_formula_sum   'Ge2 Se2 O8'
+_cell_volume   1520.85740202
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.01715588  0.00402148  0.46345721  1
+  O  O1  1  0.02527102  0.50446856  0.53662187  1
+  O  O2  1  0.51715588  0.50402148  0.53654279  1
+  O  O3  1  0.52527102  0.00446856  0.46337813  1
+  O  O4  1  0.27172672  0.75162070  0.57819806  1
+  Ge  Ge5  1  0.77145088  0.51523209  0.49630323  1
+  Ge  Ge6  1  0.27145088  0.01523209  0.50369677  1
+  O  O7  1  0.77184391  0.25888351  0.49952615  1
+  O  O8  1  0.27184391  0.75888351  0.50047385  1
+  Se  Se9  1  0.77150214  0.13700724  0.45942894  1
+  Se  Se10  1  0.27150214  0.63700724  0.54057106  1
+  O  O11  1  0.77172672  0.25162070  0.42180194  1

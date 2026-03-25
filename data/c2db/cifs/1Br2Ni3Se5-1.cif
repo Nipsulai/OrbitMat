@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ni3Se5Br2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.43042773
+_cell_length_b   8.16696555
+_cell_length_c   19.40060679
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   101.60323105
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni3Se5Br2
+_chemical_formula_sum   'Ni3 Se5 Br2'
+_cell_volume   687.62945147
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.80352747  0.45487866  0.56483928  1
+  Se  Se1  1  0.27889735  0.18877987  0.51260381  1
+  Se  Se2  1  0.35472356  0.79268327  0.42157132  1
+  Ni  Ni3  1  0.58688514  0.61260554  0.48575016  1
+  Ni  Ni4  1  0.06010606  0.88082204  0.50809955  1
+  Se  Se5  1  0.83186737  1.01928507  0.41999331  1
+  Ni  Ni6  1  0.79821965  0.26235960  0.47496630  1
+  Br  Br7  1  0.78825514  0.49347036  0.38657751  1
+  Br  Br8  1  0.81331779  -0.05926347  0.61341368  1
+  Se  Se9  1  0.28486919  0.69008036  0.57186298  1

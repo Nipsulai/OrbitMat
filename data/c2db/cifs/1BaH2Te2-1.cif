@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Ba(TeH)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.58020945
+_cell_length_b   5.57965332
+_cell_length_c   19.20851046
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.65037792
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba(TeH)2
+_chemical_formula_sum   'Ba1 Te2 H2'
+_cell_volume   519.75815293
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.74064449  0.33467840  0.57783070  1
+  H  H1  1  0.74361720  0.33261728  0.66491006  1
+  Ba  Ba2  1  0.07527765  -0.00008398  0.50007602  1
+  Te  Te3  1  0.40980021  0.66562295  0.42244357  1
+  H  H4  1  0.40837583  0.66729032  0.33536151  1

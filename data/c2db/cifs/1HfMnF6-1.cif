@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_HfMnF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.07564097
+_cell_length_b   5.18507200
+_cell_length_c   17.77979632
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.30427332
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfMnF6
+_chemical_formula_sum   'Hf1 Mn1 F6'
+_cell_volume   408.04238068
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.84441708  0.74360595  0.50033518  1
+  Mn  Mn1  1  0.54498186  0.05387817  0.49988002  1
+  F  F2  1  0.55284235  0.38246863  0.56109072  1
+  F  F3  1  0.84929278  0.05454411  0.57100670  1
+  F  F4  1  0.20449939  0.75087796  0.55846804  1
+  F  F5  1  0.53858901  0.75322642  0.42846827  1
+  F  F6  1  0.20748122  0.03857414  0.43912371  1
+  F  F7  1  0.84490676  0.39541205  0.44165268  1

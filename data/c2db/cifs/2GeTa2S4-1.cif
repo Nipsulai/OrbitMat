@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ta2GeS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.04286285
+_cell_length_b   7.61561607
+_cell_length_c   33.77308754
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta2GeS4
+_chemical_formula_sum   'Ta4 Ge2 S8'
+_cell_volume   1554.24165661
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  -0.00574737  -0.00201797  0.50000067  1
+  Ta  Ta1  1  0.71358380  0.49798199  0.49999933  1
+  Ta  Ta2  1  0.21358380  0.67701801  0.49999933  1
+  Ta  Ta3  1  0.49425263  0.17701797  0.50000067  1
+  Ge  Ge4  1  0.60391825  0.83749999  0.50000000  1
+  Ge  Ge5  1  0.10391825  0.33750001  0.50000000  1
+  S  S6  1  0.90158610  0.72517324  0.54715977  1
+  S  S7  1  0.80625011  0.22517326  0.45284023  1
+  S  S8  1  0.30625011  0.94982674  0.45284023  1
+  S  S9  1  0.40158610  0.44982676  0.54715977  1
+  S  S10  1  0.80625235  0.22517949  0.54716059  1
+  S  S11  1  0.90158386  0.72517948  0.45283942  1
+  S  S12  1  0.40158386  0.44982052  0.45283942  1
+  S  S13  1  0.30625235  0.94982051  0.54716059  1

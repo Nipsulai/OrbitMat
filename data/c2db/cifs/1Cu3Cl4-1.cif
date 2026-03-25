@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Cu3Cl4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.29562380
+_cell_length_b   7.05777947
+_cell_length_c   17.51069144
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu3Cl4
+_chemical_formula_sum   'Cu3 Cl4'
+_cell_volume   778.05473160
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.36434073  0.56951906  0.52562824  1
+  Cu  Cu1  1  0.36434073  0.13841817  0.47437379  1
+  Cu  Cu2  1  0.82731106  0.85396925  0.49999864  1
+  Cl  Cl3  1  0.67728671  0.63451184  0.57181999  1
+  Cl  Cl4  1  0.67728671  0.07342539  0.42818204  1
+  Cl  Cl5  1  0.12844491  0.35396925  0.49999864  1
+  Cl  Cl6  1  0.18851656  0.85396925  0.49999864  1

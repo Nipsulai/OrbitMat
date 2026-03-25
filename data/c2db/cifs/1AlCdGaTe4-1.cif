@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_AlCdGaTe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.31954858
+_cell_length_b   4.31954473
+_cell_length_c   39.30476960
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99997050
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlCdGaTe4
+_chemical_formula_sum   'Al1 Cd1 Ga1 Te4'
+_cell_volume   635.11497607
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  -0.00000311  -0.00000156  0.50019598  1
+  Al  Al1  1  0.66666175  0.33333088  0.39432074  1
+  Ga  Ga2  1  0.33334185  0.66667093  0.60576531  1
+  Te  Te3  1  0.66666088  0.33333044  0.45927877  1
+  Te  Te4  1  0.33333505  0.66666753  0.54017360  1
+  Te  Te5  1  0.33332854  0.66666427  0.36453998  1
+  Te  Te6  1  0.66667504  0.33333752  0.63572262  1

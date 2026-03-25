@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Ta3Cr2CBr4N3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.39627586
+_cell_length_b   5.40507818
+_cell_length_c   22.39513138
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   103.52864975
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta3Cr2CBr4N3
+_chemical_formula_sum   'Ta3 Cr2 C1 Br4 N3'
+_cell_volume   635.08091165
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.75707181  0.93463676  0.56494676  1
+  N  N1  1  0.23238367  0.36061092  0.46359913  1
+  Ta  Ta2  1  0.89496799  0.16124536  0.44129181  1
+  Cr  Cr3  1  0.58171533  0.55908139  0.48179659  1
+  Br  Br4  1  0.19143606  0.23851146  0.61150096  1
+  Br  Br5  1  0.44349637  0.87188141  0.40036221  1
+  C  C6  1  0.93298362  0.82237270  0.48422823  1
+  Ta  Ta7  1  0.30483974  0.04649288  0.50857263  1
+  N  N8  1  0.71521929  0.26396184  0.51683619  1
+  Cr  Cr9  1  0.06821049  0.55585834  0.52592301  1
+  Br  Br10  1  0.93196787  0.31781262  0.33491379  1
+  Br  Br11  1  0.75879009  0.71811696  0.66511798  1
+  N  N12  1  0.41327249  0.73441999  0.54581899  1

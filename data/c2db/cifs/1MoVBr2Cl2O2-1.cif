@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_VMoBr2(ClO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.98279345
+_cell_length_b   4.98327945
+_cell_length_c   18.88185940
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   95.26994800
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VMoBr2(ClO)2
+_chemical_formula_sum   'V1 Mo1 Br2 Cl2 O2'
+_cell_volume   466.86706433
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.63880775  0.61950043  0.49501575  1
+  Cl  Cl1  1  0.14108082  0.62060410  0.58058284  1
+  Br  Br2  1  0.63387531  0.11333109  0.60279336  1
+  O  O3  1  0.13999846  0.11846578  0.49500340  1
+  V  V4  1  0.42036484  0.90010049  0.49527488  1
+  Mo  Mo5  1  0.86129764  0.34104555  0.49508344  1
+  Cl  Cl6  1  0.63328188  0.11266936  0.39820956  1
+  Br  Br7  1  0.14032167  0.62017546  0.39720664  1

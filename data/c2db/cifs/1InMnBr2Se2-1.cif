@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MnIn(SeBr)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.30454722
+_cell_length_b   7.14506486
+_cell_length_c   18.52121328
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   107.54601063
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnIn(SeBr)2
+_chemical_formula_sum   'Mn1 In1 Se2 Br2'
+_cell_volume   543.14085419
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.19627384  0.39237879  0.57083370  1
+  Br  Br1  1  0.52376037  0.04796805  0.40494107  1
+  In  In2  1  0.35719545  0.71341123  0.48718467  1
+  Br  Br3  1  0.48996994  0.97830157  0.59505893  1
+  Mn  Mn4  1  0.64059048  0.28063021  0.51390273  1
+  Se  Se5  1  0.77935601  0.55803486  0.42535093  1

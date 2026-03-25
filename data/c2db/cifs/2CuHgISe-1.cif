@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CuHgSeI
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.27659118
+_cell_length_b   7.30258621
+_cell_length_c   39.52370426
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuHgSeI
+_chemical_formula_sum   'Cu2 Hg2 Se2 I2'
+_cell_volume   1234.33223205
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.50000000  1.09637584  0.51808290  1
+  Hg  Hg1  1  0.50000000  0.59637584  0.48191710  1
+  Se  Se2  1  0.50000000  0.25972479  0.45848362  1
+  Se  Se3  1  0.50000000  0.75972479  0.54151638  1
+  Cu  Cu4  1  -0.00000000  0.11952566  0.45495250  1
+  Cu  Cu5  1  -0.00000000  0.61952566  0.54504750  1
+  I  I6  1  0.00000000  0.28096313  0.56281496  1
+  I  I7  1  0.00000000  -0.21903687  0.43718504  1

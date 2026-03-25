@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_NiPb2(CN)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.82136506
+_cell_length_b   7.82145272
+_cell_length_c   36.18135836
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99320053
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiPb2(CN)6
+_chemical_formula_sum   'Ni1 Pb2 C6 N6'
+_cell_volume   1916.96962894
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pb  Pb0  1  0.33328210  0.66670654  0.58729861  1
+  C  C1  1  0.54273155  0.45637913  0.53272914  1
+  C  C2  1  0.54251846  0.08534862  0.53242103  1
+  C  C3  1  0.91334369  0.45610926  0.53278876  1
+  N  N4  1  0.47118795  0.94255807  0.55079650  1
+  N  N5  1  0.05667152  0.52809884  0.55101897  1
+  N  N6  1  0.47147259  0.52841842  0.55096909  1
+  Pb  Pb7  1  0.00009045  0.00004263  0.41269492  1
+  Ni  Ni8  1  0.66674986  0.33344746  0.49999951  1
+  C  C9  1  0.79070726  0.21048929  0.46726719  1
+  C  C10  1  0.79086297  0.58139737  0.46754985  1
+  C  C11  1  0.41994910  0.21069336  0.46724435  1
+  N  N12  1  0.86232022  0.72429226  0.44919898  1
+  N  N13  1  0.27669912  0.13862667  0.44899330  1
+  N  N14  1  0.86194094  0.13841252  0.44902606  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cr3Br2ClO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.28390769
+_cell_length_b   5.62474045
+_cell_length_c   20.09234040
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   113.05892158
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cr3Br2ClO4
+_chemical_formula_sum   'Cr3 Br2 Cl1 O4'
+_cell_volume   549.44530880
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.46950681  0.91010598  0.48228512  1
+  Br  Br1  1  0.69974615  0.93655993  0.37327620  1
+  O  O2  1  0.81501672  0.08258402  0.51836430  1
+  O  O3  1  0.15047207  0.70817292  0.53564266  1
+  Cr  Cr4  1  0.92242214  0.81196910  0.47883722  1
+  Cr  Cr5  1  0.18493457  0.37229435  0.51733020  1
+  O  O6  1  0.26217070  0.11244533  0.46901816  1
+  Cl  Cl7  1  0.04652281  0.54871126  0.40699467  1
+  Br  Br8  1  0.27444120  0.29026218  0.62672715  1
+  O  O9  1  0.54752078  0.60596954  0.49764060  1

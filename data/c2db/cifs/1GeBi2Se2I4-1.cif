@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_GeBi2(SeI2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.50131353
+_cell_length_b   7.42347641
+_cell_length_c   18.84216815
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.34555171
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GeBi2(SeI2)2
+_chemical_formula_sum   'Ge1 Bi2 Se2 I4'
+_cell_volume   905.48942949
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.84102381  0.50503670  0.39804336  1
+  Se  Se1  1  0.17533477  0.18375821  0.41585350  1
+  Se  Se2  1  0.49609574  0.82440584  0.41588008  1
+  Bi  Bi3  1  0.83842808  0.86478137  0.49349001  1
+  Bi  Bi4  1  0.47791587  0.14386417  0.49318947  1
+  I  I5  1  0.49264824  0.50392597  0.59994299  1
+  I  I6  1  0.83864017  0.17352939  0.60195664  1
+  I  I7  1  0.17019772  0.83571949  0.60187192  1
+  Ge  Ge8  1  0.20495423  0.50406674  0.49296923  1

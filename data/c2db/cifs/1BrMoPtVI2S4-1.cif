@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_VMoPtS4I2Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.22452255
+_cell_length_b   5.98973495
+_cell_length_c   20.46302811
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   107.34532294
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VMoPtS4I2Br
+_chemical_formula_sum   'V1 Mo1 Pt1 S4 I2 Br1'
+_cell_volume   728.23404652
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.49113072  0.21179622  0.59768303  1
+  V  V1  1  0.33015112  0.39458211  0.48996290  1
+  S  S2  1  0.12194818  0.53047251  0.56180272  1
+  Br  Br3  1  0.91333307  0.98645312  0.63348533  1
+  S  S4  1  0.65601701  0.26930535  0.44038338  1
+  S  S5  1  0.62767677  0.72826904  0.49708311  1
+  I  I6  1  0.21909137  0.52258866  0.36651467  1
+  S  S7  1  0.09400720  0.02613736  0.46366028  1
+  Pt  Pt8  1  0.93920533  0.61641002  0.46302981  1
+  Mo  Mo9  1  0.87376182  0.17742046  0.52664296  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Hf3VBr2(ClO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.38312700
+_cell_length_b   5.37096442
+_cell_length_c   20.94846347
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   99.62755764
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf3VBr2(ClO2)2
+_chemical_formula_sum   'Hf3 V1 Br2 Cl2 O4'
+_cell_volume   597.14371067
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.91409118  0.66471620  0.45574556  1
+  V  V1  1  0.31885904  0.06922255  0.46368324  1
+  Br  Br2  1  0.13548065  0.88913961  0.35802148  1
+  Hf  Hf3  1  0.88268692  0.13700413  0.54277110  1
+  Br  Br4  1  0.14776123  0.36168991  0.64197852  1
+  Hf  Hf5  1  0.38627133  0.63797816  0.54207552  1
+  O  O6  1  0.13024974  0.38331911  0.48567589  1
+  O  O7  1  0.63419621  0.88302719  0.48447100  1
+  O  O8  1  0.64147927  0.39358958  0.52814312  1
+  Cl  Cl9  1  0.61321053  0.36437380  0.38664534  1
+  O  O10  1  0.09304008  0.84572469  0.54257656  1
+  Cl  Cl11  1  0.60806278  0.90046984  0.63258593  1

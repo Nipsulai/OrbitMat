@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Mn4Se2Br4O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.85980933
+_cell_length_b   6.04775035
+_cell_length_c   20.37770520
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   116.16863420
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn4Se2Br4O
+_chemical_formula_sum   'Mn4 Se2 Br4 O1'
+_cell_volume   758.74457528
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.26499063  0.40529412  0.52754883  1
+  Se  Se1  1  0.96235868  0.52292402  0.55232616  1
+  Mn  Mn2  1  0.72468380  0.16963533  0.47249519  1
+  Br  Br3  1  0.79613601  0.43440163  0.36804929  1
+  Mn  Mn4  1  0.72536189  0.63221731  0.47173074  1
+  Br  Br5  1  0.55540231  0.82065103  0.58412108  1
+  Br  Br6  1  0.19373731  0.14041942  0.63195071  1
+  Br  Br7  1  0.43403355  0.75426617  0.41581365  1
+  O  O8  1  0.49474819  0.28743837  0.50005937  1
+  Se  Se9  1  0.02712383  0.05217441  0.44763186  1
+  Mn  Mn10  1  0.26423598  0.94274628  0.52817290  1

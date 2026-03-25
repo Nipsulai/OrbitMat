@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Mn2Ga2Se5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.96269065
+_cell_length_b   3.96271861
+_cell_length_c   43.33417120
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99976658
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2Ga2Se5
+_chemical_formula_sum   'Mn2 Ga2 Se5'
+_cell_volume   589.31236416
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.00005599  0.00011198  0.54806215  1
+  Mn  Mn1  1  0.33332809  0.66665617  0.46123210  1
+  Ga  Ga2  1  0.66667810  0.33335619  0.63010137  1
+  Ga  Ga3  1  0.66669836  0.33339673  0.37395076  1
+  Se  Se4  1  0.00001084  0.00002169  0.65434344  1
+  Se  Se5  1  -0.00001857  -0.00003714  0.49181384  1
+  Se  Se6  1  0.00003113  0.00006226  0.34893717  1
+  Se  Se7  1  0.66672089  0.33344177  0.57335037  1
+  Se  Se8  1  0.66669363  0.33338726  0.42939960  1

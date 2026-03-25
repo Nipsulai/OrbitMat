@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ZrGe(BrN)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.61830817
+_cell_length_b   3.99066159
+_cell_length_c   21.07000006
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00078499
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrGe(BrN)2
+_chemical_formula_sum   'Zr1 Ge1 Br2 N2'
+_cell_volume   304.23907392
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.16819012  0.24992293  0.49319068  1
+  Zr  Zr1  1  0.16822573  0.74965517  0.45661982  1
+  Ge  Ge2  1  0.66815744  0.24920038  0.53450740  1
+  Br  Br3  1  0.66782841  0.74313293  0.35595634  1
+  N  N4  1  0.66809000  0.75032341  0.51035686  1
+  Br  Br5  1  0.66765886  0.25266691  0.64404366  1

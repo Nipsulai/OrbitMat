@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_PIr3BrO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.63953360
+_cell_length_b   4.18173492
+_cell_length_c   20.86761558
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.97847863
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PIr3BrO3
+_chemical_formula_sum   'P1 Ir3 Br1 O3'
+_cell_volume   317.59600401
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ir  Ir0  1  0.24832253  0.37624189  0.63555294  1
+  P  P1  1  0.25578613  0.64006250  0.48955311  1
+  Ir  Ir2  1  0.75629179  0.74634946  0.55277800  1
+  O  O3  1  0.24890149  0.89659321  0.61733575  1
+  O  O4  1  0.74815959  0.38937777  0.64059142  1
+  Br  Br5  1  0.75353793  0.15339442  0.35940858  1
+  Ir  Ir6  1  0.25351282  0.15029810  0.44021754  1
+  O  O7  1  0.75394531  0.13819214  0.49973680  1

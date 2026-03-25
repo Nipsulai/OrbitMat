@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_PIrO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.97593518
+_cell_length_b   4.97581526
+_cell_length_c   18.41164285
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   118.05618865
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PIrO3
+_chemical_formula_sum   'P2 Ir2 O6'
+_cell_volume   402.29043439
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ir  Ir0  1  -0.03328661  0.03338885  0.50014115  1
+  Ir  Ir1  1  0.36661553  0.63339536  0.50016301  1
+  P  P2  1  0.60149830  0.26821632  0.44198700  1
+  P  P3  1  0.73177766  0.39857949  0.55832255  1
+  O  O4  1  0.28160653  -0.05161366  0.43731681  1
+  O  O5  1  0.85799826  0.21562405  0.40838591  1
+  O  O6  1  0.54894904  0.52479993  0.40842555  1
+  O  O7  1  1.05167493  0.71854551  0.56299230  1
+  O  O8  1  0.47530611  0.45137094  0.59189711  1
+  O  O9  1  0.78439160  0.14203266  0.59189268  1

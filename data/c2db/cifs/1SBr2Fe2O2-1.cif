@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Fe2S(BrO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.69833937
+_cell_length_b   5.60800886
+_cell_length_c   19.60665199
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   116.86777651
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe2S(BrO)2
+_chemical_formula_sum   'Fe2 S1 Br2 O2'
+_cell_volume   460.83622329
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.34344490  0.69993305  0.49392555  1
+  O  O1  1  0.15436118  0.36794452  0.53639146  1
+  Br  Br2  1  0.27619550  0.54949083  0.38252831  1
+  S  S3  1  0.81981004  0.66553304  0.51308030  1
+  O  O4  1  0.53143085  0.05039843  0.46629037  1
+  Fe  Fe5  1  0.74706591  0.26713110  0.52996676  1
+  Br  Br6  1  0.47121000  0.95101010  0.61750906  1

@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Nb2IN2ClO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.99633131
+_cell_length_b   3.49490839
+_cell_length_c   21.30113006
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.61429461
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb2IN2ClO
+_chemical_formula_sum   'Nb2 I1 N2 Cl1 O1'
+_cell_volume   297.50213364
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.27894344  0.91651769  0.48830688  1
+  Nb  Nb1  1  0.79484131  -0.04207555  0.44503253  1
+  N  N2  1  0.79052812  0.37489500  0.52955351  1
+  Cl  Cl3  1  0.11899494  0.92543188  0.35209400  1
+  Nb  Nb4  1  0.25037845  0.42728989  0.54044333  1
+  I  I5  1  0.28778938  0.91156530  0.64790600  1
+  O  O6  1  0.66748898  0.43570036  0.41507243  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_ScBiSeI4Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.53310987
+_cell_length_b   7.06564340
+_cell_length_c   18.66243794
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   116.96981374
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScBiSeI4Cl
+_chemical_formula_sum   'Sc1 Bi1 Se1 I4 Cl1'
+_cell_volume   885.30269290
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.42552853  0.74089066  0.59272049  1
+  I  I1  1  0.50823285  0.17291043  0.41364197  1
+  I  I2  1  0.19444037  0.50806468  0.40187676  1
+  Bi  Bi3  1  0.17229043  0.82291827  0.50740694  1
+  Cl  Cl4  1  0.78830658  0.80096815  0.42838754  1
+  Sc  Sc5  1  0.52621359  0.53072021  0.49273961  1
+  I  I6  1  0.22261221  0.23618286  0.59812324  1
+  I  I7  1  0.81504709  0.51533237  0.59682366  1

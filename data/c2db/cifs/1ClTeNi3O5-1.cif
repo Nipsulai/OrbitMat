@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ni3TeClO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.35054181
+_cell_length_b   5.24529035
+_cell_length_c   18.65714389
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   104.67956652
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni3TeClO5
+_chemical_formula_sum   'Ni3 Te1 Cl1 O5'
+_cell_volume   506.52369746
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.95421811  0.32658604  0.50766016  1
+  Cl  Cl1  1  0.82195585  0.46617317  0.40199000  1
+  Te  Te2  1  0.82664067  0.79149803  0.59801408  1
+  O  O3  1  0.65156794  0.89369043  0.51452696  1
+  Ni  Ni4  1  0.49358189  0.54852115  0.46864584  1
+  O  O5  1  0.12507547  0.70738309  0.55791614  1
+  O  O6  1  0.04794175  0.15779199  0.59376820  1
+  O  O7  1  0.23051132  0.24182081  0.46361510  1
+  O  O8  1  0.65563830  0.40585993  0.55318389  1
+  Ni  Ni9  1  0.35968607  0.06574537  0.54332635  1

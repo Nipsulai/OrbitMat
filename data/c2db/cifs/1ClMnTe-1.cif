@@ -1,0 +1,29 @@
+# generated using pymatgen
+data_MnTeCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.52665196
+_cell_length_b   3.97468752
+_cell_length_c   32.97399953
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   116.34781166
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnTeCl
+_chemical_formula_sum   'Mn1 Te1 Cl1'
+_cell_volume   414.19193718
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  -0.00746289  0.21177428  0.50054320  1
+  Te  Te1  1  0.31339144  0.85373513  0.54835143  1
+  Cl  Cl2  1  0.55561026  0.33782531  0.45352561  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CoTe2F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.72133506
+_cell_length_b   4.96899132
+_cell_length_c   20.71937519
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.01042921
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CoTe2F
+_chemical_formula_sum   'Co2 Te4 F2'
+_cell_volume   383.12779512
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.92263327  0.95751799  0.55859537  1
+  Co  Co1  1  0.42298310  0.45294842  0.44140259  1
+  Te  Te2  1  0.92289618  0.45631282  0.52847169  1
+  Te  Te3  1  0.42271885  0.95413959  0.47152514  1
+  Te  Te4  1  0.92263339  0.44990241  0.36175250  1
+  Te  Te5  1  0.42298892  0.96056737  0.63824715  1
+  F  F6  1  0.42356807  0.35147082  0.66191522  1
+  F  F7  1  0.92205198  0.05898411  0.33808455  1

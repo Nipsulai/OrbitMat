@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Cu2MoS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.20525223
+_cell_length_b   6.30382958
+_cell_length_c   17.61186089
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   125.08507755
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu2MoS4
+_chemical_formula_sum   'Cu2 Mo1 S4'
+_cell_volume   563.74331808
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  1  0.95164272  0.86465347  0.50691160  1
+  Cu  Cu1  1  0.41584370  0.58185633  0.51472180  1
+  Cu  Cu2  1  0.68611893  0.28285672  0.47217217  1
+  S  S3  1  0.33247908  0.90412672  0.51619899  1
+  S  S4  1  0.72275390  0.72711041  0.61233081  1
+  S  S5  1  1.02253454  0.24327286  0.47370912  1
+  S  S6  1  0.68494947  0.59387780  0.41384179  1

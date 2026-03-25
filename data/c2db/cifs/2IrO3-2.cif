@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_IrO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.93387320
+_cell_length_b   2.75754707
+_cell_length_c   19.30528123
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   IrO3
+_chemical_formula_sum   'Ir2 O6'
+_cell_volume   262.65583384
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ir  Ir0  1  0.60394081  0.25000000  0.57051640  1
+  Ir  Ir1  1  0.10370417  0.75000001  0.42950172  1
+  O  O2  1  0.20680954  0.25000001  0.50327827  1
+  O  O3  1  0.70663116  0.75000000  0.49669119  1
+  O  O4  1  0.33941040  0.25000001  0.38711180  1
+  O  O5  1  0.37579067  0.75000000  0.61107715  1
+  O  O6  1  -0.12481116  0.25000001  0.38907784  1
+  O  O7  1  0.84003418  0.75000000  0.61275449  1

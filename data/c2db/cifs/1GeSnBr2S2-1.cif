@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_SnGe(SBr)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.80500706
+_cell_length_b   5.22276812
+_cell_length_c   20.94888084
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.92266376
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SnGe(SBr)2
+_chemical_formula_sum   'Sn1 Ge1 S2 Br2'
+_cell_volume   416.30980766
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.75197548  0.25176083  0.44678374  1
+  S  S1  1  0.74893765  0.75170502  0.45838816  1
+  S  S2  1  0.25318420  0.25177000  0.53506203  1
+  Sn  Sn3  1  0.24820132  0.75179587  0.54584888  1
+  Br  Br4  1  0.25373769  0.25189597  0.35619112  1
+  Br  Br5  1  0.74823072  0.75184252  0.64396703  1

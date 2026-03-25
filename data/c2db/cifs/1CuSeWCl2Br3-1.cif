@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CuWSeBr3Cl2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.48450131
+_cell_length_b   6.81807359
+_cell_length_c   18.54326450
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   112.11365426
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuWSeBr3Cl2
+_chemical_formula_sum   'Cu1 W1 Se1 Br3 Cl2'
+_cell_volume   759.52358331
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.16897625  0.12270156  0.42950773  1
+  Cu  Cu1  1  0.44642630  0.16697137  0.51501620  1
+  Se  Se2  1  0.52372448  0.53019945  0.55552168  1
+  Cl  Cl3  1  0.93897192  0.56935080  0.43350480  1
+  W  W4  1  0.81083587  0.78299500  0.49701268  1
+  Br  Br5  1  0.09411972  0.85074853  0.59554047  1
+  Cl  Cl6  1  0.62360777  0.86082091  0.40445953  1
+  Br  Br7  1  0.75012357  0.10880504  0.56617985  1

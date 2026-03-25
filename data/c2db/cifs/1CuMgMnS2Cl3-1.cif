@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_MgMnCuS2Cl3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.17535012
+_cell_length_b   4.47624138
+_cell_length_c   20.46154383
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.98667030
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgMnCuS2Cl3
+_chemical_formula_sum   'Mg1 Mn1 Cu1 S2 Cl3'
+_cell_volume   565.60529961
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.57724158  0.73025719  0.58586647  1
+  Cl  Cl1  1  0.13591114  1.22674294  0.63345874  1
+  Mg  Mg2  1  0.94152910  0.94420367  0.55624213  1
+  Mn  Mn3  1  0.52669994  0.72906772  0.47158850  1
+  Cu  Cu4  1  0.47135903  0.22955006  0.58250427  1
+  Cl  Cl5  1  0.13304373  0.68737959  0.47495483  1
+  Cl  Cl6  1  0.57014161  -0.26289799  0.36654126  1
+  S  S7  1  0.65682839  0.22128472  0.48812130  1

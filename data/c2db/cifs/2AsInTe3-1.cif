@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_InTe3As
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.28207474
+_cell_length_b   7.28101771
+_cell_length_c   18.41164285
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01155726
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InTe3As
+_chemical_formula_sum   'In2 Te6 As2'
+_cell_volume   845.31739050
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.00001490  -0.00003754  0.50027098  1
+  In  In1  1  0.33332516  0.66671910  0.49974206  1
+  As  As2  1  0.66671484  0.33335468  0.42969832  1
+  As  As3  1  0.66662444  0.33332463  0.57027845  1
+  Te  Te4  1  0.30153751  -0.03100304  0.39662731  1
+  Te  Te5  1  1.03111716  0.33258205  0.39664393  1
+  Te  Te6  1  0.66745320  0.69850314  0.39664458  1
+  Te  Te7  1  1.03154540  0.69787632  0.60338185  1
+  Te  Te8  1  0.30203003  0.33365060  0.60336565  1
+  Te  Te9  1  0.66633601  -0.03156802  0.60336520  1

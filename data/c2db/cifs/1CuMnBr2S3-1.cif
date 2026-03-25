@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_MnCuS3Br2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.34095468
+_cell_length_b   4.53205171
+_cell_length_c   20.09980646
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   97.57539326
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnCuS3Br2
+_chemical_formula_sum   'Mn1 Cu1 S3 Br2'
+_cell_volume   482.27924565
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.84508946  0.41564739  0.50307419  1
+  Mn  Mn1  1  0.73103954  0.90087467  0.52794580  1
+  Cu  Cu2  1  0.28242787  0.40230173  0.47781592  1
+  Br  Br3  1  0.45543137  0.86187831  0.62686208  1
+  S  S4  1  0.54782773  0.72970866  0.42458890  1
+  S  S5  1  0.10966938  0.16845861  0.56697000  1
+  Br  Br6  1  0.27030208  0.00681855  0.37313792  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiAl(AsSe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.72582968
+_cell_length_b   6.72582968
+_cell_length_c   32.96233225
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   113.00987706
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiAl(AsSe3)2
+_chemical_formula_sum   'Li1 Al1 As2 Se6'
+_cell_volume   1372.47347207
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.30975287  0.03422906  0.45209530  1
+  Al  Al1  1  -0.00042472  0.00042472  0.50000000  1
+  As  As2  1  0.47891305  0.83708801  0.48679832  1
+  As  As3  1  0.16291199  0.52108695  0.51320168  1
+  Li  Li4  1  0.63418692  0.36581308  0.50000000  1
+  Se  Se5  1  0.71702509  0.73672087  0.44907301  1
+  Se  Se6  1  0.26327913  0.28297491  0.55092699  1
+  Se  Se7  1  0.67993383  1.01131028  0.54395792  1
+  Se  Se8  1  -0.01131028  0.32006617  0.45604208  1
+  Se  Se9  1  0.96577094  0.69024713  0.54790470  1

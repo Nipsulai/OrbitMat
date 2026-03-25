@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_MnSnGeBrClO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.12108019
+_cell_length_b   5.21136790
+_cell_length_c   20.64360703
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   118.50837141
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnSnGeBrClO5
+_chemical_formula_sum   'Mn1 Sn1 Ge1 Br1 Cl1 O5'
+_cell_volume   484.13105184
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.44750201  0.43909265  0.56499089  1
+  Sn  Sn1  1  0.75539146  0.09347550  0.48267602  1
+  Br  Br2  1  0.74465155  0.09919809  0.36330860  1
+  Cl  Cl3  1  1.10314976  1.07931759  0.63669140  1
+  O  O4  1  0.76124131  0.72728006  0.50931422  1
+  O  O5  1  0.13050416  0.45069236  0.50916522  1
+  Mn  Mn6  1  0.08893739  0.73165361  0.56725398  1
+  O  O7  1  0.77165941  0.44990828  0.60706303  1
+  O  O8  1  0.38559291  0.09870117  0.51368978  1
+  O  O9  1  0.38691674  0.71555223  0.60832058  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_TiCoSe2BrCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.41347063
+_cell_length_b   5.88827890
+_cell_length_c   18.99087714
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.02451544
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiCoSe2BrCl
+_chemical_formula_sum   'Ti1 Co1 Se2 Br1 Cl1'
+_cell_volume   381.70647484
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.74442042  0.12097033  0.50280625  1
+  Co  Co1  1  0.24581561  0.50999732  0.46770544  1
+  Se  Se2  1  0.24481706  0.89791970  0.43089126  1
+  Br  Br3  1  0.24441299  0.05033334  0.60507353  1
+  Cl  Cl4  1  0.74575170  0.37720277  0.39492647  1
+  Se  Se5  1  0.74573949  0.53168908  0.54887254  1

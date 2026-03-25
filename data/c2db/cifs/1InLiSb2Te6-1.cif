@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiIn(SbTe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.49841461
+_cell_length_b   7.49841461
+_cell_length_c   32.96233225
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   112.40873882
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiIn(SbTe3)2
+_chemical_formula_sum   'Li1 In1 Sb2 Te6'
+_cell_volume   1713.39724815
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.31681603  0.05704281  0.44150381  1
+  In  In1  1  0.00493091  -0.00493091  0.50000000  1
+  Sb  Sb2  1  0.47884668  0.84011413  0.48303359  1
+  Sb  Sb3  1  0.15988587  0.52115332  0.51696641  1
+  Li  Li4  1  0.63403963  0.36596037  0.50000000  1
+  Te  Te5  1  0.71445943  0.69824224  0.44315143  1
+  Te  Te6  1  0.30175776  0.28554057  0.55684857  1
+  Te  Te7  1  0.67273298  1.02638249  0.55111153  1
+  Te  Te8  1  -0.02638249  0.32726702  0.44888847  1
+  Te  Te9  1  0.94295719  0.68318397  0.55849619  1

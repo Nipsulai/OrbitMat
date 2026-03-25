@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MnBrF
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.55209252
+_cell_length_b   5.53481837
+_cell_length_c   19.46198467
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00007366
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnBrF
+_chemical_formula_sum   'Mn2 Br2 F2'
+_cell_volume   382.62625675
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.91294645  0.54396792  0.56395374  1
+  Mn  Mn1  1  0.41299050  0.04379030  0.43604508  1
+  Br  Br2  1  0.91313807  0.04361540  0.54830265  1
+  Br  Br3  1  0.41313611  0.54356376  0.45169763  1
+  F  F4  1  0.41291898  0.54344637  0.61410895  1
+  F  F5  1  0.91302704  0.04331026  0.38589140  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Nb4SiTe3MoCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.58256374
+_cell_length_b   5.81291166
+_cell_length_c   21.51236614
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99527231
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb4SiTe3MoCl
+_chemical_formula_sum   'Nb4 Si1 Te3 Mo1 Cl1'
+_cell_volume   573.04722973
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  1  0.25097307  0.26133583  0.41347143  1
+  Nb  Nb1  1  0.75185460  0.27448511  0.57978713  1
+  Nb  Nb2  1  0.25143833  0.97836440  0.54156927  1
+  Si  Si3  1  0.25165988  0.39887425  0.51782728  1
+  Te  Te4  1  0.75083654  0.32152858  0.34863668  1
+  Te  Te5  1  0.75162062  0.77284077  0.59639097  1
+  Nb  Nb6  1  0.75126381  0.05854862  0.46582202  1
+  Te  Te7  1  0.25147564  0.79329496  0.41088134  1
+  Nb  Nb8  1  0.75146337  0.55054053  0.47220564  1
+  Cl  Cl9  1  0.25286800  0.19558046  0.65136332  1

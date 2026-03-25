@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Co2Sb2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.94112578
+_cell_length_b   6.95231837
+_cell_length_c   33.16810806
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   92.74897526
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Co2Sb2O7
+_chemical_formula_sum   'Co2 Sb2 O7'
+_cell_volume   1138.08894914
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  0.80579801  -0.02816308  0.49828816  1
+  Co  Co1  1  0.19785452  0.73476870  0.54542045  1
+  O  O2  1  0.45086300  0.82878732  0.49828554  1
+  O  O3  1  0.94293243  0.64204488  0.49829437  1
+  O  O4  1  0.98331297  -0.05316670  0.54979296  1
+  O  O5  1  0.41152539  0.52203352  0.54970804  1
+  Sb  Sb6  1  0.58961849  0.49638215  0.49829271  1
+  Co  Co7  1  0.19779488  0.73471596  0.45115789  1
+  O  O8  1  0.41150931  0.52197521  0.44687431  1
+  O  O9  1  0.70207619  0.23533384  0.49834010  1
+  O  O10  1  -0.01672947  -0.05316901  0.44677925  1

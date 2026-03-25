@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_MnCrTeI5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.97913408
+_cell_length_b   7.02136536
+_cell_length_c   18.26867502
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.50998154
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnCrTeI5
+_chemical_formula_sum   'Mn1 Cr1 Te1 I5'
+_cell_volume   771.26918148
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.82793545  0.49000644  0.50198595  1
+  I  I1  1  0.12768387  0.46180009  0.41053880  1
+  I  I2  1  0.15312120  0.83257844  0.58357142  1
+  Te  Te3  1  0.49795758  0.20963069  0.41856427  1
+  I  I4  1  0.50729438  0.48057774  0.58946120  1
+  I  I5  1  0.84875561  0.81347335  0.41245166  1
+  I  I6  1  0.85564764  0.18507099  0.58689846  1
+  Mn  Mn7  1  0.17057083  0.16975482  0.50017532  1

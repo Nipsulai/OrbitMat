@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_VB4H4ClO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.79754763
+_cell_length_b   8.46479697
+_cell_length_c   34.89970040
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   109.71516454
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VB4H4ClO6
+_chemical_formula_sum   'V1 B4 H4 Cl1 O6'
+_cell_volume   1334.20665677
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.86088937  0.92913584  0.51885395  1
+  O  O1  1  0.62733198  0.49438426  0.56571716  1
+  B  B2  1  0.86589336  0.77430773  0.51239711  1
+  B  B3  1  0.72708541  0.62142164  0.54598055  1
+  O  O4  1  0.11276962  0.39991008  0.47890236  1
+  O  O5  1  0.08025373  0.81150281  0.43845361  1
+  B  B6  1  0.08582128  0.53625960  0.47210692  1
+  B  B7  1  0.01435268  0.72014901  0.47082540  1
+  O  O8  1  1.05054554  0.26813076  0.55316108  1
+  H  H9  1  0.25391055  0.34337003  0.55939036  1
+  V  V10  1  0.97497849  0.14350260  0.49885262  1
+  Cl  Cl11  1  0.49173843  0.17109600  0.50299223  1
+  O  O12  1  0.94124866  0.08103717  0.44708920  1
+  H  H13  1  0.75501046  0.07755426  0.43525853  1
+  H  H14  1  0.91333378  0.32696013  0.56009156  1
+  H  H15  1  0.02690486  -0.08197864  0.43975874  1

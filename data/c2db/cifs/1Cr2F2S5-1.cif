@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Cr2S5F2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.06415912
+_cell_length_b   7.26962645
+_cell_length_c   35.21389409
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   102.16635442
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cr2S5F2
+_chemical_formula_sum   'Cr2 S5 F2'
+_cell_volume   766.78202005
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.33001433  0.66002866  0.50003117  1
+  S  S1  1  0.02600995  0.05201990  0.53248988  1
+  S  S2  1  0.63395699  0.26791397  0.46749245  1
+  Cr  Cr3  1  0.47558916  0.95117832  0.48640421  1
+  Cr  Cr4  1  0.18440934  0.36881868  0.51359126  1
+  S  S5  1  0.94146411  0.88292821  0.43961939  1
+  S  S6  1  0.71850143  0.43700286  0.56036749  1
+  F  F7  1  0.63452011  0.26904023  0.59320542  1
+  F  F8  1  0.02551045  0.05102090  0.40680146  1

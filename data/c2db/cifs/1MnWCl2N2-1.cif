@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MnW(NCl)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.32902030
+_cell_length_b   4.02001398
+_cell_length_c   20.10030566
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99989468
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnW(NCl)2
+_chemical_formula_sum   'Mn1 W1 N2 Cl2'
+_cell_volume   268.99652451
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  W  W0  1  0.25213370  0.24962642  0.53119495  1
+  Mn  Mn1  1  0.75376691  0.74979054  0.45918468  1
+  N  N2  1  0.25220963  0.74976294  0.52968094  1
+  Cl  Cl3  1  0.75199820  0.24916558  0.62684146  1
+  N  N4  1  0.75228047  0.24987714  0.48044190  1
+  Cl  Cl5  1  0.25447357  0.74953702  0.37310815  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CoNiBrF3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.02195256
+_cell_length_b   5.38129716
+_cell_length_c   18.45042893
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   111.96610614
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CoNiBrF3
+_chemical_formula_sum   'Co1 Ni1 Br1 F3'
+_cell_volume   370.33943172
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.06036338  0.83234414  0.59350955  1
+  F  F1  1  0.41525517  0.53874172  0.46390441  1
+  Ni  Ni2  1  0.21748112  0.14396030  0.49509948  1
+  F  F3  1  0.76001638  0.22914602  0.49167063  1
+  Co  Co4  1  0.96004347  0.62834788  0.47393565  1
+  F  F5  1  0.10261116  0.91268245  0.40649287  1

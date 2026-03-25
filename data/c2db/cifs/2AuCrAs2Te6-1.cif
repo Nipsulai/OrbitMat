@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CrTe6As2Au
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.99025798
+_cell_length_b   12.22638770
+_cell_length_c   33.68690401
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00095532
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrTe6As2Au
+_chemical_formula_sum   'Cr2 Te12 As4 Au2'
+_cell_volume   2879.07160290
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.64146847  0.67666125  0.49999697  1
+  Cr  Cr1  1  0.14146311  0.53014682  0.50000305  1
+  Te  Te2  1  0.26150003  0.36862358  0.45117838  1
+  Te  Te3  1  0.76145137  0.83831113  0.45119707  1
+  Te  Te4  1  0.81501441  0.16791869  0.44761994  1
+  Te  Te5  1  0.31441047  0.03880074  0.44751201  1
+  As  As6  1  0.64631400  0.35899421  0.46249498  1
+  As  As7  1  0.14627843  0.84782392  0.46248129  1
+  Te  Te8  1  0.34794318  0.64834651  0.44801479  1
+  Te  Te9  1  0.84792234  0.55838962  0.44802756  1
+  Au  Au10  1  0.64147010  0.01762838  0.49999739  1
+  Au  Au11  1  0.14146009  0.18913487  0.50000235  1
+  Te  Te12  1  0.52147761  0.83830154  0.54879978  1
+  Te  Te13  1  1.02143647  0.36861214  0.54882412  1
+  Te  Te14  1  0.46794285  0.16791447  0.55237638  1
+  As  As15  1  0.63663095  0.35899555  0.53750686  1
+  Te  Te16  1  0.43500513  0.55840545  0.55197427  1
+  Te  Te17  1  -0.03151078  0.03879500  0.55249144  1
+  As  As18  1  0.13663889  0.84782547  0.53751725  1
+  Te  Te19  1  0.93499273  0.64836259  0.55198336  1

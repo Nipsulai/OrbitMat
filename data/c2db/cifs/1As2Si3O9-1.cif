@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Si3As2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.00487709
+_cell_length_b   7.00461660
+_cell_length_c   35.06026332
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99814168
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Si3As2O9
+_chemical_formula_sum   'Si3 As2 O9'
+_cell_volume   1489.83723916
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  -0.00004651  0.00004618  0.43730468  1
+  Si  Si1  1  0.61186954  0.86121963  0.49999909  1
+  Si  Si2  1  0.13878300  0.75076184  0.50000057  1
+  Si  Si3  1  0.24922603  0.38812843  0.50000033  1
+  O  O4  1  0.75767049  0.97046694  0.53895305  1
+  O  O5  1  0.02953158  0.78731651  0.53895312  1
+  O  O6  1  0.21267799  0.24232573  0.53895318  1
+  O  O7  1  0.02953075  0.78731195  0.46104775  1
+  O  O8  1  0.21268213  0.24232711  0.46104739  1
+  O  O9  1  0.75767561  0.97046335  0.46104551  1
+  As  As10  1  0.99994247  0.00004697  0.56269532  1
+  O  O11  1  0.40871144  0.91549337  0.49999911  1
+  O  O12  1  0.08448340  0.49329186  0.50000110  1
+  O  O13  1  0.50667922  0.59128809  0.49999980  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_GaAgSeSI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.16209149
+_cell_length_b   4.49705465
+_cell_length_c   18.95860567
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.28213937
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaAgSeSI2
+_chemical_formula_sum   'Ga1 Ag1 Se1 S1 I2'
+_cell_volume   579.80246176
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.69643026  0.08915408  0.52046566  1
+  Se  Se1  1  0.58029669  0.53130976  0.56713054  1
+  S  S2  1  0.39542700  0.93884673  0.45514368  1
+  I  I3  1  0.03039232  0.25452491  0.60439862  1
+  I  I4  1  0.99254339  0.23467124  0.39558631  1
+  Ga  Ga5  1  0.27965340  0.38144622  0.49195828  1

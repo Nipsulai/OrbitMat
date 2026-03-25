@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_GaSi2Ni7PCSeS2Cl5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.90114966
+_cell_length_b   6.61221570
+_cell_length_c   22.15876305
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   94.39589776
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaSi2Ni7PCSeS2Cl5
+_chemical_formula_sum   'Ga1 Si2 Ni7 P1 Se1 C1 S2 Cl5'
+_cell_volume   862.08419524
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.04057613  0.85947591  0.50256413  1
+  S  S1  1  0.52759699  0.06019303  0.38687512  1
+  Si  Si2  1  0.26387045  0.15520789  0.48409839  1
+  Si  Si3  1  0.79322725  0.32605980  0.46069374  1
+  Ni  Ni4  1  0.61961989  0.15453017  0.54347129  1
+  Ga  Ga5  1  0.56416644  0.73457513  0.57849397  1
+  Se  Se6  1  0.07399999  0.32043705  0.36501398  1
+  Cl  Cl7  1  0.59963452  0.57062275  0.33846655  1
+  Ni  Ni8  1  0.05504034  0.39650854  0.53764074  1
+  Ni  Ni9  1  0.91576983  0.60628378  0.40121768  1
+  Ni  Ni10  1  0.88724368  0.02683668  0.41484649  1
+  Ni  Ni11  1  0.46976210  0.86187657  0.47719981  1
+  S  S12  1  0.94810774  0.68831249  0.58444796  1
+  Cl  Cl13  1  0.43026365  0.86509124  0.66153345  1
+  Ni  Ni14  1  0.43526063  0.37096303  0.41544727  1
+  Cl  Cl15  1  0.41123200  0.38536240  0.59613645  1
+  C  C16  1  0.76831216  0.97711384  0.49379724  1
+  P  P17  1  0.21495415  0.58678178  0.46389859  1
+  Cl  Cl18  1  0.89684943  0.19481488  0.61422193  1
+  Cl  Cl19  1  0.05874015  0.86052225  0.33858216  1

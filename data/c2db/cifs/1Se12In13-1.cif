@@ -1,0 +1,51 @@
+# generated using pymatgen
+data_In13Se12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.14446292
+_cell_length_b   7.14413788
+_cell_length_c   30.21473369
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99054143
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In13Se12
+_chemical_formula_sum   'In13 Se12'
+_cell_volume   1335.70392488
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.33377751  0.33382380  0.28127273  1
+  In  In1  1  0.33399726  0.33394075  0.37443575  1
+  Se  Se2  1  0.66896453  0.66894261  0.24200529  1
+  Se  Se3  1  0.66059955  0.66046520  0.41965802  1
+  In  In4  1  0.33368911  0.33368820  0.71862474  1
+  In  In5  1  0.33430761  0.33431619  0.62542982  1
+  Se  Se6  1  0.66890045  0.33357288  0.75780202  1
+  Se  Se7  1  0.66089820  0.33413443  0.58027574  1
+  In  In8  1  0.66696647  0.00014554  0.28379074  1
+  In  In9  1  0.66714915  0.00003519  0.37814574  1
+  Se  Se10  1  -0.00174486  0.33366798  0.24216157  1
+  Se  Se11  1  0.00670009  0.33360302  0.41944988  1
+  In  In12  1  0.66662843  0.00014219  0.71605803  1
+  In  In13  1  0.66705234  0.00071543  0.62169196  1
+  Se  Se14  1  -0.00186999  -0.00185936  0.75764869  1
+  Se  Se15  1  0.00702609  0.00709055  0.58047428  1
+  In  In16  1  0.00007209  0.66712324  0.28381438  1
+  In  In17  1  0.00007071  0.66718793  0.37816882  1
+  Se  Se18  1  0.33362716  -0.00179187  0.24213876  1
+  Se  Se19  1  0.33382648  0.00654182  0.41947175  1
+  In  In20  1  0.00021547  0.66653074  0.71604852  1
+  In  In21  1  0.00080298  0.66693153  0.62168250  1
+  Se  Se22  1  0.33353998  0.66898412  0.75781553  1
+  Se  Se23  1  0.33410782  0.66107089  0.58025301  1
+  In  In24  1  0.33210024  0.33204071  0.49995999  1

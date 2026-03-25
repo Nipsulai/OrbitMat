@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_VGeWO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.94141434
+_cell_length_b   5.87049134
+_cell_length_c   17.82510972
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   96.67486119
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VGeWO7
+_chemical_formula_sum   'V1 Ge1 W1 O7'
+_cell_volume   617.50819008
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.52781133  0.20833490  0.52286635  1
+  O  O1  1  0.10531385  0.57043182  0.42076071  1
+  W  W2  1  0.98548215  0.36809515  0.50201915  1
+  O  O3  1  0.01490699  0.08011190  0.44882585  1
+  O  O4  1  0.42969130  0.91898140  0.49852183  1
+  Ge  Ge5  1  0.13715517  0.83056026  0.47613686  1
+  O  O6  1  0.27336757  0.32438377  0.54686112  1
+  O  O7  1  0.99652216  0.66453305  0.55220014  1
+  O  O8  1  0.68240743  0.35601217  0.45141677  1
+  O  O9  1  0.77947764  0.23796772  0.57924996  1

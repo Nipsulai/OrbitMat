@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_ZnTeWO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.05015420
+_cell_length_b   5.33388328
+_cell_length_c   37.65224460
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00050942
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnTeWO6
+_chemical_formula_sum   'Zn2 Te2 W2 O12'
+_cell_volume   1014.23599184
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.34742012  0.21418630  0.49382669  1
+  Zn  Zn1  1  0.84740862  0.71419019  0.50617251  1
+  W  W2  1  0.84735157  0.21422961  0.42504956  1
+  W  W3  1  0.34746349  0.71421403  0.57495177  1
+  Te  Te4  1  0.34739512  0.71419998  0.44126337  1
+  Te  Te5  1  0.84743638  0.21419846  0.55873565  1
+  O  O6  1  0.56809641  0.54076899  0.47472492  1
+  O  O7  1  0.12672852  0.88760441  0.47473134  1
+  O  O8  1  0.62674882  0.04076761  0.52527367  1
+  O  O9  1  0.58474831  0.03482252  0.44945628  1
+  O  O10  1  0.11005041  0.39358954  0.44944568  1
+  O  O11  1  0.08480103  0.89359898  0.55055221  1
+  O  O12  1  0.61006704  0.53480766  0.55054399  1
+  O  O13  1  0.18759780  0.50237869  0.60245694  1
+  O  O14  1  0.50739033  0.92601653  0.60245630  1
+  O  O15  1  0.06809698  0.38760773  0.52526829  1
+  O  O16  1  0.68744962  0.42608100  0.39754774  1
+  O  O17  1  0.00715792  0.00234953  0.39754372  1

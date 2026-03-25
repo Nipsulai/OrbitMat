@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_HgTeAuI
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.79785875
+_cell_length_b   4.74197873
+_cell_length_c   18.63018184
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   105.68415971
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HgTeAuI
+_chemical_formula_sum   'Hg1 Te1 Au1 I1'
+_cell_volume   408.07983434
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Au  Au0  1  0.75202366  0.75179685  0.46809140  1
+  Hg  Hg1  1  0.25190845  0.25120099  0.49503430  1
+  I  I2  1  0.25286283  0.75138279  0.59742744  1
+  Te  Te3  1  0.75262914  0.25198482  0.40257256  1

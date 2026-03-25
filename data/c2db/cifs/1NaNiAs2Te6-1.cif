@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaNi(Te3As)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.13254771
+_cell_length_b   7.13075636
+_cell_length_c   33.22614168
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00760141
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaNi(Te3As)2
+_chemical_formula_sum   'Na1 Ni1 Te6 As2'
+_cell_volume   1463.38148919
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.67775036  0.99894599  0.49999621  1
+  Te  Te1  1  0.66546622  0.73214792  0.55510645  1
+  Na  Na2  1  0.01090927  0.66544240  0.50000079  1
+  Te  Te3  1  -0.05599533  0.25272745  0.55521340  1
+  As  As4  1  0.34415655  0.33147291  0.53742964  1
+  Te  Te5  1  0.42321266  1.01024219  0.55518914  1
+  Te  Te6  1  0.42318698  0.73238110  0.44491006  1
+  Te  Te7  1  0.66508342  0.25274028  0.44477781  1
+  As  As8  1  0.34376556  0.33158314  0.46256653  1
+  Te  Te9  1  -0.05643538  0.01031090  0.44480986  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HgClF
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.18184589
+_cell_length_b   7.76164770
+_cell_length_c   21.04820360
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   168.69451235
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HgClF
+_chemical_formula_sum   'Hg2 Cl2 F2'
+_cell_volume   358.11894880
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.09149842  0.61188627  0.57938147  1
+  Hg  Hg1  1  0.59149844  0.61188627  0.42061853  1
+  Cl  Cl2  1  0.11369832  0.41690150  0.65222485  1
+  Cl  Cl3  1  0.61369831  0.41690151  0.34777515  1
+  F  F4  1  0.12151843  0.88328012  0.52744935  1
+  F  F5  1  0.62151843  0.88328012  0.47255065  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CoNiTe2SeBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.64858766
+_cell_length_b   6.40603239
+_cell_length_c   17.87980849
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00177239
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CoNiTe2SeBr
+_chemical_formula_sum   'Co1 Ni1 Te2 Se1 Br1'
+_cell_volume   417.90423984
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.24690125  0.49025190  0.49888987  1
+  Te  Te1  1  0.24741407  0.15954410  0.41945383  1
+  Te  Te2  1  0.74693290  0.65052905  0.42616660  1
+  Br  Br3  1  0.74666965  0.33153936  0.58050251  1
+  Ni  Ni4  1  0.74749220  -0.01363565  0.49836886  1
+  Se  Se5  1  0.24746978  0.81936577  0.56279856  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Hf2Ti2Br7Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.84723905
+_cell_length_b   7.18158163
+_cell_length_c   19.00248082
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   118.47186186
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf2Ti2Br7Cl
+_chemical_formula_sum   'Hf2 Ti2 Br7 Cl1'
+_cell_volume   821.41028268
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.55493415  0.52634515  0.50266459  1
+  Br  Br1  1  0.91959453  0.76454509  0.42342960  1
+  Hf  Hf2  1  0.06104949  0.53902292  0.50351309  1
+  Hf  Hf3  1  0.61390588  0.14739244  0.49851335  1
+  Br  Br4  1  0.75654100  0.92261705  0.57921706  1
+  Br  Br5  1  0.24945664  0.92486455  0.58224053  1
+  Br  Br6  1  0.25899059  0.42503411  0.60531469  1
+  Br  Br7  1  0.92496486  0.26019485  0.39468531  1
+  Br  Br8  1  0.42627907  0.76154279  0.42115893  1
+  Ti  Ti9  1  0.12106554  0.15857514  0.49919934  1
+  Cl  Cl10  1  0.75083710  0.42735984  0.59741711  1
+  Br  Br11  1  0.41659226  0.26028041  0.39685730  1

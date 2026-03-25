@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_FeBiBrO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.52848849
+_cell_length_b   7.86369158
+_cell_length_c   35.19677800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeBiBrO2
+_chemical_formula_sum   'Fe2 Bi2 Br2 O4'
+_cell_volume   976.60307137
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  -0.00000000  0.22566035  0.43788460  1
+  Bi  Bi1  1  -0.00000000  0.72566035  0.56211540  1
+  Fe  Fe2  1  0.50000000  0.54303022  0.49369948  1
+  Fe  Fe3  1  0.50000000  0.04303022  0.50630052  1
+  O  O4  1  0.50000000  0.29745154  0.47314452  1
+  O  O5  1  0.50000000  0.79745154  0.52685548  1
+  O  O6  1  -0.00000000  0.52976390  0.52097309  1
+  Br  Br7  1  -0.00000000  0.60531165  0.43397687  1
+  Br  Br8  1  0.00000000  0.10531165  0.56602313  1
+  O  O9  1  -0.00000000  0.02976390  0.47902691  1

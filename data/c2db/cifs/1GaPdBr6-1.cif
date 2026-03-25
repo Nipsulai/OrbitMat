@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_GaPdBr6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.70602803
+_cell_length_b   6.53005033
+_cell_length_c   18.12191009
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.88554550
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaPdBr6
+_chemical_formula_sum   'Ga1 Pd1 Br6'
+_cell_volume   681.03833427
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.13121744  0.50817999  0.58023463  1
+  Ga  Ga1  1  0.82408835  0.15652210  0.49992339  1
+  Br  Br2  1  0.51694532  0.86861216  0.41386366  1
+  Br  Br3  1  0.84391579  0.86925852  0.58613634  1
+  Br  Br4  1  0.14729249  0.14622100  0.42191641  1
+  Br  Br5  1  0.49040842  0.14602555  0.57786925  1
+  Pd  Pd6  1  0.16311077  0.83497405  0.49987503  1
+  Br  Br7  1  0.86807423  0.50801739  0.41955472  1

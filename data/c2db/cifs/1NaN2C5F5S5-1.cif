@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_NaC5S5N2F5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.69774584
+_cell_length_b   10.79267428
+_cell_length_c   32.77776389
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   122.74735841
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaC5S5N2F5
+_chemical_formula_sum   'Na1 C5 S5 N2 F5'
+_cell_volume   1695.27628062
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.09042101  0.08301124  0.57100383  1
+  C  C1  1  1.17238450  0.98447228  0.57178304  1
+  F  F2  1  0.19172341  0.19227605  0.60039317  1
+  F  F3  1  -0.39366867  0.44730681  0.42700624  1
+  S  S4  1  0.02975567  0.29304561  0.49366845  1
+  S  S5  1  0.45550278  1.02425435  0.60190798  1
+  S  S6  1  0.61010252  0.67561632  0.50043216  1
+  S  S7  1  -0.21125637  0.40831492  0.45824472  1
+  N  N8  1  1.03335222  0.86539292  0.54874838  1
+  C  C9  1  0.88879132  0.21123526  0.53766053  1
+  C  C10  1  0.90173669  0.07930057  0.54406238  1
+  C  C11  1  0.76032689  0.95276390  0.52108822  1
+  C  C12  1  0.80916388  0.83699706  0.52520001  1
+  Na  Na13  1  0.08002012  0.65457896  0.51899607  1
+  F  F14  1  0.96872028  0.46515225  0.55805481  1
+  F  F15  1  0.56710704  0.93784212  0.49456914  1
+  F  F16  1  0.01869600  0.44049519  0.42327088  1
+  S  S17  1  0.75200782  0.26862675  0.57546300  1

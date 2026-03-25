@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_In2Fe2Se5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.00704803
+_cell_length_b   4.00704467
+_cell_length_c   43.33417120
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00002774
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In2Fe2Se5
+_chemical_formula_sum   'In2 Fe2 Se5'
+_cell_volume   602.57309582
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.00010948  0.00021896  0.54713971  1
+  Fe  Fe1  1  0.33333469  0.66666937  0.46465451  1
+  In  In2  1  0.66662578  0.33325155  0.62715477  1
+  In  In3  1  0.66668312  0.33336625  0.37553994  1
+  Se  Se4  1  -0.00003732  -0.00007464  0.65700235  1
+  Se  Se5  1  -0.00000306  -0.00000613  0.49238589  1
+  Se  Se6  1  0.00001661  0.00003323  0.34565465  1
+  Se  Se7  1  0.66679469  0.33358937  0.56640167  1
+  Se  Se8  1  0.66667455  0.33334910  0.43525690  1

@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Cu2Ge(BrO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.71078944
+_cell_length_b   3.23680308
+_cell_length_c   22.80931234
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.93233617
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu2Ge(BrO)2
+_chemical_formula_sum   'Cu2 Ge1 Br2 O2'
+_cell_volume   273.96461918
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.18423499  0.24784735  0.54291383  1
+  Br  Br1  1  0.18821172  0.24934549  0.33012573  1
+  Cu  Cu2  1  0.44649765  0.74903972  0.39236698  1
+  Br  Br3  1  0.75890841  0.74733511  0.67014006  1
+  Cu  Cu4  1  0.27737414  0.74666806  0.60381823  1
+  Ge  Ge5  1  0.68704437  0.24866936  0.51500259  1
+  O  O6  1  0.69269035  0.74853687  0.46833577  1

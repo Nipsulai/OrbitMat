@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_NbMo2Se(SI)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.04779229
+_cell_length_b   5.96736037
+_cell_length_c   20.88151982
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.97497950
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbMo2Se(SI)2
+_chemical_formula_sum   'Nb1 Mo2 Se1 S2 I2'
+_cell_volume   504.38544734
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  1  0.73964437  0.39347200  0.46243411  1
+  Nb  Nb1  1  0.24043703  0.11655829  0.52948806  1
+  Mo  Mo2  1  0.74036148  0.71484934  0.55202888  1
+  S  S3  1  0.23989898  0.52592605  0.51173699  1
+  I  I4  1  0.24045828  0.84554119  0.64107823  1
+  S  S5  1  0.73972751  0.29666014  0.57817764  1
+  I  I6  1  0.23854173  0.39885682  0.35890174  1
+  Se  Se7  1  0.73747517  0.96009724  0.45311708  1

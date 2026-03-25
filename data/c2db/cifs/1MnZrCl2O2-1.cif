@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ZrMn(ClO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.67623304
+_cell_length_b   6.44825357
+_cell_length_c   18.36756517
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   106.32576947
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrMn(ClO)2
+_chemical_formula_sum   'Zr1 Mn1 Cl2 O2'
+_cell_volume   417.85221168
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.13517309  0.23012998  0.59167152  1
+  Zr  Zr1  1  0.25604291  0.45904447  0.47989241  1
+  O  O2  1  0.39691133  0.74269244  0.52985672  1
+  Mn  Mn3  1  0.96647440  0.88446142  0.51866138  1
+  Cl  Cl4  1  0.07758763  0.08871904  0.40832848  1
+  O  O5  1  0.78206059  0.51058934  0.44381045  1

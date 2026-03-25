@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_MnVSeS
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.79971791
+_cell_length_b   3.79306013
+_cell_length_c   33.25370315
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.95114910
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnVSeS
+_chemical_formula_sum   'Mn1 V1 Se1 S1'
+_cell_volume   415.26497606
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.47681285  0.35450928  0.48111079  1
+  V  V1  1  0.81119754  0.02203495  0.52375212  1
+  Se  Se2  1  0.81085707  0.02158019  0.44910089  1
+  S  S3  1  0.47736465  0.35510389  0.55110578  1

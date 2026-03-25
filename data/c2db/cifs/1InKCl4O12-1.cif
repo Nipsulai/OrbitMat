@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_KIn(ClO3)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.94114175
+_cell_length_b   8.19253910
+_cell_length_c   37.04679588
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   83.53109470
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KIn(ClO3)4
+_chemical_formula_sum   'K1 In1 Cl4 O12'
+_cell_volume   1490.12450920
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.00000000  -0.00000000  0.50000000  1
+  In  In1  1  -0.00000000  0.50000000  0.50000000  1
+  Cl  Cl2  1  0.78987441  0.74523039  0.42926428  1
+  Cl  Cl3  1  0.21012559  0.25476961  0.57073572  1
+  Cl  Cl4  1  0.53480103  0.31005433  0.44735422  1
+  Cl  Cl5  1  0.46519897  0.68994567  0.55264578  1
+  O  O6  1  0.79341919  0.70539805  0.47291511  1
+  O  O7  1  0.20658081  0.29460195  0.52708489  1
+  O  O8  1  0.85455777  0.58667914  0.41064774  1
+  O  O9  1  0.14544223  0.41332086  0.58935226  1
+  O  O10  1  1.00701837  0.85457616  0.42471016  1
+  O  O11  1  -0.00701837  0.14542384  0.57528984  1
+  O  O12  1  0.76507939  0.30618104  0.47656072  1
+  O  O13  1  0.23492061  0.69381896  0.52343928  1
+  O  O14  1  0.32321325  0.45438646  0.45693706  1
+  O  O15  1  0.67678675  0.54561354  0.54306294  1
+  O  O16  1  0.42130237  0.15198221  0.45202989  1
+  O  O17  1  0.57869763  0.84801779  0.54797011  1

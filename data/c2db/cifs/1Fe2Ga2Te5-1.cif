@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ga2Fe2Te5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.02059462
+_cell_length_b   4.02044577
+_cell_length_c   41.66236800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00122475
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ga2Fe2Te5
+_chemical_formula_sum   'Ga2 Fe2 Te5'
+_cell_volume   583.22175876
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.00000133  0.00000265  0.46880994  1
+  Fe  Fe1  1  0.00000133  0.00000265  0.53119006  1
+  Ga  Ga2  1  0.33329561  0.66659122  0.37639339  1
+  Ga  Ga3  1  0.33329561  0.66659122  0.62360661  1
+  Te  Te4  1  0.66664867  0.33329735  0.50000000  1
+  Te  Te5  1  0.33337451  0.66674903  0.44066142  1
+  Te  Te6  1  0.33337451  0.66674903  0.55933858  1
+  Te  Te7  1  0.66665077  0.33330155  0.34476485  1
+  Te  Te8  1  0.66665077  0.33330155  0.65523515  1

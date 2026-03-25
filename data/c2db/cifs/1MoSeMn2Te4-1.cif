@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Mn2Te4MoSe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.73690309
+_cell_length_b   6.45752155
+_cell_length_c   18.66816110
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   121.58055740
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2Te4MoSe
+_chemical_formula_sum   'Mn2 Te4 Mo1 Se1'
+_cell_volume   691.86078464
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  1  0.74945666  0.59474824  0.50000994  1
+  Te  Te1  1  0.83832094  0.94671809  0.40204864  1
+  Mn  Mn2  1  0.15696917  0.02278004  0.50001289  1
+  Mn  Mn3  1  0.72910126  0.16774609  0.49995690  1
+  Te  Te4  1  0.83832907  0.94663365  0.59793657  1
+  Te  Te5  1  0.48735024  0.24352906  0.40175355  1
+  Te  Te6  1  0.48721432  0.24357589  0.59824645  1
+  Se  Se7  1  0.10096833  0.59557176  0.49999624  1

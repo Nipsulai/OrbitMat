@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Ni3TeMoSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.43181352
+_cell_length_b   6.71733202
+_cell_length_c   18.68941036
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00330654
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni3TeMoSe3
+_chemical_formula_sum   'Ni3 Te1 Mo1 Se3'
+_cell_volume   430.84007645
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.25242492  0.68816186  0.55989374  1
+  Se  Se1  1  0.75260496  0.12639891  0.41979791  1
+  Mo  Mo2  1  0.75241115  0.42159838  0.50023156  1
+  Ni  Ni3  1  0.25244378  0.08845736  0.50992859  1
+  Se  Se4  1  0.25239121  0.35829469  0.59823601  1
+  Ni  Ni5  1  0.75240893  0.80437856  0.47395018  1
+  Te  Te6  1  0.25241473  0.61887003  0.40129677  1
+  Se  Se7  1  0.75242215  0.89550826  0.59870323  1

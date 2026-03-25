@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ga2Ni2S5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.61467713
+_cell_length_b   3.61469930
+_cell_length_c   43.33417120
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99979710
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ga2Ni2S5
+_chemical_formula_sum   'Ga2 Ni2 S5'
+_cell_volume   490.34720041
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.00000148  0.00000295  0.54350795  1
+  Ni  Ni1  1  0.33335823  0.66671645  0.46712025  1
+  Ga  Ga2  1  0.66669403  0.33338807  0.61354063  1
+  Ga  Ga3  1  0.66669990  0.33339980  0.38874960  1
+  S  S4  1  0.00002606  0.00005211  0.63863995  1
+  S  S5  1  0.00001723  0.00003447  0.49377782  1
+  S  S6  1  0.00003218  0.00006435  0.36352869  1
+  S  S7  1  0.66666919  0.33333838  0.56053981  1
+  S  S8  1  0.66670027  0.33340054  0.44178280  1

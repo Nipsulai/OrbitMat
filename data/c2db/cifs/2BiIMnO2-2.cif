@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_MnBiIO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.61695379
+_cell_length_b   8.80551272
+_cell_length_c   35.29483545
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnBiIO2
+_chemical_formula_sum   'Mn2 Bi2 I2 O4'
+_cell_volume   1124.10989410
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.50000000  0.45436597  0.49999863  1
+  Bi  Bi1  1  -0.00000000  0.72031036  0.43750064  1
+  Bi  Bi2  1  0.00000000  0.18839488  0.56250413  1
+  O  O3  1  0.50000000  0.66674357  0.47053520  1
+  O  O4  1  0.50000000  0.24203818  0.52945535  1
+  I  I5  1  0.00000000  0.33660173  0.44415989  1
+  I  I6  1  0.00000000  0.57216387  0.55584322  1
+  O  O7  1  0.00000000  0.98410403  0.53484176  1
+  Mn  Mn8  1  0.50000000  0.95437848  0.50000544  1
+  O  O9  1  0.00000000  -0.07537091  0.46515612  1

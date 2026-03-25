@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NiAsO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.07329934
+_cell_length_b   5.07423000
+_cell_length_c   18.41164285
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99653369
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiAsO3
+_chemical_formula_sum   'Ni2 As2 O6'
+_cell_volume   410.48659414
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  -0.00002046  -0.00003619  0.50000639  1
+  Ni  Ni1  1  0.33336054  0.66671616  0.50001223  1
+  As  As2  1  0.66687041  0.33333237  0.43798181  1
+  As  As3  1  0.66646988  0.33334771  0.56202177  1
+  O  O4  1  0.32297720  -0.01058026  0.42579311  1
+  O  O5  1  1.01076220  0.33333468  0.42573223  1
+  O  O6  1  0.66688253  0.67723971  0.42578870  1
+  O  O7  1  1.01036871  0.67726846  0.57420972  1
+  O  O8  1  0.32256934  0.33334204  0.57427045  1
+  O  O9  1  0.66646088  -0.01056515  0.57421387  1

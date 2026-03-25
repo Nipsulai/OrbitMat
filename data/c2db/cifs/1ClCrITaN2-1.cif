@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_TaCrIN2Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.40874501
+_cell_length_b   4.07724573
+_cell_length_c   20.49457116
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00107525
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaCrIN2Cl
+_chemical_formula_sum   'Ta1 Cr1 I1 N2 Cl1'
+_cell_volume   284.83951466
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.68156766  0.27331041  0.53988634  1
+  I  I1  1  0.68229009  0.77336525  0.36595057  1
+  N  N2  1  0.18187931  0.27344779  0.48738365  1
+  Cl  Cl3  1  0.18221531  0.27341630  0.63404943  1
+  N  N4  1  0.68224075  0.77339500  0.52995491  1
+  Cr  Cr5  1  1.18224575  0.77342522  0.46846757  1

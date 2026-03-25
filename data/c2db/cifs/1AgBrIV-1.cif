@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_VAgIBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.01576265
+_cell_length_b   3.58488445
+_cell_length_c   19.49643526
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.03341987
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VAgIBr
+_chemical_formula_sum   'V1 Ag1 I1 Br1'
+_cell_volume   280.67151274
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.37604843  1.00198655  0.38468571  1
+  Br  Br1  1  0.37625056  0.50037684  0.61531429  1
+  Ag  Ag2  1  0.87591890  0.50105639  0.46744403  1
+  V  V3  1  0.37618665  0.00045285  0.52404719  1

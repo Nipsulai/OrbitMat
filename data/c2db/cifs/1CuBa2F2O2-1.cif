@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Ba2Cu(OF)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.91127844
+_cell_length_b   3.91127844
+_cell_length_c   21.07899318
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.98051016
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Cu(OF)2
+_chemical_formula_sum   'Ba2 Cu1 O2 F2'
+_cell_volume   322.46850628
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.97418641  0.97418641  0.50000000  1
+  O  O1  1  0.47423734  0.97415129  0.50000000  1
+  O  O2  1  0.97415129  0.47423734  0.50000000  1
+  Ba  Ba3  1  0.47412604  0.47412604  0.40925086  1
+  F  F4  1  -0.02622925  -0.02622925  0.37193069  1
+  Ba  Ba5  1  0.47412604  0.47412604  0.59074914  1
+  F  F6  1  -0.02622925  -0.02622925  0.62806931  1

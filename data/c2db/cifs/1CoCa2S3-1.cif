@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Ca2CoS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.90312311
+_cell_length_b   3.90312311
+_cell_length_c   34.78752066
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   91.48287000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2CoS3
+_chemical_formula_sum   'Ca2 Co1 S3'
+_cell_volume   529.78847973
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  -0.08639644  0.08639644  0.50005053  1
+  S  S1  1  0.50345799  0.49654201  0.50005161  1
+  S  S2  1  0.96552946  0.03447054  0.57332658  1
+  S  S3  1  0.96543921  0.03456079  0.42677564  1
+  Ca  Ca4  1  0.46434795  0.53565205  0.57492542  1
+  Ca  Ca5  1  0.46424948  0.53575052  0.42517766  1

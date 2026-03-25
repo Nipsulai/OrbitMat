@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CuPbCl3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.16854885
+_cell_length_b   7.16854926
+_cell_length_c   18.23963653
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.04837862
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuPbCl3
+_chemical_formula_sum   'Cu2 Pb2 Cl6'
+_cell_volume   811.32976944
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pb  Pb0  1  0.66664131  0.33335870  0.50000000  1
+  Pb  Pb1  1  0.33335868  0.66664131  0.50000000  1
+  Cu  Cu2  1  0.00141851  0.00141850  0.42576740  1
+  Cu  Cu3  1  0.99858149  0.99858150  0.57423260  1
+  Cl  Cl4  1  0.31684151  0.31684151  0.41153694  1
+  Cl  Cl5  1  0.68529375  1.00013372  0.41209871  1
+  Cl  Cl6  1  1.00013371  0.68529376  0.41209871  1
+  Cl  Cl7  1  0.68315849  0.68315849  0.58846305  1
+  Cl  Cl8  1  0.31470625  -0.00013372  0.58790129  1
+  Cl  Cl9  1  -0.00013371  0.31470624  0.58790129  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CrSF3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.88718381
+_cell_length_b   9.37744202
+_cell_length_c   34.48408234
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00803496
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrSF3
+_chemical_formula_sum   'Cr4 S4 F12'
+_cell_volume   1580.38074604
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.98629797  0.30208013  0.53127236  1
+  Cr  Cr1  1  0.48626694  0.58537195  0.46873655  1
+  F  F2  1  0.09943371  0.21461749  0.48173917  1
+  F  F3  1  0.59931179  0.67282810  0.51824925  1
+  F  F4  1  0.26413067  0.48193210  0.43841971  1
+  F  F5  1  0.20605550  0.45259570  0.52057931  1
+  F  F6  1  0.70599188  0.43489324  0.47940893  1
+  S  S7  1  0.20026607  0.19118404  0.56992314  1
+  S  S8  1  0.70018491  0.69628966  0.43007866  1
+  Cr  Cr9  1  0.80236418  0.08537045  0.46873755  1
+  Cr  Cr10  1  0.30227179  0.80208814  0.53124856  1
+  F  F11  1  0.68925146  0.17288860  0.51826489  1
+  F  F12  1  0.18926025  0.71459423  0.48175095  1
+  F  F13  1  0.52446623  0.90545971  0.56156813  1
+  F  F14  1  0.58270477  0.93479051  0.47943302  1
+  F  F15  1  0.08271937  0.95266054  0.52056720  1
+  S  S16  1  0.58829016  0.19624216  0.43008803  1
+  S  S17  1  0.08822016  0.69124573  0.56990809  1
+  F  F18  1  0.76415671  0.40554922  0.56157400  1
+  F  F19  1  0.02455925  -0.01803043  0.43842818  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ZrNbIBrO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.48753056
+_cell_length_b   5.46688611
+_cell_length_c   20.20130802
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.60838692
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrNbIBrO2
+_chemical_formula_sum   'Zr1 Nb1 I1 Br1 O2'
+_cell_volume   365.02143555
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.57366516  0.94680682  0.54495946  1
+  I  I1  1  0.72832566  0.25579541  0.37126309  1
+  Nb  Nb2  1  0.81476429  0.42794531  0.49613973  1
+  Br  Br3  1  0.93604497  0.67157733  0.62873691  1
+  O  O4  1  0.19273106  0.18468327  0.53163724  1
+  O  O5  1  0.42670472  0.65143057  0.48336334  1

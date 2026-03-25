@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Mn2AgSI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.00989718
+_cell_length_b   4.33670940
+_cell_length_c   21.60705105
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   117.47663398
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2AgSI2
+_chemical_formula_sum   'Mn2 Ag1 S1 I2'
+_cell_volume   333.35742450
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.16369633  0.84773517  0.58197233  1
+  Mn  Mn1  1  0.84124111  0.20560513  0.51658279  1
+  Mn  Mn2  1  0.11139952  0.74837871  0.41973941  1
+  I  I3  1  0.85124879  0.22408113  0.65289109  1
+  I  I4  1  0.79891711  0.12438575  0.34710891  1
+  S  S5  1  0.52486588  0.57427083  0.48689433  1

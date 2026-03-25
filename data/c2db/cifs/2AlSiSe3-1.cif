@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_AlSiSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.33184888
+_cell_length_b   6.33139293
+_cell_length_c   33.52394110
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99393181
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlSiSe3
+_chemical_formula_sum   'Al2 Si2 Se6'
+_cell_volume   1163.97073555
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  -0.02226054  0.01815114  0.54929794  1
+  Se  Se1  1  0.68817314  0.37329041  0.54929791  1
+  Se  Se2  1  0.33287933  0.66285957  0.54929762  1
+  Se  Se3  1  0.68812053  0.01804884  0.45070206  1
+  Se  Se4  1  -0.02231315  0.66290958  0.45070209  1
+  Se  Se5  1  0.33298067  0.37334041  0.45070237  1
+  Al  Al6  1  0.66626396  0.68476623  0.50001868  1
+  Al  Al7  1  0.99959603  0.35143375  0.49998131  1
+  Si  Si8  1  0.33293048  0.01809934  0.53359436  1
+  Si  Si9  1  0.33292952  0.01810064  0.46640564  1

@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_AlGaHgO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.18507514
+_cell_length_b   3.18508209
+_cell_length_c   39.30476960
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00007216
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlGaHgO4
+_chemical_formula_sum   'Al1 Ga1 Hg1 O4'
+_cell_volume   345.31534852
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  -0.00000171  -0.00000086  0.49883020  1
+  Al  Al1  1  0.66666048  0.33333024  0.41711027  1
+  Ga  Ga2  1  0.33333727  0.66666863  0.58325310  1
+  O  O3  1  0.66666669  0.33333334  0.46081138  1
+  O  O4  1  0.33333449  0.66666724  0.53635788  1
+  O  O5  1  0.33333365  0.66666682  0.40331583  1
+  O  O6  1  0.66666929  0.33333465  0.60033371  1

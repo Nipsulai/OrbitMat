@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_TiNiSeSBr2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.32225701
+_cell_length_b   3.47476380
+_cell_length_c   18.14985854
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00818156
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiNiSeSBr2
+_chemical_formula_sum   'Ti1 Ni1 Se1 S1 Br2'
+_cell_volume   398.72243637
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.09118226  0.28842761  0.43457877  1
+  Br  Br1  1  0.57306055  0.78790090  0.41319577  1
+  S  S2  1  0.31809705  0.78753059  0.58575864  1
+  Ni  Ni3  1  0.98995089  0.78808051  0.52562851  1
+  Se  Se4  1  0.80618331  0.28780817  0.58676075  1
+  Ti  Ti5  1  0.45996855  0.28742901  0.51507378  1

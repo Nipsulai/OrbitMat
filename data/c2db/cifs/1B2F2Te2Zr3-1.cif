@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Zr3B2Te2F2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.90382754
+_cell_length_b   3.90532740
+_cell_length_c   24.22047184
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01225007
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr3B2Te2F2
+_chemical_formula_sum   'Zr3 B2 Te2 F2'
+_cell_volume   319.74788509
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.97226036  0.97239001  0.49999742  1
+  Zr  Zr1  1  0.63889289  0.30569674  0.59279019  1
+  Zr  Zr2  1  0.63889291  0.30569674  0.40720455  1
+  B  B3  1  0.30559118  0.63904915  0.53734700  1
+  B  B4  1  0.30559159  0.63904932  0.46264763  1
+  Te  Te5  1  0.97218201  0.97226086  0.66452403  1
+  Te  Te6  1  0.97218282  0.97226129  0.33547065  1
+  F  F7  1  0.97222121  0.97197182  0.74469145  1
+  F  F8  1  0.97222461  0.97197384  0.25530327  1

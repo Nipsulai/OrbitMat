@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiAs2PdO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.13692809
+_cell_length_b   5.23173463
+_cell_length_c   33.22614168
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.59316180
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiAs2PdO6
+_chemical_formula_sum   'Li1 As2 Pd1 O6'
+_cell_volume   768.65731411
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.68614478  1.00293284  0.49998075  1
+  O  O1  1  0.67120814  0.63870431  0.54846150  1
+  Li  Li2  1  0.01518707  0.66700792  0.50020252  1
+  O  O3  1  -0.00201321  0.29114142  0.54230521  1
+  As  As4  1  0.35076179  0.31603441  0.53476513  1
+  O  O5  1  0.34995090  0.97843536  0.53895109  1
+  O  O6  1  0.35007807  0.69118407  0.46103794  1
+  O  O7  1  0.67091786  0.35135113  0.45153014  1
+  As  As8  1  0.35074020  0.35435561  0.46520139  1
+  O  O9  1  -0.00191118  0.02673767  0.45768972  1

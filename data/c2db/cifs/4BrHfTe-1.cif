@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HfTeBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.77189202
+_cell_length_b   6.45092352
+_cell_length_c   18.63295216
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfTeBr
+_chemical_formula_sum   'Hf2 Te2 Br2'
+_cell_volume   453.38047488
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.00000000  0.00120030  0.50078215  1
+  Hf  Hf1  1  0.50000000  0.50120030  0.49921785  1
+  Te  Te2  1  0.50000000  0.16503269  0.60126225  1
+  Te  Te3  1  0.00000000  0.66503269  0.39873775  1
+  Br  Br4  1  0.50000000  0.16709937  0.40723322  1
+  Br  Br5  1  0.00000000  0.66709937  0.59276678  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_SiAsSO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.95650313
+_cell_length_b   7.10578782
+_cell_length_c   17.88273491
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   91.86624337
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SiAsSO7
+_chemical_formula_sum   'Si1 As1 S1 O7'
+_cell_volume   629.49333654
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.07220684  0.21558165  0.45533476  1
+  As  As1  1  0.89067665  0.91685442  0.50640964  1
+  Si  Si2  1  0.28959838  0.70739419  0.51774681  1
+  O  O3  1  0.47580498  0.39078346  0.41939425  1
+  O  O4  1  0.23606258  0.47715974  0.53550066  1
+  O  O5  1  0.11302150  0.82924057  0.58060806  1
+  O  O6  1  0.11311260  0.78498241  0.44450899  1
+  O  O7  1  0.61745725  0.73960389  0.51677776  1
+  O  O8  1  0.47730619  0.18346309  0.53208388  1
+  S  S9  1  0.33052160  0.30748187  0.48271324  1

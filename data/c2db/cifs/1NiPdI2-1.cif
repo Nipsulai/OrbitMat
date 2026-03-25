@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_NiPdI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.03552440
+_cell_length_b   4.43642541
+_cell_length_c   18.43098023
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.04824086
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiPdI2
+_chemical_formula_sum   'Ni1 Pd1 I2'
+_cell_volume   329.97530665
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.24618263  0.05932350  0.45912848  1
+  Ni  Ni1  1  0.74598940  0.77756326  0.50929402  1
+  I  I2  1  0.24618116  0.76390350  0.59307644  1
+  I  I3  1  0.74653297  0.38956372  0.40692356  1

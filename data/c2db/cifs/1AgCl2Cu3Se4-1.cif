@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cu3Ag(Se2Cl)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.20208046
+_cell_length_b   6.21221794
+_cell_length_c   21.26765888
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   114.32488776
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu3Ag(Se2Cl)2
+_chemical_formula_sum   'Cu3 Ag1 Se4 Cl2'
+_cell_volume   626.28036087
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.23496764  0.67686229  0.54467747  1
+  Se  Se1  1  0.69042932  0.58700679  0.44109196  1
+  Cu  Cu2  1  0.20304888  0.61287944  0.42961738  1
+  Cu  Cu3  1  0.47735389  0.16444940  0.42657446  1
+  Se  Se4  1  -0.01268577  0.18504199  0.44247735  1
+  Cl  Cl5  1  0.33787769  0.88356329  0.35178172  1
+  Ag  Ag6  1  0.71646295  0.63904928  0.56470648  1
+  Cl  Cl7  1  0.88112494  0.97013631  0.64773610  1
+  Cu  Cu8  1  0.96200704  0.13418414  0.55216063  1
+  Se  Se9  1  0.45073686  0.11127404  0.54104924  1

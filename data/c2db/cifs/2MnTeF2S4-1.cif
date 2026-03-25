@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_MnTe(S2F)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.97672229
+_cell_length_b   6.76027165
+_cell_length_c   34.99473000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   88.68520366
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnTe(S2F)2
+_chemical_formula_sum   'Mn2 Te2 S8 F4'
+_cell_volume   1413.56412437
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.90363756  0.51801505  0.49671778  1
+  Mn  Mn1  1  0.40363756  0.01801505  0.50328222  1
+  Te  Te2  1  0.00607679  0.01415130  0.42740526  1
+  Te  Te3  1  0.50607679  0.51415130  0.57259474  1
+  S  S4  1  0.66315100  0.26250081  0.53011681  1
+  S  S5  1  0.64846847  0.75625458  0.52872454  1
+  S  S6  1  0.14846847  0.25625458  0.47127546  1
+  S  S7  1  0.11879300  0.45674820  0.55924904  1
+  S  S8  1  0.61879300  -0.04325180  0.44075096  1
+  S  S9  1  0.76214177  0.62001993  0.42028195  1
+  S  S10  1  0.26214177  0.12001993  0.57971805  1
+  F  F11  1  0.85287939  0.39351132  0.40014768  1
+  F  F12  1  0.35287939  -0.10648868  0.59985232  1
+  F  F13  1  0.52188194  0.59427929  0.39831705  1
+  S  S14  1  0.16315100  0.76250081  0.46988319  1
+  F  F15  1  0.02188194  0.09427929  0.60168295  1

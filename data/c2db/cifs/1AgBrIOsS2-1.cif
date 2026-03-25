@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_AgOsS2IBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.80410094
+_cell_length_b   4.21769835
+_cell_length_c   21.88011328
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   93.52551388
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgOsS2IBr
+_chemical_formula_sum   'Ag1 Os1 S2 I1 Br1'
+_cell_volume   350.39220733
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.25474799  0.75183343  0.43761104  1
+  Br  Br1  1  0.25249278  0.25362409  0.65660539  1
+  S  S2  1  0.25176199  0.24896247  0.50955542  1
+  S  S3  1  0.75200621  0.75219741  0.53794869  1
+  Os  Os4  1  0.75235723  0.25474777  0.57780129  1
+  I  I5  1  0.75427006  0.74448637  0.34290399  1

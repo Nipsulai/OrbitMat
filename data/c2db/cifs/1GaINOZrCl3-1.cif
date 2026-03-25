@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_ZrGaINCl3O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.60544714
+_cell_length_b   5.38960479
+_cell_length_c   19.08978712
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.82776922
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrGaINCl3O
+_chemical_formula_sum   'Zr1 Ga1 I1 N1 Cl3 O1'
+_cell_volume   576.66413490
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.11469473  0.15413489  0.58152711  1
+  O  O1  1  0.15553395  0.64254868  0.48942931  1
+  Cl  Cl2  1  0.64766146  0.65897096  0.40406674  1
+  Ga  Ga3  1  0.38072198  0.41381075  0.51931605  1
+  Zr  Zr4  1  0.93074621  0.88940765  0.47484441  1
+  Cl  Cl5  1  0.13491507  0.14903420  0.39294620  1
+  N  N6  1  0.62070035  0.16980864  0.49293056  1
+  I  I7  1  0.64042107  0.68859931  0.60703146  1

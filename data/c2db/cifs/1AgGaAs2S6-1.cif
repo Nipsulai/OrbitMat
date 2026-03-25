@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_GaAg(AsS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.24950808
+_cell_length_b   6.24950808
+_cell_length_c   33.42590400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99688982
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaAg(AsS3)2
+_chemical_formula_sum   'Ga1 Ag1 As2 S6'
+_cell_volume   1130.62626855
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  -0.00000377  0.00000377  0.50000000  1
+  Ag  Ag1  1  0.66667873  0.33332127  0.50000000  1
+  S  S2  1  0.69621786  0.70702964  0.55071474  1
+  S  S3  1  0.01079728  0.30378113  0.55071604  1
+  S  S4  1  0.29297330  0.98920696  0.55071518  1
+  S  S5  1  0.29297036  0.30378214  0.44928526  1
+  S  S6  1  0.01079304  0.70702670  0.44928482  1
+  S  S7  1  0.69621887  0.98920272  0.44928396  1
+  As  As8  1  0.33332989  0.66667560  0.53652502  1
+  As  As9  1  0.33332440  0.66667011  0.46347498  1

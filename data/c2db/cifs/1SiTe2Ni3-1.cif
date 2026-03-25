@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_SiNi3Te2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.86641092
+_cell_length_b   3.86635932
+_cell_length_c   20.22163904
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00039604
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SiNi3Te2
+_chemical_formula_sum   'Si1 Ni3 Te2'
+_cell_volume   261.79145948
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.83332749  0.50005494  0.62946432  1
+  Te  Te1  1  0.83332749  0.50005494  0.37053749  1
+  Si  Si2  1  0.49999216  0.83338410  0.50000100  1
+  Ni  Ni3  1  0.16666258  0.16672527  0.56520378  1
+  Ni  Ni4  1  0.16666258  0.16672526  0.43479825  1
+  Ni  Ni5  1  0.83332737  0.50005506  0.50000087  1

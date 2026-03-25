@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_MnGe3SBr6Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.97556758
+_cell_length_b   8.02373306
+_cell_length_c   18.35365649
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.95562601
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnGe3SBr6Cl
+_chemical_formula_sum   'Mn1 Ge3 S1 Br6 Cl1'
+_cell_volume   1017.61926395
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.75102008  0.24754641  0.49122566  1
+  Mn  Mn1  1  0.24262164  0.22987963  0.50409397  1
+  Br  Br2  1  0.38800347  0.51646891  0.58273123  1
+  Br  Br3  1  0.92563930  0.60407709  0.59136208  1
+  Ge  Ge4  1  0.78146069  0.77165605  0.50117289  1
+  Cl  Cl5  1  0.39384668  0.08318714  0.57895577  1
+  Br  Br6  1  0.92793722  0.08090836  0.58851911  1
+  S  S7  1  0.09811080  0.95077678  0.43469067  1
+  Ge  Ge8  1  0.23946676  0.78252625  0.50180397  1
+  Br  Br9  1  0.08416216  0.39131614  0.41764312  1
+  Br  Br10  1  0.59459374  0.93905831  0.40863792  1
+  Br  Br11  1  0.55877313  0.39277602  0.41564403  1

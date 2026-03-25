@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiAl(SbTe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.42294223
+_cell_length_b   7.42294223
+_cell_length_c   32.96233225
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   113.35055400
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiAl(SbTe3)2
+_chemical_formula_sum   'Li1 Al1 Sb2 Te6'
+_cell_volume   1667.47246830
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.30536038  0.07406912  0.44667504  1
+  Al  Al1  1  0.00303915  -0.00303915  0.50000000  1
+  Sb  Sb2  1  0.48219598  0.83879641  0.48159529  1
+  Sb  Sb3  1  0.16120359  0.51780402  0.51840471  1
+  Li  Li4  1  0.61523531  0.38476469  0.50000000  1
+  Te  Te5  1  0.74058645  0.72548428  0.44131760  1
+  Te  Te6  1  0.27451572  0.25941355  0.55868240  1
+  Te  Te7  1  0.69967472  1.00771151  0.55048142  1
+  Te  Te8  1  -0.00771151  0.30032528  0.44951858  1
+  Te  Te9  1  0.92593088  0.69463962  0.55332496  1

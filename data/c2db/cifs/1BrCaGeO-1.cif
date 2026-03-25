@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_CaGeBrO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.70197221
+_cell_length_b   3.30096212
+_cell_length_c   19.49340375
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   134.58152605
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaGeBrO
+_chemical_formula_sum   'Ca1 Ge1 Br1 O1'
+_cell_volume   215.49748234
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.39641689  0.51919807  0.38153500  1
+  Br  Br1  1  0.09675638  0.72556589  0.62149086  1
+  O  O2  1  0.90056192  0.52300898  0.37925991  1
+  Ge  Ge3  1  0.61596765  0.24183218  0.52213069  1

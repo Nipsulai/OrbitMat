@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_MnSnTeI
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.18894426
+_cell_length_b   7.33617477
+_cell_length_c   19.06698019
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   136.73247141
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnSnTeI
+_chemical_formula_sum   'Mn1 Sn1 Te1 I1'
+_cell_volume   401.60946088
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.13182599  1.03838884  0.60664982  1
+  Sn  Sn1  1  0.00705164  0.56459584  0.47214257  1
+  Te  Te2  1  1.16902148  0.30213170  0.39335018  1
+  Mn  Mn3  1  0.69500478  0.09642981  0.51519375  1

@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_NiB4(CF3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.91035178
+_cell_length_b   7.16890013
+_cell_length_c   33.92925836
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiB4(CF3)2
+_chemical_formula_sum   'Ni1 B4 C2 F6'
+_cell_volume   707.90076724
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.50000000  0.00000000  0.53801291  1
+  B  B1  1  0.00000000  0.62738737  0.53990818  1
+  B  B2  1  -0.00000000  0.37261263  0.53990818  1
+  F  F3  1  0.00000000  0.69920825  0.57570166  1
+  F  F4  1  -0.00000000  0.30079175  0.57570166  1
+  Ni  Ni5  1  -0.00000000  -0.00000000  0.50000000  1
+  F  F6  1  0.50000000  -0.00000000  0.46198709  1
+  C  C7  1  0.00000000  0.72105370  0.50000000  1
+  C  C8  1  -0.00000000  0.27894630  0.50000000  1
+  B  B9  1  -0.00000000  0.37261263  0.46009182  1
+  B  B10  1  0.00000000  0.62738737  0.46009182  1
+  F  F11  1  0.00000000  0.30079175  0.42429834  1
+  F  F12  1  -0.00000000  0.69920825  0.42429834  1

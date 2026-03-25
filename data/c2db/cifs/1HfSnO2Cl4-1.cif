@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_HfSn(Cl2O)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.41721664
+_cell_length_b   5.41699343
+_cell_length_c   18.53004939
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   92.31264834
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfSn(Cl2O)2
+_chemical_formula_sum   'Hf1 Sn1 Cl4 O2'
+_cell_volume   543.32190768
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.62349473  0.87271532  0.50011329  1
+  Cl  Cl1  1  0.12258179  0.86850134  0.59525202  1
+  Cl  Cl2  1  0.12294830  0.86823554  0.40474798  1
+  O  O3  1  0.12750591  0.36913776  0.50016633  1
+  Cl  Cl4  1  0.62815666  0.37400609  0.59524713  1
+  Sn  Sn5  1  0.37557679  0.12101374  0.50009564  1
+  Hf  Hf6  1  0.87558710  0.62100462  0.49996285  1
+  Cl  Cl7  1  0.62884187  0.37288766  0.40476326  1

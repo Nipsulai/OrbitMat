@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_PdPt2BrClO4F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.61037764
+_cell_length_b   5.45807554
+_cell_length_c   19.80496412
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.29735404
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PdPt2BrClO4F
+_chemical_formula_sum   'Pd1 Pt2 Br1 Cl1 O4 F1'
+_cell_volume   575.80205536
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.36208232  0.19612727  0.48055752  1
+  O  O1  1  0.07476934  0.29299982  0.52266476  1
+  O  O2  1  0.67424603  0.12190699  0.44231950  1
+  Pd  Pd3  1  0.78950263  0.93916761  0.52425520  1
+  Br  Br4  1  0.25295370  0.39737374  0.37869609  1
+  Pt  Pt5  1  0.92400904  0.48665843  0.45411271  1
+  Cl  Cl6  1  0.91495515  0.79886628  0.62130795  1
+  O  O7  1  0.62994918  0.53884306  0.49706725  1
+  O  O8  1  0.05694514  0.86629758  0.46293745  1
+  F  F9  1  0.47277485  0.04289354  0.56402312  1

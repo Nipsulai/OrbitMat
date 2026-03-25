@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TaRuSe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.50374025
+_cell_length_b   11.76821325
+_cell_length_c   34.06350000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaRuSe4
+_chemical_formula_sum   'Ta2 Ru2 Se8'
+_cell_volume   1404.53220386
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  -0.00000000  0.80141163  0.50089516  1
+  Se  Se1  1  0.50000000  0.74749565  0.55277678  1
+  Ta  Ta2  1  0.50000000  0.11374940  0.49872125  1
+  Se  Se3  1  0.50000000  0.91138726  0.45726826  1
+  Se  Se4  1  0.00000000  0.16761871  0.44683406  1
+  Ru  Ru5  1  0.00000000  0.31105099  0.50175167  1
+  Se  Se6  1  0.00000000  0.49940421  0.53853589  1
+  Se  Se7  1  0.50000000  0.26343325  0.55134746  1
+  Ru  Ru8  1  0.50000000  0.60411636  0.49784086  1
+  Se  Se9  1  0.00000000  0.65178742  0.44824901  1
+  Se  Se10  1  0.50000000  0.41576326  0.46104933  1
+  Se  Se11  1  0.00000000  1.00378122  0.54235236  1

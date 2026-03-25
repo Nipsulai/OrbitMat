@@ -1,0 +1,29 @@
+# generated using pymatgen
+data_AgBrCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.64144029
+_cell_length_b   4.46976732
+_cell_length_c   33.11497937
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   114.20255807
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgBrCl
+_chemical_formula_sum   'Ag1 Br1 Cl1'
+_cell_volume   491.61589600
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  -0.00566291  0.00415988  0.50279838  1
+  Br  Br1  1  0.37937833  0.77649775  0.45464642  1
+  Cl  Cl2  1  0.60298400  0.22001278  0.54556022  1

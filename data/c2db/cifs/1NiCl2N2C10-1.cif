@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_NiC10(NCl)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.55413429
+_cell_length_b   11.12974776
+_cell_length_c   33.34588715
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99874317
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiC10(NCl)2
+_chemical_formula_sum   'Ni1 C10 N2 Cl2'
+_cell_volume   1319.05052392
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.08050682  0.36939302  0.49999991  1
+  Cl  Cl1  1  0.58090689  0.36847451  0.45202898  1
+  Cl  Cl2  1  0.58090732  0.37031262  0.54796981  1
+  N  N3  1  0.08052387  0.54255479  0.49987156  1
+  N  N4  1  0.08054560  0.19623282  0.50012899  1
+  C  C5  1  0.08066249  0.61371030  0.46735654  1
+  C  C6  1  0.08068777  0.12508500  0.53264376  1
+  C  C7  1  0.08076214  0.72927240  0.46597819  1
+  C  C8  1  0.08078033  0.00951134  0.53401977  1
+  C  C9  1  0.08150856  0.80432835  0.50003194  1
+  C  C10  1  0.08151476  0.93446234  0.49996641  1
+  C  C11  1  1.08096689  0.12505968  0.46761142  1
+  C  C12  1  1.08095551  0.61373571  0.53238947  1
+  C  C13  1  0.08147312  0.72946180  0.53413065  1
+  C  C14  1  0.08147990  0.00932423  0.46586839  1

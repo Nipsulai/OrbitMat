@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Mo2Se2IBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.46869906
+_cell_length_b   5.44165157
+_cell_length_c   20.63290851
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.93284143
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mo2Se2IBr
+_chemical_formula_sum   'Mo2 Se2 I1 Br1'
+_cell_volume   389.45520062
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.75429990  0.05251055  0.55427124  1
+  I  I1  1  0.75407714  0.95175815  0.36417466  1
+  Mo  Mo2  1  0.25453201  0.90452802  0.47378961  1
+  Se  Se3  1  0.25385202  0.45161466  0.45666545  1
+  Br  Br4  1  0.25388274  0.55449126  0.63566935  1
+  Mo  Mo5  1  0.75361188  0.59883446  0.53727084  1

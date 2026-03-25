@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_MnCuMoSI2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.15453486
+_cell_length_b   3.71344777
+_cell_length_c   19.67119617
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.10079730
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnCuMoSI2O
+_chemical_formula_sum   'Mn1 Cu1 Mo1 S1 I2 O1'
+_cell_volume   449.57551826
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.29368953  0.25204689  0.48718765  1
+  Cu  Cu1  1  0.69918812  0.74954072  0.44037471  1
+  I  I2  1  0.33075925  0.75247575  0.38126935  1
+  O  O3  1  0.66796802  0.75024580  0.57612660  1
+  S  S4  1  0.89170719  0.25039068  0.46108820  1
+  I  I5  1  0.21854881  0.24794385  0.61873022  1
+  Mo  Mo6  1  0.62647557  0.25045310  0.54897246  1

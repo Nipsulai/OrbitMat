@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Pt4Se5S3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.36953040
+_cell_length_b   7.35444165
+_cell_length_c   17.73799765
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99900451
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pt4Se5S3
+_chemical_formula_sum   'Pt4 Se5 S3'
+_cell_volume   830.92478579
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.78190744  0.69995522  0.57713137  1
+  Pt  Pt1  1  0.61791998  0.44795880  0.50068317  1
+  S  S2  1  0.28142594  -0.05202629  0.56539316  1
+  Pt  Pt3  1  0.11835925  0.20080283  0.50046735  1
+  Se  Se4  1  0.45100128  0.69576178  0.42285209  1
+  S  S5  1  0.94935688  0.44792584  0.43579296  1
+  Se  Se6  1  0.78205502  0.19596046  0.57717888  1
+  Se  Se7  1  0.94828514  0.94804466  0.42678807  1
+  S  S8  1  0.28830944  0.44795165  0.56736113  1
+  Se  Se9  1  0.45112342  0.20022237  0.42282112  1
+  Pt  Pt10  1  0.11828547  0.69513098  0.50045975  1
+  Pt  Pt11  1  0.61168553  0.94797538  0.49971405  1

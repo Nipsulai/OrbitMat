@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Sc2ZnBi(ClO)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.06335615
+_cell_length_b   5.85829960
+_cell_length_c   19.74701620
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   121.18321854
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc2ZnBi(ClO)3
+_chemical_formula_sum   'Sc2 Zn1 Bi1 Cl3 O3'
+_cell_volume   600.08704308
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.19503541  0.88174621  0.47152658  1
+  Bi  Bi1  1  0.25247146  0.53473581  0.62019578  1
+  Zn  Zn2  1  0.58894164  0.53063922  0.45797361  1
+  Sc  Sc3  1  0.84406077  0.17976807  0.47158338  1
+  O  O4  1  0.87308148  0.87243328  0.50520941  1
+  Cl  Cl5  1  0.52272622  0.84947132  0.38691337  1
+  O  O6  1  0.53134738  0.18907327  0.50517490  1
+  Cl  Cl7  1  0.88801918  0.53051142  0.37980422  1
+  Cl  Cl8  1  0.20377757  0.21140454  0.38685150  1
+  O  O9  1  0.13925092  0.53077128  0.51855140  1

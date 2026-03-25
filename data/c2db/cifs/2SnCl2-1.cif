@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_SnCl2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.29615812
+_cell_length_b   7.29615812
+_cell_length_c   33.22320000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   134.03110288
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SnCl2
+_chemical_formula_sum   'Sn2 Cl4'
+_cell_volume   1271.55817734
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.15835728  0.84164272  0.47769972  1
+  Cl  Cl1  1  0.34324704  0.65675296  0.51707165  1
+  Cl  Cl2  1  0.68677596  0.31322404  0.48293581  1
+  Cl  Cl3  1  0.94946053  0.05053947  0.45336624  1
+  Cl  Cl4  1  0.08052364  0.91947636  0.54665575  1
+  Sn  Sn5  1  -0.12834359  0.12834359  0.52227399  1

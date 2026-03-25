@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_TaCoS2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.97374230
+_cell_length_b   7.62889783
+_cell_length_c   34.64024860
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaCoS2
+_chemical_formula_sum   'Ta4 Co4 S8'
+_cell_volume   1578.66246334
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.00000000  0.00000000  0.44256170  1
+  S  S1  1  -0.00000000  0.50000000  0.44256170  1
+  S  S2  1  1.00287424  0.75000000  0.53642383  1
+  S  S3  1  -0.00287424  0.25000000  0.53642383  1
+  S  S4  1  0.50000000  0.00000000  0.55716014  1
+  S  S5  1  0.50000000  0.50000000  0.55716014  1
+  S  S6  1  0.49717945  0.75000000  0.46330229  1
+  S  S7  1  0.50282055  0.25000000  0.46330229  1
+  Ta  Ta8  1  0.74999077  0.05409702  0.49985964  1
+  Ta  Ta9  1  0.25000923  0.94590298  0.49985964  1
+  Ta  Ta10  1  0.74999077  0.44590298  0.49985964  1
+  Ta  Ta11  1  0.25000923  0.55409702  0.49985964  1
+  Co  Co12  1  0.89136374  0.75000000  0.47449572  1
+  Co  Co13  1  0.10863626  0.25000000  0.47449572  1
+  Co  Co14  1  0.60866630  0.75000000  0.52523381  1
+  Co  Co15  1  0.39133370  0.25000000  0.52523381  1

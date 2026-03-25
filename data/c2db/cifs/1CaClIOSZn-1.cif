@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CaZnSIClO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.92552659
+_cell_length_b   4.00801992
+_cell_length_c   22.08403404
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.47875648
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaZnSIClO
+_chemical_formula_sum   'Ca1 Zn1 S1 I1 Cl1 O1'
+_cell_volume   299.44798887
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.53232458  1.06273817  0.33961212  1
+  O  O1  1  0.19269479  0.38428294  0.45078479  1
+  S  S2  1  1.18843325  0.49336965  0.52475970  1
+  Zn  Zn3  1  0.54552471  0.23124581  0.57650876  1
+  I  I4  1  0.08346538  0.73253323  0.66038921  1
+  Ca  Ca5  1  0.86114515  0.72527296  0.40741601  1

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Zn3(GaO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.20463508
+_cell_length_b   3.20463508
+_cell_length_c   45.80418000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01075421
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn3(GaO3)2
+_chemical_formula_sum   'Zn3 Ga2 O6'
+_cell_volume   407.32947490
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.00002028  -0.00002028  0.47888073  1
+  Ga  Ga1  1  0.66674224  0.33325776  0.37646785  1
+  Ga  Ga2  1  0.33331429  0.66668571  0.50242782  1
+  O  O3  1  0.66666787  0.33333213  0.41860837  1
+  Zn  Zn4  1  -0.00001216  0.00001216  0.62762667  1
+  O  O5  1  -0.00001570  0.00001570  0.36368259  1
+  Zn  Zn6  1  0.66670039  0.33329961  0.56843393  1
+  O  O7  1  -0.00002789  0.00002789  0.58006637  1
+  O  O8  1  0.66672359  0.33327641  0.63547817  1
+  O  O9  1  0.66665111  0.33334889  0.52173932  1
+  Zn  Zn10  1  0.00002670  -0.00002670  0.43742530  1

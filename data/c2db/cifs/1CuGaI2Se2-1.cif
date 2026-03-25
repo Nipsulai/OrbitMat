@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_GaCu(SeI)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.77954282
+_cell_length_b   5.17818181
+_cell_length_c   21.19239384
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.02579040
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaCu(SeI)2
+_chemical_formula_sum   'Ga1 Cu1 Se2 I2'
+_cell_volume   414.75968585
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.24742612  0.25129349  0.35401141  1
+  Se  Se1  1  0.74904495  0.75035073  0.47609607  1
+  Cu  Cu2  1  0.24908426  0.75036351  0.55276654  1
+  Ga  Ga3  1  0.74842480  0.25036439  0.45173064  1
+  Se  Se4  1  0.24871025  0.25037408  0.53415700  1
+  I  I5  1  0.74899637  0.75079436  0.64577044  1

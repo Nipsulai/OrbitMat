@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaIn(PS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.62955076
+_cell_length_b   6.62955076
+_cell_length_c   32.96233225
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   113.22872425
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaIn(PS3)2
+_chemical_formula_sum   'Na1 In1 P2 S6'
+_cell_volume   1331.28860701
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.32738875  -0.00354507  0.45464085  1
+  In  In1  1  0.00227243  -0.00227243  0.50000000  1
+  P  P2  1  0.46939349  0.82631377  0.48876318  1
+  P  P3  1  0.17368623  0.53060651  0.51123682  1
+  Na  Na4  1  0.63302650  0.36697350  0.50000000  1
+  S  S5  1  0.66968935  0.73867368  0.45196309  1
+  S  S6  1  0.26132632  0.33031065  0.54803691  1
+  S  S7  1  0.63748246  0.97777195  0.53979090  1
+  S  S8  1  0.02222805  0.36251754  0.46020910  1
+  S  S9  1  1.00354507  0.67261125  0.54535915  1

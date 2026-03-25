@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ScAuBrClO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.98403637
+_cell_length_b   6.35532143
+_cell_length_c   19.00570635
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.36463054
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScAuBrClO2
+_chemical_formula_sum   'Sc1 Au1 Br1 Cl1 O2'
+_cell_volume   456.71301619
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.19167910  0.53549497  0.47565300  1
+  Cl  Cl1  1  0.48686552  0.11562328  0.60538168  1
+  O  O2  1  0.81702845  0.78495577  0.50715249  1
+  Au  Au3  1  0.66397906  0.48046045  0.45963677  1
+  Sc  Sc4  1  0.35718420  0.86461728  0.51283248  1
+  Br  Br5  1  0.48594988  0.12600488  0.39461832  1

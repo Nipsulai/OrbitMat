@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Mn2SeSO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.05431848
+_cell_length_b   3.67977198
+_cell_length_c   20.31346790
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   114.48081941
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2SeSO
+_chemical_formula_sum   'Mn2 Se1 S1 O1'
+_cell_volume   207.78224551
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.75101100  0.34999413  0.36922763  1
+  Mn  Mn1  1  0.07131161  -0.00947752  0.44012605  1
+  O  O2  1  0.49964012  0.84725407  0.50529985  1
+  S  S3  1  0.25075212  0.34998430  0.63079632  1
+  Mn  Mn4  1  0.93039868  0.70950371  0.57219331  1

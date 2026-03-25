@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Sb4Te3(AuCl)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.41263507
+_cell_length_b   8.66107770
+_cell_length_c   34.12562733
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sb4Te3(AuCl)2
+_chemical_formula_sum   'Sb4 Te3 Au2 Cl2'
+_cell_volume   2190.91333535
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  0.07817800  -0.00000000  0.55351726  1
+  Sb  Sb1  1  0.81001897  0.00000000  0.43635012  1
+  Sb  Sb2  1  0.14441476  0.83000600  0.43140739  1
+  Sb  Sb3  1  0.14441476  0.16999400  0.43140739  1
+  Au  Au4  1  0.53202545  0.74279437  0.52471034  1
+  Au  Au5  1  0.53202545  0.25720563  0.52471034  1
+  Cl  Cl6  1  0.68308681  0.50000000  0.54895790  1
+  Cl  Cl7  1  0.30840019  0.50000000  0.44444618  1
+  Te  Te8  1  0.72771128  -0.00000000  0.51797536  1
+  Te  Te9  1  0.18185204  0.73765470  0.51002707  1
+  Te  Te10  1  0.18185204  0.26234530  0.51002707  1

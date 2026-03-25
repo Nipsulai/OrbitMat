@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_InSb2AuSe6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.00644080
+_cell_length_b   7.00817984
+_cell_length_c   33.52445200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99183370
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InSb2AuSe6
+_chemical_formula_sum   'In1 Sb2 Au1 Se6'
+_cell_volume   1425.70852200
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.05472967  0.07208576  0.45090763  1
+  Se  Se1  1  0.29358953  0.67191902  0.45089475  1
+  Se  Se2  1  0.69393663  0.31087325  0.45091827  1
+  Se  Se3  1  0.69385693  0.07208630  0.54909226  1
+  Se  Se4  1  0.29343659  0.31087336  0.54908175  1
+  Se  Se5  1  0.05482951  0.67191996  0.54910545  1
+  Au  Au6  1  0.01409220  0.35168485  0.50000001  1
+  In  In7  1  0.34739118  0.01828274  0.49999999  1
+  Sb  Sb8  1  0.68074902  0.68493747  0.45668693  1
+  Sb  Sb9  1  0.68068873  0.68493767  0.54331308  1

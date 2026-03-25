@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_ZnAs2S3Br2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.43533132
+_cell_length_b   6.18415506
+_cell_length_c   39.53738304
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnAs2S3Br2
+_chemical_formula_sum   'Zn2 As4 S6 Br4'
+_cell_volume   1573.47266401
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.50000000  0.27485788  0.44255670  1
+  As  As1  1  -0.00000000  0.77485788  0.55744330  1
+  As  As2  1  0.50000000  0.58990723  0.52477324  1
+  As  As3  1  0.00000000  0.08990723  0.47522676  1
+  Zn  Zn4  1  0.50000000  0.37999450  0.60996346  1
+  Br  Br5  1  0.50000000  0.54930133  0.66037690  1
+  Br  Br6  1  0.50000000  0.02466150  0.58723969  1
+  S  S7  1  0.50000000  0.24709246  0.50037871  1
+  S  S8  1  -0.00000000  0.74709246  0.49962129  1
+  S  S9  1  0.74200944  -0.00833293  0.43769017  1
+  S  S10  1  0.75799056  0.49166707  0.56230983  1
+  S  S11  1  0.25799056  -0.00833293  0.43769017  1
+  S  S12  1  0.24200944  0.49166707  0.56230983  1
+  Zn  Zn13  1  -0.00000000  0.87999450  0.39003654  1
+  Br  Br14  1  0.00000000  0.52466150  0.41276031  1
+  Br  Br15  1  0.00000000  0.04930133  0.33962310  1

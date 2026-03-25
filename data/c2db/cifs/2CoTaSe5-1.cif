@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_TaCoSe5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.39938048
+_cell_length_b   14.00670915
+_cell_length_c   34.59007560
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaCoSe5
+_chemical_formula_sum   'Ta2 Co2 Se10'
+_cell_volume   1646.97648119
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.50000000  0.43262490  0.53758329  1
+  Se  Se1  1  0.50000000  0.21741532  0.53758337  1
+  Se  Se2  1  0.50000000  0.71741532  0.46241663  1
+  Se  Se3  1  0.50000000  0.93262490  0.46241671  1
+  Se  Se4  1  0.00000000  0.14938288  0.46160632  1
+  Se  Se5  1  -0.00000000  0.50065728  0.46160642  1
+  Se  Se6  1  0.50000000  0.32501998  0.44059725  1
+  Ta  Ta7  1  -0.00000000  0.32502009  0.49796368  1
+  Co  Co8  1  0.50000000  0.57502026  0.49999999  1
+  Co  Co9  1  0.50000000  0.07502026  0.50000001  1
+  Se  Se10  1  0.00000000  0.00065728  0.53839358  1
+  Se  Se11  1  0.00000000  0.64938288  0.53839368  1
+  Se  Se12  1  0.50000000  0.82501998  0.55940275  1
+  Ta  Ta13  1  -0.00000000  0.82502009  0.50203632  1

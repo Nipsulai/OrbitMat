@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_GaIrSBr2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.52724425
+_cell_length_b   4.55621087
+_cell_length_c   20.61300573
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.97015822
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaIrSBr2O
+_chemical_formula_sum   'Ga1 Ir1 S1 Br2 O1'
+_cell_volume   331.26886156
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ir  Ir0  1  0.24985109  0.71914412  0.55198948  1
+  S  S1  1  0.25063303  0.21532287  0.52857977  1
+  Br  Br2  1  0.25438310  0.31295778  0.36384775  1
+  Ga  Ga3  1  0.75112982  0.31187303  0.45422366  1
+  Br  Br4  1  0.74980206  0.72378416  0.63615300  1
+  O  O5  1  0.75022964  0.71799946  0.48941149  1

@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_TlGaHgO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.42836883
+_cell_length_b   3.42836816
+_cell_length_c   39.30476960
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999358
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlGaHgO4
+_chemical_formula_sum   'Tl1 Ga1 Hg1 O4'
+_cell_volume   400.08374373
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.00000120  0.00000060  0.50325284  1
+  Tl  Tl1  1  0.66666366  0.33333183  0.41624620  1
+  Ga  Ga2  1  0.33333519  0.66666760  0.58357981  1
+  O  O3  1  0.66666399  0.33333199  0.47051541  1
+  O  O4  1  0.33333786  0.66666893  0.53632432  1
+  O  O5  1  0.33333020  0.66666510  0.39319604  1
+  O  O6  1  0.66666792  0.33333396  0.59687027  1

@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Ni2TeS
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.69393815
+_cell_length_b   3.69250388
+_cell_length_c   18.43686493
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.07188582
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni2TeS
+_chemical_formula_sum   'Ni2 Te1 S1'
+_cell_volume   217.62723265
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.66817898  0.33365570  0.40679367  1
+  Ni  Ni1  1  0.66910661  0.33419104  0.55511879  1
+  Ni  Ni2  1  0.33485177  0.66661904  0.47429824  1
+  S  S3  1  0.33576164  0.66705854  0.59320633  1

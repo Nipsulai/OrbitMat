@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HfRuPtRh(ClO)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.01441715
+_cell_length_b   6.85000720
+_cell_length_c   20.55502279
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   85.90847594
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfRuPtRh(ClO)4
+_chemical_formula_sum   'Hf1 Ru1 Rh1 Pt1 Cl4 O4'
+_cell_volume   563.79758547
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.21893834  0.36284375  0.38903888  1
+  O  O1  1  0.23553624  0.86983349  0.52358114  1
+  Hf  Hf2  1  0.79969472  0.37570989  0.54085975  1
+  Rh  Rh3  1  0.25387979  0.63057237  0.45841156  1
+  O  O4  1  0.28941794  0.44773336  0.54195967  1
+  Ru  Ru5  1  0.74135887  0.86801021  0.55168163  1
+  Cl  Cl6  1  0.76904049  0.63117809  0.63456705  1
+  Pt  Pt7  1  0.20741599  0.10440847  0.46025407  1
+  O  O8  1  0.70491385  0.11401121  0.48492570  1
+  O  O9  1  0.75564458  0.63446656  0.48197844  1
+  Cl  Cl10  1  0.76538500  0.12172970  0.63088889  1
+  Cl  Cl11  1  0.24585197  0.81748069  0.36421686  1

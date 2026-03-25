@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Tl2Co2S5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.71212873
+_cell_length_b   3.71209737
+_cell_length_c   43.33417120
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00027949
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tl2Co2S5
+_chemical_formula_sum   'Tl2 Co2 S5'
+_cell_volume   517.13304624
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.00002018  0.00004037  0.54322687  1
+  Co  Co1  1  0.33338093  0.66676186  0.46826306  1
+  Tl  Tl2  1  0.66665536  0.33331071  0.61572051  1
+  Tl  Tl3  1  0.66668344  0.33336688  0.38700325  1
+  S  S4  1  -0.00000853  -0.00001707  0.64825239  1
+  S  S5  1  0.00003041  0.00006082  0.49362823  1
+  S  S6  1  0.00002056  0.00004111  0.35471007  1
+  S  S7  1  0.66668452  0.33336905  0.55396077  1
+  S  S8  1  0.66673182  0.33346364  0.44642170  1

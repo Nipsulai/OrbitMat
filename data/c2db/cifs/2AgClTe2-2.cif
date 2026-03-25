@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_AgTe2Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.53564642
+_cell_length_b   8.39450339
+_cell_length_c   18.16974489
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00019428
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgTe2Cl
+_chemical_formula_sum   'Ag2 Te4 Cl2'
+_cell_volume   844.32992364
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.00149143  0.99608538  0.40906067  1
+  Cl  Cl1  1  0.50148933  0.99673184  0.59093877  1
+  Te  Te2  1  0.60561775  0.64299467  0.43579740  1
+  Te  Te3  1  0.10561815  0.34981919  0.56420173  1
+  Te  Te4  1  0.89831570  0.64281806  0.56423264  1
+  Te  Te5  1  0.39831321  0.34999465  0.43576588  1
+  Ag  Ag6  1  0.75196035  0.16215972  0.49995865  1
+  Ag  Ag7  1  0.25196261  0.83065485  0.50004055  1

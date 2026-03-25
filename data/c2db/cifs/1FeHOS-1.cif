@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_FeHSO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.94529184
+_cell_length_b   3.51767862
+_cell_length_c   33.09107202
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   114.84958786
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeHSO
+_chemical_formula_sum   'Fe1 H1 S1 O1'
+_cell_volume   311.10060819
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.08600092  0.76189090  0.51300881  1
+  H  H1  1  0.50852061  0.60973447  0.45359270  1
+  S  S2  1  0.39852771  0.38783210  0.54762915  1
+  O  O3  1  0.63011153  0.85062140  0.47182345  1

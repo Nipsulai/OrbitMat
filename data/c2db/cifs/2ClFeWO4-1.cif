@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_FeWClO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.75254240
+_cell_length_b   6.75317986
+_cell_length_c   37.50448000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeWClO4
+_chemical_formula_sum   'Fe2 W2 Cl2 O8'
+_cell_volume   1710.24679277
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.00000000  0.28999857  0.45729192  1
+  O  O1  1  0.28448252  0.29000458  0.47253391  1
+  O  O2  1  -0.00000000  0.57448167  0.47253566  1
+  Cl  Cl3  1  -0.00000000  0.28999979  0.39966602  1
+  Fe  Fe4  1  0.50000000  0.78999857  0.54270808  1
+  W  W5  1  0.50000000  0.29000078  0.50000067  1
+  W  W6  1  0.00000000  0.79000078  0.49999933  1
+  O  O7  1  0.21551748  0.79000458  0.52746609  1
+  O  O8  1  0.78448252  0.79000458  0.52746609  1
+  O  O9  1  0.50000000  0.50551428  0.52746595  1
+  O  O10  1  0.50000000  0.07448167  0.52746434  1
+  Cl  Cl11  1  0.50000000  0.78999979  0.60033398  1
+  O  O12  1  0.71551748  0.29000458  0.47253391  1
+  O  O13  1  -0.00000000  0.00551428  0.47253405  1

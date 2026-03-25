@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_TaNbSe2ICl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.30904224
+_cell_length_b   5.04709299
+_cell_length_c   19.06348900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99601246
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaNbSe2ICl
+_chemical_formula_sum   'Ta1 Nb1 Se2 I1 Cl1'
+_cell_volume   414.59536742
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.24538500  0.91351401  0.44733445  1
+  Ta  Ta1  1  0.24517197  0.41412499  0.49806677  1
+  I  I2  1  0.74552782  0.37980881  0.39342221  1
+  Cl  Cl3  1  0.24479866  0.12050399  0.60657779  1
+  Nb  Nb4  1  0.74518626  0.07108192  0.52446745  1
+  Se  Se5  1  0.74501409  0.56897543  0.57671099  1

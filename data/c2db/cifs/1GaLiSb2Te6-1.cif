@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiGa(SbTe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.37587330
+_cell_length_b   7.37587330
+_cell_length_c   32.96233225
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   112.53286220
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiGa(SbTe3)2
+_chemical_formula_sum   'Li1 Ga1 Sb2 Te6'
+_cell_volume   1656.36831545
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.30348431  0.07256585  0.44577326  1
+  Ga  Ga1  1  0.00492701  -0.00492701  0.50000000  1
+  Sb  Sb2  1  0.48145992  0.83821363  0.48145214  1
+  Sb  Sb3  1  0.16178637  0.51854008  0.51854786  1
+  Li  Li4  1  0.62474449  0.37525551  0.50000000  1
+  Te  Te5  1  0.73178367  0.71107496  0.44111932  1
+  Te  Te6  1  0.28892504  0.26821633  0.55888068  1
+  Te  Te7  1  0.69108068  1.01563076  0.55043194  1
+  Te  Te8  1  -0.01563076  0.30891932  0.44956806  1
+  Te  Te9  1  0.92743415  0.69651569  0.55422674  1

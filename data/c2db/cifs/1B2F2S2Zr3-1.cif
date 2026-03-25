@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Zr3B2(SF)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.61526483
+_cell_length_b   4.76770051
+_cell_length_c   24.22047184
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   112.28050616
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr3B2(SF)2
+_chemical_formula_sum   'Zr3 B2 S2 F2'
+_cell_volume   386.30687783
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.71927606  0.71729219  0.49974298  1
+  Zr  Zr1  1  0.50078039  0.27481824  0.60578245  1
+  Zr  Zr2  1  0.49696327  0.27778566  0.39355529  1
+  B  B3  1  0.05669658  0.39153160  0.53335346  1
+  B  B4  1  0.05618350  0.39225583  0.46605354  1
+  S  S5  1  0.79573366  0.86540546  0.60302444  1
+  S  S6  1  0.79229433  0.86848274  0.39656645  1
+  F  F7  1  0.54974916  0.34290092  0.68314289  1
+  F  F8  1  0.52119028  0.34797109  0.31623198  1

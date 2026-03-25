@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_CrH4C4S6F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.96996465
+_cell_length_b   9.27631731
+_cell_length_c   34.89970040
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   98.74520758
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrH4C4S6F
+_chemical_formula_sum   'Cr1 H4 C4 S6 F1'
+_cell_volume   1270.29722140
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.85276117  0.92119663  0.53047768  1
+  S  S1  1  0.85348746  0.57914311  0.57336287  1
+  C  C2  1  0.91948417  0.76722714  0.50899121  1
+  C  C3  1  0.91648273  0.62538602  0.52741475  1
+  S  S4  1  0.05745201  0.40553572  0.46955253  1
+  S  S5  1  0.05669784  0.74785453  0.42664201  1
+  C  C6  1  -0.00933473  0.55956226  0.49099947  1
+  C  C7  1  -0.00625234  0.70145686  0.47254298  1
+  S  S8  1  0.93795327  0.23111548  0.56630421  1
+  H  H9  1  0.27329129  0.24779607  0.57556434  1
+  Cr  Cr10  1  0.95514545  0.16340999  0.50004482  1
+  F  F11  1  0.45513305  0.16335521  0.49997983  1
+  S  S12  1  0.97247643  0.09545848  0.43367604  1
+  H  H13  1  0.63723210  0.07853328  0.42437018  1
+  H  H14  1  0.90522220  0.41773786  0.56840628  1
+  H  H15  1  0.00472164  -0.08942899  0.43165210  1

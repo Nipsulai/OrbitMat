@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ni5Ge2BiSbTe2Mo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.99650711
+_cell_length_b   8.36384896
+_cell_length_c   20.54654775
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   103.81251725
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni5Ge2BiSbTe2Mo
+_chemical_formula_sum   'Ni5 Ge2 Bi1 Sb1 Te2 Mo1'
+_cell_volume   666.93207087
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.48489725  0.30641524  0.58885629  1
+  Ni  Ni1  1  0.77247325  0.88290268  0.46850010  1
+  Ni  Ni2  1  0.23821068  0.81426080  0.53678896  1
+  Ge  Ge3  1  0.52964158  0.39593346  0.46320989  1
+  Ni  Ni4  1  0.64793567  0.63326403  0.55811502  1
+  Te  Te5  1  0.85468666  0.04792741  0.36502483  1
+  Sb  Sb6  1  0.80973606  0.95708711  0.59546763  1
+  Ni  Ni7  1  0.92323151  0.18479277  0.50960072  1
+  Mo  Mo8  1  0.37019957  0.07864722  0.45815856  1
+  Bi  Bi9  1  0.16931119  0.67657061  0.41995104  1
+  Te  Te10  1  0.13990461  0.61735728  0.63497517  1
+  Ni  Ni11  1  0.06556562  0.46820445  0.52713220  1

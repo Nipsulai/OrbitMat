@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_V3MoCl3O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.15809468
+_cell_length_b   5.03539349
+_cell_length_c   20.61165161
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   117.78088085
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   V3MoCl3O5
+_chemical_formula_sum   'V3 Mo1 Cl3 O5'
+_cell_volume   473.64121813
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.86655650  0.54933823  0.44649913  1
+  Cl  Cl1  1  0.44999422  0.76794134  0.63535481  1
+  Cl  Cl2  1  0.18220093  0.85207673  0.36387005  1
+  O  O3  1  0.84195106  0.18708367  0.41340629  1
+  Mo  Mo4  1  0.18763347  0.15214535  0.45666546  1
+  V  V5  1  0.47528001  0.86804884  0.45451994  1
+  V  V6  1  0.21330131  0.88184909  0.56227437  1
+  Cl  Cl7  1  0.09385092  0.11213113  0.63613173  1
+  O  O8  1  0.53308152  0.19340605  0.51520520  1
+  O  O9  1  0.52493039  0.53370781  0.41234674  1
+  O  O10  1  0.85785333  0.82898863  0.51064596  1
+  O  O11  1  0.17032134  0.53357665  0.50666297  1

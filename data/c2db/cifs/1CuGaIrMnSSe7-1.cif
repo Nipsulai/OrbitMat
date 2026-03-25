@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_MnGaCuIrSe7S
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.47897962
+_cell_length_b   6.75216627
+_cell_length_c   18.72181431
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   92.19657092
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnGaCuIrSe7S
+_chemical_formula_sum   'Mn1 Ga1 Cu1 Ir1 Se7 S1'
+_cell_volume   818.42416514
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ir  Ir0  1  0.57489889  0.34121538  0.50259526  1
+  Se  Se1  1  0.75807690  0.63698930  0.44495070  1
+  Cu  Cu2  1  0.09531063  0.09266982  0.48764160  1
+  Se  Se3  1  0.86769997  0.97014667  0.58252039  1
+  Ga  Ga4  1  0.13320371  0.62725304  0.47515875  1
+  S  S5  1  0.36856175  0.10995022  0.56679339  1
+  Se  Se6  1  0.32170220  0.87088708  0.40060220  1
+  Se  Se7  1  0.40854565  0.62882374  0.56864123  1
+  Se  Se8  1  0.27244371  0.33976855  0.41495258  1
+  Mn  Mn9  1  0.56687070  0.92283219  0.49826546  1
+  Se  Se10  1  0.77355837  0.13518553  0.42135621  1
+  Se  Se11  1  0.83163100  0.31596163  0.59939780  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SnAsO3F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.91533176
+_cell_length_b   6.17308035
+_cell_length_c   34.23742176
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   97.72808775
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SnAsO3F
+_chemical_formula_sum   'Sn2 As2 O6 F2'
+_cell_volume   1029.42158790
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.00529217  -0.01728552  0.54254041  1
+  Sn  Sn1  1  0.00529217  0.48271448  0.45745959  1
+  As  As2  1  0.57546687  0.37945287  0.54114591  1
+  As  As3  1  0.57546687  0.87945287  0.45885409  1
+  O  O4  1  0.72790739  0.19762980  0.56781341  1
+  O  O5  1  0.72790739  0.69762980  0.43218659  1
+  O  O6  1  0.77603175  0.54817980  0.50981076  1
+  O  O7  1  0.77603175  0.04817980  0.49018924  1
+  O  O8  1  0.26698999  0.27845786  0.52061368  1
+  O  O9  1  0.26698999  0.77845786  0.47938632  1
+  F  F10  1  0.49389835  0.57207078  0.57558047  1
+  F  F11  1  0.49389835  0.07207078  0.42441953  1

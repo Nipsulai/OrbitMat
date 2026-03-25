@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiSb2Te6Pd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.17182785
+_cell_length_b   7.17372902
+_cell_length_c   33.22614168
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99199309
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiSb2Te6Pd
+_chemical_formula_sum   'Li1 Sb2 Te6 Pd1'
+_cell_volume   1480.54087942
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.67758718  0.99875841  0.49999988  1
+  Te  Te1  1  0.71179168  0.74285044  0.55617061  1
+  Li  Li2  1  0.01067705  0.66495658  0.50000024  1
+  Te  Te3  1  -0.06649893  0.28774051  0.55634418  1
+  Sb  Sb4  1  0.34457724  0.33184820  0.54287699  1
+  Te  Te5  1  0.38809799  0.96465554  0.55627177  1
+  Te  Te6  1  0.38747608  0.74286343  0.44383252  1
+  Te  Te7  1  0.71069474  0.28776706  0.44366194  1
+  Sb  Sb8  1  0.34371136  0.33187658  0.45711932  1
+  Te  Te9  1  -0.06701924  -0.03531859  0.44372235  1

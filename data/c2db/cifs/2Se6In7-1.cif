@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_In7Se6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.13928691
+_cell_length_b   7.13743194
+_cell_length_c   30.83421109
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.02211235
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In7Se6
+_chemical_formula_sum   'In14 Se12'
+_cell_volume   1360.39014291
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.33303494  0.33300066  0.28286252  1
+  In  In1  1  0.33342483  0.33343556  0.37505103  1
+  Se  Se2  1  0.66458947  0.66639636  0.24304175  1
+  Se  Se3  1  0.65857610  0.66685533  0.41939873  1
+  In  In4  1  0.33525803  0.33504048  0.71709994  1
+  In  In5  1  0.33504404  0.33472139  0.62490808  1
+  Se  Se6  1  0.66655698  0.33317055  0.75698791  1
+  Se  Se7  1  0.65963930  0.32628334  0.58046358  1
+  In  In8  1  0.66630864  -0.00030544  0.28284595  1
+  In  In9  1  0.66669784  0.00010857  0.37505632  1
+  Se  Se10  1  -0.00022487  0.33129520  0.24304918  1
+  Se  Se11  1  0.00019951  0.32534082  0.41937825  1
+  In  In12  1  0.66842348  0.00182608  0.71711650  1
+  In  In13  1  0.66806291  0.00162172  0.62490094  1
+  Se  Se14  1  0.00173001  0.00344725  0.75688725  1
+  Se  Se15  1  0.00128371  0.00937794  0.58063611  1
+  In  In16  1  -0.00028930  0.66640982  0.28455125  1
+  In  In17  1  0.00002049  0.66680118  0.37822949  1
+  Se  Se18  1  0.33486873  0.00157247  0.24302010  1
+  Se  Se19  1  0.34168755  0.00841402  0.41941495  1
+  In  In20  1  0.00164005  0.66819400  0.71541616  1
+  In  In21  1  0.00114946  0.66769377  0.62173893  1
+  Se  Se22  1  0.33684207  0.66827505  0.75690012  1
+  Se  Se23  1  0.34276739  0.66786145  0.58061372  1
+  In  In24  1  0.33223828  0.33269142  0.49997528  1
+  In  In25  1  0.66646863  -0.00068579  0.49997708  1

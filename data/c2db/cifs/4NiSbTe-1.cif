@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NiSbTe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.22346248
+_cell_length_b   6.41275691
+_cell_length_c   34.25301884
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00047465
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiSbTe
+_chemical_formula_sum   'Ni4 Sb4 Te4'
+_cell_volume   1367.02263688
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  -0.01983892  0.01440335  0.44712199  1
+  Ni  Ni1  1  0.50184864  0.51441164  0.44711793  1
+  Ni  Ni2  1  -0.01983900  0.79318899  0.55288220  1
+  Ni  Ni3  1  0.50184854  0.29319749  0.55287781  1
+  Sb  Sb4  1  0.34476601  0.86594308  0.45823024  1
+  Sb  Sb5  1  0.13724317  0.44165744  0.54176973  1
+  Sb  Sb6  1  0.34478050  0.94165227  0.54176477  1
+  Sb  Sb7  1  0.13722878  0.36594855  0.45823519  1
+  Te  Te8  1  0.63110178  0.16591358  0.42552886  1
+  Te  Te9  1  0.85090736  0.14168708  0.57447113  1
+  Te  Te10  1  0.63110275  0.64169313  0.57447620  1
+  Te  Te11  1  0.85090644  0.66590755  0.42552377  1

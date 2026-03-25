@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_TeRuBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.01119914
+_cell_length_b   3.90596202
+_cell_length_c   21.34180596
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TeRuBr
+_chemical_formula_sum   'Te2 Ru2 Br2'
+_cell_volume   417.73498067
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ru  Ru0  1  0.50000000  0.00000000  0.43711352  1
+  Ru  Ru1  1  -0.00000000  0.50000000  0.56288643  1
+  Te  Te2  1  0.50000000  0.50000000  0.51876868  1
+  Te  Te3  1  -0.00000000  -0.00000000  0.48123129  1
+  Br  Br4  1  0.50000000  0.50000000  0.35694810  1
+  Br  Br5  1  0.00000000  0.00000000  0.64305181  1

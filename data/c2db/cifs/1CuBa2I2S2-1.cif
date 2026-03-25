@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Ba2Cu(SI)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.70010457
+_cell_length_b   4.70010457
+_cell_length_c   21.07899318
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.92007590
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Cu(SI)2
+_chemical_formula_sum   'Ba2 Cu1 S2 I2'
+_cell_volume   465.65522545
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.97309945  0.97309945  0.50000000  1
+  S  S1  1  0.47330737  0.97375804  0.50000000  1
+  S  S2  1  0.97375804  0.47330737  0.50000000  1
+  Ba  Ba3  1  0.47414497  0.47414497  0.39715601  1
+  I  I4  1  -0.02504528  -0.02504528  0.32611467  1
+  Ba  Ba5  1  0.47414497  0.47414497  0.60284399  1
+  I  I6  1  -0.02504528  -0.02504528  0.67388533  1

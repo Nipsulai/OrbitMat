@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Hf3CdIBr(ClO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.60712100
+_cell_length_b   6.87466213
+_cell_length_c   22.01261635
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   105.21289630
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf3CdIBr(ClO)2
+_chemical_formula_sum   'Hf3 Cd1 I1 Br1 Cl2 O2'
+_cell_volume   526.73466455
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  -0.07128088  0.68068805  0.34072396  1
+  Cl  Cl1  1  0.45149642  0.72498513  0.60967377  1
+  Hf  Hf2  1  0.84498522  0.51217742  0.54809871  1
+  O  O3  1  0.33576954  0.49417847  0.49188571  1
+  Cd  Cd4  1  0.63650414  0.09444540  0.58020649  1
+  O  O5  1  0.98992241  0.80223842  0.48981175  1
+  Hf  Hf6  1  0.48274273  0.78780512  0.44224907  1
+  Br  Br7  1  0.66927031  0.16030576  0.38368698  1
+  Hf  Hf8  1  0.16948420  0.16098060  0.47716678  1
+  Cl  Cl9  1  0.78017585  0.38212435  0.65929857  1

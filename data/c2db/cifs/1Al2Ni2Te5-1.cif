@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Al2Ni2Te5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.09612255
+_cell_length_b   4.09608087
+_cell_length_c   41.66236800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00033665
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al2Ni2Te5
+_chemical_formula_sum   'Al2 Ni2 Te5'
+_cell_volume   605.36118766
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  -0.00000559  -0.00001118  0.46680178  1
+  Ni  Ni1  1  -0.00000559  -0.00001118  0.53319822  1
+  Al  Al2  1  0.33332121  0.66664243  0.37602774  1
+  Al  Al3  1  0.33332121  0.66664243  0.62397226  1
+  Te  Te4  1  0.66668352  0.33336704  0.50000000  1
+  Te  Te5  1  0.33333331  0.66666662  0.43920702  1
+  Te  Te6  1  0.33333331  0.66666662  0.56079298  1
+  Te  Te7  1  0.66665586  0.33331173  0.34539117  1
+  Te  Te8  1  0.66665586  0.33331173  0.65460883  1

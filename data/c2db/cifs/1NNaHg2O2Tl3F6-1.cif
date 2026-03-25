@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_NaTl3Hg2N(OF3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.71751134
+_cell_length_b   6.16495845
+_cell_length_c   20.54154709
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   123.19056754
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaTl3Hg2N(OF3)2
+_chemical_formula_sum   'Na1 Tl3 Hg2 N1 O2 F6'
+_cell_volume   711.90433848
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  1  0.45884268  0.50984553  0.56061878  1
+  F  F1  1  0.39031493  0.17487590  0.63488631  1
+  F  F2  1  0.89595270  0.08358943  0.36511369  1
+  Tl  Tl3  1  0.89309808  0.82384851  0.44185495  1
+  Tl  Tl4  1  0.83977833  0.22686491  0.54970986  1
+  F  F5  1  0.14974417  0.75823929  0.38722530  1
+  F  F6  1  0.71007032  0.90504135  0.62034288  1
+  O  O7  1  0.58536389  0.86502566  0.47955537  1
+  N  N8  1  0.80944142  0.56661971  0.53545411  1
+  Na  Na9  1  0.23236996  0.45176849  0.39336204  1
+  F  F10  1  0.17521810  0.50424039  0.61795022  1
+  F  F11  1  0.56482958  0.44121039  0.37856751  1
+  Hg  Hg12  1  0.55654802  0.10992670  0.41296673  1
+  O  O13  1  0.13523580  0.21761535  0.50119516  1
+  Hg  Hg14  1  0.07921222  0.85127978  0.59772965  1

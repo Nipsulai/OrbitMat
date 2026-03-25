@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Ge2SeSIBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.68600907
+_cell_length_b   5.51924273
+_cell_length_c   20.99551236
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00965704
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ge2SeSIBr
+_chemical_formula_sum   'Ge2 Se1 S1 I1 Br1'
+_cell_volume   427.13225115
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.74851797  0.75277629  0.64409953  1
+  Ge  Ge1  1  0.74843016  0.25980465  0.44867883  1
+  S  S2  1  0.24865605  0.27818500  0.53207790  1
+  Se  Se3  1  0.74867861  0.76789744  0.45580011  1
+  Ge  Ge4  1  0.24863322  0.70050562  0.54106569  1
+  Br  Br5  1  0.24887519  0.25471969  0.35446917  1

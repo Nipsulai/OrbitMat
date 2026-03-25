@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Nb2SnTe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.43652633
+_cell_length_b   5.16382656
+_cell_length_c   19.67983081
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   109.42405041
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb2SnTe2
+_chemical_formula_sum   'Nb2 Sn1 Te2'
+_cell_volume   329.35379134
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.72077263  0.45166817  0.61790382  1
+  Te  Te1  1  0.56994778  0.15081670  0.38179146  1
+  Nb  Nb2  1  0.16333759  0.33765415  0.49674117  1
+  Nb  Nb3  1  0.84733991  0.70563705  0.42651971  1
+  Sn  Sn4  1  0.43665980  0.88409615  0.54319700  1

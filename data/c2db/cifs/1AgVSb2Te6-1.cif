@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_VAg(SbTe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.45602312
+_cell_length_b   7.45725599
+_cell_length_c   33.47259289
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   121.25979513
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VAg(SbTe3)2
+_chemical_formula_sum   'V1 Ag1 Sb2 Te6'
+_cell_volume   1590.93317634
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  0.97670402  0.29897069  0.54229616  1
+  Sb  Sb1  1  0.97918372  0.30127374  0.45775382  1
+  V  V2  1  0.30525512  0.97279934  0.50002821  1
+  Te  Te3  1  0.06647007  0.70929824  0.56169111  1
+  Ag  Ag4  1  0.56521281  0.71263243  0.50001762  1
+  Te  Te5  1  0.36952465  0.33027436  0.54206622  1
+  Te  Te6  1  0.52275484  -0.05348162  0.56272376  1
+  Te  Te7  1  0.56873387  0.21142096  0.43834566  1
+  Te  Te8  1  0.33150113  0.75539256  0.43731475  1
+  Te  Te9  1  -0.05231295  -0.09156899  0.45797488  1

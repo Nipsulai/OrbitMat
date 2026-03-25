@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Cu2P4Se3F2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.50602618
+_cell_length_b   7.08212755
+_cell_length_c   34.12562733
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu2P4Se3F2
+_chemical_formula_sum   'Cu2 P4 Se3 F2'
+_cell_volume   1572.38971428
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.01207884  0.00000000  0.54037775  1
+  P  P1  1  0.83878241  0.00000000  0.44013753  1
+  P  P2  1  0.13385684  0.84200709  0.44468265  1
+  P  P3  1  0.13385684  0.15799291  0.44468265  1
+  Cu  Cu4  1  0.54691046  0.71083212  0.51049030  1
+  Cu  Cu5  1  0.54691046  0.28916788  0.51049030  1
+  F  F6  1  0.58609562  0.50000000  0.54836931  1
+  F  F7  1  0.50790548  0.50000000  0.47038103  1
+  Se  Se8  1  0.69809878  0.00000000  0.50458819  1
+  Se  Se9  1  0.15916055  0.75161879  0.50959807  1
+  Se  Se10  1  0.15916055  0.24838121  0.50959807  1

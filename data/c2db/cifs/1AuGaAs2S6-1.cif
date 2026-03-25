@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_GaAs2AuS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.23779955
+_cell_length_b   6.23857416
+_cell_length_c   33.52445200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99588842
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaAs2AuS6
+_chemical_formula_sum   'Ga1 As2 Au1 S6'
+_cell_volume   1129.86633202
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.04510817  0.01096618  0.44960248  1
+  S  S1  1  0.35471193  0.72331784  0.44960057  1
+  S  S2  1  0.64238252  0.32057393  0.44960405  1
+  S  S3  1  0.64235789  0.01096605  0.55039755  1
+  S  S4  1  0.35469146  0.32057395  0.55039594  1
+  S  S5  1  0.04510595  0.72331770  0.55039943  1
+  Au  Au6  1  0.01409929  0.35169955  0.50000001  1
+  Ga  Ga7  1  0.34739662  0.01829332  0.50000000  1
+  As  As8  1  0.68073406  0.68494580  0.46341705  1
+  As  As9  1  0.68071175  0.68494572  0.53658295  1

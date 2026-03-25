@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_InCu(SbSe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.77583638
+_cell_length_b   6.77558613
+_cell_length_c   33.52445200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00122437
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InCu(SbSe3)2
+_chemical_formula_sum   'In1 Cu1 Sb2 Se6'
+_cell_volume   1332.89746321
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.04475503  0.07321325  0.44896777  1
+  Se  Se1  1  0.29247361  0.66073217  0.44896857  1
+  Se  Se2  1  0.70496108  0.32092608  0.44896841  1
+  Se  Se3  1  0.70495825  0.07321332  0.55103220  1
+  Se  Se4  1  0.29246501  0.32092621  0.55103158  1
+  Se  Se5  1  0.04475866  0.66073232  0.55103146  1
+  Cu  Cu6  1  0.01408701  0.35167564  0.50000000  1
+  In  In7  1  0.34739493  0.01829011  0.50000000  1
+  Sb  Sb8  1  0.68072161  0.68494527  0.45780311  1
+  Sb  Sb9  1  0.68072368  0.68494524  0.54219689  1

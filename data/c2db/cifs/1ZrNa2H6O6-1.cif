@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Na2Zr(HO)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.04555322
+_cell_length_b   6.04555117
+_cell_length_c   34.26150000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00166222
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Zr(HO)6
+_chemical_formula_sum   'Na2 Zr1 H6 O6'
+_cell_volume   1084.43039199
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.73412495  0.70976284  0.53363411  1
+  O  O1  1  -0.00986440  0.29315803  0.53364084  1
+  O  O2  1  0.40692504  0.96591151  0.53365611  1
+  O  O3  1  0.68665013  0.26932065  0.46634770  1
+  O  O4  1  0.43056279  0.68608046  0.46635360  1
+  O  O5  1  1.01398573  1.01340349  0.46637145  1
+  Zr  Zr6  1  0.71040487  0.98958405  0.50000171  1
+  Na  Na7  1  0.37703523  0.32292746  0.51071230  1
+  Na  Na8  1  0.04370032  0.65625340  0.48928672  1
+  H  H9  1  0.93477800  0.33622281  0.55757218  1
+  H  H10  1  0.48564290  0.64337443  0.44236222  1
+  H  H11  1  0.83207537  0.76492027  0.55761120  1
+  H  H12  1  0.36406348  0.86794977  0.55763245  1
+  H  H13  1  0.58834440  0.21405876  0.44240355  1
+  H  H14  1  0.05691655  0.11165708  0.44242379  1

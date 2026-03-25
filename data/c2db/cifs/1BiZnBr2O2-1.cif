@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ZnBi(BrO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.72070757
+_cell_length_b   4.21011236
+_cell_length_c   20.92884194
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.02333967
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnBi(BrO)2
+_chemical_formula_sum   'Zn1 Bi1 Br2 O2'
+_cell_volume   327.84184571
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.69992738  0.75278047  0.56432370  1
+  Br  Br1  1  0.77029123  0.25444359  0.35835714  1
+  O  O2  1  0.76026228  0.25372749  0.52735727  1
+  Bi  Bi3  1  0.25760895  0.25379276  0.46607655  1
+  Br  Br4  1  0.19501197  0.75096621  0.64164286  1
+  O  O5  1  0.32325087  0.75392019  0.48605936  1

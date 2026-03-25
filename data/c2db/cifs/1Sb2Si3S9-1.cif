@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Si3Sb2S9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.49420035
+_cell_length_b   8.49280033
+_cell_length_c   35.06026332
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00333748
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Si3Sb2S9
+_chemical_formula_sum   'Si3 Sb2 S9'
+_cell_volume   2190.30509053
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  -0.00003798  0.00005060  0.42290626  1
+  Si  Si1  1  0.60603901  0.87821389  0.49999927  1
+  Si  Si2  1  0.12176571  0.72790084  0.50000005  1
+  Si  Si3  1  0.27202505  0.39393717  0.50000068  1
+  S  S4  1  0.73719467  1.01659738  0.55189065  1
+  S  S5  1  -0.01660745  0.72071858  0.55188650  1
+  S  S6  1  0.27927403  0.26280086  0.55188612  1
+  S  S7  1  -0.01661373  0.72071441  0.44811440  1
+  S  S8  1  0.27927599  0.26279969  0.44811556  1
+  S  S9  1  0.73719142  1.01658802  0.44810678  1
+  Sb  Sb10  1  0.99995640  0.00005080  0.57709374  1
+  S  S11  1  0.39578548  0.95037594  0.49999857  1
+  S  S12  1  0.04966093  0.44549112  0.50000014  1
+  S  S13  1  0.55449052  0.60424588  0.50000128  1

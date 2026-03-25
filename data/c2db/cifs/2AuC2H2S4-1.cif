@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_H2Au(CS2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.50444129
+_cell_length_b   9.90598284
+_cell_length_c   31.10034910
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.33317530
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   H2Au(CS2)2
+_chemical_formula_sum   'H4 Au2 C4 S8'
+_cell_volume   2619.99993115
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  C  C0  1  0.00033246  0.59150466  0.52212107  1
+  S  S1  1  0.83180675  0.52363783  0.54006592  1
+  S  S2  1  0.06453403  0.74304215  0.53879500  1
+  Au  Au3  1  0.80798423  0.30271196  0.50000502  1
+  Au  Au4  1  0.30793076  0.80244433  0.50003669  1
+  C  C5  1  0.49793316  0.51097611  0.47900951  1
+  C  C6  1  0.61559149  0.01351799  0.47795004  1
+  S  S7  1  0.33197362  0.57874897  0.46005390  1
+  S  S8  1  0.78373231  0.08185535  0.45990067  1
+  S  S9  1  0.56468245  0.36202368  0.46117899  1
+  S  S10  1  0.55144023  0.86202061  0.46120970  1
+  C  C11  1  0.11802281  0.09432696  0.52089727  1
+  S  S12  1  0.28358128  0.02615139  0.53998218  1
+  S  S13  1  0.05130647  0.24321966  0.53880261  1
+  H  H14  1  0.07246290  0.53492035  0.49909299  1
+  H  H15  1  0.56639504  0.56545734  0.50349584  1
+  H  H16  1  0.54359999  0.06980629  0.50108502  1
+  H  H17  1  0.04973367  0.04016020  0.49630334  1

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_HfAs2(O3F)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.70652160
+_cell_length_b   5.70641560
+_cell_length_c   36.18153200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00021478
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfAs2(O3F)2
+_chemical_formula_sum   'Hf1 As2 O6 F2'
+_cell_volume   1020.35549405
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.33337324  0.66662947  0.54584158  1
+  Hf  Hf1  1  0.66670000  0.33330001  0.50000003  1
+  F  F2  1  0.33336380  0.66663624  0.59355816  1
+  O  O3  1  0.49822808  0.50177262  0.53392192  1
+  O  O4  1  0.49822284  0.99632315  0.53391729  1
+  O  O5  1  0.00367676  0.50177738  0.53391680  1
+  As  As6  1  0.00002677  -0.00002946  0.45415846  1
+  F  F7  1  0.00003612  -0.00003617  0.40644187  1
+  O  O8  1  0.83517207  0.16482721  0.46607815  1
+  O  O9  1  0.83517823  0.67027732  0.46608286  1
+  O  O10  1  0.32972279  0.16482158  0.46608335  1

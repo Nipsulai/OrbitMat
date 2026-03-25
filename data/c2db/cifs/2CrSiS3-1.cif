@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CrSiS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.94600957
+_cell_length_b   5.94381932
+_cell_length_c   33.45828373
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00571355
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrSiS3
+_chemical_formula_sum   'Cr2 Si2 S6'
+_cell_volume   1024.00125305
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.33266875  0.31033734  0.50000408  1
+  S  S1  1  0.35644493  1.00080823  0.54612507  1
+  Cr  Cr2  1  0.66599789  0.97699597  0.49999592  1
+  Si  Si3  1  0.99937971  0.64366865  0.46691087  1
+  S  S4  1  0.64222172  0.28652509  0.45387493  1
+  Si  Si5  1  0.99928694  0.64366467  0.53308913  1
+  S  S6  1  0.99926259  0.28650699  0.54612460  1
+  S  S7  1  0.64213108  0.64368679  0.54613061  1
+  S  S8  1  0.35653556  0.64364652  0.45386939  1
+  S  S9  1  -0.00059594  0.00082632  0.45387540  1

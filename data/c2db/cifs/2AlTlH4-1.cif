@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_AlTlH4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.97582593
+_cell_length_b   12.89166153
+_cell_length_c   33.47636975
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlTlH4
+_chemical_formula_sum   'Al2 Tl2 H8'
+_cell_volume   1284.26537694
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  1  -0.10232336  0.00000000  0.50000000  1
+  Tl  Tl1  1  1.89755651  0.50000000  0.50000000  1
+  Al  Al2  1  0.39751681  0.25024428  0.49816758  1
+  Al  Al3  1  0.39751681  0.74975572  0.50183242  1
+  H  H4  1  0.89747825  0.68980163  0.47565552  1
+  H  H5  1  -0.10257218  0.18945466  0.47218406  1
+  H  H6  1  0.39744693  0.35263680  0.46752409  1
+  H  H7  1  0.39745747  0.85080589  0.47055006  1
+  H  H8  1  0.89747825  0.31019837  0.52434448  1
+  H  H9  1  -0.10257218  0.81054534  0.52781594  1
+  H  H10  1  0.39744693  0.64736320  0.53247591  1
+  H  H11  1  0.39745747  0.14919411  0.52944994  1

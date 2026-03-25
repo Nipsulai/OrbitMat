@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Hf3MoSeS(BrCl)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.86016458
+_cell_length_b   7.10654695
+_cell_length_c   18.90771320
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   118.67546496
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf3MoSeS(BrCl)3
+_chemical_formula_sum   'Hf3 Mo1 Se1 S1 Br3 Cl3'
+_cell_volume   808.73437633
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.90335584  0.53745963  0.51074589  1
+  Se  Se1  1  0.75036789  0.24979628  0.41366915  1
+  Hf  Hf2  1  0.38514362  0.54708795  0.50887880  1
+  S  S3  1  0.08801491  0.42265111  0.60069931  1
+  Cl  Cl4  1  0.57805209  0.41348817  0.60333648  1
+  Hf  Hf5  1  0.40269285  0.13180806  0.50244783  1
+  Cl  Cl6  1  0.59158746  0.94107365  0.57476658  1
+  Cl  Cl7  1  0.24497633  0.76317747  0.43012171  1
+  Br  Br8  1  0.07086334  0.92445497  0.59622061  1
+  Br  Br9  1  0.25581412  0.28176757  0.39666352  1
+  Mo  Mo10  1  0.98143570  0.16207596  0.50381549  1
+  Br  Br11  1  0.76971087  0.78059004  0.42930079  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ir4Br3ClO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.32311065
+_cell_length_b   5.32257379
+_cell_length_c   20.27791880
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   99.71297185
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ir4Br3ClO4
+_chemical_formula_sum   'Ir4 Br3 Cl1 O4'
+_cell_volume   566.29148412
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ir  Ir0  1  0.87198204  0.37452372  0.54455585  1
+  Ir  Ir1  1  0.87395622  0.87489604  0.45556235  1
+  Br  Br2  1  0.62368893  0.62509762  0.36989276  1
+  Br  Br3  1  0.12301663  0.62614700  0.63013956  1
+  Br  Br4  1  0.12354996  0.12524764  0.36986044  1
+  O  O5  1  0.12326646  0.62547628  0.47971111  1
+  O  O6  1  0.12318133  0.12575609  0.52172000  1
+  O  O7  1  0.62338601  0.12562118  0.47768713  1
+  Ir  Ir8  1  0.37264356  0.37614493  0.45557314  1
+  Ir  Ir9  1  0.37439414  0.87690484  0.54451754  1
+  O  O10  1  0.62307442  0.62564401  0.52172330  1
+  Cl  Cl11  1  0.62302275  0.12578397  0.62089665  1

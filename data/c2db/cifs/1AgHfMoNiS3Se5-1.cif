@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HfNiAgMoSe5S3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.91470753
+_cell_length_b   7.25347752
+_cell_length_c   18.38724304
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.82865774
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfNiAgMoSe5S3
+_chemical_formula_sum   'Hf1 Ni1 Ag1 Mo1 Se5 S3'
+_cell_volume   800.04530619
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.77340440  0.77491447  0.58344780  1
+  Hf  Hf1  1  0.90193237  0.60434406  0.49832323  1
+  Se  Se2  1  0.75830554  0.24213804  0.57909689  1
+  Se  Se3  1  0.00482627  0.32061879  0.41569078  1
+  Se  Se4  1  0.64893571  0.99009924  0.42280326  1
+  Ag  Ag5  1  0.41019343  0.54864314  0.50552110  1
+  Mo  Mo6  1  0.40284313  0.12084030  0.50682194  1
+  Ni  Ni7  1  0.95014281  0.06083437  0.50780400  1
+  Se  Se8  1  0.11520241  0.91769027  0.40743867  1
+  Se  Se9  1  0.27130648  0.76046568  0.57483992  1
+  S  S10  1  0.55862340  0.39775518  0.41723533  1
+  S  S11  1  0.23013603  0.20534988  0.59206978  1

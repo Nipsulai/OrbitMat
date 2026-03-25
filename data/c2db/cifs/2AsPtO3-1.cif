@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_AsPtO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.42658076
+_cell_length_b   5.87207954
+_cell_length_c   18.41164285
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   122.78192484
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AsPtO3
+_chemical_formula_sum   'As2 Pt2 O6'
+_cell_volume   493.25459332
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.00368272  0.00182360  0.49999616  1
+  Pt  Pt1  1  0.32964704  0.66485530  0.50000755  1
+  As  As2  1  0.66675380  0.31217708  0.43228262  1
+  As  As3  1  0.66660427  0.35452855  0.56771471  1
+  O  O4  1  0.31255286  -0.04641433  0.44071827  1
+  O  O5  1  1.02074177  0.30762387  0.44077877  1
+  O  O6  1  0.66650017  0.70737756  0.44329332  1
+  O  O7  1  1.02078896  0.71310586  0.55929942  1
+  O  O8  1  0.31256681  0.35903874  0.55922524  1
+  O  O9  1  0.66681875  -0.04068683  0.55669749  1

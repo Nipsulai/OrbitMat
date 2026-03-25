@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_NaCdBiBrClO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.76666457
+_cell_length_b   5.45907431
+_cell_length_c   20.35223087
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   93.51677382
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCdBiBrClO2
+_chemical_formula_sum   'Na1 Cd1 Bi1 Br1 Cl1 O2'
+_cell_volume   417.70471242
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.92957516  0.37125688  0.49412576  1
+  O  O1  1  -0.00735780  0.98840314  0.52533998  1
+  Bi  Bi2  1  0.48377218  0.84273569  0.57464962  1
+  Br  Br3  1  0.78330534  0.23212358  0.36850997  1
+  Cl  Cl4  1  0.93404796  0.49352891  0.63149003  1
+  O  O5  1  0.44814473  0.59416275  0.49573505  1
+  Na  Na6  1  0.23787207  -0.13795084  0.41249215  1

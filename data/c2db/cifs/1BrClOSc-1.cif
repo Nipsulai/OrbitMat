@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_ScBrClO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.46953854
+_cell_length_b   3.47842705
+_cell_length_c   19.84971067
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.92852812
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScBrClO
+_chemical_formula_sum   'Sc1 Br1 Cl1 O1'
+_cell_volume   207.61166762
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.17753847  0.18754702  0.50678524  1
+  Cl  Cl1  1  0.17772885  0.18653748  0.37765480  1
+  O  O2  1  0.84439824  0.52153800  0.49799310  1
+  Br  Br3  1  0.51120140  0.85573481  0.62303614  1

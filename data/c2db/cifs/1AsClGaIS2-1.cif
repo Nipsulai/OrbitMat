@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_GaAsS2ICl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.34603492
+_cell_length_b   6.86243702
+_cell_length_c   18.29974836
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   116.83197644
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaAsS2ICl
+_chemical_formula_sum   'Ga1 As1 S2 I1 Cl1'
+_cell_volume   711.13722257
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.59373349  0.07449733  0.48276061  1
+  Ga  Ga1  1  -0.01813727  0.82246686  0.47129721  1
+  I  I2  1  0.94940304  0.43926537  0.41497231  1
+  Cl  Cl3  1  1.02467715  0.81792113  0.59015830  1
+  S  S4  1  0.64704795  0.81800262  0.42199274  1
+  S  S5  1  0.30685533  0.07083295  0.40984170  1

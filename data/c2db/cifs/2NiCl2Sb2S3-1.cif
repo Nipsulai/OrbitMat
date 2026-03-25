@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_NiSb2S3Cl2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.06992842
+_cell_length_b   9.88668554
+_cell_length_c   35.68792633
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.82199510
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiSb2S3Cl2
+_chemical_formula_sum   'Ni2 Sb4 S6 Cl4'
+_cell_volume   2141.67471087
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  0.05279721  0.02155988  0.55086980  1
+  Sb  Sb1  1  0.91152123  0.91796409  0.44912769  1
+  Sb  Sb2  1  0.05145766  0.41848908  0.55108541  1
+  Sb  Sb3  1  0.91286703  0.52103185  0.44891155  1
+  Cl  Cl4  1  0.42632821  0.21697270  0.43213506  1
+  Cl  Cl5  1  0.53785734  0.72253632  0.56786748  1
+  Cl  Cl6  1  0.84299997  0.22095132  0.59094942  1
+  Cl  Cl7  1  0.12131316  0.71856756  0.40904671  1
+  Ni  Ni8  1  0.53876839  0.22097065  0.48988910  1
+  Ni  Ni9  1  0.42556183  0.71855041  0.51010787  1
+  S  S10  1  0.73244911  1.03671378  0.50771492  1
+  S  S11  1  0.23186767  0.90280399  0.49228179  1
+  S  S12  1  0.30665713  0.21992206  0.54011653  1
+  S  S13  1  0.65765824  0.71959646  0.45987780  1
+  S  S14  1  0.23209382  0.53532413  0.49216729  1
+  S  S15  1  0.73222677  0.40419499  0.50782788  1

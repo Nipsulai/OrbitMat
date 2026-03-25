@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_As4Au2Se3F2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.18672755
+_cell_length_b   7.56933957
+_cell_length_c   34.12562733
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   As4Au2Se3F2
+_chemical_formula_sum   'As4 Au2 Se3 F2'
+_cell_volume   1856.39253489
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  -0.02640872  0.00000000  0.54617577  1
+  As  As1  1  0.90141716  0.00000000  0.43298388  1
+  As  As2  1  0.18950438  0.83464471  0.45247424  1
+  As  As3  1  0.18950438  0.16535529  0.45247424  1
+  Au  Au4  1  0.56398076  0.72631487  0.50137306  1
+  Au  Au5  1  0.56398076  0.27368513  0.50137306  1
+  F  F6  1  0.54836926  0.50000000  0.54273515  1
+  F  F7  1  0.40698584  0.50000000  0.47009426  1
+  Se  Se8  1  0.71935464  -0.00000000  0.49452856  1
+  Se  Se9  1  0.13284900  0.75426890  0.51957000  1
+  Se  Se10  1  0.13284900  0.24573110  0.51957000  1

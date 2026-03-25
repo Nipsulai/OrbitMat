@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_SrSbSIBrO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.09146849
+_cell_length_b   6.65413653
+_cell_length_c   20.25608175
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.01409996
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrSbSIBrO
+_chemical_formula_sum   'Sr1 Sb1 S1 I1 Br1 O1'
+_cell_volume   524.44257873
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  0.65912484  0.33220681  0.56813629  1
+  O  O1  1  0.56025109  0.13550510  0.49618273  1
+  Sr  Sr2  1  0.96033566  0.93658337  0.47643192  1
+  I  I3  1  0.32721831  0.67409989  0.37025917  1
+  S  S4  1  0.27241149  0.55712808  0.51692310  1
+  Br  Br5  1  0.01623213  0.04817517  0.62974083  1

@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_V2Te2Cl2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.16270586
+_cell_length_b   7.50128860
+_cell_length_c   34.30978884
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   99.22527599
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   V2Te2Cl2O7
+_chemical_formula_sum   'V2 Te2 Cl2 O7'
+_cell_volume   1311.52730076
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.02189859  0.96593250  0.47061343  1
+  Te  Te1  1  0.51990685  0.30228027  0.52938489  1
+  V  V2  1  0.06205247  0.51504099  0.47126404  1
+  V  V3  1  0.47972485  0.75318508  0.52874133  1
+  O  O4  1  0.22014048  0.77293450  0.48381797  1
+  O  O5  1  0.32164085  0.49526424  0.51618548  1
+  O  O6  1  0.76572323  0.93436493  0.50909873  1
+  O  O7  1  0.77610100  0.33387174  0.49090367  1
+  O  O8  1  0.27089386  0.13412167  0.49999576  1
+  O  O9  1  0.18813281  0.42055475  0.43637615  1
+  O  O10  1  0.35368853  0.84770524  0.56362931  1
+  Cl  Cl11  1  0.75586087  0.66223555  0.43648842  1
+  Cl  Cl12  1  0.78595714  0.60596901  0.56351944  1

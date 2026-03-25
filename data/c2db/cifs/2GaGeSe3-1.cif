@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_GaGeSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.47973054
+_cell_length_b   6.47802328
+_cell_length_c   33.52394110
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01961103
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaGeSe3
+_chemical_formula_sum   'Ga2 Ge2 Se6'
+_cell_volume   1218.42638396
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  -0.02906049  0.01816590  0.55038858  1
+  Se  Se1  1  0.69498324  0.38008580  0.55038859  1
+  Se  Se2  1  0.33286613  0.65604674  0.55038840  1
+  Se  Se3  1  0.69492048  0.01803407  0.44961141  1
+  Se  Se4  1  -0.02912324  0.65611418  0.44961140  1
+  Se  Se5  1  0.33299387  0.38015323  0.44961159  1
+  Ga  Ga6  1  0.66626476  0.68476740  0.50002605  1
+  Ga  Ga7  1  0.99959524  0.35143258  0.49997393  1
+  Ge  Ge8  1  0.33293151  0.01810150  0.53562342  1
+  Ge  Ge9  1  0.33292848  0.01809845  0.46437656  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_MgCuBr3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.78603434
+_cell_length_b   6.78603434
+_cell_length_c   18.16357756
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999998
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgCuBr3
+_chemical_formula_sum   'Mg2 Cu2 Br6'
+_cell_volume   724.37612939
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.33333333  0.66666667  0.50000000  1
+  Mg  Mg1  1  0.66666667  0.33333333  0.50000000  1
+  Cu  Cu2  1  -0.00000000  -0.00000000  0.57211365  1
+  Cu  Cu3  1  0.00000000  0.00000000  0.42788635  1
+  Br  Br4  1  0.64685605  0.00000000  0.58688305  1
+  Br  Br5  1  0.35314395  0.35314394  0.58688305  1
+  Br  Br6  1  -0.00000000  0.64685606  0.58688305  1
+  Br  Br7  1  0.35314395  -0.00000000  0.41311695  1
+  Br  Br8  1  0.64685604  0.64685605  0.41311695  1
+  Br  Br9  1  -0.00000000  0.35314394  0.41311695  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MnSnBrClO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.54256097
+_cell_length_b   4.03688958
+_cell_length_c   20.72697991
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00473260
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnSnBrClO2
+_chemical_formula_sum   'Mn1 Sn1 Br1 Cl1 O2'
+_cell_volume   296.41503557
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.24915991  0.75115373  0.48941345  1
+  Mn  Mn1  1  0.24641238  0.25118749  0.44879235  1
+  O  O2  1  0.75036903  0.25108371  0.52469949  1
+  Sn  Sn3  1  0.74896984  0.75108871  0.54578879  1
+  Cl  Cl4  1  0.24983476  0.75051794  0.63815118  1
+  Br  Br5  1  0.74592432  0.25056860  0.36187976  1

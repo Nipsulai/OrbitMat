@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaNi(SbTe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.36051404
+_cell_length_b   7.36300440
+_cell_length_c   33.22614168
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.98834696
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaNi(SbTe3)2
+_chemical_formula_sum   'Na1 Ni1 Sb2 Te6'
+_cell_volume   1559.64132521
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.67766679  0.99889782  0.50000076  1
+  Te  Te1  1  0.68446944  0.74953635  0.55559678  1
+  Na  Na2  1  0.01014299  0.66389831  0.50000018  1
+  Te  Te3  1  -0.07257701  0.25382079  0.55576517  1
+  Sb  Sb4  1  0.34490521  0.33198871  0.54254559  1
+  Te  Te5  1  0.42234849  0.99215002  0.55566925  1
+  Te  Te6  1  0.42150646  0.74959947  0.44440523  1
+  Te  Te7  1  0.68283216  0.25385498  0.44423682  1
+  Sb  Sb8  1  0.34353697  0.33203941  0.45745404  1
+  Te  Te9  1  -0.07373222  -0.00779421  0.44432595  1

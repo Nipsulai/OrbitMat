@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_PtSeCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.50693104
+_cell_length_b   3.57706792
+_cell_length_c   21.34180596
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PtSeCl
+_chemical_formula_sum   'Pt2 Se2 Cl2'
+_cell_volume   420.40511525
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.50000000  -0.00000000  0.45591843  1
+  Pt  Pt1  1  0.00000000  0.50000000  0.54408161  1
+  Se  Se2  1  0.50000000  0.50000000  0.53376159  1
+  Se  Se3  1  -0.00000000  -0.00000000  0.46623844  1
+  Cl  Cl4  1  0.50000000  0.50000000  0.37792905  1
+  Cl  Cl5  1  -0.00000000  0.00000000  0.62207099  1

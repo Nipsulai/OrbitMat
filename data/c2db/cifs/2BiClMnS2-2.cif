@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_MnBiS2Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.71070634
+_cell_length_b   11.04664137
+_cell_length_c   35.49007474
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnBiS2Cl
+_chemical_formula_sum   'Mn2 Bi2 S4 Cl2'
+_cell_volume   1454.76805352
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.00000000  0.09403919  0.54836083  1
+  Cl  Cl1  1  -0.00000000  0.06814109  0.45163927  1
+  Bi  Bi2  1  0.00000000  0.35652010  0.44271139  1
+  Bi  Bi3  1  0.00000000  0.80565823  0.55728883  1
+  S  S4  1  0.50000000  0.84005795  0.50614684  1
+  S  S5  1  0.50000000  0.32212384  0.49385296  1
+  S  S6  1  0.00000000  0.58282385  0.45216119  1
+  S  S7  1  -0.00000000  0.57936079  0.54783878  1
+  Mn  Mn8  1  0.50000000  0.58109061  0.50000016  1
+  Mn  Mn9  1  0.50000000  0.08109088  0.49999978  1

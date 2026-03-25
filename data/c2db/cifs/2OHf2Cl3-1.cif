@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Hf2Cl3O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.23514065
+_cell_length_b   6.94814946
+_cell_length_c   19.44272873
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   116.66767421
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf2Cl3O
+_chemical_formula_sum   'Hf4 Cl6 O2'
+_cell_volume   752.71021663
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.77052261  0.54912324  0.61419903  1
+  Hf  Hf1  1  0.65676947  0.86846097  0.50098127  1
+  Hf  Hf2  1  0.94174234  0.37635156  0.53145383  1
+  Hf  Hf3  1  0.43370727  0.36036430  0.53163906  1
+  Cl  Cl4  1  0.79819780  0.59246959  0.44324847  1
+  Hf  Hf5  1  0.22189507  0.86823960  0.49641320  1
+  Cl  Cl6  1  0.08931966  0.18799887  0.61427493  1
+  Cl  Cl7  1  0.44796562  0.86854282  0.38578002  1
+  O  O8  1  0.30078185  0.58004472  0.49961043  1
+  Cl  Cl9  1  0.07454695  0.14441189  0.44327712  1
+  O  O10  1  0.58869067  0.15666443  0.49964489  1
+  Cl  Cl11  1  0.43253357  0.86823077  0.61274443  1

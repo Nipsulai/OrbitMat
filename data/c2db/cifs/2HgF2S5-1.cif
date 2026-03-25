@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_HgS5F2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.75828835
+_cell_length_b   10.75930552
+_cell_length_c   34.12349480
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   100.49130653
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HgS5F2
+_chemical_formula_sum   'Hg2 S10 F4'
+_cell_volume   2078.78456051
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.25490281  0.84015344  0.51072908  1
+  Hg  Hg1  1  0.75490281  0.34015344  0.48927092  1
+  S  S2  1  0.31832952  0.45576284  0.44520063  1
+  S  S3  1  -0.18167048  0.95576284  0.55479937  1
+  S  S4  1  0.47241313  0.94316167  0.57033085  1
+  S  S5  1  -0.02758687  0.44316167  0.42966915  1
+  S  S6  1  0.31933096  0.28662185  0.47607433  1
+  S  S7  1  -0.07190326  0.08694241  0.51112858  1
+  S  S8  1  0.42809674  0.58694241  0.48887142  1
+  S  S9  1  -0.18066904  0.78662185  0.52392567  1
+  S  S10  1  0.50723260  0.79920573  0.45163593  1
+  S  S11  1  1.00723260  0.29920573  0.54836407  1
+  F  F12  1  1.04209056  0.44301186  0.57015551  1
+  F  F13  1  0.81261610  0.24034683  0.58195184  1
+  F  F14  1  0.31261610  0.74034683  0.41804816  1
+  F  F15  1  0.54209056  -0.05698814  0.42984449  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_KHg2Se(OF)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.40494747
+_cell_length_b   6.18506274
+_cell_length_c   42.96172426
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KHg2Se(OF)3
+_chemical_formula_sum   'K2 Hg4 Se2 O6 F6'
+_cell_volume   1436.20783198
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.50000000  0.75936407  0.59576338  1
+  Hg  Hg1  1  0.00000000  0.25936407  0.40423662  1
+  Hg  Hg2  1  0.00000000  0.31905388  0.59935774  1
+  Hg  Hg3  1  0.50000000  0.81905388  0.40064226  1
+  K  K4  1  0.00000000  0.96275448  0.50020508  1
+  K  K5  1  0.50000000  0.46275448  0.49979492  1
+  Se  Se6  1  0.50000000  1.03124079  0.55219665  1
+  Se  Se7  1  0.00000000  0.53124079  0.44780335  1
+  O  O8  1  0.25073014  0.18868797  0.54980375  1
+  O  O9  1  0.74926986  0.18868797  0.54980375  1
+  O  O10  1  0.24926986  0.68868797  0.45019625  1
+  O  O11  1  0.75073014  0.68868797  0.45019625  1
+  O  O12  1  0.50000000  0.86651511  0.52103521  1
+  O  O13  1  0.00000000  0.36651511  0.47896479  1
+  F  F14  1  0.50000000  0.47999712  0.62071940  1
+  F  F15  1  0.50000000  0.52291820  0.38109413  1
+  F  F16  1  0.00000000  0.62563347  0.58146194  1
+  F  F17  1  0.50000000  0.12563347  0.41853806  1
+  F  F18  1  0.00000000  -0.02000288  0.37928060  1
+  F  F19  1  0.00000000  0.02291820  0.61890587  1

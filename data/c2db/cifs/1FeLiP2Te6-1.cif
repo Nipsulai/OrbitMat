@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiFe(Te3P)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.80650642
+_cell_length_b   6.79787134
+_cell_length_c   33.22614168
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.04084173
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiFe(Te3P)2
+_chemical_formula_sum   'Li1 Fe1 Te6 P2'
+_cell_volume   1330.84924803
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.67954961  1.00263346  0.49999778  1
+  Te  Te1  1  0.67793751  0.71353566  0.55163915  1
+  Li  Li2  1  0.00909677  0.66184616  0.49999736  1
+  Te  Te3  1  -0.03714095  0.28169374  0.55227143  1
+  P  P4  1  0.34481320  0.33171451  0.53312228  1
+  Te  Te5  1  0.39479234  0.99974596  0.55193459  1
+  Te  Te6  1  0.39202982  0.71355912  0.44836057  1
+  Te  Te7  1  0.67529110  0.28174109  0.44772893  1
+  P  P8  1  0.34333699  0.33173660  0.46687390  1
+  Te  Te9  1  -0.03861066  -0.00021600  0.44805437  1

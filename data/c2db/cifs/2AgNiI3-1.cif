@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NiAgI3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.26417273
+_cell_length_b   7.26417273
+_cell_length_c   18.19457191
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000002
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiAgI3
+_chemical_formula_sum   'Ni2 Ag2 I6'
+_cell_volume   831.46658039
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.62106305  0.00000000  0.58806394  1
+  I  I1  1  0.37893696  0.37893695  0.58806394  1
+  I  I2  1  -0.00000000  0.62106305  0.58806393  1
+  I  I3  1  0.37893695  -0.00000000  0.41193607  1
+  I  I4  1  0.62106304  0.62106304  0.41193607  1
+  I  I5  1  -0.00000000  0.37893694  0.41193607  1
+  Ni  Ni6  1  0.33333333  0.66666667  0.50000000  1
+  Ni  Ni7  1  0.66666667  0.33333333  0.50000000  1
+  Ag  Ag8  1  0.00000000  0.00000000  0.58213861  1
+  Ag  Ag9  1  -0.00000000  0.00000000  0.41786139  1

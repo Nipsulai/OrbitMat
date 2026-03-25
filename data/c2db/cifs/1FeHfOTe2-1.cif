@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_HfFeTe2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.91694451
+_cell_length_b   3.24731721
+_cell_length_c   20.24920211
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   114.47985176
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfFeTe2O
+_chemical_formula_sum   'Hf1 Fe1 Te2 O1'
+_cell_volume   234.40805125
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.59288800  0.54811699  0.50460552  1
+  Fe  Fe1  1  0.76908029  0.13629321  0.56478681  1
+  Hf  Hf2  1  0.18187376  0.84272021  0.47860210  1
+  Te  Te3  1  0.81038344  0.15696364  0.37028848  1
+  Te  Te4  1  0.14190375  0.82257346  0.62975641  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CuIrO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.16103746
+_cell_length_b   5.15806979
+_cell_length_c   17.49167645
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.48073540
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuIrO6
+_chemical_formula_sum   'Cu1 Ir1 O6'
+_cell_volume   420.35239734
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.49179141  0.69686356  0.50015039  1
+  O  O1  1  0.89912675  1.00652117  0.42877336  1
+  O  O2  1  0.41748960  0.94824345  0.56041404  1
+  O  O3  1  0.24083831  0.77137538  0.43981951  1
+  O  O4  1  0.44156273  0.35557462  0.44877946  1
+  Ir  Ir5  1  0.15175037  0.03720421  0.50010566  1
+  O  O6  1  0.18269344  0.29090831  0.57122850  1
+  O  O7  1  0.83348991  0.74775039  0.55137671  1

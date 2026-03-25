@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HfAg(SBr)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.82205189
+_cell_length_b   5.00630873
+_cell_length_c   21.00108153
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.01596145
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfAg(SBr)2
+_chemical_formula_sum   'Hf1 Ag1 S2 Br2'
+_cell_volume   401.84248545
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.36351662  0.49859882  0.44506607  1
+  Hf  Hf1  1  0.67366165  -0.00096335  0.54786301  1
+  S  S2  1  0.18731655  -0.00157937  0.47000081  1
+  Br  Br3  1  0.90348862  0.49694871  0.35719412  1
+  S  S4  1  0.68977083  0.49890066  0.54896771  1
+  Br  Br5  1  0.17935095  0.99911995  0.64275477  1

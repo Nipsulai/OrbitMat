@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_MnBiTe2Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.95766011
+_cell_length_b   13.10152624
+_cell_length_c   35.19677800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnBiTe2Br
+_chemical_formula_sum   'Mn2 Bi2 Te4 Br2'
+_cell_volume   1825.00178347
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.00000000  0.27382415  0.44647758  1
+  Bi  Bi1  1  -0.00000000  0.77382415  0.55352242  1
+  Mn  Mn2  1  0.50000000  0.52421140  0.49858205  1
+  Mn  Mn3  1  0.50000000  0.02421140  0.50141795  1
+  Te  Te4  1  0.50000000  0.30739025  0.50690104  1
+  Te  Te5  1  0.50000000  0.80739025  0.49309896  1
+  Te  Te6  1  -0.00000000  0.55374856  0.55449527  1
+  Br  Br7  1  -0.00000000  0.54181513  0.44809465  1
+  Br  Br8  1  0.00000000  0.04181513  0.55190535  1
+  Te  Te9  1  -0.00000000  0.05374856  0.44550473  1

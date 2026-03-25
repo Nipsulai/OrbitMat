@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_CrH2SeO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.27341395
+_cell_length_b   6.26943925
+_cell_length_c   35.37652562
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   104.32819720
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrH2SeO5
+_chemical_formula_sum   'Cr2 H4 Se2 O10'
+_cell_volume   1348.10622565
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.70612302  0.00398218  0.50451843  1
+  Cr  Cr1  1  0.28749519  0.62297505  0.49548059  1
+  Se  Se2  1  0.74067195  0.46976023  0.47749258  1
+  Se  Se3  1  0.25294086  0.15717092  0.52250697  1
+  O  O4  1  0.75399769  0.06762370  0.45857433  1
+  O  O5  1  0.23964417  0.55937800  0.54142458  1
+  O  O6  1  0.60460126  0.89745906  0.56633578  1
+  O  O7  1  0.38900521  0.72952312  0.43366234  1
+  O  O8  1  0.72526194  0.31062715  0.51820636  1
+  O  O9  1  0.26834950  0.31632815  0.48179720  1
+  O  O10  1  0.61524805  0.67453672  0.49898239  1
+  O  O11  1  0.37837211  0.95240067  0.50101176  1
+  H  H12  1  0.46701099  0.77859643  0.56437078  1
+  H  H13  1  0.52658284  0.84839986  0.43562622  1
+  H  H14  1  0.57541244  0.00652298  0.58380065  1
+  H  H15  1  0.41820120  0.62048743  0.41619224  1
+  O  O16  1  1.00476478  0.62399239  0.47428784  1
+  O  O17  1  -0.01114448  0.00291141  0.52570978  1

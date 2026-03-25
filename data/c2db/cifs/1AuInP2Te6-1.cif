@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_InTe6P2Au
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.05487411
+_cell_length_b   7.05521929
+_cell_length_c   33.52445200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99836183
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InTe6P2Au
+_chemical_formula_sum   'In1 Te6 P2 Au1'
+_cell_volume   1445.10456668
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.01733932  0.01895975  0.44418774  1
+  Te  Te1  1  0.34671288  0.68756162  0.44418520  1
+  Te  Te2  1  0.67813271  0.34833043  0.44418834  1
+  Te  Te3  1  0.67812037  0.01895967  0.55581227  1
+  Te  Te4  1  0.34669777  0.34833049  0.55581164  1
+  Te  Te5  1  0.01734883  0.68756157  0.55581480  1
+  Au  Au6  1  0.01410370  0.35170844  0.50000000  1
+  In  In7  1  0.34739525  0.01829054  0.50000000  1
+  P  P8  1  0.68073141  0.68494884  0.46546500  1
+  P  P9  1  0.68071745  0.68494875  0.53453500  1

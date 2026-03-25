@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ga3Cu(SCl2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.77149648
+_cell_length_b   5.79941105
+_cell_length_c   20.54394974
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   94.36469161
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ga3Cu(SCl2)2
+_chemical_formula_sum   'Ga3 Cu1 S2 Cl4'
+_cell_volume   566.84078487
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.86920154  0.15227026  0.43410285  1
+  Cl  Cl1  1  0.86638708  0.14851417  0.63492901  1
+  Ga  Ga2  1  0.86918510  0.65489629  0.58037775  1
+  Cu  Cu3  1  0.36944399  0.65209294  0.43910299  1
+  Cl  Cl4  1  0.36638320  0.64890781  0.62780821  1
+  Cl  Cl5  1  0.11676794  0.39406842  0.36513007  1
+  S  S6  1  0.61339716  0.39835288  0.49675482  1
+  Cl  Cl7  1  0.62220121  0.91025232  0.36507099  1
+  Ga  Ga8  1  0.36865970  0.15436897  0.58772029  1
+  S  S9  1  0.12690355  0.90686883  0.49663915  1

@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_ZrNbTeIO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.71817423
+_cell_length_b   3.43227933
+_cell_length_c   21.15869234
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   117.45907677
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrNbTeIO
+_chemical_formula_sum   'Zr1 Nb1 Te1 I1 O1'
+_cell_volume   239.60255493
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.11294478  0.80239304  0.35438710  1
+  Nb  Nb1  1  0.20679803  0.84890102  0.54851553  1
+  I  I2  1  0.55575543  0.52324368  0.64536441  1
+  O  O3  1  0.83626181  0.16347409  0.50500935  1
+  Zr  Zr4  1  0.47530841  0.48353507  0.45098514  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CrMoIBrO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.48039568
+_cell_length_b   4.00842555
+_cell_length_c   20.75822000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.01037831
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrMoIBrO2
+_chemical_formula_sum   'Cr1 Mo1 I1 Br1 O2'
+_cell_volume   289.59599136
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.25034353  0.24732204  0.63869735  1
+  O  O1  1  0.74946882  0.74785193  0.52752138  1
+  Mo  Mo2  1  0.24931562  0.74799560  0.46598794  1
+  O  O3  1  0.24942076  0.24788358  0.49066961  1
+  I  I4  1  0.74936300  0.74738144  0.36130265  1
+  Cr  Cr5  1  0.75000476  0.24795835  0.55156146  1

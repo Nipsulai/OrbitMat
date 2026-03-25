@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ir3PtBrNCl3O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.85689984
+_cell_length_b   5.76965563
+_cell_length_c   19.79074475
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   74.07024601
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ir3PtBrNCl3O
+_chemical_formula_sum   'Ir3 Pt1 Br1 N1 Cl3 O1'
+_cell_volume   643.09301122
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.72114329  0.13817031  0.55492090  1
+  Ir  Ir1  1  0.12642699  0.74072101  0.44505334  1
+  Br  Br2  1  0.75316734  0.74868177  0.62103333  1
+  Ir  Ir3  1  0.73937933  0.70388908  0.49599210  1
+  Ir  Ir4  1  0.11083246  0.14029681  0.49230030  1
+  Cl  Cl5  1  0.30999800  0.27741217  0.58826614  1
+  Cl  Cl6  1  0.77998560  0.74987570  0.37895998  1
+  N  N7  1  0.81805088  0.36336247  0.49629985  1
+  Cl  Cl8  1  0.30468660  0.34178160  0.40581608  1
+  O  O9  1  0.37968207  0.80582868  0.49654829  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_TeMoOsIBr4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.25101939
+_cell_length_b   6.29671398
+_cell_length_c   18.52469695
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.31045443
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TeMoOsIBr4
+_chemical_formula_sum   'Te1 Mo1 Os1 I1 Br4'
+_cell_volume   659.15347261
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.17269115  0.83659459  0.57084950  1
+  I  I1  1  0.50554603  0.49175183  0.58237254  1
+  Mo  Mo2  1  0.54337228  0.13241906  0.49820564  1
+  Br  Br3  1  0.84217337  0.50807446  0.42738096  1
+  Te  Te4  1  0.17378959  0.16315808  0.42217931  1
+  Br  Br5  1  0.83544341  0.13879497  0.59513508  1
+  Os  Os6  1  0.83276237  0.86126069  0.49898051  1
+  Br  Br7  1  0.53367487  0.83904441  0.40486492  1

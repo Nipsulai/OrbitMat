@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Re2NiS8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.00045055
+_cell_length_b   5.99083322
+_cell_length_c   37.35776440
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.95400174
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Re2NiS8
+_chemical_formula_sum   'Re2 Ni1 S8'
+_cell_volume   1163.54641934
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Re  Re0  1  0.66506874  0.33326585  0.55691050  1
+  S  S1  1  0.99909717  0.31870341  0.53733799  1
+  S  S2  1  0.67849052  0.68219032  0.53747866  1
+  S  S3  1  0.31358118  -0.00252483  0.53844673  1
+  S  S4  1  0.66996562  0.33655306  0.61363486  1
+  Ni  Ni5  1  1.00000000  0.00000000  0.50000000  1
+  Re  Re6  1  0.33493126  0.66673415  0.44308950  1
+  S  S7  1  0.00090283  0.68129659  0.46266201  1
+  S  S8  1  0.32150948  0.31780968  0.46252134  1
+  S  S9  1  0.68641882  1.00252483  0.46155327  1
+  S  S10  1  0.33003438  0.66344694  0.38636514  1

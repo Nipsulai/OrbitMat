@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NbZnNiSn(HO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.26100335
+_cell_length_b   6.36426232
+_cell_length_c   19.05598267
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.27252467
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbZnNiSn(HO4)2
+_chemical_formula_sum   'Nb1 Zn1 Ni1 Sn1 H2 O8'
+_cell_volume   655.77490462
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  H  H0  1  0.77092242  0.10907528  0.60640878  1
+  O  O1  1  0.91832836  0.95873051  0.44197083  1
+  O  O2  1  0.88354532  0.37761936  0.44139988  1
+  O  O3  1  0.28173585  0.12304193  0.54939653  1
+  Zn  Zn4  1  0.09068986  0.75448330  0.50421093  1
+  O  O5  1  0.74194383  0.57559920  0.53892320  1
+  O  O6  1  0.40708061  0.42889011  0.42944479  1
+  Ni  Ni7  1  0.58762741  0.25548412  0.49658791  1
+  Sn  Sn8  1  0.58665721  0.75844375  0.49325410  1
+  O  O9  1  0.77535580  0.09513764  0.55562248  1
+  H  H10  1  0.82982713  0.32044350  0.39355884  1
+  Nb  Nb11  1  0.13761294  0.25491746  0.48932661  1
+  O  O12  1  0.42985516  0.94493823  0.45226526  1
+  O  O13  1  0.23615339  0.55559620  0.54326486  1

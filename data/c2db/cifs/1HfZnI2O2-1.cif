@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HfZn(IO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.76074017
+_cell_length_b   4.01259919
+_cell_length_c   21.04866817
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000792
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfZn(IO)2
+_chemical_formula_sum   'Hf1 Zn1 I2 O2'
+_cell_volume   317.63162147
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.75604066  0.24849042  0.64368292  1
+  O  O1  1  0.74264664  0.25226040  0.48107019  1
+  Zn  Zn2  1  0.25625926  0.25330157  0.55570393  1
+  O  O3  1  0.24789545  0.75207766  0.51219515  1
+  I  I4  1  0.24789020  0.75048952  0.35631708  1
+  Hf  Hf5  1  0.74968236  0.75221768  0.46492097  1

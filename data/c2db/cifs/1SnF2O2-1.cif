@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Sn(OF)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.98864065
+_cell_length_b   3.98920091
+_cell_length_c   18.83800560
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99535418
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sn(OF)2
+_chemical_formula_sum   'Sn1 O2 F2'
+_cell_volume   259.59522695
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.33314581  0.66629162  0.55629891  1
+  F  F1  1  0.33338069  0.66676137  0.63383403  1
+  Sn  Sn2  1  0.00000000  0.00000000  0.50000000  1
+  O  O3  1  0.66685419  0.33370837  0.44370109  1
+  F  F4  1  0.66661931  0.33323863  0.36616597  1

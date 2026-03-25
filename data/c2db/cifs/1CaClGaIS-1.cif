@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_CaGaSICl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.95401152
+_cell_length_b   4.43259627
+_cell_length_c   21.10280239
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   113.91413607
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaGaSICl
+_chemical_formula_sum   'Ca1 Ga1 S1 I1 Cl1'
+_cell_volume   338.10811022
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.51183013  0.28309936  0.51580963  1
+  Ga  Ga1  1  0.01263690  0.29528892  0.59477753  1
+  I  I2  1  0.16032552  0.54135156  0.35541071  1
+  Cl  Cl3  1  1.00847962  0.79246194  0.64456114  1
+  Ca  Ca4  1  0.82624134  0.90006458  0.44439791  1

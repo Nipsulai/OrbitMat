@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_W3SeBrCl4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.54481376
+_cell_length_b   5.54396266
+_cell_length_c   19.12088868
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.11170163
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   W3SeBrCl4
+_chemical_formula_sum   'W3 Se1 Br1 Cl4'
+_cell_volume   508.45910727
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.49665373  0.49311547  0.58074867  1
+  W  W1  1  0.56468302  0.82955783  0.48846394  1
+  Cl  Cl2  1  0.83089784  0.15889670  0.58080652  1
+  Br  Br3  1  0.15739088  0.81968731  0.61034671  1
+  W  W4  1  0.77599155  0.43805710  0.49017941  1
+  W  W5  1  0.16730451  0.22652423  0.48852165  1
+  Cl  Cl6  1  0.83496305  0.16652872  0.39211887  1
+  Se  Se7  1  0.16870297  0.83081616  0.42127483  1
+  Cl  Cl8  1  0.50418549  0.49683360  0.39214750  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Cu2SeCl3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.71930225
+_cell_length_b   6.25982375
+_cell_length_c   17.91408955
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   100.30812463
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu2SeCl3
+_chemical_formula_sum   'Cu2 Se1 Cl3'
+_cell_volume   410.34720469
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.14940392  0.92232212  0.49787109  1
+  Se  Se1  1  0.21903375  0.22798529  0.57844549  1
+  Cl  Cl2  1  0.51491063  0.12529047  0.41851303  1
+  Cu  Cu3  1  0.74193931  0.39779451  0.51066014  1
+  Cl  Cl4  1  0.76898831  0.73987462  0.58158006  1
+  Cl  Cl5  1  1.09240500  0.61891922  0.42535717  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NaHg2Se(SF)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.65616264
+_cell_length_b   7.51674129
+_cell_length_c   42.96172426
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaHg2Se(SF)3
+_chemical_formula_sum   'Na2 Hg4 Se2 S6 F6'
+_cell_volume   2472.42118740
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.50000000  0.65503759  0.56333501  1
+  Hg  Hg1  1  -0.00000000  0.15503759  0.43666499  1
+  Hg  Hg2  1  0.00000000  0.29236864  0.55667839  1
+  Hg  Hg3  1  0.50000000  0.79236864  0.44332161  1
+  Na  Na4  1  0.00000000  0.81693024  0.53859011  1
+  Na  Na5  1  0.50000000  0.31693024  0.46140989  1
+  Se  Se6  1  0.50000000  1.16743964  0.55174631  1
+  Se  Se7  1  0.00000000  0.66743964  0.44825369  1
+  S  S8  1  0.29238817  0.29115423  0.52386965  1
+  S  S9  1  0.70761183  0.29115423  0.52386965  1
+  S  S10  1  0.20761183  0.79115423  0.47613035  1
+  S  S11  1  0.79238817  0.79115423  0.47613035  1
+  S  S12  1  0.50000000  0.88658858  0.52759500  1
+  S  S13  1  0.00000000  0.38658858  0.47240500  1
+  F  F14  1  0.50000000  0.44432816  0.59226847  1
+  F  F15  1  0.50000000  0.52247947  0.42655225  1
+  F  F16  1  -0.00000000  0.57625744  0.56486507  1
+  F  F17  1  0.50000000  0.07625744  0.43513493  1
+  F  F18  1  0.00000000  -0.05567184  0.40773153  1
+  F  F19  1  -0.00000000  0.02247947  0.57344775  1

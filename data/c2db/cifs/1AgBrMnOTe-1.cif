@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_MnAgTeBrO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.15106518
+_cell_length_b   6.49723268
+_cell_length_c   18.82168517
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00180516
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnAgTeBrO
+_chemical_formula_sum   'Mn1 Ag1 Te1 Br1 O1'
+_cell_volume   385.34019434
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.79931670  0.03058182  0.60084898  1
+  Br  Br1  1  0.29919556  1.06275298  0.39836937  1
+  Ag  Ag2  1  0.29929002  0.71666256  0.54794041  1
+  O  O3  1  0.29932038  0.41629875  0.49878798  1
+  Mn  Mn4  1  0.79927628  0.26382492  0.47388386  1

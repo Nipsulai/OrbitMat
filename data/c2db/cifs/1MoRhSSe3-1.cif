@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MoRhSe3S
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.42142208
+_cell_length_b   5.95851563
+_cell_length_c   18.37951673
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99355736
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MoRhSe3S
+_chemical_formula_sum   'Mo1 Rh1 Se3 S1'
+_cell_volume   374.69579783
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.49897819  0.16633817  0.42518373  1
+  Se  Se1  1  0.49925715  0.83076753  0.59199081  1
+  S  S2  1  0.99923391  0.66857982  0.40810835  1
+  Mo  Mo3  1  0.49926150  0.56036284  0.49437152  1
+  Rh  Rh4  1  -0.00090545  0.96146208  0.49705683  1
+  Se  Se5  1  -0.00068916  0.32513558  0.56813824  1

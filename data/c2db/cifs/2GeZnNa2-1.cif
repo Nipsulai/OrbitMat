@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Na2ZnGe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.29336939
+_cell_length_b   4.29464981
+_cell_length_c   36.24492000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99013801
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2ZnGe
+_chemical_formula_sum   'Na4 Zn2 Ge2'
+_cell_volume   578.82454642
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.00021784  0.00043568  0.33646606  1
+  Na  Na1  1  -0.00021784  -0.00043568  0.66353394  1
+  Na  Na2  1  0.66736435  0.33472871  0.54196894  1
+  Na  Na3  1  0.33263565  0.66527129  0.45803106  1
+  Zn  Zn4  1  0.66659605  0.33319209  0.61959709  1
+  Zn  Zn5  1  0.33340395  0.66680791  0.38040291  1
+  Ge  Ge6  1  0.66656617  0.33313234  0.38894764  1
+  Ge  Ge7  1  0.33343383  0.66686766  0.61105236  1

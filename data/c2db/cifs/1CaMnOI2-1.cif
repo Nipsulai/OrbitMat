@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_CaMnI2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.07755259
+_cell_length_b   4.08253594
+_cell_length_c   21.39455286
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.06447366
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaMnI2O
+_chemical_formula_sum   'Ca1 Mn1 I2 O1'
+_cell_volume   308.23426439
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.63513888  0.04148136  0.44457193  1
+  I  I1  1  0.30234662  0.37434437  0.35055652  1
+  Mn  Mn2  1  -0.02998005  0.70680255  0.57645923  1
+  I  I3  1  0.30189444  0.37235913  0.64944348  1
+  O  O4  1  0.97135902  0.70780664  0.49092289  1

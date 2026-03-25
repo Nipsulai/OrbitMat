@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_BeSb2(HS)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.30892031
+_cell_length_b   6.30665747
+_cell_length_c   35.53808620
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   72.41799236
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BeSb2(HS)4
+_chemical_formula_sum   'Be1 Sb2 H4 S4'
+_cell_volume   1347.94242637
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  -0.01862313  0.00800193  0.45551269  1
+  S  S1  1  0.85155285  0.39435282  0.44878351  1
+  S  S2  1  0.81399052  0.85928487  0.50320553  1
+  H  H3  1  0.94827032  0.89964856  0.41271611  1
+  H  H4  1  0.26292415  0.91900111  0.46138619  1
+  Be  Be5  1  0.95041927  0.51228561  0.50001417  1
+  Sb  Sb6  1  0.44589167  0.54358536  0.54448374  1
+  S  S7  1  0.83206031  0.41379134  0.55125556  1
+  S  S8  1  0.29726563  0.37522740  0.49690729  1
+  H  H9  1  0.33734665  0.51134089  0.58730334  1
+  H  H10  1  0.35694321  0.82513426  0.53843134  1

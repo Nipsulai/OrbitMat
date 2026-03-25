@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Nb2TeIO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.46385101
+_cell_length_b   5.08982982
+_cell_length_c   19.42277928
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   109.93685402
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb2TeIO
+_chemical_formula_sum   'Nb2 Te1 I1 O1'
+_cell_volume   321.90933238
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.55478294  0.94551246  0.38613013  1
+  Te  Te1  1  0.11141407  0.05517517  0.61387109  1
+  Nb  Nb2  1  0.46250337  0.75840247  0.52670547  1
+  Nb  Nb3  1  0.20485713  0.24401368  0.48060012  1
+  O  O4  1  0.82843805  0.49069148  0.49694395  1

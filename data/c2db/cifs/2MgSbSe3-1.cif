@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_MgSbSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.73989894
+_cell_length_b   6.73989894
+_cell_length_c   33.43001821
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgSbSe3
+_chemical_formula_sum   'Mg2 Sb2 Se6'
+_cell_volume   1315.14613948
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  1.00000000  -0.00000000  0.49999067  1
+  Mg  Mg1  1  0.33333333  0.66666667  0.50000933  1
+  Se  Se2  1  0.66662467  -0.03457681  0.44557261  1
+  Se  Se3  1  1.03457681  0.70120147  0.44557261  1
+  Se  Se4  1  0.29879853  0.33337533  0.44557261  1
+  Se  Se5  1  0.66670867  0.70124347  0.55442739  1
+  Se  Se6  1  0.29875653  -0.03453481  0.55442739  1
+  Se  Se7  1  1.03453481  0.33329133  0.55442739  1
+  Sb  Sb8  1  0.66666667  0.33333333  0.45863420  1
+  Sb  Sb9  1  0.66666667  0.33333333  0.54136580  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ta3Ir2BrClO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.34383650
+_cell_length_b   6.45456874
+_cell_length_c   20.91120933
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.78037861
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta3Ir2BrClO7
+_chemical_formula_sum   'Ta3 Ir2 Br1 Cl1 O7'
+_cell_volume   682.87190294
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.47272619  0.93061874  0.44493704  1
+  Ta  Ta1  1  0.75317660  0.14764251  0.51893606  1
+  Ir  Ir2  1  0.21645203  0.36360215  0.56281260  1
+  Ta  Ta3  1  0.49094083  0.62331264  0.47025151  1
+  O  O4  1  0.00336616  0.12407342  0.44465457  1
+  O  O5  1  0.33986977  0.10458545  0.54704407  1
+  O  O6  1  0.76637680  0.83183509  0.53202904  1
+  Ir  Ir7  1  0.98568699  0.43740173  0.42523495  1
+  Ta  Ta8  1  0.12072559  0.87749918  0.48161258  1
+  Br  Br9  1  0.80828564  0.24670646  0.64134239  1
+  O  O10  1  0.23492689  0.67274235  0.54142659  1
+  O  O11  1  0.66013181  0.38707420  0.47766428  1
+  O  O12  1  0.88016153  0.71220315  0.41433184  1
+  Cl  Cl13  1  0.35003200  0.50602912  0.35865900  1

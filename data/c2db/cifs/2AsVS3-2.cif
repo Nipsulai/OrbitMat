@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_VAsS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.22569008
+_cell_length_b   6.22670976
+_cell_length_c   18.41164285
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99281444
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VAsS3
+_chemical_formula_sum   'V2 As2 S6'
+_cell_volume   618.15976609
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  -0.00001435  -0.00006619  0.49510076  1
+  V  V1  1  0.33336431  0.66674967  0.49510126  1
+  As  As2  1  0.66670309  0.33334693  0.45666302  1
+  As  As3  1  0.66661111  0.33333256  0.59443586  1
+  S  S4  1  0.32758573  -0.00574960  0.41553453  1
+  S  S5  1  1.00584279  0.33334017  0.41554419  1
+  S  S6  1  0.66667763  0.67244282  0.41553749  1
+  S  S7  1  1.05101921  0.71771468  0.57071063  1
+  S  S8  1  0.28226587  0.33333809  0.57070807  1
+  S  S9  1  0.66664116  -0.05103697  0.57070339  1

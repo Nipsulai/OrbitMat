@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Nb6Cu2TeSe5SI3Br2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.51333117
+_cell_length_b   8.93799372
+_cell_length_c   22.16901168
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   104.73949680
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb6Cu2TeSe5SI3Br2
+_chemical_formula_sum   'Nb6 Cu2 Te1 Se5 S1 I3 Br2'
+_cell_volume   1248.12360075
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.65146397  0.17197644  0.54434868  1
+  Nb  Nb1  1  0.74647856  0.54911106  0.43264824  1
+  Cu  Cu2  1  0.60730369  0.11067538  0.43252422  1
+  Nb  Nb3  1  0.31130864  0.60617696  0.42630710  1
+  I  I4  1  0.25552187  0.39421024  0.66169454  1
+  Nb  Nb5  1  0.95013109  0.05755003  0.48252953  1
+  Nb  Nb6  1  0.35305544  0.31333013  0.45242676  1
+  Se  Se7  1  0.66247759  0.82916005  0.41511899  1
+  Se  Se8  1  0.26179722  0.13610230  0.55145167  1
+  Te  Te9  1  0.22957294  1.00930122  0.39443198  1
+  Br  Br10  1  0.47793850  0.44345069  0.34282218  1
+  I  I11  1  0.25343785  0.81644056  0.63189247  1
+  Se  Se12  1  -0.05603165  0.31786316  0.42664751  1
+  Se  Se13  1  0.73880897  0.92775504  0.57190480  1
+  Nb  Nb14  1  0.10546585  0.41012620  0.53772987  1
+  I  I15  1  0.75590888  0.37306879  0.62841201  1
+  Se  Se16  1  0.51104948  0.55519731  0.52668117  1
+  Br  Br17  1  1.03605382  0.63694939  0.33831250  1
+  S  S18  1  0.05672007  0.66047750  0.49980710  1
+  Nb  Nb19  1  0.38979475  0.87650881  0.50791236  1

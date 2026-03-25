@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_V2I2BrClO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.34662322
+_cell_length_b   5.34765009
+_cell_length_c   18.89118975
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   91.03874469
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   V2I2BrClO2
+_chemical_formula_sum   'V2 I2 Br1 Cl1 O2'
+_cell_volume   540.04568162
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.85745232  0.63874829  0.49971609  1
+  I  I1  1  0.35044066  0.64023094  0.60298954  1
+  O  O2  1  0.35203569  0.13322267  0.49970330  1
+  V  V3  1  0.12969112  0.34062764  0.49963251  1
+  Cl  Cl4  1  0.85116587  0.13932276  0.58245114  1
+  I  I5  1  0.35047021  0.64016765  0.39701046  1
+  V  V6  1  0.64994492  0.86098030  0.49964090  1
+  Br  Br7  1  0.85035442  0.14013371  0.40521713  1

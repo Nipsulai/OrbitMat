@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_GeWI5Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.25040261
+_cell_length_b   7.16351905
+_cell_length_c   18.31285791
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   118.63872101
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GeWI5Cl
+_chemical_formula_sum   'Ge1 W1 I5 Cl1'
+_cell_volume   834.77726743
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.80487540  0.83321159  0.58444931  1
+  I  I1  1  0.80144782  0.13406234  0.41216181  1
+  W  W2  1  0.49052172  0.83574662  0.49949304  1
+  Ge  Ge3  1  0.15909301  0.16640029  0.50105571  1
+  I  I4  1  0.18736697  0.51651910  0.58711493  1
+  I  I5  1  0.48230975  0.14041007  0.59045810  1
+  I  I6  1  0.46814378  0.51528387  0.40954656  1
+  Cl  Cl7  1  0.22580775  0.86162875  0.43005298  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CuBi(AsSe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.70285867
+_cell_length_b   6.70332039
+_cell_length_c   33.56257695
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99899126
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuBi(AsSe3)2
+_chemical_formula_sum   'Cu1 Bi1 As2 Se6'
+_cell_volume   1305.99160276
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  1.00000075  -0.00004067  0.48775310  1
+  Se  Se1  1  0.60843339  0.64261883  0.44173342  1
+  Se  Se2  1  0.03423399  0.39154910  0.44173173  1
+  Se  Se3  1  0.35736677  0.96579465  0.44174115  1
+  Se  Se4  1  0.99276368  0.68410301  0.55362271  1
+  Se  Se5  1  0.69134523  0.00725685  0.55362489  1
+  Se  Se6  1  0.31591756  0.30867174  0.55362324  1
+  As  As7  1  0.66667204  0.33335825  0.53153925  1
+  As  As8  1  0.66663068  0.33332980  0.45570637  1
+  Cu  Cu9  1  0.33333483  0.66665756  0.54301605  1

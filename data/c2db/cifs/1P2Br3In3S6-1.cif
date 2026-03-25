@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_In3P2(S2Br)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.21259206
+_cell_length_b   8.21171180
+_cell_length_c   20.40099256
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   126.67019689
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In3P2(S2Br)3
+_chemical_formula_sum   'In3 P2 S6 Br3'
+_cell_volume   1103.53572860
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.44610855  0.40294359  0.53816275  1
+  S  S1  1  0.20048179  0.13567942  0.46484728  1
+  S  S2  1  0.77439357  0.56316536  0.47227843  1
+  In  In3  1  0.93335808  0.89133387  0.53854277  1
+  Br  Br4  1  0.38490904  0.94736781  0.36762917  1
+  Br  Br5  1  0.06264026  0.27062750  0.62620658  1
+  S  S6  1  0.56400629  0.22340799  0.61329838  1
+  S  S7  1  0.75516375  0.05020138  0.47186983  1
+  S  S8  1  0.11274697  0.77212894  0.61339044  1
+  P  P9  1  0.41294416  0.92299148  0.58368100  1
+  P  P10  1  0.43976544  0.89561554  0.47225347  1
+  S  S11  1  0.28573463  0.58015371  0.47219200  1
+  Br  Br12  1  0.63923957  0.69573593  0.63237083  1
+  In  In13  1  0.92320446  0.41330997  0.53880335  1

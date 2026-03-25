@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Nb4HIBrO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.34802632
+_cell_length_b   5.44227217
+_cell_length_c   20.87385719
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   109.19418963
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb4HIBrO4
+_chemical_formula_sum   'Nb4 H1 I1 Br1 O4'
+_cell_volume   573.76882393
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.78443161  0.77089362  0.54753605  1
+  H  H1  1  0.31335609  0.49881280  0.40285085  1
+  Nb  Nb2  1  0.56335238  0.01838819  0.51878992  1
+  Nb  Nb3  1  0.03201493  0.04546504  0.47339439  1
+  Br  Br4  1  0.88180524  0.80543157  0.35930572  1
+  Nb  Nb5  1  0.76553557  0.53141873  0.46856776  1
+  Nb  Nb6  1  0.35639127  0.51010508  0.53568385  1
+  I  I7  1  0.44701230  0.21935916  0.64071819  1
+  O  O8  1  0.35518049  0.37950641  0.43320915  1
+  O  O9  1  0.21246921  0.77040115  0.48223196  1
+  O  O10  1  0.93906685  0.31161738  0.52896548  1

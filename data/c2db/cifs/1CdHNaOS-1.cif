@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_NaCdHSO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.16643798
+_cell_length_b   4.26533226
+_cell_length_c   18.97893150
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.78007728
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCdHSO
+_chemical_formula_sum   'Na1 Cd1 H1 S1 O1'
+_cell_volume   289.76933266
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.37043418  0.17849253  0.45640529  1
+  S  S1  1  0.33258197  0.16093488  0.60482496  1
+  Cd  Cd2  1  0.65564228  0.82237960  0.58115709  1
+  H  H3  1  0.60828013  0.80010420  0.39517504  1
+  O  O4  1  0.71559796  0.84866610  0.44232076  1

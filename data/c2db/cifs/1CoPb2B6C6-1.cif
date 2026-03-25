@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_CoB6(PbC3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.21534853
+_cell_length_b   7.21529917
+_cell_length_c   36.18135836
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.36726656
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CoB6(PbC3)2
+_chemical_formula_sum   'Co1 B6 Pb2 C6'
+_cell_volume   1625.20438315
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pb  Pb0  1  0.32393518  0.67633758  0.55142754  1
+  B  B1  1  0.51812084  0.48256458  0.49832545  1
+  B  B2  1  0.50683407  0.02907218  0.49753766  1
+  B  B3  1  0.97111924  0.49372679  0.49762816  1
+  C  C4  1  0.40427895  0.79948618  0.48707933  1
+  C  C5  1  0.20056235  0.59585755  0.48711592  1
+  C  C6  1  0.40300460  0.59703441  0.48875332  1
+  Pb  Pb7  1  0.00649509  -0.00893708  0.44858800  1
+  Co  Co8  1  0.66741850  0.33284000  0.49996672  1
+  B  B9  1  0.81626058  0.18379106  0.50178139  1
+  B  B10  1  0.82471309  0.63717961  0.50235037  1
+  B  B11  1  0.36323061  0.17533067  0.50227067  1
+  C  C12  1  0.93011595  0.86707847  0.51290476  1
+  C  C13  1  0.13337130  0.07014091  0.51277508  1
+  C  C14  1  0.93089054  0.06953120  0.51146576  1

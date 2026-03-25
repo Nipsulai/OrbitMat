@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_AuS2Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.99324615
+_cell_length_b   8.12723578
+_cell_length_c   18.16974489
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.05249578
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AuS2Br
+_chemical_formula_sum   'Au2 S4 Br2'
+_cell_volume   737.35135476
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.96042499  0.97090011  0.40277418  1
+  Br  Br1  1  0.45776264  0.90080674  0.59706375  1
+  S  S2  1  0.51122011  0.52655884  0.43911359  1
+  S  S3  1  0.01078284  0.34509242  0.56090604  1
+  S  S4  1  0.89712315  0.57091669  0.54491002  1
+  S  S5  1  0.39681543  0.30070890  0.45504893  1
+  Au  Au6  1  0.67535941  0.14571967  0.54387320  1
+  Au  Au7  1  0.17655852  0.72598872  0.45623578  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Pt2NCl2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.31584598
+_cell_length_b   4.18232530
+_cell_length_c   20.24819109
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00353208
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pt2NCl2O
+_chemical_formula_sum   'Pt2 N1 Cl2 O1'
+_cell_volume   280.80083124
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.24741324  0.25078151  0.45637107  1
+  Pt  Pt1  1  0.74741958  0.75071284  0.54652204  1
+  N  N2  1  0.74757749  0.25075244  0.52088112  1
+  Cl  Cl3  1  0.24724936  0.75025061  0.62959781  1
+  O  O4  1  0.24746122  0.75080621  0.47945054  1
+  Cl  Cl5  1  0.74726678  0.25056210  0.37040112  1

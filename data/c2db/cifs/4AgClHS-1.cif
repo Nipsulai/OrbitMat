@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_AgHSCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.05981713
+_cell_length_b   7.66783602
+_cell_length_c   33.46174587
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   98.69085769
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgHSCl
+_chemical_formula_sum   'Ag4 H4 S4 Cl4'
+_cell_volume   1790.60359335
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.09291226  0.73891094  0.48233256  1
+  Ag  Ag1  1  0.50733541  0.52401649  0.46282653  1
+  S  S2  1  0.58766993  0.23585362  0.49465343  1
+  H  H3  1  0.49979678  0.14301256  0.46330368  1
+  Cl  Cl4  1  0.79670232  0.55560657  0.42547525  1
+  Cl  Cl5  1  0.36690527  0.80171924  0.43804153  1
+  Ag  Ag6  1  0.30165561  0.18116830  0.53716030  1
+  Ag  Ag7  1  0.71604232  0.96632437  0.51762671  1
+  S  S8  1  0.22126878  0.46947352  0.50533732  1
+  H  H9  1  0.30930392  0.56228295  0.53667957  1
+  Cl  Cl10  1  0.44233284  0.90342227  0.56195521  1
+  Cl  Cl11  1  1.01233712  0.14966145  0.57453399  1
+  S  S12  1  0.85634499  0.69430461  0.53565067  1
+  H  H13  1  0.96430997  0.79140061  0.56394050  1
+  S  S14  1  -0.04733568  0.01094889  0.46434619  1
+  H  H15  1  0.84468351  -0.08610703  0.43605298  1

@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_HfMnTe2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.00688150
+_cell_length_b   3.23074851
+_cell_length_c   20.36732567
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   113.76856493
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfMnTe2O
+_chemical_formula_sum   'Hf1 Mn1 Te2 O1'
+_cell_volume   241.29627834
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.38540511  0.44277044  0.50156722  1
+  Te  Te1  1  0.18690437  0.84354908  0.36823686  1
+  Te  Te2  1  0.84502330  0.17304218  0.63176314  1
+  Mn  Mn3  1  0.23408739  0.86726536  0.56269297  1
+  Hf  Hf4  1  0.80975827  0.15494952  0.47317998  1

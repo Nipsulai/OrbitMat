@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NbNiS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.43652432
+_cell_length_b   9.50301221
+_cell_length_c   34.40380438
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99969481
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbNiS3
+_chemical_formula_sum   'Nb2 Ni2 S6'
+_cell_volume   1123.53647962
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.50201369  0.56153581  0.50590798  1
+  Nb  Nb1  1  0.00198050  0.20892089  0.49409195  1
+  S  S2  1  1.00219693  0.62583916  0.55299589  1
+  S  S3  1  0.50220538  0.14461715  0.44700408  1
+  S  S4  1  0.50227430  0.31672272  0.53824336  1
+  S  S5  1  1.00226020  0.45373401  0.46175656  1
+  Ni  Ni6  1  1.00212401  0.78620019  0.50507101  1
+  Ni  Ni7  1  0.50211826  0.98425642  0.49492904  1
+  S  S8  1  0.50211439  0.77108399  0.46359771  1
+  S  S9  1  0.00211244  -0.00062715  0.53640230  1

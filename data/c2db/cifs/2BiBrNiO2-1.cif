@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NiBiBrO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.48575602
+_cell_length_b   8.09833716
+_cell_length_c   35.30245859
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiBiBrO2
+_chemical_formula_sum   'Ni2 Bi2 Br2 O4'
+_cell_volume   996.54701401
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.50000000  0.56672033  0.50000012  1
+  O  O1  1  -0.00000000  0.55194380  0.53560680  1
+  Ni  Ni2  1  0.50000000  0.06671780  0.49999995  1
+  Bi  Bi3  1  -0.00000000  0.77629369  0.56125169  1
+  O  O4  1  0.50000000  0.82468223  0.52505187  1
+  Br  Br5  1  -0.00000000  0.15285788  0.54766705  1
+  Bi  Bi6  1  -0.00000000  0.35714891  0.43874889  1
+  O  O7  1  0.50000000  0.30875269  0.47494819  1
+  O  O8  1  0.00000000  0.58150277  0.46439285  1
+  Br  Br9  1  0.00000000  -0.01941710  0.45233276  1

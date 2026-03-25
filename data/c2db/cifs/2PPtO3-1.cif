@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_PPtO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.11316848
+_cell_length_b   5.20173395
+_cell_length_c   18.41164285
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.47494498
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PPtO3
+_chemical_formula_sum   'P2 Pt2 O6'
+_cell_volume   442.08885061
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  -0.04836000  -0.01049954  0.49546304  1
+  Pt  Pt1  1  0.38169698  0.67717399  0.50452849  1
+  P  P2  1  0.60739597  0.27313290  0.44262990  1
+  P  P3  1  0.72597473  0.39355825  0.55738575  1
+  O  O4  1  0.31285165  -0.03074570  0.43986708  1
+  O  O5  1  0.86396876  0.21460563  0.41429108  1
+  O  O6  1  0.54499417  0.50482605  0.40625393  1
+  O  O7  1  1.02051975  0.69746240  0.56013574  1
+  O  O8  1  0.46938503  0.45210910  0.58570940  1
+  O  O9  1  0.78830052  0.16187213  0.59377435  1

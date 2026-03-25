@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_MnSiGeTeSe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.54091157
+_cell_length_b   4.21578045
+_cell_length_c   20.17506623
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   114.82052885
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnSiGeTeSe
+_chemical_formula_sum   'Mn1 Si1 Ge1 Te1 Se1'
+_cell_volume   273.34775180
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.44515042  0.72100152  0.44531448  1
+  Se  Se1  1  1.00977148  0.84939540  0.62825401  1
+  Te  Te2  1  0.13102643  0.09325289  0.37174599  1
+  Si  Si3  1  0.47835103  0.78654302  0.55350120  1
+  Ge  Ge4  1  0.75351403  0.33734628  0.47484752  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_GaSiS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.04014261
+_cell_length_b   6.04155735
+_cell_length_c   33.52394110
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.97611978
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaSiS3
+_chemical_formula_sum   'Ga2 Si2 S6'
+_cell_volume   1059.70809242
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  -0.01479916  0.01815364  0.54770661  1
+  S  S1  1  0.68072495  0.36583848  0.54770774  1
+  S  S2  1  0.33287102  0.67031303  0.54770661  1
+  S  S3  1  0.68065915  0.01804633  0.45229338  1
+  S  S4  1  -0.01486495  0.67036150  0.45229225  1
+  S  S5  1  0.33298898  0.36588695  0.45229339  1
+  Ga  Ga6  1  0.66626625  0.68476999  0.50003026  1
+  Ga  Ga7  1  0.99959374  0.35142999  0.49996974  1
+  Si  Si8  1  0.33291998  0.01809511  0.53350633  1
+  Si  Si9  1  0.33294002  0.01810486  0.46649367  1

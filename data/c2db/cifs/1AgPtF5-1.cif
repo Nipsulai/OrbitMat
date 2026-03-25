@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_AgPtF5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.04386538
+_cell_length_b   6.47608618
+_cell_length_c   17.58567951
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.30126490
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgPtF5
+_chemical_formula_sum   'Ag1 Pt1 F5'
+_cell_volume   437.24633147
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.62487341  0.28273812  0.50015955  1
+  F  F1  1  0.50562226  1.04651525  0.42648338  1
+  F  F2  1  0.74580424  0.52492034  0.42786501  1
+  Ag  Ag3  1  0.34656119  0.72359151  0.49980499  1
+  F  F4  1  0.74668594  0.52390882  0.57274018  1
+  F  F5  1  0.50654809  0.04579417  0.57351662  1
+  F  F6  1  0.14069165  0.31443235  0.49979752  1

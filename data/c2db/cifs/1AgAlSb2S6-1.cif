@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_AlAg(SbS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.42080706
+_cell_length_b   6.42033209
+_cell_length_c   33.52445200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00151593
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlAg(SbS3)2
+_chemical_formula_sum   'Al1 Ag1 Sb2 S6'
+_cell_volume   1196.83090988
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.07262675  0.03050192  0.44959170  1
+  S  S1  1  0.33520931  0.73131765  0.44959060  1
+  S  S2  1  0.63438706  0.29304190  0.44959190  1
+  S  S3  1  0.63437520  0.03050164  0.55040829  1
+  S  S4  1  0.33515449  0.29304151  0.55040811  1
+  S  S5  1  0.07260826  0.73131766  0.55040940  1
+  Ag  Ag6  1  0.01407601  0.35165312  0.50000000  1
+  Al  Al7  1  0.34739482  0.01828966  0.50000000  1
+  Sb  Sb8  1  0.68070513  0.68496615  0.45931368  1
+  Sb  Sb9  1  0.68076100  0.68496659  0.54068632  1

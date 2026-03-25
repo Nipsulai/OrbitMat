@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ta2CrS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.90542299
+_cell_length_b   8.90542299
+_cell_length_c   32.72986471
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   157.99136661
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta2CrS6
+_chemical_formula_sum   'Ta2 Cr1 S6'
+_cell_volume   972.72631984
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.15770934  0.84229066  0.49821942  1
+  Ta  Ta1  1  0.84229066  0.15770934  0.50178058  1
+  Cr  Cr2  1  0.50000000  0.50000000  0.50000000  1
+  S  S3  1  0.72259451  0.27740549  0.45538222  1
+  S  S4  1  0.39209826  0.60790174  0.45452312  1
+  S  S5  1  0.04917997  0.95082003  0.45485799  1
+  S  S6  1  0.27740549  0.72259451  0.54461778  1
+  S  S7  1  0.60790174  0.39209826  0.54547688  1
+  S  S8  1  0.95082003  0.04917997  0.54514201  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HfZrGaAg(SBr)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.29596241
+_cell_length_b   6.32732155
+_cell_length_c   21.02584919
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   106.61128936
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfZrGaAg(SBr)4
+_chemical_formula_sum   'Hf1 Zr1 Ga1 Ag1 S4 Br4'
+_cell_volume   802.64180596
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.37354275  0.62159063  0.55205596  1
+  Ga  Ga1  1  0.87390259  0.12138790  0.55259541  1
+  S  S2  1  0.10903639  0.36623460  0.47438425  1
+  Zr  Zr3  1  0.87382088  0.62147186  0.44877740  1
+  S  S4  1  0.11272940  0.85946084  0.54005255  1
+  Br  Br5  1  0.61667520  0.88130610  0.64326830  1
+  S  S6  1  0.63850154  0.87642028  0.47440287  1
+  Br  Br7  1  0.13158791  0.36157873  0.64329621  1
+  Ag  Ag8  1  0.37564150  0.12355232  0.44496094  1
+  S  S9  1  0.63542090  0.38341590  0.54003206  1
+  Br  Br10  1  0.61277447  0.42547044  0.35670379  1
+  Br  Br11  1  0.13745188  0.81914153  0.35736474  1

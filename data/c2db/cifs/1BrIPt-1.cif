@@ -1,0 +1,29 @@
+# generated using pymatgen
+data_PtIBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.76734428
+_cell_length_b   5.17281233
+_cell_length_c   33.28492037
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   111.24231325
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PtIBr
+_chemical_formula_sum   'Pt1 I1 Br1'
+_cell_volume   604.57723171
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  -0.00200411  0.00279764  0.49819110  1
+  I  I1  1  0.49292303  0.99271582  0.55160708  1
+  Br  Br2  1  0.50244398  0.01159239  0.44876795  1

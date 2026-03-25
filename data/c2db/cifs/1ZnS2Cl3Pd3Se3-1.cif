@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ZnPd3Se3S2Cl3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.29444063
+_cell_length_b   7.40069353
+_cell_length_c   18.61112154
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   93.22785580
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnPd3Se3S2Cl3
+_chemical_formula_sum   'Zn1 Pd3 Se3 S2 Cl3'
+_cell_volume   865.59064583
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.71883774  0.43962780  0.42961212  1
+  Zn  Zn1  1  0.42851584  0.45742394  0.51627832  1
+  Cl  Cl2  1  0.60820450  0.15731099  0.57423336  1
+  S  S3  1  0.08645863  0.43391203  0.56013117  1
+  S  S4  1  0.08352090  0.95137964  0.55786530  1
+  Se  Se5  1  0.22519193  0.71280128  0.42686917  1
+  Pd  Pd6  1  0.90869096  0.18814728  0.49287705  1
+  Pd  Pd7  1  0.91373077  0.68331037  0.50347585  1
+  Pd  Pd8  1  0.40866766  -0.06681881  0.49866073  1
+  Cl  Cl9  1  0.63277878  0.64705800  0.59701515  1
+  Se  Se10  1  0.73868610  0.91599473  0.42907782  1
+  Cl  Cl11  1  0.16324823  0.21946489  0.40298485  1

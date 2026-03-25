@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_V4Se4IBrO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.78267325
+_cell_length_b   6.60868827
+_cell_length_c   20.22293952
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.96800658
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   V4Se4IBrO
+_chemical_formula_sum   'V4 Se4 I1 Br1 O1'
+_cell_volume   694.81083799
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.05782004  0.81870083  0.51280018  1
+  Se  Se1  1  0.96187367  0.12362359  0.57051633  1
+  V  V2  1  0.77925158  0.25776010  0.47407968  1
+  Se  Se3  1  0.18872068  0.57734777  0.43340306  1
+  Br  Br4  1  0.56356096  0.32650769  0.37086597  1
+  V  V5  1  0.56058154  0.81888771  0.51289785  1
+  Se  Se6  1  0.87666680  0.95370089  0.41625731  1
+  V  V7  1  0.27859900  0.25769102  0.47401679  1
+  Se  Se8  1  0.64921634  0.49914780  0.55399870  1
+  I  I9  1  0.27649358  0.75396474  0.62913403  1
+  O  O10  1  0.41857658  0.03738464  0.49405196  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_HgPO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.50916491
+_cell_length_b   5.50926865
+_cell_length_c   18.37177000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00302412
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HgPO3
+_chemical_formula_sum   'Hg2 P2 O6'
+_cell_volume   482.88989696
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.00000329  0.00001189  0.50058450  1
+  Hg  Hg1  1  0.33333451  0.66666441  0.49971161  1
+  P  P2  1  0.66668294  0.33333891  0.44186269  1
+  P  P3  1  0.66665774  0.33334340  0.55843493  1
+  O  O4  1  0.39050828  0.05740888  0.42054221  1
+  O  O5  1  0.94260822  0.33309714  0.42053814  1
+  O  O6  1  0.66694198  0.60951277  0.42053959  1
+  O  O7  1  0.94281886  0.60928615  0.57975568  1
+  O  O8  1  0.39071802  0.33355807  0.57975853  1
+  O  O9  1  0.66642459  0.05718047  0.57975570  1

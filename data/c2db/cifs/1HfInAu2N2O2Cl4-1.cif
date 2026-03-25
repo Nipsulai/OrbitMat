@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HfInAu2N2(Cl2O)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.45175517
+_cell_length_b   5.45146301
+_cell_length_c   20.89004385
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   94.57181299
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfInAu2N2(Cl2O)2
+_chemical_formula_sum   'Hf1 In1 Au2 N2 Cl4 O2'
+_cell_volume   618.87755018
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.79845174  0.81285482  0.46716246  1
+  Cl  Cl1  1  0.81866372  0.32052609  0.35902328  1
+  Au  Au2  1  0.63493707  0.63776789  0.54746352  1
+  Au  Au3  1  0.13522512  0.13742127  0.54746256  1
+  Hf  Hf4  1  0.61247829  0.11500874  0.45252741  1
+  Cl  Cl5  1  0.97980775  0.97777583  0.64097814  1
+  N  N6  1  0.36554513  0.86812720  0.51398813  1
+  N  N7  1  0.85299068  0.35547539  0.51500272  1
+  Cl  Cl8  1  0.34169416  0.84383541  0.36365658  1
+  In  In9  1  0.11029895  0.61289727  0.45078662  1
+  Cl  Cl10  1  0.47513693  0.48225914  0.64096764  1
+  O  O11  1  0.31046501  0.30118521  0.46723691  1

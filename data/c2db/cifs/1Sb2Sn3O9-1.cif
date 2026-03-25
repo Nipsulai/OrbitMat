@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Sn3Sb2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.87053151
+_cell_length_b   7.87164003
+_cell_length_c   35.06026332
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.98583778
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sn3Sb2O9
+_chemical_formula_sum   'Sn3 Sb2 O9'
+_cell_volume   1881.38229212
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  -0.00003107  0.00006348  0.42721726  1
+  Sn  Sn1  1  0.62520101  0.87531890  0.49999865  1
+  Sn  Sn2  1  0.12468460  0.74990819  0.50000034  1
+  Sn  Sn3  1  0.25011930  0.37484953  0.50000101  1
+  O  O4  1  0.78036794  0.99765865  0.54601217  1
+  O  O5  1  0.00231178  0.78280971  0.54602277  1
+  O  O6  1  0.21713189  0.21960724  0.54601842  1
+  O  O7  1  0.00230711  0.78280483  0.45397810  1
+  O  O8  1  0.21713122  0.21960257  0.45398431  1
+  O  O9  1  0.78036350  0.99764998  0.45398423  1
+  Sb  Sb10  1  0.99996011  0.00006361  0.57278274  1
+  O  O11  1  0.40946032  0.93241644  0.49999899  1
+  O  O12  1  0.06757428  0.47714726  0.50000070  1
+  O  O13  1  0.52282515  0.59059096  0.50000031  1

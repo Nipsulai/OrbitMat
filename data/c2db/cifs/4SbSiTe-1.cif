@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SiSbTe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.43145138
+_cell_length_b   10.97858236
+_cell_length_c   33.29339660
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99009362
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SiSbTe
+_chemical_formula_sum   'Si4 Sb4 Te4'
+_cell_volume   1985.27309980
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  -0.01071669  -0.00447022  0.44599300  1
+  Te  Te1  1  0.36831662  0.69147025  0.44599301  1
+  Te  Te2  1  -0.01071919  0.19146622  0.55400841  1
+  Te  Te3  1  0.36831924  0.49553380  0.55400842  1
+  Si  Si4  1  0.17880002  0.84350005  0.49428114  1
+  Si  Si5  1  0.17880001  0.34350004  0.50571970  1
+  Si  Si6  1  0.63316675  0.59350027  0.50000042  1
+  Si  Si7  1  0.72443323  0.09349981  0.50000040  1
+  Sb  Sb8  1  0.86647369  0.43793020  0.45376976  1
+  Sb  Sb9  1  0.49112637  0.24906994  0.45376976  1
+  Sb  Sb10  1  0.86646247  0.74908130  0.54622842  1
+  Sb  Sb11  1  0.49113747  0.93791888  0.54622842  1

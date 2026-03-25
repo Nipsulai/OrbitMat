@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CaAgCl3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.13540281
+_cell_length_b   7.13540282
+_cell_length_c   18.08467330
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000003
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaAgCl3
+_chemical_formula_sum   'Ca2 Ag2 Cl6'
+_cell_volume   797.40378006
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.33333333  0.66666667  0.50000000  1
+  Ca  Ca1  1  0.66666667  0.33333333  0.50000000  1
+  Ag  Ag2  1  -0.00000000  0.00000000  0.58168492  1
+  Ag  Ag3  1  -0.00000000  0.00000000  0.41831508  1
+  Cl  Cl4  1  0.64455941  0.00000000  0.58481245  1
+  Cl  Cl5  1  0.35544060  0.35544059  0.58481245  1
+  Cl  Cl6  1  0.00000000  0.64455940  0.58481245  1
+  Cl  Cl7  1  0.35544058  -0.00000000  0.41518755  1
+  Cl  Cl8  1  0.64455940  0.64455942  0.41518755  1
+  Cl  Cl9  1  0.00000000  0.35544058  0.41518756  1

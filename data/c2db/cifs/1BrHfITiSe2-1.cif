@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HfTiSe2IBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.74479844
+_cell_length_b   5.21390679
+_cell_length_c   20.73426041
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99995945
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfTiSe2IBr
+_chemical_formula_sum   'Hf1 Ti1 Se2 I1 Br1'
+_cell_volume   404.83705674
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.75123085  0.74989240  0.52907998  1
+  Se  Se1  1  0.75079141  0.24996813  0.54117094  1
+  Ti  Ti2  1  0.25073151  0.25065973  0.45210875  1
+  Se  Se3  1  0.25118149  0.75052705  0.43799200  1
+  Br  Br4  1  0.75090499  0.25058431  0.36168327  1
+  I  I5  1  0.25115734  0.74983485  0.63834200  1

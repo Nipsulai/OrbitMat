@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_MnBrCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.93091501
+_cell_length_b   7.81710782
+_cell_length_c   19.98534830
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000255
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnBrCl
+_chemical_formula_sum   'Mn4 Br4 Cl4'
+_cell_volume   1082.80037310
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.33141649  0.27676541  0.56109179  1
+  Mn  Mn1  1  0.66858352  0.77676542  0.43890821  1
+  Mn  Mn2  1  0.83141648  0.27676542  0.43890821  1
+  Mn  Mn3  1  0.16858351  0.77676541  0.56109179  1
+  Br  Br4  1  0.69831843  0.27672723  0.55567262  1
+  Br  Br5  1  0.30168157  0.77672722  0.44432739  1
+  Br  Br6  1  0.19831844  0.27672722  0.44432739  1
+  Br  Br7  1  0.80168155  0.77672723  0.55567262  1
+  Cl  Cl8  1  0.24987890  0.02661558  0.62311701  1
+  Cl  Cl9  1  0.75012111  0.52661558  0.37688299  1
+  Cl  Cl10  1  0.74987890  0.02661559  0.37688299  1
+  Cl  Cl11  1  0.25012111  0.52661558  0.62311700  1

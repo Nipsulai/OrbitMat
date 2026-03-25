@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Sn4SIBrClO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.49742617
+_cell_length_b   6.12229477
+_cell_length_c   21.88386650
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   110.12910437
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sn4SIBrClO4
+_chemical_formula_sum   'Sn4 S1 I1 Br1 Cl1 O4'
+_cell_volume   691.55398250
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.26898814  0.09101340  0.52366953  1
+  Sn  Sn1  1  0.93331777  0.79736333  0.51885737  1
+  Br  Br2  1  0.77515909  0.92730625  0.62416366  1
+  S  S3  1  0.10280512  0.70527618  0.41600883  1
+  I  I4  1  0.40103031  0.30086518  0.34271823  1
+  Cl  Cl5  1  0.50748595  0.34083585  0.65728177  1
+  O  O6  1  0.57790384  0.52602261  0.50818259  1
+  Sn  Sn7  1  0.59892802  0.93910166  0.39077231  1
+  O  O8  1  0.01528800  0.49729207  0.55107204  1
+  O  O9  1  0.78452169  0.07552059  0.48222688  1
+  Sn  Sn10  1  0.19185715  0.37539550  0.47830992  1
+  Sn  Sn11  1  0.63930754  0.24900347  0.56010774  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CrMoBrClO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.90692762
+_cell_length_b   5.68977843
+_cell_length_c   18.77781824
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   110.08275609
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrMoBrClO2
+_chemical_formula_sum   'Cr1 Mo1 Br1 Cl1 O2'
+_cell_volume   392.04222228
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.08704977  0.48139319  0.60059321  1
+  O  O1  1  0.74721013  0.80182895  0.50536080  1
+  Cr  Cr2  1  0.94271643  0.19301814  0.50589094  1
+  Mo  Mo3  1  0.23598042  0.77920384  0.50521531  1
+  Br  Br4  1  0.08835448  0.48222093  0.39940683  1
+  O  O5  1  0.41607463  0.13983251  0.50557632  1

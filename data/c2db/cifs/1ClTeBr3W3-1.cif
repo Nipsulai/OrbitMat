@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_TeW3Br3Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.26026507
+_cell_length_b   6.24524503
+_cell_length_c   19.05231186
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.03071748
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TeW3Br3Cl
+_chemical_formula_sum   'Te1 W3 Br3 Cl1'
+_cell_volume   567.11594243
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.51728750  0.30413966  0.59637003  1
+  Br  Br1  1  0.82012210  0.91162126  0.60634699  1
+  Cl  Cl2  1  0.82070041  0.91306896  0.39570531  1
+  W  W3  1  0.67966801  0.62838980  0.49551631  1
+  Br  Br4  1  0.51618343  0.30198305  0.39365301  1
+  W  W5  1  0.16140691  0.07373651  0.49545190  1
+  Te  Te6  1  0.14696218  0.56370807  0.49434721  1
+  W  W7  1  0.64102738  0.07305513  0.49543857  1

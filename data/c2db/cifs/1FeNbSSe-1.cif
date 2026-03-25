@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_NbFeSeS
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.46086430
+_cell_length_b   4.05186243
+_cell_length_c   32.83203039
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99919177
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbFeSeS
+_chemical_formula_sum   'Nb1 Fe1 Se1 S1'
+_cell_volume   460.40179036
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  -0.01846183  0.97562218  0.49069277  1
+  Fe  Fe1  1  0.48160536  0.47552220  0.49749086  1
+  Se  Se2  1  0.48155345  0.97558547  0.54629579  1
+  S  S3  1  0.98151186  0.47556937  0.45237208  1

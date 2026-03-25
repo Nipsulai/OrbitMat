@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CuAgTe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.27792940
+_cell_length_b   6.46200434
+_cell_length_c   19.29696184
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   132.07524685
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuAgTe
+_chemical_formula_sum   'Cu2 Ag2 Te2'
+_cell_volume   395.95790800
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.59311061  0.51922547  0.53341249  1
+  Cu  Cu1  1  0.09311035  0.51922534  0.46658752  1
+  Ag  Ag2  1  0.44183408  0.02090862  0.55084456  1
+  Ag  Ag3  1  0.94183200  0.02090735  0.44915549  1
+  Te  Te4  1  0.10360995  0.52268625  0.61134235  1
+  Te  Te5  1  0.60360863  0.52268525  0.38865759  1

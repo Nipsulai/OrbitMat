@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HfCoPtSI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.64502338
+_cell_length_b   4.58979725
+_cell_length_c   21.37845049
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   113.42452457
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfCoPtSI2
+_chemical_formula_sum   'Hf1 Co1 Pt1 S1 I2'
+_cell_volume   328.18304190
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.84988643  0.21281554  0.42070906  1
+  Hf  Hf1  1  0.82339705  0.15942832  0.54354390  1
+  I  I2  1  0.57678424  0.66598993  0.35080504  1
+  S  S3  1  0.10960783  0.73207764  0.52130972  1
+  Co  Co4  1  0.54527269  0.60303971  0.47085553  1
+  I  I5  1  0.38209748  0.27663153  0.64918153  1

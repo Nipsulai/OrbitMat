@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_In2Ni2Se5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.93833176
+_cell_length_b   3.93833836
+_cell_length_c   43.33417120
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99994456
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In2Ni2Se5
+_chemical_formula_sum   'In2 Ni2 Se5'
+_cell_volume   582.08538265
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.00002097  0.00004194  0.54703617  1
+  Ni  Ni1  1  0.33336534  0.66673068  0.46721090  1
+  In  In2  1  0.66667845  0.33335690  0.61999779  1
+  In  In3  1  0.66668552  0.33337105  0.38099690  1
+  Se  Se4  1  0.00001163  0.00002326  0.65090218  1
+  Se  Se5  1  0.00002804  0.00005607  0.49389624  1
+  Se  Se6  1  0.00001900  0.00003800  0.35000757  1
+  Se  Se7  1  0.66668809  0.33337619  0.55925987  1
+  Se  Se8  1  0.66670173  0.33340345  0.44189943  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_VMo3S8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.39378902
+_cell_length_b   5.53334023
+_cell_length_c   18.68761197
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00384991
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VMo3S8
+_chemical_formula_sum   'V1 Mo3 S8'
+_cell_volume   661.14920916
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.00083635  0.00263380  0.50001140  1
+  Mo  Mo1  1  0.50083787  0.00013330  0.50000882  1
+  Mo  Mo2  1  0.25280076  0.50032785  0.50001033  1
+  Mo  Mo3  1  0.74885545  0.50032492  0.50001090  1
+  S  S4  1  0.00082649  0.32844604  0.41842576  1
+  S  S5  1  0.24600403  0.83702518  0.58146619  1
+  S  S6  1  0.00082764  0.32844910  0.58159704  1
+  S  S7  1  0.24599894  0.83702461  0.41855414  1
+  S  S8  1  0.50082730  0.33413133  0.41653024  1
+  S  S9  1  0.75567365  0.83702338  0.58146657  1
+  S  S10  1  0.50082596  0.33412444  0.58348941  1
+  S  S11  1  0.75568039  0.83702026  0.41855415  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Sc3PtIBr3O4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.44986191
+_cell_length_b   5.45029051
+_cell_length_c   21.00690558
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   99.41336981
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc3PtIBr3O4
+_chemical_formula_sum   'Sc3 Pt1 I1 Br3 O4'
+_cell_volume   615.57262843
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.38429546  0.11757594  0.64295676  1
+  Sc  Sc1  1  0.62688542  0.87916065  0.46556314  1
+  Br  Br2  1  0.86486445  0.63684181  0.64297455  1
+  Sc  Sc3  1  0.12456990  0.87767996  0.54724430  1
+  Pt  Pt4  1  0.12592162  0.37798928  0.45325700  1
+  Br  Br5  1  0.88052745  0.13244245  0.36937926  1
+  Sc  Sc6  1  0.62550565  0.37700183  0.54720575  1
+  O  O7  1  0.39281873  0.10930446  0.49331492  1
+  O  O8  1  0.85695345  0.64520972  0.49333094  1
+  I  I9  1  0.36629573  0.61799836  0.35702545  1
+  O  O10  1  0.88780735  0.14020207  0.52016153  1
+  O  O11  1  0.36044677  0.61279695  0.51786536  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ni2PdBr4O3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.40117957
+_cell_length_b   5.63474387
+_cell_length_c   20.37775586
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   103.89588000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni2PdBr4O3
+_chemical_formula_sum   'Ni2 Pd1 Br4 O3'
+_cell_volume   602.03159163
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.65512757  0.25050680  0.63195388  1
+  Ni  Ni1  1  0.88850342  0.22314668  0.53832816  1
+  Br  Br2  1  0.53047117  0.20808467  0.36804861  1
+  Pd  Pd3  1  0.46493552  0.37028506  0.47962643  1
+  O  O4  1  0.11101029  0.14495004  0.47416541  1
+  Br  Br5  1  0.32810486  0.59369623  0.57602880  1
+  O  O6  1  0.87443909  0.91510458  0.56116985  1
+  Ni  Ni7  1  0.05212359  0.81334419  0.49768462  1
+  O  O8  1  0.85023370  0.49599472  0.49143783  1
+  Br  Br9  1  0.38432016  0.73700409  0.41738798  1

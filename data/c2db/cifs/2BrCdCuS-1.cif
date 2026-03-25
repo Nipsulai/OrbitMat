@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CdCuSBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.08357985
+_cell_length_b   6.80791201
+_cell_length_c   39.52370426
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CdCuSBr
+_chemical_formula_sum   'Cd2 Cu2 S2 Br2'
+_cell_volume   1098.78476104
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.50000000  1.10888840  0.52377421  1
+  Cd  Cd1  1  0.50000000  0.60888840  0.47622579  1
+  S  S2  1  0.50000000  0.24673908  0.46453647  1
+  S  S3  1  0.50000000  0.74673908  0.53546353  1
+  Cu  Cu4  1  -0.00000000  0.12896071  0.45737372  1
+  Cu  Cu5  1  -0.00000000  0.62896071  0.54262628  1
+  Br  Br6  1  0.00000000  0.27201182  0.56134185  1
+  Br  Br7  1  0.00000000  -0.22798818  0.43865815  1

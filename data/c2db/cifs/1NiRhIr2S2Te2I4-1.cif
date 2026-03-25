@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NiTe2Ir2Rh(SI2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.12942438
+_cell_length_b   7.59913683
+_cell_length_c   21.07711774
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.83397888
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiTe2Ir2Rh(SI2)2
+_chemical_formula_sum   'Ni1 Te2 Ir2 Rh1 S2 I4'
+_cell_volume   821.56569154
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rh  Rh0  1  0.73249283  0.87387076  0.55266834  1
+  I  I1  1  0.73656489  0.12528213  0.64416387  1
+  S  S2  1  0.72294553  0.12563108  0.47927486  1
+  Ni  Ni3  1  0.28621458  0.12548341  0.44261597  1
+  I  I4  1  0.30148689  0.88125336  0.35583613  1
+  Te  Te5  1  0.22900268  0.36704553  0.52221106  1
+  I  I6  1  0.28956058  0.37128161  0.35591315  1
+  S  S7  1  0.71423972  0.62255293  0.48037152  1
+  Ir  Ir8  1  0.28025015  0.62694825  0.44633007  1
+  Te  Te9  1  0.22866076  0.88605351  0.52354793  1
+  I  I10  1  0.73125759  0.62277261  0.64327884  1
+  Ir  Ir11  1  0.73192053  0.37278071  0.55185079  1

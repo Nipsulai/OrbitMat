@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_FeSb2Br2O3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.34669225
+_cell_length_b   8.29938459
+_cell_length_c   35.68792633
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.05607154
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeSb2Br2O3
+_chemical_formula_sum   'Fe2 Sb4 Br4 O6'
+_cell_volume   1583.62439590
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  0.02642682  0.00208569  0.54449778  1
+  Sb  Sb1  1  0.93797179  0.93744806  0.45550204  1
+  Sb  Sb2  1  0.02667769  0.43747681  0.54447864  1
+  Sb  Sb3  1  0.93771694  0.50205389  0.45552164  1
+  Br  Br4  1  0.36626718  0.21977527  0.43725338  1
+  Br  Br5  1  0.59810362  0.71975664  0.56274846  1
+  Br  Br6  1  0.69306500  0.21960342  0.58499605  1
+  Br  Br7  1  0.27132472  0.71992567  0.41500314  1
+  Fe  Fe8  1  0.51830767  0.21946954  0.50397198  1
+  Fe  Fe9  1  0.44608674  0.72006270  0.49602824  1
+  O  O10  1  0.76582178  1.03600458  0.50367798  1
+  O  O11  1  0.19859091  0.90353560  0.49632103  1
+  O  O12  1  0.18955213  0.21984937  0.53065707  1
+  O  O13  1  0.77483613  0.71968313  0.46934324  1
+  O  O14  1  0.19851713  0.53630382  0.49630541  1
+  O  O15  1  0.76588660  0.40322819  0.50369438  1

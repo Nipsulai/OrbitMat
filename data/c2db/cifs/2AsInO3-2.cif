@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_InAsO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.94068713
+_cell_length_b   4.94068713
+_cell_length_c   35.18700000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99984860
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InAsO3
+_chemical_formula_sum   'In2 As2 O6'
+_cell_volume   743.85492341
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.00002819  -0.00002819  0.50000000  1
+  O  O1  1  0.32996353  0.28172611  0.53063721  1
+  O  O2  1  -0.04815464  0.67003852  0.53063723  1
+  O  O3  1  0.71827016  1.04815224  0.53063660  1
+  O  O4  1  0.71827389  0.67003647  0.46936279  1
+  O  O5  1  -0.04815224  0.28172984  0.46936340  1
+  O  O6  1  0.32996148  1.04815464  0.46936277  1
+  In  In7  1  0.00001613  -0.00000256  0.58575748  1
+  In  In8  1  1.00000256  0.99998387  0.41424252  1
+  As  As9  1  0.66669405  0.33330595  0.50000000  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_ScCu(Te3As)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.01971678
+_cell_length_b   7.01950925
+_cell_length_c   33.49935929
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99902202
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScCu(Te3As)2
+_chemical_formula_sum   'Sc1 Cu1 Te6 As2'
+_cell_volume   1429.54474472
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  -0.00005296  -0.00002648  0.50000000  1
+  Te  Te1  1  0.67967182  0.70852990  0.55383682  1
+  Te  Te2  1  0.02898133  0.32044315  0.55382976  1
+  Te  Te3  1  0.29160438  0.97114907  0.55383313  1
+  Te  Te4  1  0.67967182  0.97114192  0.44616318  1
+  Te  Te5  1  0.29160438  0.32045531  0.44616687  1
+  Te  Te6  1  0.02898133  0.70853818  0.44617024  1
+  Sc  Sc7  1  0.33343938  0.66671969  0.50000000  1
+  As  As8  1  0.66674925  0.33336880  0.53779031  1
+  As  As9  1  0.66674925  0.33338045  0.46220969  1

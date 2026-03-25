@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Zn2Ni(CN)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.24090500
+_cell_length_b   8.22344882
+_cell_length_c   34.60598048
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.03497265
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn2Ni(CN)6
+_chemical_formula_sum   'Zn2 Ni1 C6 N6'
+_cell_volume   2030.28747185
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.33225771  0.66457181  0.54885069  1
+  N  N1  1  0.54660600  0.45159039  0.53326800  1
+  N  N2  1  0.54604151  0.09215175  0.53245035  1
+  N  N3  1  0.90524151  0.45102900  0.53313968  1
+  C  C4  1  0.46885600  0.52837224  0.54402964  1
+  C  C5  1  0.46861767  0.93755832  0.54332254  1
+  C  C6  1  0.05969851  0.52799454  0.54389568  1
+  Zn  Zn7  1  0.00121395  1.00216329  0.45116311  1
+  Ni  Ni8  1  0.66673983  0.33338278  0.49999988  1
+  N  N9  1  0.78699333  0.21524708  0.46675719  1
+  N  N10  1  0.78754205  0.57475358  0.46756581  1
+  N  N11  1  0.42824278  0.21581306  0.46686520  1
+  C  C12  1  0.86461087  0.13836842  0.45597129  1
+  C  C13  1  0.86488621  0.72921220  0.45661857  1
+  C  C14  1  0.27377568  0.13879018  0.45611414  1

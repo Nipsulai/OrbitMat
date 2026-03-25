@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_NiAuSF2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.52275291
+_cell_length_b   4.36767214
+_cell_length_c   16.22041158
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   109.55269113
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiAuSF2
+_chemical_formula_sum   'Ni1 Au1 S1 F2'
+_cell_volume   435.45947130
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.16322457  0.48023991  0.53749372  1
+  Au  Au1  1  0.49100873  0.64425364  0.49132391  1
+  S  S2  1  0.85599482  0.82667077  0.46271689  1
+  Ni  Ni3  1  0.88138165  0.33937482  0.49766514  1
+  F  F4  1  0.55822381  0.17785442  0.48492387  1

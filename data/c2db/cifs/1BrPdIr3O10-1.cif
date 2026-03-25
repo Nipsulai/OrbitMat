@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Ir3PdBrO10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.42224347
+_cell_length_b   6.71157988
+_cell_length_c   20.26452732
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   100.77680908
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ir3PdBrO10
+_chemical_formula_sum   'Ir3 Pd1 Br1 O10'
+_cell_volume   724.45640907
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.75050878  0.52274643  0.43232945  1
+  Ir  Ir1  1  0.94029663  0.61638327  0.50575648  1
+  Ir  Ir2  1  0.83337436  0.13127138  0.56543400  1
+  O  O3  1  0.79610058  0.29177673  0.62989514  1
+  O  O4  1  0.59893867  0.89841480  0.59258223  1
+  Br  Br5  1  0.22166320  0.27884617  0.37010486  1
+  O  O6  1  0.62608512  0.53615596  0.54890101  1
+  O  O7  1  0.03632301  0.34119943  0.51062143  1
+  O  O8  1  0.96000429  0.91965553  0.49984313  1
+  Pd  Pd9  1  0.41494745  0.41675363  0.47215201  1
+  Ir  Ir10  1  0.28932077  0.90161127  0.54626648  1
+  O  O11  1  0.29970427  0.70224479  0.47070924  1
+  O  O12  1  0.53984924  0.13126257  0.50811904  1
+  O  O13  1  0.15490658  0.08211955  0.60275854  1
+  O  O14  1  0.11539172  0.66461511  0.59001552  1

@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Cd2TeI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.56844417
+_cell_length_b   8.42463425
+_cell_length_c   18.80609031
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   117.61095540
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cd2TeI2
+_chemical_formula_sum   'Cd2 Te1 I2'
+_cell_volume   641.36901049
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.71907493  0.69658181  0.60119302  1
+  I  I1  1  0.30490433  0.63415304  0.39880698  1
+  Te  Te2  1  0.62212665  0.20364437  0.55419107  1
+  Cd  Cd3  1  0.26522105  0.36794953  0.50071077  1
+  Cd  Cd4  1  0.34694986  0.84664857  0.51975517  1

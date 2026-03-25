@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_POsO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.52996152
+_cell_length_b   5.08013863
+_cell_length_c   18.41164285
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   122.97223897
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   POsO3
+_chemical_formula_sum   'P2 Os2 O6'
+_cell_volume   433.92852101
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Os  Os0  1  0.00418943  0.02716166  0.50641375  1
+  Os  Os1  1  0.31031430  0.63941256  0.50642544  1
+  P  P2  1  0.73200598  0.33348863  0.41715085  1
+  P  P3  1  0.67529642  0.33331379  0.53666035  1
+  O  O4  1  0.24931252  -0.07042208  0.45196307  1
+  O  O5  1  1.03919041  0.33334543  0.42669532  1
+  O  O6  1  0.65299628  0.73715577  0.45195884  1
+  O  O7  1  0.95457358  0.64125184  0.56869347  1
+  O  O8  1  0.40211337  0.33328907  0.56556754  1
+  O  O9  1  0.64665210  0.02535562  0.56868142  1

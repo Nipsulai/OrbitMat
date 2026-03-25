@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CdAgSeBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.59732915
+_cell_length_b   7.20192424
+_cell_length_c   39.52370426
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CdAgSeBr
+_chemical_formula_sum   'Cd2 Ag2 Se2 Br2'
+_cell_volume   1308.61468037
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.50000000  1.12185075  0.52210681  1
+  Cd  Cd1  1  0.50000000  0.62185075  0.47789319  1
+  Se  Se2  1  0.50000000  0.26877191  0.46166733  1
+  Se  Se3  1  0.50000000  0.76877191  0.53833267  1
+  Ag  Ag4  1  -0.00000000  0.11974050  0.45359337  1
+  Ag  Ag5  1  -0.00000000  0.61974050  0.54640663  1
+  Br  Br6  1  0.00000000  0.24625907  0.55722279  1
+  Br  Br7  1  0.00000000  -0.25374093  0.44277721  1

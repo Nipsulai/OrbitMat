@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CuH2BrN3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.85840068
+_cell_length_b   8.04262820
+_cell_length_c   33.75467511
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   97.99111983
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuH2BrN3
+_chemical_formula_sum   'Cu2 H4 Br2 N6'
+_cell_volume   1037.29307859
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.51523747  0.00825750  0.44162419  1
+  Cu  Cu1  1  0.47888991  0.93229004  0.51691463  1
+  N  N2  1  0.39620479  0.68306251  0.50995095  1
+  N  N3  1  0.50229447  0.60804611  0.47719970  1
+  H  H4  1  0.53049377  0.69860759  0.45522447  1
+  N  N5  1  0.26556323  0.46364082  0.46230768  1
+  H  H6  1  0.41090573  0.39956403  0.44364054  1
+  Br  Br7  1  0.00629098  0.02693484  0.55834394  1
+  Cu  Cu8  1  0.04270233  0.10304754  0.48312467  1
+  N  N9  1  0.12533626  0.35213745  0.49004429  1
+  N  N10  1  0.01931581  0.42713335  0.52280067  1
+  H  H11  1  0.99095062  0.33657952  0.54477906  1
+  N  N12  1  0.25579175  0.57157759  0.53767725  1
+  H  H13  1  0.11066607  0.63568640  0.55636002  1

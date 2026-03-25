@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CrAg(SbS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.28719965
+_cell_length_b   11.13225965
+_cell_length_c   33.68690401
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99040740
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrAg(SbS3)2
+_chemical_formula_sum   'Cr2 Ag2 Sb4 S12'
+_cell_volume   2357.77127108
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.64146190  0.68420717  0.50000072  1
+  Cr  Cr1  1  0.14147202  0.52259210  0.49999926  1
+  S  S2  1  0.25445323  0.36867482  0.45338179  1
+  S  S3  1  0.75443262  0.83812969  0.45338158  1
+  S  S4  1  0.80038638  0.17975990  0.43902466  1
+  S  S5  1  0.30037993  0.02704056  0.43902776  1
+  Sb  Sb6  1  0.63192181  0.35407793  0.45906336  1
+  Sb  Sb7  1  0.13194915  0.85272515  0.45906458  1
+  S  S8  1  0.33168335  0.65975649  0.45614371  1
+  S  S9  1  0.83168836  0.54704814  0.45614318  1
+  Ag  Ag10  1  0.64148437  0.05069485  0.49999986  1
+  Ag  Ag11  1  0.14147881  0.15610535  0.50000075  1
+  S  S12  1  0.52848133  0.83812465  0.54661822  1
+  S  S13  1  1.02850159  0.36866964  0.54661852  1
+  S  S14  1  0.48255456  0.17975823  0.56097191  1
+  Sb  Sb15  1  0.65098553  0.35407447  0.54093546  1
+  S  S16  1  0.45125033  0.54704279  0.54385626  1
+  S  S17  1  -0.01745169  0.02703943  0.56097503  1
+  Sb  Sb18  1  0.15101316  0.85272084  0.54093667  1
+  S  S19  1  0.95124536  0.65975095  0.54385677  1

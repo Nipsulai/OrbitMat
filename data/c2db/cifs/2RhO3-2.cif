@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_RhO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.16919861
+_cell_length_b   2.92292453
+_cell_length_c   19.51211139
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RhO3
+_chemical_formula_sum   'Rh2 O6'
+_cell_volume   237.77952330
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rh  Rh0  1  0.59808267  0.25000001  0.56393186  1
+  Rh  Rh1  1  0.09809390  0.75000001  0.43605076  1
+  O  O2  1  0.18675566  0.25000000  0.50551393  1
+  O  O3  1  0.68676227  0.75000001  0.49447226  1
+  O  O4  1  0.37249249  0.25000001  0.38695108  1
+  O  O5  1  0.36897540  0.75000001  0.61577255  1
+  O  O6  1  -0.13092925  0.25000001  0.38421252  1
+  O  O7  1  0.87236434  0.75000001  0.61304505  1

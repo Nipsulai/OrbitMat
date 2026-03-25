@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Hf2Te2N
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.49356662
+_cell_length_b   3.49370518
+_cell_length_c   19.43980202
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00222849
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf2Te2N
+_chemical_formula_sum   'Hf2 Te2 N1'
+_cell_volume   205.47926326
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.66664870  0.25812560  0.44040473  1
+  Hf  Hf1  1  0.33334395  0.59142659  0.55959708  1
+  N  N2  1  -0.00002000  0.92476303  0.49999595  1
+  Te  Te3  1  0.66653157  0.25804570  0.66693164  1
+  Te  Te4  1  0.33344201  0.59150957  0.33306959  1

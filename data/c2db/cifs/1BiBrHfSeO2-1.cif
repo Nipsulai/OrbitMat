@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HfBiSeBrO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.79731795
+_cell_length_b   3.74054535
+_cell_length_c   18.34776778
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   103.77208568
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfBiSeBrO2
+_chemical_formula_sum   'Hf1 Bi1 Se1 Br1 O2'
+_cell_volume   519.75012659
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.79427529  0.43176197  0.53899583  1
+  Br  Br1  1  0.66438456  0.36955464  0.40877385  1
+  O  O2  1  0.77029388  0.91974943  0.57679557  1
+  O  O3  1  0.04155385  0.55457757  0.51476402  1
+  Bi  Bi4  1  0.31246192  0.69405706  0.49303639  1
+  Se  Se5  1  0.40641069  0.24088553  0.59123747  1

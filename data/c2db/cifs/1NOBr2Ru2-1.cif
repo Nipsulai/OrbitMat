@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Ru2Br2NO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.88451487
+_cell_length_b   5.52037830
+_cell_length_c   19.00067184
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   109.60840171
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ru2Br2NO
+_chemical_formula_sum   'Ru2 Br2 N1 O1'
+_cell_volume   383.82149502
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ru  Ru0  1  0.65991532  0.32919172  0.50041324  1
+  Ru  Ru1  1  0.31433198  0.76578201  0.49945981  1
+  N  N2  1  0.78672151  0.69241413  0.49948531  1
+  Br  Br3  1  0.48865256  1.05095720  0.39409368  1
+  O  O4  1  0.18098008  0.38535867  0.50066658  1
+  Br  Br5  1  0.48659332  0.04680824  0.60589453  1

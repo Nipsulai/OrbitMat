@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CuBi(Te3P)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.10328715
+_cell_length_b   7.10333551
+_cell_length_c   33.51516780
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00056434
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuBi(Te3P)2
+_chemical_formula_sum   'Cu1 Bi1 Te6 P2'
+_cell_volume   1464.50635230
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  1.00003751  -0.00003724  0.51042204  1
+  Te  Te1  1  0.63082135  0.59316579  0.55606394  1
+  Te  Te2  1  0.96244604  0.36917205  0.55606409  1
+  Te  Te3  1  0.40683226  0.03754853  0.55606388  1
+  Te  Te4  1  0.67197998  0.98468523  0.44431531  1
+  Te  Te5  1  0.31281863  0.32802606  0.44431563  1
+  Te  Te6  1  0.01530840  0.68718401  0.44431497  1
+  P  P7  1  0.33337390  0.66662262  0.47118763  1
+  P  P8  1  0.33337867  0.66663354  0.54001471  1
+  Cu  Cu9  1  0.66670278  0.33329901  0.46019694  1

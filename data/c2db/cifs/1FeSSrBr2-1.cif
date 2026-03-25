@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_SrFeSBr2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.96258337
+_cell_length_b   4.78062262
+_cell_length_c   21.19396039
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   124.59629238
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrFeSBr2
+_chemical_formula_sum   'Sr1 Fe1 S1 Br2'
+_cell_volume   330.49597091
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.36875614  0.36999439  0.48273626  1
+  Fe  Fe1  1  0.85581167  0.35054574  0.42054482  1
+  Br  Br2  1  0.34552741  0.85466204  0.35387440  1
+  Br  Br3  1  0.84870227  0.12989155  0.64612560  1
+  Sr  Sr4  1  0.09716415  0.75070455  0.56466488  1

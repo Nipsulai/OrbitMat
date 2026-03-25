@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaGa(AsO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.79057276
+_cell_length_b   5.79057276
+_cell_length_c   32.96233225
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.60902306
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaGa(AsO3)2
+_chemical_formula_sum   'Na1 Ga1 As2 O6'
+_cell_volume   1047.46660283
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.32154894  0.01702419  0.47100185  1
+  Ga  Ga1  1  0.00370646  -0.00370646  0.50000000  1
+  As  As2  1  0.50117496  0.85028175  0.48954114  1
+  As  As3  1  0.14971825  0.49882504  0.51045886  1
+  Na  Na4  1  0.62473691  0.37526309  0.50000000  1
+  O  O5  1  0.72336727  0.78792487  0.46078979  1
+  O  O6  1  0.21207513  0.27663273  0.53921021  1
+  O  O7  1  0.68616253  1.00538357  0.52857380  1
+  O  O8  1  -0.00538357  0.31383747  0.47142620  1
+  O  O9  1  0.98297581  0.67845106  0.52899815  1

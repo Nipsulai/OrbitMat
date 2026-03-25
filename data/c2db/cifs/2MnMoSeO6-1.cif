@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_MnMoSeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.14061683
+_cell_length_b   5.14061683
+_cell_length_c   37.70516720
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00123264
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnMoSeO6
+_chemical_formula_sum   'Mn2 Mo2 Se2 O12'
+_cell_volume   996.39453757
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.80882943  0.80882943  0.44394475  1
+  Mo  Mo1  1  0.30871724  0.30871724  0.42366885  1
+  O  O2  1  0.12021893  0.12021893  0.39687620  1
+  O  O3  1  0.52953837  0.08805676  0.45007019  1
+  O  O4  1  0.62406366  0.62406366  0.47372193  1
+  Mn  Mn5  1  0.80925490  0.30892500  0.49999941  1
+  Mn  Mn6  1  0.30892500  0.80925490  0.49999941  1
+  Se  Se7  1  0.30952090  0.30952090  0.55605570  1
+  O  O8  1  0.02954447  0.02954447  0.54990086  1
+  O  O9  1  0.12421303  0.49402098  0.52630497  1
+  O  O10  1  0.49402098  0.12421303  0.52630497  1
+  Mo  Mo11  1  0.80915545  0.80915545  0.57633056  1
+  O  O12  1  0.62086807  0.99782833  0.60312738  1
+  O  O13  1  0.58807671  0.58807671  0.54995843  1
+  O  O14  1  0.49719198  0.49719198  0.39687265  1
+  O  O15  1  0.99782833  0.62086807  0.60312738  1
+  O  O16  1  0.08805676  0.52953837  0.45007019  1
+  O  O17  1  -0.00613147  -0.00613147  0.47366571  1

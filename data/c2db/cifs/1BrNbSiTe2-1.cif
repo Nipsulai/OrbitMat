@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_NbSiTe2Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.20193833
+_cell_length_b   3.85752655
+_cell_length_c   19.51937217
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   91.72326263
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbSiTe2Br
+_chemical_formula_sum   'Nb1 Si1 Te2 Br1'
+_cell_volume   466.77302526
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.14276751  0.66855032  0.55601797  1
+  Te  Te1  1  0.57580327  0.17141428  0.61592885  1
+  Nb  Nb2  1  0.57438461  0.66826680  0.50695317  1
+  Br  Br3  1  0.51936753  0.65535255  0.38318042  1
+  Si  Si4  1  0.85362037  0.17667637  0.51886258  1

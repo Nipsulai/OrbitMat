@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MnAg(NCl)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.73379720
+_cell_length_b   5.80094542
+_cell_length_c   18.64863046
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   116.65996207
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnAg(NCl)2
+_chemical_formula_sum   'Mn1 Ag1 N2 Cl2'
+_cell_volume   554.33537331
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.25611724  -0.02074820  0.50010955  1
+  Ag  Ag1  1  0.58230723  0.57034729  0.50000317  1
+  Cl  Cl2  1  0.42429958  0.20304968  0.40217431  1
+  Cl  Cl3  1  0.42603844  0.20374037  0.59782569  1
+  N  N4  1  0.95079132  0.88724775  0.50015239  1
+  N  N5  1  0.32007801  0.74375773  0.50017241  1

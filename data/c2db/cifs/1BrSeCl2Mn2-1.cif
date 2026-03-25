@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Mn2SeBrCl2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.53159521
+_cell_length_b   7.04595950
+_cell_length_c   17.98392568
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.02000572
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2SeBrCl2
+_chemical_formula_sum   'Mn2 Se1 Br1 Cl2'
+_cell_volume   447.50257100
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.24948087  0.39462715  0.58304378  1
+  Cl  Cl1  1  0.75094606  0.62775396  0.41711556  1
+  Mn  Mn2  1  0.25115873  0.70283720  0.50579843  1
+  Mn  Mn3  1  0.74909605  0.24642767  0.50562899  1
+  Cl  Cl4  1  0.24922147  0.14687648  0.42498742  1
+  Br  Br5  1  0.75129432  0.90928076  0.58233493  1

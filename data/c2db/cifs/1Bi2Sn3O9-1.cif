@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Sn3Bi2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.07267015
+_cell_length_b   8.07344859
+_cell_length_c   35.06026332
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99739199
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sn3Bi2O9
+_chemical_formula_sum   'Sn3 Bi2 O9'
+_cell_volume   1978.94402151
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  -0.00003263  0.00001173  0.42612777  1
+  Sn  Sn1  1  0.61806409  0.87080609  0.49999936  1
+  Sn  Sn2  1  0.12919174  0.74738052  0.50000004  1
+  Sn  Sn3  1  0.25262791  0.38193695  0.50000060  1
+  O  O4  1  0.76703585  0.98681388  0.54632511  1
+  O  O5  1  0.01319519  0.78033935  0.54632700  1
+  O  O6  1  0.21966966  0.23295789  0.54633247  1
+  O  O7  1  0.01318977  0.78033699  0.45367363  1
+  O  O8  1  0.21966734  0.23295248  0.45366947  1
+  O  O9  1  0.76702737  0.98680536  0.45367231  1
+  Bi  Bi10  1  0.99996598  0.00001178  0.57387224  1
+  O  O11  1  0.40716921  0.92595881  0.49999981  1
+  O  O12  1  0.07399228  0.48133857  0.49999970  1
+  O  O13  1  0.51868440  0.59282708  0.50000049  1

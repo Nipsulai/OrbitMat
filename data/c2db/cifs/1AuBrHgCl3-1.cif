@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HgAuBrCl3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.45995559
+_cell_length_b   6.80843004
+_cell_length_c   18.12958659
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   97.31124503
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HgAuBrCl3
+_chemical_formula_sum   'Hg1 Au1 Br1 Cl3'
+_cell_volume   546.03432517
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.72366302  0.95538804  0.58631158  1
+  Cl  Cl1  1  0.35528615  0.45921433  0.57987549  1
+  Cl  Cl2  1  0.32582546  0.03563176  0.42708214  1
+  Au  Au3  1  0.34410875  0.74732565  0.50317201  1
+  Br  Br4  1  -0.04479043  0.53710855  0.41368842  1
+  Hg  Hg5  1  0.84458212  0.24395070  0.50465147  1

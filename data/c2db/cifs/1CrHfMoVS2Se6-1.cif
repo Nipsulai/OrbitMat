@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HfVCrMo(Se3S)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.88758977
+_cell_length_b   6.91433328
+_cell_length_c   18.31099542
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.46084705
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfVCrMo(Se3S)2
+_chemical_formula_sum   'Hf1 V1 Cr1 Mo1 Se6 S2'
+_cell_volume   751.66547119
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.25200189  0.45561669  0.50566217  1
+  Hf  Hf1  1  0.73925115  0.40885720  0.50468709  1
+  Mo  Mo2  1  0.26520314  0.87965977  0.50313991  1
+  Se  Se3  1  0.57820501  0.06748339  0.41147585  1
+  Cr  Cr4  1  0.73045344  0.90748053  0.50470711  1
+  Se  Se5  1  0.40244562  0.24412727  0.59041003  1
+  Se  Se6  1  0.57163878  0.58412883  0.41486943  1
+  S  S7  1  0.93031318  0.24120200  0.57648183  1
+  Se  Se8  1  0.09085076  0.57734765  0.40958997  1
+  Se  Se9  1  0.92398512  0.76780902  0.58911694  1
+  S  S10  1  0.41987181  0.74535984  0.58938944  1
+  Se  Se11  1  0.07955021  0.07945033  0.42883394  1

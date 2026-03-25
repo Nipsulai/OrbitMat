@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Hf3MnS2IBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.43499037
+_cell_length_b   5.15204182
+_cell_length_c   23.74145829
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.92411495
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf3MnS2IBr
+_chemical_formula_sum   'Hf3 Mn1 S2 I1 Br1'
+_cell_volume   377.87882265
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.47294047  0.32115266  0.31575035  1
+  S  S1  1  0.80676680  0.39251118  0.57360541  1
+  Hf  Hf2  1  1.05120469  0.97435390  0.58804990  1
+  Hf  Hf3  1  0.46640932  0.58552904  0.49545352  1
+  I  I4  1  0.47185187  0.85140993  0.68432940  1
+  Hf  Hf5  1  0.89279238  0.19973775  0.40173508  1
+  Mn  Mn6  1  0.47270651  0.08774284  0.49486445  1
+  S  S7  1  0.13933221  0.78317404  0.41651982  1

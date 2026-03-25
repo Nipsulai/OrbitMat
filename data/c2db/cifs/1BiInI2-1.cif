@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_InBiI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.50290871
+_cell_length_b   4.46701299
+_cell_length_c   20.42560166
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   121.41313391
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InBiI2
+_chemical_formula_sum   'In1 Bi1 I2'
+_cell_volume   428.50211573
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.37929185  0.07152491  0.46671084  1
+  Bi  Bi1  1  0.80538055  0.75239726  0.52700066  1
+  I  I2  1  0.03199888  0.53679249  0.63281375  1
+  I  I3  1  0.42965648  0.63727320  0.36718625  1

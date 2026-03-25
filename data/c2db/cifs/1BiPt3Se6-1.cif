@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Bi(PtSe2)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.54992744
+_cell_length_b   6.55089107
+_cell_length_c   19.81812035
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00752821
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Bi(PtSe2)3
+_chemical_formula_sum   'Bi1 Pt3 Se6'
+_cell_volume   736.37156520
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.16944937  0.83116386  0.38415070  1
+  Bi  Bi1  1  0.83667879  0.16535212  0.62155846  1
+  Pt  Pt2  1  0.16617946  0.49468870  0.44776234  1
+  Se  Se3  1  0.83625354  0.16467603  0.37844154  1
+  Pt  Pt4  1  0.83612972  0.83457379  0.44776102  1
+  Se  Se5  1  0.50282263  0.49788362  0.38417680  1
+  Pt  Pt6  1  0.50609829  0.16457148  0.44774288  1
+  Se  Se7  1  0.51367509  0.84211048  0.51591258  1
+  Se  Se8  1  0.15881057  0.16466862  0.51584671  1
+  Se  Se9  1  0.83612308  0.48707882  0.51595652  1

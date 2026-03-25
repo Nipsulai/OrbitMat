@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_AgAuI4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.77310701
+_cell_length_b   7.45610239
+_cell_length_c   33.07712046
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   99.11962056
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgAuI4
+_chemical_formula_sum   'Ag1 Au1 I4'
+_cell_volume   1162.29421624
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.50000000  0.50000000  0.50000000  1
+  Au  Au1  1  0.00000000  0.00000000  0.50000000  1
+  I  I2  1  0.95546176  0.70769144  0.54892521  1
+  I  I3  1  0.35433670  0.19146736  0.55346854  1
+  I  I4  1  0.04453824  0.29230856  0.45107479  1
+  I  I5  1  0.64566330  0.80853264  0.44653146  1

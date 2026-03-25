@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Mg2In2Te5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.40000792
+_cell_length_b   4.40001545
+_cell_length_c   42.76800000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99994336
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg2In2Te5
+_chemical_formula_sum   'Mg2 In2 Te5'
+_cell_volume   717.06327572
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.00000000  0.00000000  0.50000000  1
+  Te  Te1  1  0.66666651  0.33333302  0.42651456  1
+  Te  Te2  1  0.33333349  0.66666698  0.57348544  1
+  Te  Te3  1  0.66666443  0.33332887  0.66919270  1
+  Te  Te4  1  0.33333557  0.66667113  0.33080730  1
+  Mg  Mg5  1  0.66666663  0.33333326  0.54048193  1
+  Mg  Mg6  1  0.33333337  0.66666674  0.45951807  1
+  In  In7  1  0.66666747  0.33333495  0.36238142  1
+  In  In8  1  0.33333253  0.66666505  0.63761858  1

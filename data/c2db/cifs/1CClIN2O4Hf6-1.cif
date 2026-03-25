@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Hf6CIN2ClO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.68512222
+_cell_length_b   5.68450307
+_cell_length_c   21.64826326
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.10954616
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf6CIN2ClO4
+_chemical_formula_sum   'Hf6 C1 I1 N2 Cl1 O4'
+_cell_volume   605.20923197
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.15788347  0.49493728  0.45318117  1
+  Hf  Hf1  1  0.82981450  0.14860257  0.57210101  1
+  Hf  Hf2  1  0.49960257  0.14958860  0.45075478  1
+  O  O3  1  0.83941790  0.16896877  0.40543778  1
+  O  O4  1  0.17171792  0.82920935  0.40516166  1
+  C  C5  1  0.17410822  0.16894131  0.51197277  1
+  Hf  Hf6  1  0.85819163  0.85260189  0.45050748  1
+  N  N7  1  0.84318771  0.50120084  0.51229083  1
+  O  O8  1  0.51040311  0.17009123  0.61853966  1
+  O  O9  1  0.83770280  0.82918140  0.61876845  1
+  I  I10  1  0.50267587  0.49745172  0.34641315  1
+  Hf  Hf11  1  0.17532300  0.85477118  0.57252511  1
+  Hf  Hf12  1  0.51997927  0.49469455  0.56950093  1
+  Cl  Cl13  1  0.17669250  0.49826874  0.65365016  1
+  N  N14  1  0.50713011  0.83549582  0.51228495  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Nb2FeTe5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.45104044
+_cell_length_b   16.97846640
+_cell_length_c   34.35210996
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99767954
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb2FeTe5
+_chemical_formula_sum   'Nb4 Fe2 Te10'
+_cell_volume   2012.80602794
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.00794664  0.00559400  0.51152914  1
+  Nb  Nb1  1  0.00791343  0.27352612  0.51152915  1
+  Nb  Nb2  1  0.50791343  0.77352612  0.48847085  1
+  Nb  Nb3  1  0.50794664  0.50559400  0.48847086  1
+  Fe  Fe4  1  0.00792980  0.63956013  0.48172776  1
+  Fe  Fe5  1  0.50792980  0.13956013  0.51827224  1
+  Te  Te6  1  0.50789192  0.03481105  0.57238164  1
+  Te  Te7  1  0.50796820  0.24430913  0.57238166  1
+  Te  Te8  1  0.00796820  0.74430913  0.42761834  1
+  Te  Te9  1  0.00789192  0.53481105  0.42761836  1
+  Te  Te10  1  0.00786465  0.84561612  0.54431862  1
+  Te  Te11  1  0.00799551  0.43350399  0.54431862  1
+  Te  Te12  1  0.50799551  0.93350399  0.45568138  1
+  Te  Te13  1  0.50786465  0.34561612  0.45568138  1
+  Te  Te14  1  0.00792988  0.13956005  0.46299786  1
+  Te  Te15  1  0.50792988  0.63956005  0.53700214  1

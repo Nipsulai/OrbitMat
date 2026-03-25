@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LiNiTeIr6SeS4I5Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.97640484
+_cell_length_b   7.39343624
+_cell_length_c   21.67130289
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   107.34142409
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiNiTeIr6SeS4I5Br
+_chemical_formula_sum   'Li1 Ni1 Te1 Ir6 Se1 S4 I5 Br1'
+_cell_volume   1066.98837195
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ir  Ir0  1  0.87385662  0.93137631  0.45462757  1
+  I  I1  1  0.03242694  0.85756892  0.34607979  1
+  Ir  Ir2  1  0.12886679  0.19772222  0.59381905  1
+  Ir  Ir3  1  0.44659338  0.45804326  0.45078325  1
+  S  S4  1  0.18228923  0.43686285  0.51694866  1
+  I  I5  1  0.17059772  0.38889647  0.35809725  1
+  S  S6  1  0.15341276  0.97550268  0.51732751  1
+  Ir  Ir7  1  0.04997122  0.67455850  0.57096312  1
+  Se  Se8  1  0.96359617  0.39828773  0.64622461  1
+  Ir  Ir9  1  0.91342761  0.32949720  0.45198081  1
+  Br  Br10  1  0.63574417  0.30948830  0.36758840  1
+  Li  Li11  1  0.62403323  0.59769429  0.58033601  1
+  S  S12  1  0.70220004  0.10429261  0.51121330  1
+  S  S13  1  0.80160108  0.59435423  0.48778915  1
+  Ni  Ni14  1  0.72490045  0.10625418  0.61327126  1
+  I  I15  1  0.40370351  0.78178424  0.63988300  1
+  I  I16  1  0.51493102  0.80946616  0.39778630  1
+  I  I17  1  0.47906500  0.28915059  0.65097954  1
+  Ir  Ir18  1  0.42167159  0.09656499  0.45687039  1
+  Te  Te19  1  0.93408352  0.89584574  0.65392021  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ZnCuBrClF2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.79448353
+_cell_length_b   6.04034544
+_cell_length_c   18.46336380
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.61781841
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnCuBrClF2
+_chemical_formula_sum   'Zn1 Cu1 Br1 Cl1 F2'
+_cell_volume   401.03476963
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.86389210  0.22444407  0.51723601  1
+  Br  Br1  1  0.98037286  0.46766165  0.40620984  1
+  Cl  Cl2  1  0.02338114  0.53672645  0.59379016  1
+  F  F3  1  0.29641382  0.09178792  0.54343546  1
+  F  F4  1  0.70583420  0.91087837  0.46528208  1
+  Cu  Cu5  1  0.13476730  0.77734612  0.49237962  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CuAsO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.14930068
+_cell_length_b   5.15138689
+_cell_length_c   18.41164285
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.97362416
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuAsO3
+_chemical_formula_sum   'Cu2 As2 O6'
+_cell_volume   423.06876230
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.00000741  0.00013277  0.50001863  1
+  Cu  Cu1  1  0.33333203  0.66654720  0.49998999  1
+  As  As2  1  0.66641150  0.33321598  0.43698213  1
+  As  As3  1  0.66692766  0.33346439  0.56301539  1
+  O  O4  1  0.32964014  -0.00341580  0.42509597  1
+  O  O5  1  1.00306352  0.33309945  0.42494631  1
+  O  O6  1  0.66615881  0.66981481  0.42502878  1
+  O  O7  1  1.00369625  0.67008685  0.57491137  1
+  O  O8  1  0.33028617  0.33358855  0.57506159  1
+  O  O9  1  0.66717353  -0.00313060  0.57497946  1

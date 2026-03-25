@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_AgAs(IO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.92417653
+_cell_length_b   6.26504125
+_cell_length_c   19.02317295
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   113.63073829
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgAs(IO)2
+_chemical_formula_sum   'Ag1 As1 I2 O2'
+_cell_volume   646.84531011
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.64209245  0.86431623  0.50217587  1
+  I  I1  1  0.76587174  0.22615095  0.39424952  1
+  O  O2  1  0.31033585  0.52888904  0.49255822  1
+  As  As3  1  1.01780473  0.50487631  0.49739672  1
+  I  I4  1  0.80029464  0.22763154  0.60574164  1
+  O  O5  1  -0.03551619  0.74755367  0.50059056  1

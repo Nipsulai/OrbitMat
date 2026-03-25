@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ti7C2SeBr3ClO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.37365589
+_cell_length_b   6.66310308
+_cell_length_c   22.01786638
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   103.85396534
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti7C2SeBr3ClO6
+_chemical_formula_sum   'Ti7 C2 Se1 Br3 Cl1 O6'
+_cell_volume   907.86021470
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.27208212  0.72526742  0.44555371  1
+  O  O1  1  0.19972483  0.43547990  0.47860321  1
+  Br  Br2  1  0.85898984  0.06606742  0.38752202  1
+  Ti  Ti3  1  0.60117539  0.09979674  0.47546037  1
+  Ti  Ti4  1  0.80349286  0.86221383  0.56754014  1
+  Br  Br5  1  0.26212630  0.62475861  0.34063246  1
+  Ti  Ti6  1  0.94718394  0.48612283  0.52888500  1
+  O  O7  1  0.34922151  0.03321687  0.42598825  1
+  Ti  Ti8  1  0.31000328  0.87805226  0.57725786  1
+  O  O9  1  0.37588819  0.15739936  0.53672675  1
+  Ti  Ti10  1  0.12780736  0.09547171  0.47858901  1
+  C  C11  1  0.05176917  0.79610071  0.50800566  1
+  Br  Br12  1  0.07260825  0.96524009  0.65936754  1
+  O  O13  1  0.87962043  0.14477694  0.52903129  1
+  Ti  Ti14  1  0.47503444  0.49164752  0.53186533  1
+  Cl  Cl15  1  0.59490939  0.98804869  0.64750701  1
+  Se  Se16  1  0.21382668  0.50654930  0.61835104  1
+  O  O17  1  0.73206711  0.56719177  0.58392656  1
+  O  O18  1  0.68739775  0.40488782  0.47805027  1
+  C  C19  1  0.52445321  0.79637898  0.50859426  1

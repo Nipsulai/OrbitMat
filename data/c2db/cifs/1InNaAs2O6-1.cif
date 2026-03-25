@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaIn(AsO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.05144945
+_cell_length_b   6.05144945
+_cell_length_c   32.96233225
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   109.76809425
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaIn(AsO3)2
+_chemical_formula_sum   'Na1 In1 As2 O6'
+_cell_volume   1135.94770141
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.33813868  0.01578829  0.46992791  1
+  In  In1  1  0.00644976  -0.00644976  0.50000000  1
+  As  As2  1  0.49490005  0.84761410  0.48985095  1
+  As  As3  1  0.15238590  0.50509995  0.51014905  1
+  Na  Na4  1  0.62792924  0.37207076  0.50000000  1
+  O  O5  1  0.69697220  0.76970087  0.46154267  1
+  O  O6  1  0.23029913  0.30302780  0.53845733  1
+  O  O7  1  0.67196242  1.00312751  0.52868075  1
+  O  O8  1  -0.00312751  0.32803758  0.47131925  1
+  O  O9  1  0.98421171  0.66186132  0.53007209  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_VCu(Te3As)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.17854977
+_cell_length_b   7.17983996
+_cell_length_c   33.47259289
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   122.43478621
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VCu(Te3As)2
+_chemical_formula_sum   'V1 Cu1 Te6 As2'
+_cell_volume   1456.07767523
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.98238836  0.30149096  0.53709615  1
+  As  As1  1  0.97644813  0.29563127  0.46293934  1
+  V  V2  1  0.30571656  0.97228163  0.50000198  1
+  Te  Te3  1  0.05431454  0.68683857  0.56042288  1
+  Cu  Cu4  1  0.55104580  0.72710388  0.50000865  1
+  Te  Te5  1  0.37540080  0.35052250  0.53867314  1
+  Te  Te6  1  0.54434814  -0.04679119  0.56001994  1
+  Te  Te7  1  0.59105395  0.22354060  0.43955197  1
+  Te  Te8  1  0.32472948  0.73360406  0.43999812  1
+  Te  Te9  1  -0.07241955  -0.09721158  0.46132105  1

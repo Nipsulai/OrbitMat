@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Ti2S2Br2N
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.36989890
+_cell_length_b   5.15149340
+_cell_length_c   20.92199936
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00861198
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti2S2Br2N
+_chemical_formula_sum   'Ti2 S2 Br2 N1'
+_cell_volume   363.20615501
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.25225559  0.34237991  0.43934227  1
+  Ti  Ti1  1  0.25223301  0.86126640  0.45817494  1
+  Ti  Ti2  1  0.75249722  0.39817584  0.52524404  1
+  N  N3  1  0.75207330  0.75663214  0.49779924  1
+  Br  Br4  1  0.75261522  0.86095192  0.35851700  1
+  Br  Br5  1  0.75562127  0.55689186  0.64140782  1
+  S  S6  1  0.25261094  0.11506664  0.56883630  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MnWCl4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.58808156
+_cell_length_b   3.81265079
+_cell_length_c   19.04702518
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   93.01984991
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnWCl4
+_chemical_formula_sum   'Mn1 W1 Cl4'
+_cell_volume   405.24103506
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.11015172  0.49679056  0.58390989  1
+  Mn  Mn1  1  0.08483196  0.79560824  0.48385807  1
+  W  W2  1  0.83142004  0.19165979  0.50638982  1
+  Cl  Cl3  1  0.91982336  0.49139023  0.39376228  1
+  Cl  Cl4  1  0.63229886  0.99349778  0.60623772  1
+  Cl  Cl5  1  0.45645319  0.03113383  0.44174076  1

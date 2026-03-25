@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_NiIr2SeBrCl2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.46761569
+_cell_length_b   6.89249451
+_cell_length_c   19.88126936
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.97947812
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiIr2SeBrCl2O
+_chemical_formula_sum   'Ni1 Ir2 Se1 Br1 Cl2 O1'
+_cell_volume   475.17268684
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.25516071  0.42799424  0.57033467  1
+  Ni  Ni1  1  0.75580998  1.00854594  0.45703527  1
+  Cl  Cl2  1  0.75557414  0.02823286  0.62306027  1
+  Ir  Ir3  1  0.25554669  0.08893826  0.54284449  1
+  Se  Se4  1  0.25583420  0.21908594  0.42448543  1
+  Br  Br5  1  0.75549037  0.64186380  0.37686219  1
+  O  O6  1  0.25537148  0.85121755  0.48248751  1
+  Ir  Ir7  1  0.25554630  0.55433470  0.46107705  1

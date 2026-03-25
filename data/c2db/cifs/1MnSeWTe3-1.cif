@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MnTe3WSe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.44973657
+_cell_length_b   6.07839597
+_cell_length_c   18.95371590
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00231171
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnTe3WSe
+_chemical_formula_sum   'Mn1 Te3 W1 Se1'
+_cell_volume   397.43790682
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.22885089  0.81379751  0.60424346  1
+  Mn  Mn1  1  0.22886263  0.55903776  0.49378927  1
+  Te  Te2  1  0.72890336  0.66823342  0.39569633  1
+  Te  Te3  1  0.22893471  0.18797538  0.41798360  1
+  W  W4  1  0.72885101  0.94367189  0.50294975  1
+  Se  Se5  1  0.72877862  0.34210578  0.56001456  1

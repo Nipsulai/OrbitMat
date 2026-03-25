@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Cu2S2BrCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.71066406
+_cell_length_b   4.71013402
+_cell_length_c   19.08623157
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   100.04630541
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu2S2BrCl
+_chemical_formula_sum   'Cu2 S2 Br1 Cl1'
+_cell_volume   416.98939551
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.72138959  0.85692494  0.56438492  1
+  Cu  Cu1  1  0.95971717  0.15037630  0.48391178  1
+  Cu  Cu2  1  0.43109425  0.61994086  0.48315743  1
+  Cl  Cl3  1  0.00761481  0.56969550  0.60704658  1
+  Br  Br4  1  0.07194596  0.50700827  0.39295342  1
+  S  S5  1  0.45071355  0.12847248  0.48966987  1

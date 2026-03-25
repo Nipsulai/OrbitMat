@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_TaCoS5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.26581930
+_cell_length_b   13.23750149
+_cell_length_c   34.59007560
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaCoS5
+_chemical_formula_sum   'Ta2 Co2 S10'
+_cell_volume   1495.37351507
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.50000000  0.43239697  0.53598891  1
+  S  S1  1  0.50000000  0.21764233  0.53598887  1
+  S  S2  1  0.50000000  0.71764233  0.46401113  1
+  S  S3  1  0.50000000  0.93239697  0.46401109  1
+  S  S4  1  0.00000000  0.14914737  0.46466515  1
+  S  S5  1  0.00000000  0.50089181  0.46466497  1
+  S  S6  1  0.50000000  0.32501961  0.44524101  1
+  Ta  Ta7  1  0.00000000  0.32501956  0.49915185  1
+  Co  Co8  1  0.50000000  0.57501921  0.49999998  1
+  Co  Co9  1  0.50000000  0.07501921  0.50000002  1
+  S  S10  1  0.00000000  0.00089181  0.53533503  1
+  S  S11  1  0.00000000  0.64914737  0.53533485  1
+  S  S12  1  0.50000000  0.82501961  0.55475899  1
+  Ta  Ta13  1  0.00000000  0.82501956  0.50084815  1

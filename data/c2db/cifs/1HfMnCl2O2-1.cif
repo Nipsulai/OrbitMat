@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HfMn(ClO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.69636000
+_cell_length_b   6.43509626
+_cell_length_c   18.36788263
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   106.74402124
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfMn(ClO)2
+_chemical_formula_sum   'Hf1 Mn1 Cl2 O2'
+_cell_volume   418.38219187
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.90415004  0.45107125  0.51865340  1
+  O  O1  1  0.43246609  0.50812268  0.55399978  1
+  Mn  Mn2  1  0.61496078  0.87265451  0.48261677  1
+  Cl  Cl3  1  0.72132609  0.09061895  0.59167858  1
+  O  O4  1  0.04838609  0.73996139  0.46926792  1
+  Cl  Cl5  1  0.79709771  0.22736724  0.40832142  1

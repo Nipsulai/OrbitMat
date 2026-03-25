@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ca(H3Pb)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.52262065
+_cell_length_b   7.14429868
+_cell_length_c   37.31451321
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   92.72768324
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca(H3Pb)2
+_chemical_formula_sum   'Ca2 H12 Pb4'
+_cell_volume   1204.30144911
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pb  Pb0  1  0.00127611  -0.01316834  0.59295992  1
+  Pb  Pb1  1  0.63779514  0.45890660  0.56387417  1
+  H  H2  1  0.01088043  0.44522516  0.53913529  1
+  H  H3  1  0.92468646  0.72314881  0.59167263  1
+  H  H4  1  0.52446168  0.62563139  0.52356463  1
+  Ca  Ca5  1  0.45746314  0.94886900  0.51593912  1
+  H  H6  1  0.94674391  0.97926040  0.54026156  1
+  H  H7  1  0.49558481  0.26645350  0.52432226  1
+  H  H8  1  0.41311710  0.94386866  0.57726168  1
+  Pb  Pb9  1  0.67786465  0.39206330  0.40704024  1
+  Pb  Pb10  1  0.04134620  0.91998897  0.43612596  1
+  H  H11  1  0.66826040  0.93366996  0.46086491  1
+  H  H12  1  0.75445526  0.65574614  0.40832744  1
+  H  H13  1  0.15468050  0.75326326  0.47643546  1
+  Ca  Ca14  1  0.22167701  0.43002602  0.48406104  1
+  H  H15  1  0.73239631  0.39963449  0.45973865  1
+  H  H16  1  0.18355745  0.11244237  0.47567780  1
+  H  H17  1  0.26602303  0.43502638  0.42273843  1

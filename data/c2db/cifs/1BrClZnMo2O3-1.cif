@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_ZnMo2BrClO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.60400468
+_cell_length_b   5.59422180
+_cell_length_c   21.32805447
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.77248356
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnMo2BrClO3
+_chemical_formula_sum   'Zn1 Mo2 Br1 Cl1 O3'
+_cell_volume   407.13300966
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  1  0.73612007  0.95858912  0.53705308  1
+  Br  Br1  1  0.78735880  0.05986294  0.64832510  1
+  O  O2  1  0.55424188  0.59495486  0.55391303  1
+  Mo  Mo3  1  0.40741582  0.30147194  0.51205267  1
+  O  O4  1  0.20361945  0.89364194  0.48143202  1
+  Zn  Zn5  1  0.07374468  0.63283199  0.41836777  1
+  Cl  Cl6  1  0.55750868  0.60050335  0.35162912  1
+  O  O7  1  0.89588725  0.27846429  0.47345970  1

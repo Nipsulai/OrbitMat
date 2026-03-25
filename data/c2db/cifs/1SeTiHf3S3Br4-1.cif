@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Hf3TiSeS3Br4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.25561744
+_cell_length_b   6.26184115
+_cell_length_c   20.59391080
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.28342447
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf3TiSeS3Br4
+_chemical_formula_sum   'Hf3 Ti1 Se1 S3 Br4'
+_cell_volume   765.97301269
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.11882220  0.61354814  0.46280845  1
+  Se  Se1  1  0.37040933  0.87127632  0.55195039  1
+  S  S2  1  0.87364720  0.37465919  0.54704842  1
+  Hf  Hf3  1  0.11732312  0.13725997  0.53731390  1
+  S  S4  1  0.87914785  0.87264183  0.45198921  1
+  Hf  Hf5  1  0.63484618  0.61763198  0.53734097  1
+  Br  Br6  1  0.87583038  0.87509441  0.63559760  1
+  Hf  Hf7  1  0.62571434  0.12836981  0.45708379  1
+  Br  Br8  1  0.36743976  0.86627829  0.36651644  1
+  S  S9  1  0.37250539  0.37883656  0.45138919  1
+  Br  Br10  1  0.88014378  0.37980523  0.36418532  1
+  Br  Br11  1  0.37468911  0.37623067  0.63581468  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ZrIrSeCl2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.63006758
+_cell_length_b   5.59516181
+_cell_length_c   18.41942769
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   91.19710710
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrIrSeCl2O
+_chemical_formula_sum   'Zr1 Ir1 Se1 Cl2 O1'
+_cell_volume   374.03194288
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.37797556  0.70050672  0.40717877  1
+  Cl  Cl1  1  -0.05078847  0.89148616  0.55932375  1
+  Cl  Cl2  1  0.54061368  0.37304804  0.59282123  1
+  Ir  Ir3  1  0.89797658  0.54669721  0.48667472  1
+  O  O4  1  0.90004897  0.22276365  0.42773058  1
+  Zr  Zr5  1  0.39602152  0.15360791  0.47622189  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_NbSn(SeBr)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.02539290
+_cell_length_b   7.90521157
+_cell_length_c   18.54023449
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   104.39041366
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbSn(SeBr)2
+_chemical_formula_sum   'Nb1 Sn1 Se2 Br2'
+_cell_volume   571.46884776
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.63825309  0.28241972  0.49064815  1
+  Se  Se1  1  0.75951950  0.52520620  0.58811858  1
+  Br  Br2  1  0.51231045  1.01931172  0.40406295  1
+  Sn  Sn3  1  0.34759226  0.70446714  0.51771500  1
+  Br  Br4  1  0.52365040  0.06553962  0.59549376  1
+  Se  Se5  1  0.20169998  0.41012702  0.42566430  1

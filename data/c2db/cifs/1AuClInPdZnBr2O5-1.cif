@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ZnInPdAuBr2ClO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.70940828
+_cell_length_b   5.28562346
+_cell_length_c   21.66401160
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   106.95951021
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnInPdAuBr2ClO5
+_chemical_formula_sum   'Zn1 In1 Pd1 Au1 Br2 Cl1 O5'
+_cell_volume   625.34002927
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.74406565  0.49264387  0.53538457  1
+  Au  Au1  1  0.29721196  0.77003995  0.57196692  1
+  Zn  Zn2  1  0.15087372  0.23121926  0.50591176  1
+  Cl  Cl3  1  0.16925852  0.97646338  0.65380373  1
+  Br  Br4  1  0.44653637  -0.11894309  0.34619627  1
+  Br  Br5  1  0.64355074  0.58071232  0.64471925  1
+  O  O6  1  0.43715591  0.58981690  0.50071966  1
+  O  O7  1  0.47400474  0.12321010  0.52845529  1
+  O  O8  1  0.91873665  0.86674357  0.50256348  1
+  O  O9  1  0.02758261  0.41727653  0.57805107  1
+  O  O10  1  0.87843702  0.35280039  0.46014785  1
+  In  In11  1  0.64226569  0.95829780  0.44858854  1

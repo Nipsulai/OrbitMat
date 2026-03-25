@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_BiTe2O6F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.55916789
+_cell_length_b   4.55550421
+_cell_length_c   35.71513907
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   98.90875942
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BiTe2O6F
+_chemical_formula_sum   'Bi1 Te2 O6 F1'
+_cell_volume   732.83007393
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.41135509  0.57038380  0.58218220  1
+  O  O1  1  0.32150209  0.65981903  0.53109068  1
+  O  O2  1  0.82474745  0.64302553  0.57418691  1
+  Te  Te3  1  0.48038217  0.50124573  0.46156832  1
+  O  O4  1  0.85866193  0.59488253  0.48259637  1
+  O  O5  1  0.62852546  0.35211663  0.41256329  1
+  Bi  Bi6  1  0.00646262  -0.02462361  0.52524908  1
+  O  O7  1  0.33866988  0.15655474  0.57418789  1
+  O  O8  1  0.38641004  0.12275321  0.48261974  1
+  F  F9  1  0.83416743  0.14337619  0.42043804  1

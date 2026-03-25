@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Ga2CuSBr3Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.87837987
+_cell_length_b   8.95609771
+_cell_length_c   19.59925830
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   102.53536473
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ga2CuSBr3Cl
+_chemical_formula_sum   'Ga2 Cu1 S1 Br3 Cl1'
+_cell_volume   664.55480479
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.11314558  0.95291372  0.46344358  1
+  Br  Br1  1  0.54547782  0.81834821  0.41522656  1
+  S  S2  1  0.87551498  0.48015732  0.46228727  1
+  Ga  Ga3  1  0.99451730  0.71772093  0.53221371  1
+  Cl  Cl4  1  0.22450628  0.17097742  0.38266754  1
+  Br  Br5  1  0.46546446  0.65961665  0.61733246  1
+  Br  Br6  1  0.20202043  0.14175155  0.56148451  1
+  Ga  Ga7  1  0.30152600  0.33262221  0.47212806  1

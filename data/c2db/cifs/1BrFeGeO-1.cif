@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_FeGeBrO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.61335067
+_cell_length_b   4.67789317
+_cell_length_c   18.01342994
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   112.87032811
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeGeBrO
+_chemical_formula_sum   'Fe1 Ge1 Br1 O1'
+_cell_volume   280.54259527
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.15136394  0.22619960  0.47114426  1
+  O  O1  1  0.31150289  0.60587024  0.41636261  1
+  Br  Br2  1  1.03571417  0.50162724  0.58364274  1
+  Fe  Fe3  1  0.83544738  0.65665149  0.45156010  1

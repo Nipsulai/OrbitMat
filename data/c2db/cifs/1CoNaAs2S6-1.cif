@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaCo(AsS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.14536765
+_cell_length_b   6.14564119
+_cell_length_c   33.22614168
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99474782
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCo(AsS3)2
+_chemical_formula_sum   'Na1 Co1 As2 S6'
+_cell_volume   1086.79741660
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.67738075  0.99833627  0.50000009  1
+  S  S1  1  0.66513584  0.71997522  0.54866087  1
+  Na  Na2  1  0.01079923  0.66517456  0.50000003  1
+  S  S3  1  -0.04409523  0.26447180  0.54870457  1
+  As  As4  1  0.34408884  0.33176304  0.53591795  1
+  S  S5  1  0.41147555  1.01102004  0.54869800  1
+  S  S6  1  0.41126028  0.71997335  0.45133886  1
+  S  S7  1  0.66499471  0.26448391  0.45129685  1
+  As  As8  1  0.34409827  0.33176824  0.46408165  1
+  S  S9  1  -0.04403818  0.01102725  0.45130075  1

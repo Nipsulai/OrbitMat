@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_TiCoSeSI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.53055000
+_cell_length_b   3.90708113
+_cell_length_c   18.49617361
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   103.50745443
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiCoSeSI2
+_chemical_formula_sum   'Ti1 Co1 Se1 S1 I2'
+_cell_volume   458.88306209
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.82401207  0.41684815  0.51079944  1
+  S  S1  1  0.08554158  0.53545002  0.42887469  1
+  Co  Co2  1  0.17129724  0.07093409  0.48644689  1
+  Se  Se3  1  0.92456577  0.95803069  0.58342206  1
+  I  I4  1  0.52510985  0.17886813  0.40554772  1
+  I  I5  1  0.43972005  0.28526019  0.59450475  1

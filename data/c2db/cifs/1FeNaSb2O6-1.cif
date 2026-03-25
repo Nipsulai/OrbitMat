@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaFe(SbO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.24282266
+_cell_length_b   5.25151798
+_cell_length_c   33.22614168
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.95072622
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaFe(SbO3)2
+_chemical_formula_sum   'Na1 Fe1 Sb2 O6'
+_cell_volume   792.64000659
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.67744736  0.99846099  0.50000006  1
+  O  O1  1  0.65386401  0.69575665  0.53382788  1
+  Na  Na2  1  0.01023400  0.66412118  0.50000035  1
+  O  O3  1  -0.02112455  0.27823980  0.53404039  1
+  Sb  Sb4  1  0.34385765  0.33176594  0.55898004  1
+  O  O5  1  0.39680663  1.02209665  0.53337827  1
+  O  O6  1  0.39827618  0.69563855  0.46620062  1
+  O  O7  1  0.65579587  0.27819220  0.46594380  1
+  Sb  Sb8  1  0.34434295  0.33176799  0.44102001  1
+  O  O9  1  -0.01834677  0.02202879  0.46660890  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HfScI2NO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.71229120
+_cell_length_b   4.09706946
+_cell_length_c   21.24369307
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00245486
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfScI2NO
+_chemical_formula_sum   'Hf1 Sc1 I2 N1 O1'
+_cell_volume   323.10626611
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.25256289  0.75770910  0.45641833  1
+  I  I1  1  0.25267582  0.25531554  0.64695712  1
+  N  N2  1  0.25236982  0.25793065  0.48913050  1
+  O  O3  1  0.75235283  0.75791930  0.51497810  1
+  Hf  Hf4  1  0.75237547  0.25785848  0.53774194  1
+  I  I5  1  0.75276770  0.75471208  0.35303996  1

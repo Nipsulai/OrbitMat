@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GaPt3Br3N3ClO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.05117882
+_cell_length_b   6.67289106
+_cell_length_c   20.67713054
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00867427
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaPt3Br3N3ClO
+_chemical_formula_sum   'Ga1 Pt3 Br3 N3 Cl1 O1'
+_cell_volume   558.96641298
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.24690875  0.11925552  0.45695279  1
+  N  N1  1  0.24689605  0.87144308  0.52119752  1
+  Ga  Ga2  1  0.74703343  0.37752101  0.54208778  1
+  N  N3  1  0.74701824  0.62881212  0.48441833  1
+  N  N4  1  0.24701942  0.36754318  0.51819729  1
+  Pt  Pt5  1  0.24697024  0.62560803  0.45745275  1
+  Br  Br6  1  0.74904559  0.63327597  0.63719463  1
+  Pt  Pt7  1  0.74694591  0.87043347  0.54670882  1
+  Cl  Cl8  1  0.24752262  0.37300885  0.37433239  1
+  Br  Br9  1  0.24600877  0.87123819  0.36268448  1
+  Br  Br10  1  0.74482088  0.13315736  0.63587180  1
+  O  O11  1  0.74685411  0.11054646  0.47922298  1

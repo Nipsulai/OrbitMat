@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_CuBrOF
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.51140195
+_cell_length_b   7.81212271
+_cell_length_c   33.46174587
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.97114506
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuBrOF
+_chemical_formula_sum   'Cu4 Br4 O4 F4'
+_cell_volume   1702.12755713
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  -0.03566069  0.72132694  0.46485371  1
+  Cu  Cu1  1  0.46365658  0.48421915  0.46488845  1
+  O  O2  1  0.55268507  0.28733601  0.49617232  1
+  F  F3  1  0.67563406  0.15143294  0.47630041  1
+  Br  Br4  1  0.77301470  0.51804617  0.42747808  1
+  Br  Br5  1  0.27285737  0.68710776  0.42728119  1
+  Cu  Cu6  1  0.34431391  0.22112876  0.53511755  1
+  Cu  Cu7  1  0.84506484  0.98380669  0.53521683  1
+  O  O8  1  0.25469231  0.41770898  0.50374690  1
+  F  F9  1  0.13330492  0.55403184  0.52381464  1
+  Br  Br10  1  0.53573454  1.01820937  0.57261110  1
+  Br  Br11  1  1.03585826  0.18679344  0.57274292  1
+  O  O12  1  0.75600430  0.78736223  0.50380689  1
+  F  F13  1  0.63331755  0.65105253  0.52361100  1
+  O  O14  1  0.05397294  -0.08226693  0.49624996  1
+  F  F15  1  1.17473017  0.05428405  0.47616857  1

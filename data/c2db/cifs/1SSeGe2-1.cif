@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Ge2SeS
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.85166205
+_cell_length_b   4.30178064
+_cell_length_c   17.50368117
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00104772
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ge2SeS
+_chemical_formula_sum   'Ge2 Se1 S1'
+_cell_volume   290.01858559
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.75163778  0.81550823  0.57154162  1
+  Ge  Ge1  1  0.25188528  0.28294287  0.43100176  1
+  S  S2  1  0.25168686  0.19544230  0.56659573  1
+  Se  Se3  1  0.75173108  0.69960854  0.42850305  1

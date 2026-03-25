@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TaNb2Ga(SeI)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.49647785
+_cell_length_b   6.48509250
+_cell_length_c   21.32588351
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.74225648
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaNb2Ga(SeI)4
+_chemical_formula_sum   'Ta1 Nb2 Ga1 Se4 I4'
+_cell_volume   850.82261391
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.60366930  0.04784708  0.46031433  1
+  I  I1  1  0.37992135  0.40493305  0.64768992  1
+  Ga  Ga2  1  0.09067684  0.15462778  0.56412533  1
+  Ta  Ta3  1  0.59267254  0.65614402  0.53780567  1
+  I  I4  1  0.84076946  0.86866710  0.64831469  1
+  Nb  Nb5  1  0.20301500  0.64523959  0.46012693  1
+  Se  Se6  1  0.90264435  0.87015454  0.46659756  1
+  Se  Se7  1  0.35666712  0.89217628  0.55375637  1
+  I  I8  1  0.39936398  0.85137627  0.35168531  1
+  Se  Se9  1  0.38006882  0.34703287  0.46598967  1
+  I  I10  1  0.88655227  0.36351984  0.36879594  1
+  Se  Se11  1  0.86404055  0.38660436  0.53281865  1

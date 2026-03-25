@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_InSBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.36103185
+_cell_length_b   7.34237232
+_cell_length_c   34.12533539
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99978964
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InSBr
+_chemical_formula_sum   'In4 S4 Br4'
+_cell_volume   1844.38689781
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.46488689  0.77282768  0.52932397  1
+  S  S1  1  0.29671154  0.27283030  0.52932320  1
+  In  In2  1  0.79735367  0.81459374  0.51579208  1
+  In  In3  1  0.96424685  0.31459459  0.51579210  1
+  Br  Br4  1  -0.01450001  0.64390668  0.56848877  1
+  Br  Br5  1  0.77610132  0.14390895  0.56848809  1
+  S  S6  1  -0.03511590  0.02175671  0.47067701  1
+  S  S7  1  0.79671463  0.52175477  0.47067789  1
+  In  In8  1  0.29735368  -0.02003054  0.48420645  1
+  In  In9  1  0.46424666  0.47996948  0.48420645  1
+  Br  Br10  1  0.48550345  0.15066481  0.43150965  1
+  Br  Br11  1  0.27609756  0.65066194  0.43151033  1

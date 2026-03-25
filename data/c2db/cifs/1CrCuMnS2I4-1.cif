@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_MnCrCu(SI2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.44380145
+_cell_length_b   6.57667503
+_cell_length_c   19.25113741
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   72.42914173
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnCrCu(SI2)2
+_chemical_formula_sum   'Mn1 Cr1 Cu1 S2 I4'
+_cell_volume   777.77632075
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.17658453  0.00114066  0.52322507  1
+  I  I1  1  -0.00007277  0.68376986  0.38958737  1
+  I  I2  1  0.53820159  0.52237870  0.61041263  1
+  I  I3  1  0.64911225  0.29916913  0.42309069  1
+  I  I4  1  -0.12882127  0.89926635  0.58609343  1
+  S  S5  1  0.45001483  0.82955559  0.45659357  1
+  Cr  Cr6  1  0.78296106  0.59422863  0.50205752  1
+  Mn  Mn7  1  0.30523381  0.56698828  0.48995999  1
+  S  S8  1  1.11187166  0.35313121  0.53758249  1

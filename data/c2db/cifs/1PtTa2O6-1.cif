@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ta2PtO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.92036665
+_cell_length_b   8.07917071
+_cell_length_c   33.74584566
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   100.41253406
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta2PtO6
+_chemical_formula_sum   'Ta2 Pt1 O6'
+_cell_volume   783.09230418
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.26131644  0.52263288  0.48869724  1
+  Ta  Ta1  1  0.57646310  0.15292621  0.51130284  1
+  O  O2  1  0.03395370  0.06790741  0.47226258  1
+  O  O3  1  0.80382714  0.60765429  0.52773737  1
+  O  O4  1  0.15998369  0.31996737  0.52940261  1
+  O  O5  1  0.67779567  0.35559135  0.47059750  1
+  Pt  Pt6  1  0.91889003  0.83778006  0.49999985  1
+  O  O7  1  0.82739538  0.65479076  0.45739655  1
+  O  O8  1  0.01038409  0.02076818  0.54260342  1

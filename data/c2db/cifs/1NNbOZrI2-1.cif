@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ZrNbI2NO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.28498422
+_cell_length_b   3.68126636
+_cell_length_c   20.92234533
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99961137
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrNbI2NO
+_chemical_formula_sum   'Zr1 Nb1 I2 N1 O1'
+_cell_volume   330.03259560
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.24558328  0.74893723  0.53076702  1
+  O  O1  1  0.24567227  0.24893536  0.47364137  1
+  Nb  Nb2  1  0.74567376  0.24900261  0.46889295  1
+  I  I3  1  0.24487241  0.24890110  0.64113259  1
+  N  N4  1  0.74557377  0.74901373  0.51020430  1
+  I  I5  1  0.74601484  0.74889932  0.35864180  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_FeTe2AsCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.61129569
+_cell_length_b   12.67105152
+_cell_length_c   35.19677800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeTe2AsCl
+_chemical_formula_sum   'Fe2 Te4 As2 Cl2'
+_cell_volume   1610.56632870
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  -0.00000000  0.25727207  0.44411411  1
+  As  As1  1  -0.00000000  0.75727207  0.55588589  1
+  Fe  Fe2  1  0.50000000  0.52001348  0.48980243  1
+  Fe  Fe3  1  0.50000000  0.02001348  0.51019757  1
+  Te  Te4  1  0.50000000  0.31311881  0.49634723  1
+  Te  Te5  1  0.50000000  0.81311881  0.50365277  1
+  Te  Te6  1  -0.00000000  0.55020190  0.54714414  1
+  Cl  Cl7  1  -0.00000000  0.56039457  0.44767049  1
+  Cl  Cl8  1  0.00000000  0.06039457  0.55232951  1
+  Te  Te9  1  -0.00000000  0.05020190  0.45285586  1

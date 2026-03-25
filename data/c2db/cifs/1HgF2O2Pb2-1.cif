@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_HgPb2(OF)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.71576751
+_cell_length_b   6.35677812
+_cell_length_c   33.84208688
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   106.99379550
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HgPb2(OF)2
+_chemical_formula_sum   'Hg1 Pb2 O2 F2'
+_cell_volume   764.45761828
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.69659340  0.39318679  0.48880348  1
+  Pb  Pb1  1  0.78059153  0.56118306  0.54946907  1
+  Hg  Hg2  1  0.53319772  0.06639544  0.50000088  1
+  F  F3  1  -0.08643815  -0.17287631  0.44330190  1
+  Pb  Pb4  1  0.28580220  0.57160440  0.45053027  1
+  F  F5  1  0.15283857  0.30567714  0.55669781  1
+  O  O6  1  0.36980198  0.73960395  0.51119657  1

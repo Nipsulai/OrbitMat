@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Sb4Au2Se3F2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.98590653
+_cell_length_b   7.72172190
+_cell_length_c   34.12562733
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sb4Au2Se3F2
+_chemical_formula_sum   'Sb4 Au2 Se3 F2'
+_cell_volume   1840.84647551
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  0.11700443  0.00000000  0.54769521  1
+  Sb  Sb1  1  0.82171671  -0.00000000  0.43711064  1
+  Sb  Sb2  1  0.17227417  0.80225439  0.43209488  1
+  Sb  Sb3  1  0.17227417  0.19774561  0.43209488  1
+  Au  Au4  1  0.57077384  0.74859842  0.53033303  1
+  Au  Au5  1  0.57077384  0.25140158  0.53033303  1
+  F  F6  1  0.51014683  0.50000000  0.55894479  1
+  F  F7  1  0.24065453  0.50000000  0.43556674  1
+  Se  Se8  1  0.75944420  -0.00000000  0.51536411  1
+  Se  Se9  1  0.19399733  0.73016329  0.50691354  1
+  Se  Se10  1  0.19399733  0.26983671  0.50691354  1

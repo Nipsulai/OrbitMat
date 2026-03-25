@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MnAgSI2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.36866285
+_cell_length_b   4.62721145
+_cell_length_c   21.72300904
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.98067631
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnAgSI2O
+_chemical_formula_sum   'Mn1 Ag1 S1 I2 O1'
+_cell_volume   338.60771703
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.24994070  0.24906880  0.42697783  1
+  S  S1  1  0.75029247  0.24831467  0.51411816  1
+  I  I2  1  0.25452424  0.74637172  0.65462473  1
+  Mn  Mn3  1  0.75024566  0.74773152  0.54395481  1
+  O  O4  1  0.25034497  0.74849192  0.51193618  1
+  I  I5  1  0.24644742  0.74920756  0.34492926  1

@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_WAuI3ClO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.82814154
+_cell_length_b   9.41868201
+_cell_length_c   19.23662474
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   113.73523590
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   WAuI3ClO
+_chemical_formula_sum   'W1 Au1 I3 Cl1 O1'
+_cell_volume   634.92894788
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.44320542  0.50224379  0.42481836  1
+  W  W1  1  0.71241902  0.76750355  0.50866040  1
+  I  I2  1  0.87465226  0.93885184  0.38992169  1
+  Au  Au3  1  0.20052416  0.26321387  0.50852310  1
+  Cl  Cl4  1  0.55789736  0.61909880  0.61010294  1
+  I  I5  1  0.96483756  1.02877437  0.59506080  1
+  O  O6  1  0.20880652  -0.23135467  0.50792760  1

@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ta2NiS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.28897957
+_cell_length_b   9.02728170
+_cell_length_c   33.82902786
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   100.49611642
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta2NiS6
+_chemical_formula_sum   'Ta2 Ni1 S6'
+_cell_volume   987.59587230
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.27212290  0.54424580  0.48675132  1
+  Ta  Ta1  1  0.56788267  0.13576534  0.51324868  1
+  S  S2  1  0.02276660  0.04553320  0.46286516  1
+  S  S3  1  0.81723899  0.63447799  0.53713483  1
+  S  S4  1  0.16234946  0.32469893  0.53847226  1
+  S  S5  1  0.67765610  0.35531219  0.46152774  1
+  Ni  Ni6  1  0.92000279  0.84000558  0.49999999  1
+  S  S7  1  0.84594506  0.69189011  0.44736476  1
+  S  S8  1  -0.00593950  -0.01187901  0.55263524  1

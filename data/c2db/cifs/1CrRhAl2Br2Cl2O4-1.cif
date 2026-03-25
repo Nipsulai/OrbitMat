@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Al2CrRhBr2(ClO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.01976463
+_cell_length_b   5.08783495
+_cell_length_c   20.18117318
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   99.73498289
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al2CrRhBr2(ClO2)2
+_chemical_formula_sum   'Al2 Cr1 Rh1 Br2 Cl2 O4'
+_cell_volume   507.99993195
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rh  Rh0  1  0.62271987  0.37725763  0.53953883  1
+  Al  Al1  1  0.62273739  0.87732748  0.45580036  1
+  O  O2  1  0.37059244  0.11204014  0.47364863  1
+  O  O3  1  0.87483988  0.64257659  0.47365581  1
+  Cr  Cr4  1  0.12274839  0.37730609  0.45372738  1
+  Br  Br5  1  0.36950817  0.12340227  0.62834234  1
+  Cl  Cl6  1  0.86691735  0.12672356  0.37163350  1
+  Br  Br7  1  0.87614207  0.63079143  0.62836650  1
+  Cl  Cl8  1  0.37840384  0.62818354  0.37164855  1
+  O  O9  1  0.87890701  0.11108999  0.51563219  1
+  O  O10  1  0.36658263  0.64348094  0.51563371  1
+  Al  Al11  1  0.12268739  0.87721979  0.53305947  1

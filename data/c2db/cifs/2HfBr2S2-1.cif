@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Hf(SBr)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.82027166
+_cell_length_b   6.94001348
+_cell_length_c   18.98128790
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.43087040
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf(SBr)2
+_chemical_formula_sum   'Hf2 S4 Br4'
+_cell_volume   782.49304169
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.97897491  -0.00000000  0.39481395  1
+  S  S1  1  0.02102509  0.00000000  0.60518605  1
+  S  S2  1  0.73517655  -0.00000000  0.46112704  1
+  S  S3  1  0.26482345  0.00000000  0.53887296  1
+  Hf  Hf4  1  0.85972826  0.71945651  0.50000000  1
+  Hf  Hf5  1  0.14027174  0.28054348  0.50000000  1
+  Br  Br6  1  0.89342372  0.41941194  0.58423619  1
+  Br  Br7  1  0.10657628  0.58058805  0.41576381  1
+  Br  Br8  1  0.52598823  0.41941195  0.41576381  1
+  Br  Br9  1  0.47401177  0.58058806  0.58423619  1

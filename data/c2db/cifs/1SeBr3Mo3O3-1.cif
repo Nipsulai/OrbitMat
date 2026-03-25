@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Mo3Se(BrO)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.95161782
+_cell_length_b   5.63725120
+_cell_length_c   20.34368806
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   101.55479909
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mo3Se(BrO)3
+_chemical_formula_sum   'Mo3 Se1 Br3 O3'
+_cell_volume   556.35524261
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.92816899  0.94485177  0.36866321  1
+  Se  Se1  1  0.29891704  0.50435931  0.40817257  1
+  Mo  Mo2  1  0.89595824  0.23703890  0.46374499  1
+  Br  Br3  1  0.62251921  0.24369282  0.63133720  1
+  O  O4  1  0.80967322  0.58840254  0.50133316  1
+  Br  Br5  1  0.30352964  0.67648107  0.58915338  1
+  Mo  Mo6  1  0.11747525  0.82357827  0.48166651  1
+  O  O7  1  0.49648640  0.04230337  0.47124609  1
+  O  O8  1  0.07606315  0.11537755  0.53753457  1
+  Mo  Mo9  1  0.46639854  0.34390189  0.51930019  1

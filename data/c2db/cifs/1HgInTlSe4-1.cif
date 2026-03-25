@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_TlInHgSe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.24935107
+_cell_length_b   4.24935530
+_cell_length_c   39.30476960
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00003296
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlInHgSe4
+_chemical_formula_sum   'Tl1 In1 Hg1 Se4'
+_cell_volume   614.64082030
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  -0.00000253  -0.00000126  0.50056746  1
+  Tl  Tl1  1  0.66666146  0.33333073  0.39735845  1
+  In  In2  1  0.33334061  0.66667030  0.60258009  1
+  Se  Se3  1  0.66666033  0.33333016  0.46434028  1
+  Se  Se4  1  0.33333740  0.66666870  0.53759763  1
+  Se  Se5  1  0.33332874  0.66666437  0.36547586  1
+  Se  Se6  1  0.66667396  0.33333698  0.63207613  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_MoOs2Br4O3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.75699868
+_cell_length_b   6.27811799
+_cell_length_c   20.00070991
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   105.12176626
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MoOs2Br4O3
+_chemical_formula_sum   'Mo1 Os2 Br4 O3'
+_cell_volume   576.63809835
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Br  Br0  1  0.99223296  0.46318928  0.62501327  1
+  Br  Br1  1  0.37103202  0.17800455  0.37499065  1
+  O  O2  1  0.45483017  0.34253654  0.53024696  1
+  Br  Br3  1  0.60217547  0.74643791  0.41838451  1
+  Br  Br4  1  0.64415730  0.89019087  0.60412394  1
+  O  O5  1  0.89334097  0.33883875  0.47659838  1
+  O  O6  1  0.10605275  0.86999869  0.50920173  1
+  Mo  Mo7  1  0.49690803  0.07236263  0.48749165  1
+  Os  Os8  1  0.77582829  0.59712716  0.52083292  1
+  Os  Os9  1  0.04331843  0.15562037  0.54299942  1

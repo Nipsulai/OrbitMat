@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_SbWSCl3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.76305323
+_cell_length_b   4.28205699
+_cell_length_c   18.83843736
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   96.43017891
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SbWSCl3
+_chemical_formula_sum   'Sb1 W1 S1 Cl3'
+_cell_volume   542.12492720
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.05770640  0.13374777  0.54011373  1
+  Cl  Cl1  1  0.40878859  0.69033691  0.60187781  1
+  Cl  Cl2  1  0.94940479  0.60049857  0.39812219  1
+  Cl  Cl3  1  0.41868321  0.72452653  0.42581183  1
+  W  W4  1  0.17029569  0.66206236  0.51119191  1
+  Sb  Sb5  1  0.76377341  0.42095874  0.50816896  1

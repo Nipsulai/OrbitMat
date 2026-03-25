@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_MnGeCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.30319306
+_cell_length_b   6.30358705
+_cell_length_c   17.72952434
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01742585
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnGeCl6
+_chemical_formula_sum   'Mn1 Ge1 Cl6'
+_cell_volume   609.95780481
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.79698365  0.80377356  0.57675206  1
+  Cl  Cl1  1  0.19371542  0.47725736  0.57678694  1
+  Cl  Cl2  1  0.79652605  0.47729841  0.42302942  1
+  Ge  Ge3  1  0.50349861  0.49362187  0.50001315  1
+  Mn  Mn4  1  0.83658989  0.16024778  0.49992668  1
+  Cl  Cl5  1  0.51953210  0.80326097  0.42315521  1
+  Cl  Cl6  1  0.19343439  0.19986118  0.42325663  1
+  Cl  Cl7  1  0.52026599  0.20080574  0.57697164  1

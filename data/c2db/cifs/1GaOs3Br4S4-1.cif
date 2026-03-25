@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GaOs3(SBr)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.87595904
+_cell_length_b   5.87541118
+_cell_length_c   20.86748760
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   101.51458116
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaOs3(SBr)4
+_chemical_formula_sum   'Ga1 Os3 S4 Br4'
+_cell_volume   705.92310208
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Os  Os0  1  0.13615476  0.86934851  0.44344376  1
+  Br  Br1  1  0.33906837  0.15970995  0.35941078  1
+  S  S2  1  0.87566002  0.62535469  0.51475784  1
+  Os  Os3  1  0.62640409  0.87703065  0.54297249  1
+  Br  Br4  1  0.37565857  0.62642849  0.63119295  1
+  Br  Br5  1  0.90929799  0.58945816  0.35942483  1
+  S  S6  1  0.86288045  0.11348227  0.47078475  1
+  Ga  Ga7  1  0.09752758  0.34818599  0.56015813  1
+  Br  Br8  1  0.85312005  0.10394297  0.64058922  1
+  S  S9  1  0.42854836  0.67913407  0.46186612  1
+  Os  Os10  1  0.61877170  0.38674222  0.44344632  1
+  S  S11  1  0.37472387  0.12628596  0.51475082  1

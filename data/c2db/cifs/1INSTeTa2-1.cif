@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Ta2TeSIN
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.44788761
+_cell_length_b   6.17128785
+_cell_length_c   19.48744060
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   73.77243249
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta2TeSIN
+_chemical_formula_sum   'Ta2 Te1 S1 I1 N1'
+_cell_volume   398.13193982
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.32044468  0.40077101  0.51694083  1
+  N  N1  1  0.46215674  0.11737714  0.45796562  1
+  I  I2  1  0.19918370  0.64320102  0.38487585  1
+  Ta  Ta3  1  1.02870765  0.98420147  0.48827276  1
+  Te  Te4  1  -0.07479759  0.19119240  0.61513006  1
+  S  S5  1  0.66898978  0.70377525  0.55074622  1

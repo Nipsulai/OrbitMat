@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NiBiTe2Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.92362178
+_cell_length_b   11.83545815
+_cell_length_c   35.30245859
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiBiTe2Br
+_chemical_formula_sum   'Ni2 Bi2 Te4 Br2'
+_cell_volume   1639.37067984
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.50000000  0.56672044  0.49999902  1
+  Te  Te1  1  -0.00000000  0.56564717  0.54633363  1
+  Ni  Ni2  1  0.50000000  0.06669038  0.50000252  1
+  Bi  Bi3  1  -0.00000000  0.81319321  0.56062845  1
+  Te  Te4  1  0.50000000  0.85099206  0.50078669  1
+  Br  Br5  1  -0.00000000  0.08379098  0.54969770  1
+  Bi  Bi6  1  0.00000000  0.32026286  0.43939448  1
+  Te  Te7  1  0.50000000  0.28248097  0.49918942  1
+  Te  Te8  1  -0.00000000  0.56772945  0.45366610  1
+  Br  Br9  1  0.00000000  0.04964400  0.45030214  1

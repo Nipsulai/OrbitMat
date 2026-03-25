@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Mg2GaCu5(SeCl2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.31960117
+_cell_length_b   7.33205089
+_cell_length_c   21.46139417
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   93.57996212
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg2GaCu5(SeCl2)4
+_chemical_formula_sum   'Mg2 Ga1 Cu5 Se4 Cl8'
+_cell_volume   992.48687956
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.72616666  0.88490342  0.43518646  1
+  Mg  Mg1  1  0.38382079  0.37764805  0.59519700  1
+  Se  Se2  1  0.58296346  0.61572552  0.49033371  1
+  Cu  Cu3  1  0.89721311  0.14705911  0.57308071  1
+  Cl  Cl4  1  0.19526307  0.12426041  0.64186139  1
+  Cl  Cl5  1  0.24053961  0.64825585  0.64554129  1
+  Mg  Mg6  1  0.90958227  0.63495849  0.58849385  1
+  Cl  Cl7  1  0.39413299  0.35298512  0.36531634  1
+  Ga  Ga8  1  0.26347434  0.62774414  0.41109765  1
+  Se  Se9  1  0.12894968  0.85964889  0.49058028  1
+  Cu  Cu10  1  0.75775558  0.37278700  0.42870110  1
+  Se  Se11  1  0.06635594  0.38476126  0.50938450  1
+  Cl  Cl12  1  0.91096698  0.10845864  0.37541594  1
+  Cl  Cl13  1  0.71409384  0.40792831  0.65054440  1
+  Cu  Cu14  1  0.23203552  0.14131265  0.43621890  1
+  Cu  Cu15  1  0.41762779  0.85873830  0.56388390  1
+  Se  Se16  1  0.57416411  0.14575817  0.50215741  1
+  Cl  Cl17  1  0.72325299  0.89804657  0.62674596  1
+  Cl  Cl18  1  0.44988712  0.83450079  0.34946373  1
+  Cl  Cl19  1  0.94159427  0.58550524  0.35835210  1

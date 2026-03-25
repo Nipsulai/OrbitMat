@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_LiW2(Br3O)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.79546228
+_cell_length_b   10.35028506
+_cell_length_c   34.13162496
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiW2(Br3O)2
+_chemical_formula_sum   'Li1 W2 Br6 O2'
+_cell_volume   1340.83073141
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  W  W0  1  0.00000000  0.53609125  0.50000000  1
+  W  W1  1  0.00000000  0.81873871  0.50000000  1
+  Br  Br2  1  0.00000000  0.67741492  0.56141438  1
+  Br  Br3  1  0.00000000  0.00594038  0.54963938  1
+  Br  Br4  1  0.00000000  0.34888934  0.54963919  1
+  Li  Li5  1  0.50000000  0.17741170  0.50000000  1
+  O  O6  1  0.50000000  0.53710868  0.50000000  1
+  O  O7  1  0.50000000  0.81772206  0.50000000  1
+  Br  Br8  1  0.00000000  0.67741492  0.43858562  1
+  Br  Br9  1  0.00000000  0.34888934  0.45036081  1
+  Br  Br10  1  0.00000000  0.00594038  0.45036062  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NiIr3Se3S5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.32332685
+_cell_length_b   6.63732698
+_cell_length_c   17.86027668
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.46417330
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiIr3Se3S5
+_chemical_formula_sum   'Ni1 Ir3 Se3 S5'
+_cell_volume   749.56281705
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.74285138  0.38996701  0.43230780  1
+  Se  Se1  1  0.08852045  0.38426772  0.57999788  1
+  S  S2  1  0.20859242  0.61950597  0.42703214  1
+  Se  Se3  1  0.73996611  0.86098937  0.41993998  1
+  Se  Se4  1  0.24916708  0.12962230  0.42798580  1
+  Ir  Ir5  1  0.42071424  0.41249195  0.50233133  1
+  S  S6  1  0.57589372  0.12045462  0.56218962  1
+  Ni  Ni7  1  0.91554929  0.62558235  0.50072284  1
+  S  S8  1  0.08704674  0.86413870  0.56839272  1
+  Ir  Ir9  1  0.41233108  0.83697710  0.49937829  1
+  Ir  Ir10  1  0.90916898  0.12443102  0.49941692  1
+  S  S11  1  0.62466685  0.63022449  0.57572635  1

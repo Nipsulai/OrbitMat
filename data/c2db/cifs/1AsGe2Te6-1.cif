@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ge2Te6As
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.67412698
+_cell_length_b   6.67412383
+_cell_length_c   33.22369868
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.98119012
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ge2Te6As
+_chemical_formula_sum   'Ge2 Te6 As1'
+_cell_volume   1281.88664037
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.66635059  0.33369241  0.49633643  1
+  As  As1  1  0.33298205  0.66698210  0.49626861  1
+  Te  Te2  1  0.66754865  1.00154866  0.44366887  1
+  Te  Te3  1  0.33300127  0.33242955  0.44366814  1
+  Te  Te4  1  -0.00157046  0.66700128  0.44366814  1
+  Te  Te5  1  -0.00108106  0.33291900  0.54886158  1
+  Te  Te6  1  0.33301477  1.00114374  0.54887072  1
+  Te  Te7  1  0.66714368  0.66701483  0.54887071  1
+  Ge  Ge8  1  -0.00030765  0.00035065  0.49633643  1
